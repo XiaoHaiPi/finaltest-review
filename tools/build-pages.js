@@ -31,6 +31,19 @@ function pageHtml({ title, description, root, page }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
+  <script>
+    (() => {
+      try {
+        const stored = localStorage.getItem("review-theme");
+        const systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = stored === "dark" || stored === "light" ? stored : systemDark ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
   <link rel="icon" href="${root}assets/favicon.svg?v=${assetVersion}" type="image/svg+xml">
   <link rel="stylesheet" href="${root}assets/style.css?v=${assetVersion}">
 </head>
@@ -41,6 +54,8 @@ function pageHtml({ title, description, root, page }) {
   <script>window.PAGE = ${JSON.stringify(page)};</script>
   <script src="${root}assets/data.js?v=${assetVersion}"></script>
   <script src="${root}assets/content.js?v=${assetVersion}"></script>
+  <script src="${root}assets/news-content.js?v=${assetVersion}"></script>
+  <script src="${root}assets/reading-content.js?v=${assetVersion}"></script>
   <script src="${root}assets/app.js?v=${assetVersion}"></script>
   <script>window.StudyApp.init();</script>
 </body>

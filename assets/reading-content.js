@@ -1,0 +1,1976 @@
+(function (root) {
+  const bilingualReadings = [
+  {
+    "slug": "press-reading-unit-1-reading-1",
+    "unit": "Unit 1 Reading 1",
+    "title": "The Age of De-Skilling",
+    "source": "The Atlantic",
+    "file": "Unit 1 Reading 1.docx",
+    "articles": [
+      {
+        "heading": "The Age of De-Skilling",
+        "headingZh": "去技能化时代",
+        "meta": [
+          "Will AI stretch our minds—or stunt them?",
+          "By Kwame Anthony Appiah"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "The fretting has swelled from a murmur to a clamor, all variations on the same foreboding theme: “Your Brain on ChatGPT.” “AI Is Making You Dumber.” “AI Is Killing Critical Thinking.” Once, the fear was of a runaway intelligence that would wipe us out. Now that chatbots are going the way of Google—moving from the miraculous to the taken-for-granted—the anxiety has shifted, too, from apocalypse to atrophy*. Teachers, especially, say they’re beginning to see the rot. The term for it is unlovely but not inapt: de-skilling*.",
+            "zh": "这种担忧已经从低声议论膨胀成一片喧嚷，但变奏的都是同一个不祥主题：“ChatGPT 影响下的大脑”“人工智能正在让你变笨”“人工智能正在扼杀批判性思维”。曾经，人们害怕的是失控的智能会把我们毁灭。如今，聊天机器人正沿着 Google 的路径发展——从令人惊奇变成理所当然——焦虑也随之从“末日”转向“退化”*。尤其是教师们说，他们已经开始看到这种能力腐蚀的迹象。这个说法不算好听，但并非不准确：去技能化*。"
+          },
+          {
+            "no": "2",
+            "en": "The worry is far from fanciful. Kids who turn to Gemini to summarize Twelfth Night may never learn to wrestle with Shakespeare on their own. Aspiring lawyers who use Harvey AI for legal analysis may fail to develop the interpretive muscle* their predecessors took for granted. In a recent study, several hundred U.K. participants were given a standard critical-thinking test and were interviewed about their AI use for finding information or making decisions. Younger users leaned more on the technology, and scored lower on the test. Another study looked at physicians performing colonoscopies: After three months of using an AI system to help flag polyps, they became less adept at spotting them unaided.",
+            "zh": "这种担忧绝不是凭空想象。用 Gemini 总结《第十二夜》的孩子，可能永远学不会独自啃读莎士比亚。用 Harvey AI 做法律分析的准律师，也可能无法练出前辈们视为基本功的阐释能力*。最近一项研究让数百名英国参与者接受标准批判性思维测试，并访谈他们使用人工智能查找信息或做决策的情况。年轻用户更依赖这项技术，测试得分也更低。另一项研究考察做结肠镜检查的医生：在使用人工智能系统辅助标记息肉三个月后，他们在没有辅助时发现息肉的能力下降了。"
+          },
+          {
+            "no": "3",
+            "en": "But the real puzzle isn’t whether de-skilling exists—it plainly does—but rather what kind of thing it is. Are all forms of de-skilling corrosive? Or are there kinds that we can live with, that might even be welcome? De-skilling is a catchall term* for losses of very different kinds: some costly, some trivial, some oddly generative.",
+            "zh": "但真正的问题不在于去技能化是否存在——它显然存在——而在于它究竟属于什么性质。所有形式的去技能化都具有侵蚀性吗？还是也有一些我们可以接受、甚至可能欢迎的类型？“去技能化”是一个总括性术语*，涵盖性质很不相同的能力损失：有的代价高昂，有的无关紧要，有的反而会以奇特的方式催生新事物。"
+          },
+          {
+            "no": "4",
+            "en": "Our chatbots are new: The “transformer” architecture* they rely on was invented in 2017, and ChatGPT made its public debut just five years later. But the fear that a new technology might blunt the mind is ancient. In the Phaedrus[1], Socrates recounts a myth in which the Egyptian god Thoth offers King Thamus the gift of writing—“a recipe for memory and for wisdom.” Thamus is unmoved. Writing, he warns, will do the opposite: It will breed forgetfulness, letting people trade the labor of recollection for marks on papyrus, mistaking the appearance of understanding for the thing itself. What looks like a loss from one angle, though, can look like a gain from another. Writing opened new mental territories: commentary, jurisprudence, reliable history, science. Walter J. Ong put it crisply: “Writing is a technology that restructures thought.” Slide rules yielded to calculators, calculators to computers. Each time, individual virtuosity waned, but overall performance advanced.",
+            "zh": "聊天机器人是新事物：它们依赖的“Transformer”架构*发明于 2017 年，而 ChatGPT 仅在五年后就公开问世。但人们担心新技术会钝化心智，这种恐惧却十分古老。在《斐德罗篇》[1]中，苏格拉底讲述了一个神话：埃及神托特把书写作为礼物献给塔姆斯国王，称它是“记忆和智慧的良方”。塔姆斯并不动心。他警告说，书写会产生相反的效果：它会滋生健忘，让人们用纸莎草上的符号替代回忆的劳动，并把看似理解误认成真正理解。不过，从一个角度看似是损失，从另一个角度看也可能是收获。书写开辟了新的精神疆域：评论、法理学、可靠的历史和科学。沃尔特·J·翁说得很简洁：“书写是一种重构思想的技术。”计算尺让位于计算器，计算器又让位于计算机。每一次，个人技艺都会削弱，但整体表现却会提升。"
+          },
+          {
+            "no": "5",
+            "en": "In truth, human cognition has always leaked beyond the skull—into instruments, symbols, and one another. We’ve been storing thought in the world for tens of millennia. Plenty of creatures use tools, but their know-how dies with them; ours accumulates as culture—a relay system for intelligence. The widening of collaboration has changed what it means to know something. Knowledge, once imagined as a possession, has become a relation—a matter of how well we can locate, interpret, and synthesize what others know. We live inside a web of distributed intelligence*, dependent on specialists, databases, and instruments to extend our reach.",
+            "zh": "事实上，人类认知一直都会越出头脑，延伸到工具、符号以及人与人之间。数万年来，我们都在把思想储存在外部世界中。很多生物会使用工具，但它们的技能会随生命一起消失；人类的技能则会积累为文化，成为一种智能的接力系统。协作范围的扩大改变了“知道某事”的含义。知识曾被想象成一种个人占有物，如今却更像一种关系：关键在于我们能否有效定位、解释并综合他人的知识。我们生活在一张分布式智能*网络之中，依靠专家、数据库和仪器来扩展自己的能力边界。"
+          },
+          {
+            "no": "6",
+            "en": "The old distinction between information and skill, between “knowing that” and “knowing how,” has grown blurry in the era of large language models. They do what Socrates complained writing could not: They answer questions, adjust to an interlocutor, carry on a conversation. It wasn’t hard to imagine Google as an extension of memory; a large language model feels, to many, more like a stand-in* for the mind itself.",
+            "zh": "在大型语言模型时代，信息与技能、“知道是什么”与“知道怎么做”之间原有的区别已经变得模糊。它们能做到苏格拉底认为书写做不到的事：回答问题、适应对话者、持续交谈。把 Google 想象成记忆的延伸并不难；而对许多人来说，大型语言模型更像是心智本身的替代物*。"
+          },
+          {
+            "no": "7",
+            "en": "We can’t put the genie back in the bottle; we can decide what spells to have it cast. When people talk about de-skilling, they usually picture an individual who’s lost a knack for something—the pilot whose hand-flying gets rusty, the doctor who misses tumors without an AI assist. But most modern work is collaborative. The issue isn’t how humans compare to bots but how humans who use bots compare to those who don’t. Think back to that colonoscopy study: After performing AI-assisted procedures, gastroenterologists saw their unaided rate of polyp detection drop by six percentage points. But when another study pooled data from 24,000 patients, a fuller picture emerged: AI assistance raised overall detection rates by roughly 20 percent. Because higher detection rates mean fewer missed cancers, this “centaur” approach was plainly beneficial.",
+            "zh": "我们无法把精灵重新塞回瓶中；但可以决定让它施展哪些“法术”。人们谈到去技能化时，通常想到的是某个人失去了某项诀窍：飞行员的手动驾驶能力生疏了，医生没有人工智能辅助就漏看了肿瘤。但大多数现代工作都是协作完成的。问题不在于人类和机器人谁更强，而在于使用机器人的人类与不使用机器人者相比如何。回到那项结肠镜研究：完成 AI 辅助检查后，胃肠科医生在没有辅助时的息肉检出率下降了 6 个百分点。但另一项研究汇总 2.4 万名患者数据后，呈现出更完整的图景：AI 辅助使总体检出率提高了约 20%。由于更高的检出率意味着更少漏诊癌症，这种“半人马”式协作显然是有益的。"
+          },
+          {
+            "no": "8",
+            "en": "The same logic holds elsewhere: Once a machine enters the workflow, mastery may shift from production to appraisal. (A 2024 study of coders using GitHub Copilot found that AI use seemed to redirect human skill rather than obviate it. Coders spent less time generating code and more time assessing it—checking for logic errors, catching edge cases, cleaning up the script. examples)The skill migrated from composition to supervision. Expertise shifts from producing the first draft to editing it, from speed to judgment. Generative AI is a probabilistic system, not a deterministic one; it returns likelihoods, not truth.",
+            "zh": "同样的逻辑也适用于其他领域：一旦机器进入工作流程，熟练能力就可能从“生产”转向“评估”。（2024 年一项关于程序员使用 GitHub Copilot 的研究发现，AI 的使用似乎是在重新分配人的技能，而不是取消人的技能。程序员花在生成代码上的时间更少，花在评估代码上的时间更多——检查逻辑错误、发现边界情况、清理脚本。）技能从创作转向监督。专业能力也从写出初稿转向编辑初稿，从速度转向判断。生成式人工智能是概率系统，而不是确定性系统；它给出的是可能性，不是真理。"
+          },
+          {
+            "no": "9",
+            "en": "But collaboration presupposes competence. A centaur* goes in circles if the human half doesn’t know what it’s doing. That’s where the panic over pedagogy comes in. You can’t become de-skilled if you were never skilled in the first place. (Consider a recent randomized trial in a large Harvard physics course. The AI-tutored students came out ahead—by a lot. The system had been designed to behave like a good coach: showing you how to break big problems into smaller ones, offering hints instead of blurting out answers, and adjusting to each student’s pace.) Machines won’t replace mentors. What they promise to do is handle the routine parts of tutoring. We should also be mindful that what works for STEM courses may not work for the humanities. The term paper teaches a discipline that’s hard to reproduce in conversation: building an argument step by step, weighing evidence, organizing material, honing a voice.",
+            "zh": "但协作以能力为前提。如果“半人马”*中的人类一半不知道自己在做什么，它只会原地打转。这正是教育恐慌的来源。如果你一开始就没有形成技能，也谈不上被去技能化。（以哈佛一门大型物理课近期的随机试验为例。接受 AI 辅导的学生领先很多。这个系统被设计得像一名好教练：教你把大问题拆成小问题，给出提示而不是直接说出答案，并根据每个学生的节奏调整。）机器不会取代导师。它们承诺承担的是辅导中的常规部分。我们也应注意，适用于 STEM 课程的方法未必适用于人文学科。学期论文训练的是一种很难在对话中重现的能力：一步步建立论证、权衡证据、组织材料并磨炼表达风格。"
+          },
+          {
+            "no": "10",
+            "en": "Erosive de-skilling remains a prospect that can’t be wished away: the steady atrophy of basic cognitive or perceptual capacities through overreliance on tools, with no compensating gain. The most troubling prospect of all is what might be called constitutive de-skilling: the erosion of the capacities that make us human in the first place. Judgment, imagination, empathy, the feel for meaning and proportion—these aren’t backups; they’re daily practices. To offload those faculties would be, in effect, to offload ourselves.",
+            "zh": "侵蚀性去技能化依然是一种无法轻易排除的可能：由于过度依赖工具，基本认知能力或感知能力持续萎缩，却没有相应收益作为补偿。最令人不安的可能，是所谓“构成性去技能化”：那些首先使我们成为人的能力被侵蚀。判断力、想象力、共情能力，以及对意义和分寸的感受力——这些不是备用能力，而是日常实践。把这些能力外包出去，实际上就是把我们自己外包出去。"
+          },
+          {
+            "no": "11",
+            "en": "More radical, new technologies can summon new skills into being. The same may prove true now. Working with large language models, my younger colleagues insist, is already teaching a new kind of craftsmanship—prompting, probing, catching bias and hallucination, and, yes, learning to think in tandem with the machine.",
+            "zh": "更进一步说，新技术也可能召唤出新的技能。现在或许也会如此。我的年轻同事坚持认为，与大型语言模型协作已经在培养一种新的手艺：提出提示、追问探测、识别偏见和幻觉，当然也包括学习与机器共同思考。"
+          },
+          {
+            "no": "12",
+            "en": "The hard part is deciding, without nostalgia and inertia, which skills are keepers and which are castoffs. Literacy dulled feats of memory but created new powers of analysis. Calculators did a number on mental arithmetic; they also enabled more people to “do the math.” The most pressing question, then, is how to keep our agency* intact: how to remain the authors of the systems that are now poised to take on so much of our thinking. Stewardship* now means ensuring that the capacities in which our humanity resides—judgment, imagination, understanding—stay alive in us. If there’s one skill we can’t afford to lose, it’s the skill of knowing which of them matter.",
+            "zh": "难处在于，我们要在没有怀旧情绪和惯性束缚的情况下，判断哪些技能值得保留，哪些可以舍弃。文字削弱了出色记忆的价值，却创造出新的分析能力。计算器削弱了心算能力，却也让更多人能够“做数学”。因此，最紧迫的问题是如何保持我们的主体性*完整：如何继续做这些系统的作者，而这些系统正准备接管我们大部分思考。所谓守护*，现在意味着确保承载我们人性的能力——判断、想象、理解——继续活在我们身上。如果有一项技能绝不能失去，那就是知道哪些技能真正重要的能力。"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "de-skilling",
+        "zh": "去技能化 / 技能退化",
+        "note": "文中核心概念，指技术介入后，人类原有技能的弱化或流失。"
+      },
+      {
+        "en": "atrophy",
+        "zh": "萎缩；退化",
+        "note": "常用于能力、肌肉、思维等逐渐退化的语境。"
+      },
+      {
+        "en": "critical thinking",
+        "zh": "批判性思维",
+        "note": "文章开头讨论 AI 可能削弱的关键认知能力。"
+      },
+      {
+        "en": "interpretive muscle",
+        "zh": "解释能力；阐释“肌肉”",
+        "note": "比喻说法，指通过训练形成的理解与分析能力。"
+      },
+      {
+        "en": "catchall term",
+        "zh": "笼统概括性术语",
+        "note": "指能涵盖多种不同现象的总括性概念。"
+      },
+      {
+        "en": "transformer architecture",
+        "zh": "Transformer 架构",
+        "note": "现代大语言模型所依赖的关键技术架构。"
+      },
+      {
+        "en": "large language models (LLMs)",
+        "zh": "大语言模型",
+        "note": "文中 AI 讨论的核心技术对象。"
+      },
+      {
+        "en": "distributed intelligence",
+        "zh": "分布式智能",
+        "note": "指知识与能力分布于人、工具、数据库和制度网络之中。"
+      },
+      {
+        "en": "cognitive division of labor",
+        "zh": "认知分工",
+        "note": "指现代社会中知识和能力的高度专业化分配。"
+      },
+      {
+        "en": "stand-in for the mind",
+        "zh": "心智替代物",
+        "note": "文中形容 LLM 对很多人而言已像“大脑的替身”。"
+      },
+      {
+        "en": "centaur approach",
+        "zh": "“半人马”式协作模式",
+        "note": "指人机结合、优势互补的协作方式。"
+      },
+      {
+        "en": "humans in the loop",
+        "zh": "人在回路中",
+        "note": "人类持续参与判断、审核与决策。"
+      },
+      {
+        "en": "humans on the loop",
+        "zh": "人在回路外层监督",
+        "note": "人类只是事后签字或表面监管，参与度较弱。"
+      },
+      {
+        "en": "probabilistic system",
+        "zh": "概率型系统",
+        "note": "文中强调生成式 AI 输出的是“概率”，不是“真理”。"
+      },
+      {
+        "en": "deterministic",
+        "zh": "确定性的",
+        "note": "与 probabilistic 相对，指结果唯一、可预测。"
+      },
+      {
+        "en": "appraisal",
+        "zh": "评估；审查",
+        "note": "文中指人类技能从“生产”转向“评估”。"
+      },
+      {
+        "en": "supervision",
+        "zh": "监督；把关",
+        "note": "指人类在 AI 工作流中的新型专业角色。"
+      },
+      {
+        "en": "pedagogy",
+        "zh": "教育法；教学法",
+        "note": "文中讨论 AI 对教学与学习方式的冲击。"
+      },
+      {
+        "en": "erosive de-skilling",
+        "zh": "侵蚀性去技能化",
+        "note": "指过度依赖工具后，基础能力被持续削弱。"
+      },
+      {
+        "en": "constitutive de-skilling",
+        "zh": "构成性去技能化",
+        "note": "指连判断力、想象力、共情力等“做人之本”的能力都被侵蚀。"
+      },
+      {
+        "en": "agency",
+        "zh": "能动性；主体性",
+        "note": "文章结尾的核心价值词，指人类对工具与系统的主导权。"
+      },
+      {
+        "en": "stewardship",
+        "zh": "守护；审慎管理",
+        "note": "文中指人类应负责维护关键能力不过度流失。"
+      },
+      {
+        "en": "drudgery",
+        "zh": "枯燥苦工",
+        "note": "指可被 AI 替代的重复、低价值劳动。"
+      },
+      {
+        "en": "reskilling",
+        "zh": "再技能化",
+        "note": "指因技术发展而产生的新技能升级。"
+      },
+      {
+        "en": "emergent skills",
+        "zh": "新兴技能",
+        "note": "文中指 prompting、probing、catching bias 等新能力。"
+      },
+      {
+        "en": "hallucination",
+        "zh": "幻觉；虚构输出",
+        "note": "指模型生成看似流畅但并不真实的信息。"
+      },
+      {
+        "en": "fluency for understanding",
+        "zh": "以流畅冒充理解",
+        "note": "文章结尾的重要警示性表达。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "Why does the author distinguish between different kinds of de-skilling?",
+        "zh": "作者为什么要区分不同类型的去技能化？"
+      },
+      {
+        "en": "What does the phrase “a centaur goes in circles if the human half doesn’t know what it’s doing” imply?",
+        "zh": "“如果半人马中的人类一半不知道自己在做什么，它就会原地打转”这句话意味着什么？"
+      },
+      {
+        "en": "Why does the author say generative AI is “a probabilistic system, not a deterministic one”?",
+        "zh": "为什么作者说生成式人工智能是“一个概率系统，而不是确定性系统”？"
+      },
+      {
+        "en": "In the author’s opinion, what is the most serious danger of AI-related de-skilling? 课堂讨论题（Discussion / Critical Response）",
+        "zh": "在笔者看来，人工智能相关的去技能化最严重的危险是什么？ 课堂讨论题（Discussion / Critical Response）"
+      },
+      {
+        "en": "Do you think AI use in graduate education mainly leads to de-skilling or re-skilling? Give at least two reasons from your own learning experience.",
+        "zh": "你认为人工智能在研究生教育中的使用主要会导致去技能化，还是再技能化？请结合自己的学习经历至少给出两个理由。"
+      },
+      {
+        "en": "In your opinion, which human capacities should never be outsourced to AI? Why?",
+        "zh": "你认为人类有哪些能力永远不应外包给人工智能？为什么？"
+      },
+      {
+        "en": "Should university teachers redesign assignments in the age of ChatGPT? If yes, how? [1] 柏拉图《斐德罗篇》：柏拉图中期对话录，以苏格拉底与斐德罗的郊外对话为框架，围绕爱欲（Eros）与修辞术展开，融合灵魂不朽、辩证法与书写批判等核心议题，",
+        "zh": "ChatGPT 时代，大学教师是否应该重新设计作业？如果应该，如何设计？[1] 柏拉图《斐德罗篇》：柏拉图中期对话录，以苏格拉底与斐德罗的郊外对话为框架，围绕爱欲（Eros）与修辞术展开，融合灵魂不朽、辩证法与书写批判等核心议题。"
+      }
+    ]
+  },
+  {
+    "slug": "press-reading-unit-1-reading-2",
+    "unit": "Unit 1 Reading 2",
+    "title": "The Complicated Stakes of the AI Race Between the U.S. and China",
+    "source": "Time",
+    "file": "Unit 1 Reading 2.docx",
+    "articles": [
+      {
+        "heading": "The Complicated Stakes of the AI Race Between the U.S. and China",
+        "headingZh": "中美人工智能竞赛的复杂利害关系",
+        "meta": [
+          "By Jared Cohen"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "Trade tensions between the United States and China have eased for now, but the technology race is accelerating. While Washington and Beijing have relaxed export controls on semiconductors and rare earths, both have announced new AI models, new applications, and new deals.",
+            "zh": "美中之间的贸易紧张局势暂时有所缓和，但技术竞赛正在加速。尽管华盛顿和北京都放松了对半导体和稀土的出口管制，双方仍先后宣布了新的人工智能模型、新应用和新协议。"
+          },
+          {
+            "no": "2",
+            "en": "This week, world leaders are meeting in New Delhi for the India AI Impact Summit. And technology competition is, unsurprisingly, high on the list of discussion topics. Ever since last year’s “DeepSeek moment,” policymakers and executives have continued to debate: Will the U.S. or China win the AI race?",
+            "zh": "本周，世界各国领导人正在新德里参加印度人工智能影响力峰会。不出所料，技术竞争位居讨论议题前列。自去年“DeepSeek 时刻”以来，政策制定者和企业高管一直在争论：人工智能竞赛最终会由美国赢，还是由中国赢？"
+          },
+          {
+            "no": "3",
+            "en": "But that question may simplify more than it clarifies. What does AI leadership mean? What are we racing toward? What are the tradeoffs? Where are global supply chains too connected to derisk? And where can countries other than the U.S. and China compete? Without understanding the nuance of these questions, leaders risk advancing short-sighted solutions to today’s most pressing technology problems and may be pursuing flawed strategies in the long game of geopolitics.",
+            "zh": "但这个问题可能过于简化，反而没有说清问题。人工智能领先地位究竟意味着什么？我们在朝什么方向竞赛？其中有哪些取舍？全球供应链在哪些环节联系过于紧密，难以真正去风险化？美国和中国之外的国家又能在哪些领域竞争？如果不能理解这些问题中的细微差别，领导者就可能为当下最紧迫的技术难题推进短视方案，也可能在地缘政治的长期博弈中采取有缺陷的战略。"
+          }
+        ]
+      },
+      {
+        "heading": "The many different AI races",
+        "headingZh": "多条不同的人工智能赛道",
+        "meta": [],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "The truth is that AI isn’t a single race. There are multiple. Competition itself is creating new arenas of contestation, driving countries and companies to push the boundaries of innovation. And states beyond the U.S.-China binary are reshaping technology, capital investment, and geopolitics.",
+            "zh": "事实是，人工智能并不是单一赛道的竞赛，而是由多场竞赛组成。竞争本身正在创造新的角逐场域，推动各国和企业突破创新边界。中美二元框架之外的国家，也正在重塑技术、资本投资和地缘政治。"
+          },
+          {
+            "no": "2",
+            "en": "For instance, there is a race to develop a dominant open-source AI model and a race to develop the top closed-source AI model. America’s frontier AI models are predominantly closed-source, protecting weights and methods. China’s are mostly open-source, diffusing quickly and cheaply, making them attractive to the Global South. While the U.S. does have open models, many of its biggest open-source developers are reportedly pivoting in favor of closed-source models.",
+            "zh": "例如，有一场竞赛是开发占主导地位的开源人工智能模型，另一场竞赛则是开发最顶尖的闭源人工智能模型。美国的前沿人工智能模型多以闭源为主，用以保护权重和方法。中国的模型则大多开源，扩散速度快、成本低，因此对全球南方国家具有吸引力。美国虽然也有开放模型，但据报道，其许多最大的开源开发者正在转向支持闭源模型。"
+          },
+          {
+            "no": "3",
+            "en": "The distinction between open and closed is often more commercial than technical. The U.S. leads in AI monetization, and its companies have held their market share. But open-source models may be narrowing the performance gap with closed-source models.",
+            "zh": "开源与闭源之间的差别，往往更多是商业上的，而非技术上的。美国在人工智能商业化变现方面领先，其企业也保持着市场份额。但开源模型可能正在缩小与闭源模型之间的性能差距。"
+          },
+          {
+            "no": "4",
+            "en": "However, the pursuit of top AI models isn’t the only contest that counts. The U.S.’s leading AI labs are driving toward artificial general intelligence, a goal to reach capacities beyond human knowledge and cognition. Meanwhile, China’s centralized political system, focused on control, is prioritizing AI diffusion, from driverless cars and the internet of things, to consumer applications and robots.",
+            "zh": "然而，追求顶级人工智能模型并不是唯一重要的竞争。美国领先的人工智能实验室正朝着通用人工智能推进，目标是达到超越人类知识和认知的能力。与此同时，中国以控制为重点的集中式政治体系，则把人工智能扩散应用放在优先位置，范围从无人驾驶汽车、物联网，到消费应用和机器人。"
+          },
+          {
+            "no": "5",
+            "en": "These are sometimes competing objectives, but they converge. China’s models grow more capable as they diffuse, and Beijing is simultaneously pursuing AGI. Meanwhile, as American models advance, AI is being embedded into daily life, including in business, education, and healthcare.",
+            "zh": "这些目标有时相互竞争，但也会彼此汇合。中国的模型会在扩散过程中变得更有能力，而北京也在同时追求通用人工智能。与此同时，随着美国模型不断进步，人工智能也正在嵌入日常生活，包括商业、教育和医疗保健领域。"
+          },
+          {
+            "no": "6",
+            "en": "Washington and Beijing come to the AI competition with distinct advantages. I would argue that the U.S. leads overall, especially in terms of chips, models, and sales. Plus, the U.S. has an unparalleled network of global partners that scale its reach. Estimates put China’s leading-edge AI chip production at just 3% of U.S. totals, and public data suggests top U.S. AI chips are five times more powerful than China’s—even though China holds the lead in the scale of its production of legacy semiconductors.",
+            "zh": "华盛顿和北京都带着各自鲜明的优势进入人工智能竞争。我认为美国总体领先，尤其是在芯片、模型和销售方面。此外，美国拥有无可比拟的全球伙伴网络，可以扩大自身影响范围。估算显示，中国先进人工智能芯片产量仅为美国总量的 3%；公开数据也表明，美国顶级 AI 芯片的性能是中国芯片的五倍，尽管中国在传统半导体生产规模上保持领先。"
+          },
+          {
+            "no": "7",
+            "en": "But even some of China’s perceived advantages, especially during the prolonged transition from NVIDIA’s Hopper to the advanced Blackwell architecture, may prove to be temporary. As more advanced chips enable larger training runs, making models more capable, the scaling laws are likely to reassert themselves. Those gains in performance are expected to disproportionately flow to Western labs with access to frontier computing infrastructure, potentially leaving China further behind in the next phases of AI.",
+            "zh": "但即便是中国一些被认为存在的优势，尤其是在英伟达从 Hopper 架构向更先进的 Blackwell 架构长期过渡期间形成的优势，也可能只是暂时的。随着更先进芯片支持更大规模训练、让模型能力更强，规模定律可能会重新显现作用。预计这些性能提升会更多流向拥有前沿计算基础设施的西方实验室，从而可能使中国在人工智能下一阶段进一步落后。"
+          },
+          {
+            "no": "8",
+            "en": "America’s capital markets are an unparalleled asset financing AI innovation and the AI buildout. While Goldman Sachs Research expects Chinese internet firms to invest 70 billion to support AI next year, a substantial sum, that’s only 15% to 20% of the forecast in the U.S.",
+            "zh": "美国资本市场是支持人工智能创新和 AI 基础设施建设的无可比拟的资产。高盛研究部预计，中国互联网公司明年将投入 700 亿美元支持人工智能，这个数字相当可观，但也只相当于美国预测投资额的 15% 到 20%。"
+          },
+          {
+            "no": "9",
+            "en": "The problem with America’s efforts to build out AI isn’t capital. It’s bottlenecks in energy generation, infrastructure, and transmission, especially given rising data center power demands. While the White House’s AI Action Plan prioritizes promoting America’s AI industry and building “vastly more energy generation,” state and local rules can impede federal plans. With holdups at home, investors are exploring buildouts abroad, including in the energy-rich Gulf states.",
+            "zh": "美国推进人工智能建设的难题并不在资本，而在能源发电、基础设施和输电环节的瓶颈，尤其是在数据中心用电需求不断上升的背景下。白宫的人工智能行动计划把促进美国 AI 产业、建设“大幅增加的能源发电能力”列为优先事项，但州和地方规则可能阻碍联邦计划。由于国内推进受阻，投资者正探索在海外建设，包括能源资源丰富的海湾国家。"
+          },
+          {
+            "no": "10",
+            "en": "Beijing, though a net energy importer, faces no such barriers. It’s generating new coal, nuclear, and renewable production, potentially yielding 400 gigawatts of spare capacity by 2030, which is roughly four times America’s total current nuclear energy capacity.",
+            "zh": "中国虽然是能源净进口国，却没有面临这类障碍。它正在新增煤电、核电和可再生能源产能，到 2030 年可能形成 400 吉瓦的富余容量，约为美国当前核能总装机容量的四倍。"
+          }
+        ]
+      },
+      {
+        "heading": "The global landscape",
+        "headingZh": "全球格局",
+        "meta": [],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "No matter how heated the AI races between the U.S. and China may be, AI is a global industry with global supply chains, and no country can become entirely self-reliant. America is home to Nvidia, the world’s leading semiconductor designer. Its top chips, made by TSMC in Taiwan, require extreme ultraviolet lithography machines from the Netherlands’ ASML, which relies on German and Japanese subcomponents. Etching—the process that reveals chip circuitry—is dominated by America and Japan.",
+            "zh": "无论中美之间的人工智能竞赛多么激烈，人工智能都是一个拥有全球供应链的全球性产业，没有哪个国家能够完全自给自足。美国拥有全球领先的半导体设计商英伟达。英伟达的顶级芯片由台湾台积电制造，需要荷兰 ASML 的极紫外光刻机，而 ASML 又依赖德国和日本的子部件。蚀刻这一显现芯片电路的工艺，则由美国和日本主导。"
+          },
+          {
+            "no": "2",
+            "en": "Meanwhile, the Gulf states—especially Saudi Arabia, the UAE, and Qatar—have abundant powered land and are making strategic AI investments. And India, the world’s most populous country and host of this year’s flagship global AI summit, is making meaningful advances, as are previous hosts France, South Korea, and the UK, as well as techno-democracies like Israel and Japan.",
+            "zh": "与此同时，海湾国家，尤其是沙特阿拉伯、阿联酋和卡塔尔，拥有大量可供供电开发的土地，并正在进行战略性人工智能投资。印度是世界人口最多的国家，也是今年全球旗舰 AI 峰会的东道主，正在取得实质进展；此前担任东道主的法国、韩国和英国，以及以色列、日本等技术民主国家，也同样在推进。"
+          },
+          {
+            "no": "3",
+            "en": "Finally, human ingenuity, wherever it is found, fuels AI—and here, the competition is fierce world-wide. The U.S. educates and is the number-one destination for AI talent. But China is home to many world-leading AI researchers, a large number of whom collaborate with their global counterparts, and it works to attract more STEM professionals.",
+            "zh": "最后，无论身在何处，人类的创造力都是人工智能发展的燃料，而在人才方面，全球竞争十分激烈。美国培养人才，也是 AI 人才的首选目的地。但中国拥有许多世界领先的人工智能研究人员，其中不少人与全球同行合作，同时也在努力吸引更多 STEM 专业人才。"
+          },
+          {
+            "no": "4",
+            "en": "The West and China are filling AI gaps and remaking some of the most complex and global supply chains in history into more resilient assets in the process. America is forming new critical mineral and technology coalitions, most recently Pax Silica, the Department of State’s flagship effort on AI and supply chain security. U.S.-led restrictions of chip exports—which have been tightened and loosened repeatedly in recent months—have to this point constrained Beijing’s AI industry. But China has also overcome multiple chokepoints, and its AI and semiconductor manufacturing capabilities are growing, while it continues to dominate in critical minerals.",
+            "zh": "西方和中国都在补齐人工智能短板，并在这个过程中把历史上最复杂、最全球化的一些供应链重塑为更具韧性的资产。美国正在组建新的关键矿产和技术联盟，最近的 Pax Silica 就是国务院在人工智能和供应链安全方面的旗舰行动。美国主导的芯片出口限制近几个月反复收紧又放松，截至目前已对中国的人工智能产业形成约束。但中国也突破了多个卡点，人工智能和半导体制造能力正在增强，同时继续在关键矿产领域占据主导。"
+          },
+          {
+            "no": "5",
+            "en": "AI’s importance to national security is becoming clearer. Military and dual-use AI capabilities, many with commercial origins, are being tested and deployed. Models have been manipulated for AI-orchestrated cyber-attacks, and non-American models have produced code with security vulnerabilities.",
+            "zh": "人工智能对国家安全的重要性正变得更加清晰。许多源自商业领域的军事和军民两用 AI 能力正在被测试和部署。模型已经被操纵用于由 AI 编排的网络攻击，非美国模型也曾生成带有安全漏洞的代码。"
+          },
+          {
+            "no": "6",
+            "en": "AI is unlocking economic growth, boosting bottom lines, and national power—and shifting trade, capital flows, and global politics.",
+            "zh": "人工智能正在释放经济增长、提升企业利润和国家实力，同时也在改变贸易、资本流动和全球政治。"
+          },
+          {
+            "no": "7",
+            "en": "The AI races won’t end in one moment. Leadership will often be partial and temporary. There will be victories. But we’re also witnessing a more technologically divided world, what Stanford University’s Colin Kahl has dubbed “an asymmetric form of AI bipolarity.”",
+            "zh": "人工智能竞赛不会在某一个时刻结束。领先地位往往是局部的、暂时的。竞赛中会有胜利，但我们也正在看到一个技术上更加分裂的世界，斯坦福大学的科林·卡尔称之为“一种不对称的 AI 两极格局”。"
+          }
+        ]
+      },
+      {
+        "heading": "The next AI races",
+        "headingZh": "下一场人工智能竞赛",
+        "meta": [],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "Last year clarified that the great-power AI competition isn’t over. In 2026, AI will yield economic gains and reshape how we work. AI agents that act with minimal human oversight will drive productivity gains across industries. More advanced AI models will yield new innovations. Leaders and the public will confront new energy constraints and solutions. AI is already accelerating a revolution in military affairs, especially in the cyber domain and as Ukraine drives toward greater autonomy on the battlefield. Supply-chain chokepoints will shift, with high-bandwidth and other types of memory, as well as cloud infrastructure, coming to the fore.",
+            "zh": "去年已经表明，大国之间的人工智能竞争并未结束。2026 年，人工智能将带来经济收益，并重塑我们的工作方式。在极少人工监督下行动的 AI 智能体，将推动各行业生产率提升。更先进的 AI 模型会催生新的创新。领导者和公众将面对新的能源约束及其解决方案。人工智能已经在加速军事事务革命，尤其是在网络领域；同时，随着乌克兰在战场上走向更高自主性，这一趋势更加明显。供应链卡点也会转移，高带宽及其他类型的存储器、云基础设施将变得更加突出。"
+          },
+          {
+            "no": "2",
+            "en": "And the U.S.-China competitions will continue to fuel, and be fueled by, AI.",
+            "zh": "中美竞争将继续推动人工智能发展，同时也会被人工智能反过来推动。"
+          },
+          {
+            "no": "3",
+            "en": "More than three years after the release of ChatGPT, even with billions of people using these systems every day, these are still early days, and leaders must make AI plans even if they can’t predict the future perfectly. If the U.S. and other democratic societies want to lead, they must compete together in every race, and for the duration.",
+            "zh": "ChatGPT 发布三年多后，即便每天已有数十亿人使用这些系统，人工智能仍处在早期阶段；领导者即使无法完美预测未来，也必须制定 AI 计划。如果美国和其他民主社会想要保持领先，就必须在每一条赛道上长期共同竞争。"
+          },
+          {
+            "no": "4",
+            "en": "The constant in AI is change. Innovation will reshape the rules and arenas of competition, especially as software advances boost compute efficiency. Discoveries are expanding technological possibilities. And history shows that while some of today’s top AI companies will succeed, many will fail. The same could be said for countries—and it is in the democratic world’s best interest, from the most populous nation to the least, that America succeeds.",
+            "zh": "人工智能领域唯一不变的就是变化。创新将重塑竞争规则和竞争场域，尤其是当软件进步提升计算效率时。新的发现正在扩展技术可能性。历史也表明，今天一些顶级人工智能公司会成功，许多公司则会失败。国家也是如此；从人口最多的国家到人口最少的国家，美国成功都符合民主世界的最大利益。"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "AI race",
+        "zh": "人工智能竞赛 / AI竞争",
+        "note": "全文核心概念。作者强调 AI race 不是单一赛道，而是由模型、芯片、能源、资本、供应链、人才等多重竞赛构成。"
+      },
+      {
+        "en": "AI leadership",
+        "zh": "AI领导地位 / AI主导权",
+        "note": "不只是“谁技术更强”，还包括产业化能力、全球影响力、伙伴网络和长期战略能力。"
+      },
+      {
+        "en": "open-source AI model",
+        "zh": "开源AI模型",
+        "note": "指开放程度较高、扩散更快、成本更低的模型路线。文中将其与中国的扩散优势联系起来。"
+      },
+      {
+        "en": "closed-source AI model",
+        "zh": "闭源AI模型",
+        "note": "指模型权重和方法不公开、商业控制更强的模型路线。文中指出美国前沿模型多为闭源。"
+      },
+      {
+        "en": "weights and methods",
+        "zh": "模型权重与方法",
+        "note": "指模型内部核心参数及技术实现方式，是闭源体系中最具商业价值和竞争壁垒的部分。"
+      },
+      {
+        "en": "AI monetization",
+        "zh": "AI商业化变现",
+        "note": "指把模型能力转化为收入、市场份额和产业优势的能力。文章指出美国在这一点上领先。"
+      },
+      {
+        "en": "performance gap",
+        "zh": "性能差距",
+        "note": "指开源与闭源、不同国家模型之间在能力表现上的差异。文中提到这一差距正在缩小。"
+      },
+      {
+        "en": "artificial general intelligence (AGI)",
+        "zh": "通用人工智能",
+        "note": "指接近或超越人类普遍认知能力的 AI 目标。是当前全球 AI 竞争中的高阶技术想象。"
+      },
+      {
+        "en": "AI diffusion",
+        "zh": "AI扩散 / AI普及应用",
+        "note": "指 AI 从实验室走向现实社会、进入交通、消费、医疗、教育等场景的过程。"
+      },
+      {
+        "en": "frontier AI models",
+        "zh": "前沿AI模型",
+        "note": "指技术上最先进、能力最强的一类模型，通常依赖高端芯片、大规模数据和强算力支持。"
+      },
+      {
+        "en": "scaling laws",
+        "zh": "规模定律",
+        "note": "指模型规模、数据规模和算力规模增大后，性能也随之提升的规律。是理解大模型发展的关键词。"
+      },
+      {
+        "en": "frontier computing infrastructure",
+        "zh": "前沿算力基础设施",
+        "note": "指支撑先进模型训练与部署的基础设施，包括高性能芯片、数据中心、云平台等。"
+      },
+      {
+        "en": "capital markets",
+        "zh": "资本市场",
+        "note": "文中用于说明美国在融资能力上的结构性优势，即资本能够持续支持 AI 创新与基建扩张。"
+      },
+      {
+        "en": "bottlenecks",
+        "zh": "瓶颈",
+        "note": "指制约 AI 发展的关键障碍。本文中主要指能源、基础设施和输电等方面的限制。"
+      },
+      {
+        "en": "spare capacity",
+        "zh": "剩余容量 / 冗余产能",
+        "note": "在本文主要指电力方面可供新建 AI 基础设施使用的额外容量。"
+      },
+      {
+        "en": "global supply chains",
+        "zh": "全球供应链",
+        "note": "全文重要背景概念。作者借芯片产业说明，AI 实力依赖跨国协作，任何国家都难以完全自给自足。"
+      },
+      {
+        "en": "self-reliant",
+        "zh": "完全自给自足的 / 完全自主可控的",
+        "note": "作者用来强调 AI 产业链高度全球化，没有国家能够真正脱离国际分工而独立运行。"
+      },
+      {
+        "en": "extreme ultraviolet lithography (EUV)",
+        "zh": "极紫外光刻",
+        "note": "高端芯片制造中的关键技术，用于说明 AI 芯片竞争背后隐藏着更复杂的全球技术网络。"
+      },
+      {
+        "en": "etching",
+        "zh": "蚀刻工艺",
+        "note": "芯片制造的重要环节。课堂上可借此向学生说明科技报道中的“工艺词汇”特点。"
+      },
+      {
+        "en": "AI talent",
+        "zh": "AI人才",
+        "note": "指 AI 研究、开发和应用所依赖的高端人才资源。文章将其视为国家竞争力的重要来源。"
+      },
+      {
+        "en": "critical minerals",
+        "zh": "关键矿产",
+        "note": "与芯片、能源和高科技制造密切相关的战略资源，也是 AI 供应链安全的重要组成部分。"
+      },
+      {
+        "en": "dual-use AI capabilities",
+        "zh": "军民两用AI能力",
+        "note": "指既可服务商业用途，也可服务军事或国家安全用途的 AI 能力。"
+      },
+      {
+        "en": "AI-orchestrated cyber-attacks",
+        "zh": "AI协同网络攻击",
+        "note": "指利用 AI 参与策划、增强或自动化实施的网络攻击，体现 AI 的安全风险维度。"
+      },
+      {
+        "en": "AI bipolarity",
+        "zh": "AI两极化格局",
+        "note": "指全球 AI 竞争向两个主要力量主导的结构演变。文中进一步称其为“不对称的两极化”。"
+      },
+      {
+        "en": "AI agents",
+        "zh": "AI智能体",
+        "note": "指能在较少人工干预下执行任务、作出反应甚至自主行动的 AI 系统。"
+      },
+      {
+        "en": "supply-chain chokepoints",
+        "zh": "供应链卡点 / 瓶颈环节",
+        "note": "指一旦受阻便会影响整个产业链运行的关键节点，是科技竞争和地缘政治中的高频概念。"
+      },
+      {
+        "en": "compute efficiency",
+        "zh": "算力效率 / 计算效率",
+        "note": "指以更少算力资源实现更强性能的能力。文章在结尾用它说明未来竞争规则仍可能被改写。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "Why does the author argue that AI is not a single race but multiple races? What is the significance of this claim?",
+        "zh": "为什么作者认为人工智能不是单一赛道，而是多条赛道上的竞赛？这一主张有何意义？"
+      },
+      {
+        "en": "How does the article contrast the AI priorities of the United States and China? What broader national logics are reflected in this contrast?",
+        "zh": "文章如何对比美国和中国在人工智能上的优先事项？这种对比反映了哪些更广泛的国家逻辑？"
+      },
+      {
+        "en": "Why does the author insist that AI competition cannot be understood apart from global supply chains? Explain with the semiconductor example.",
+        "zh": "为什么作者坚持认为人工智能竞争不能脱离全球供应链来理解？以半导体为例进行说明。"
+      },
+      {
+        "en": "What future opportunities and risks does the author foresee in the “next AI races”? Would you describe the article’s overall tone as optimistic, pessimistic, or strategic? 课堂讨论题（Discussion / Critical Response）",
+        "zh": "作者在“下一轮人工智能竞赛”中预见了哪些未来机遇和风险？你认为文章整体基调是乐观、悲观，还是偏战略性？课堂讨论题（Discussion / Critical Response）"
+      },
+      {
+        "en": "Do you agree with the author that the question “Who will win the AI race?” is too simplistic? Why or why not?",
+        "zh": "作者认为“谁会赢得人工智能竞赛？”这个问题过于简单。你是否同意？为什么？"
+      },
+      {
+        "en": "Which matters more for national AI strength: top models, energy, capital, supply chains, or talent? Choose one or two factors and justify your answer.",
+        "zh": "对一国人工智能实力而言，顶尖模型、能源、资本、供应链和人才，哪一项或哪几项更重要？请选择一两个因素并说明理由。"
+      },
+      {
+        "en": "How should countries other than the U.S. and China position themselves in the AI era?",
+        "zh": "除了中美之外，其他国家在人工智能时代应该如何定位？"
+      }
+    ]
+  },
+  {
+    "slug": "press-reading-unit-2-passage-1",
+    "unit": "Unit 2 Passage 1",
+    "title": "The business of quantum computers",
+    "source": "Economist",
+    "file": "Unit 2 Reading Passage 1.docx",
+    "articles": [
+      {
+        "heading": "The business of quantum computers",
+        "headingZh": "量子计算机蕴藏的商机",
+        "meta": [
+          "Date: November 11, 2020",
+          "Source: Economist"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "By exploiting the counter-intuitive properties of quantum mechanics, they could perform some calculations (though only some) faster than any conceivable[1]non-quantum machine. For one thing, they would probably be much more rapid than any classical computer at searching a database—an elemental operation with a thousand uses.",
+            "zh": "通过利用量子力学那些反直觉的特性，量子计算机可以在某些计算上（尽管只是某些计算）比任何可以想象的[1]非量子机器更快。比如，在搜索数据库这种用途极其广泛的基础操作上，它们很可能比任何经典计算机都快得多。"
+          },
+          {
+            "no": "2",
+            "en": "They would be quicker at more specific tasks, too. Precisely simulating all but the simplest chemical reactions is mathematically intractable[2] for any non-quantum computer, no matter how huge. A quantum computer could do this, aiding the development of drugs, catalysts and batteries.",
+            "zh": "在更具体的任务上，它们也会更快。除最简单的化学反应外，精确模拟各种化学反应，对任何非量子计算机来说在数学上都难以处理[2]，无论机器规模多大。量子计算机则可以完成这类模拟，从而帮助开发药物、催化剂和电池。"
+          },
+          {
+            "no": "3",
+            "en": "Quantum computers would also speed up the analysis of optimisation problems, which try to find the best way to juggle[3] many variables in order to maximise a particular outcome. That would be a boon[4] to the transport industry (by finding efficient routes) and to finance (by maximising profits given a set of constraints).",
+            "zh": "量子计算机还会加快对优化问题的分析。所谓优化问题，就是在众多变量之间找到最佳协调方式[3]，以最大化某个特定结果。这对运输业将是福音[4]，因为它可以寻找高效路线；对金融业也是如此，因为它可以在一组约束条件下实现利润最大化。"
+          },
+          {
+            "no": "4",
+            "en": "Boston Consulting Group (BCG), a management consultancy, foresees quantum computers improving the operating income of their users by between $450bn and $850bn a year by 2050. Unfortunately, big, stable quantum computers do not yet exist. But small, ornery(adj. 坏脾气的；低劣的), unstable ones do.",
+            "zh": "管理咨询公司波士顿咨询集团（BCG）预计，到 2050 年，量子计算机每年可为用户增加 4500 亿至 8500 亿美元的营业收入。遗憾的是，大型而稳定的量子计算机尚未出现。但小型、难以驾驭且不稳定的量子计算机已经存在。"
+          },
+          {
+            "no": "5",
+            "en": "John Preskill, a quantum-computing researcher at the California Institute of Technology, dubs(起别名） such machines NISQS—Noisy, Intermediate-Scale Quantum computers.",
+            "zh": "加州理工学院量子计算研究员约翰·普雷斯基尔（John Preskill）把这类机器称为 NISQ，即“有噪声的中等规模量子计算机”。"
+          },
+          {
+            "no": "6",
+            "en": "Some see NISQS as mere stepping stones towards size and stability, and that is certainly the goal of those working on them. A growing number of companies and investors, however, are hopeful that NISQS themselves will be able to do useful work in the meantime.",
+            "zh": "有些人认为 NISQ 机器只是通向更大规模、更高稳定性的垫脚石，而这当然也是相关研究者的目标。不过，越来越多公司和投资者希望，在此期间 NISQ 机器本身也能完成有用的工作。"
+          },
+          {
+            "no": "7",
+            "en": "These firms are hunting for \"quantum advantage\"—a way in which even today's limited machines might have an impact on their bottom lines, or those of their customers. For most of the field's history, quantum-computing research has been backed by governments or big information-technology firms. Increasingly, though, the venture-capital (VC) industry is showing an interest.",
+            "zh": "这些公司正在寻找“量子优势”——也就是说，即使今天这些能力有限的机器，也能以某种方式影响它们自己或客户的利润。在量子计算领域的大部分历史中，相关研究主要由政府或大型信息技术公司支持。不过，风险投资（VC）行业正越来越感兴趣。"
+          },
+          {
+            "no": "8",
+            "en": "PitchBook, a research firm based in Seattle, has tracked $495m of VC money that has been invested in quantum computing so far this year—almost double last year's total. Dozens of startups are competing with the incumbent[5] tech giants.",
+            "zh": "总部位于西雅图的研究公司 PitchBook 统计显示，今年迄今已有 4.95 亿美元风险投资流入量子计算，几乎是去年全年总额的两倍。数十家初创公司正在与既有[5]科技巨头竞争。"
+          },
+          {
+            "no": "9",
+            "en": "And established companies, such as Daimler, a carmaker, and Goldman Sachs, a bank, are beginning to experiment with the nascent[6] industry's products, hoping that, if they can master them, they will bestow[7] an advantage over their competitors. Much of the money is going towards building hardware.",
+            "zh": "与此同时，戴姆勒这样的汽车制造商、高盛这样的银行等成熟企业，也开始试用这个新兴[6]行业的产品，希望一旦掌握这些技术，就能获得[7]超过竞争对手的优势。大量资金正流向硬件建设。"
+          },
+          {
+            "no": "10",
+            "en": "Doug Finke, a physicist who runs the Quantum Computing Report, which focuses on the nascent industry, is aware of 87 organisations, big and small, trying to construct quantum computers. Unlike classical computing, which had settled by the 1970s on silicon transistors as the units of computation, there is, as yet, no consensus on the best way to build a quantum computer.",
+            "zh": "物理学家 Doug Finke 运营着关注这一新兴行业的《量子计算报告》。据他所知，目前有 87 个大大小小的组织正在尝试制造量子计算机。经典计算到 20 世纪 70 年代已确定以硅晶体管作为计算单元，而量子计算不同：到目前为止，怎样制造量子计算机才最好仍未形成共识。"
+          },
+          {
+            "no": "11",
+            "en": "IonQ, a firm in Maryland that has raised $84m, uses trapped ytterbium ions(镱离子), manipulated by lasers, to perform its calculations. Rigetti Computing, a Californian company which announced earlier this month that it would be building a quantum computer for the British government, Rigetti Computing employs microwaves to control pairs of electrons flowing through superconducting circuits.",
+            "zh": "马里兰州公司 IonQ 已筹集 8400 万美元，它利用被困住的镱离子进行计算，并用激光操控这些离子。加州公司 Rigetti Computing 本月早些时候宣布将为英国政府建造一台量子计算机；该公司采用微波来控制在超导电路中流动的电子对。"
+          },
+          {
+            "no": "12",
+            "en": "Microsoft, although very much not a startup, is working on a \"topological\"拓扑的quantum computer that relies on the interactions of super-cold electrons. One particularly well-financed new firm is Psi Quantum, which does its computing with photons(光子） that run along waveguides etched onto ordinary silicon chips.",
+            "zh": "微软当然不是初创公司，但它正在开发一种依赖超冷电子相互作用的“拓扑”量子计算机。资金尤其充足的新公司 PsiQuantum 则用光子进行计算，这些光子沿着刻蚀在普通硅芯片上的波导运行。"
+          },
+          {
+            "no": "13",
+            "en": "It hopes to leapfrog the NISQ era entirely and produce a fully fledged[8] quantum computer within about five years—though that is far sooner than most experts think feasible. PsiQuantum was founded in 2015 by researchers from Imperial College and the University of Bristol, both in Britain.",
+            "zh": "它希望完全跳过 NISQ 时代，并在大约五年内造出一台成熟的[8]量子计算机，尽管这个时间表远早于大多数专家认为可行的节点。PsiQuantum 由英国帝国理工学院和布里斯托大学的研究人员于 2015 年创立。"
+          },
+          {
+            "no": "14",
+            "en": "It has raised $215m from backers including Black-Rock, a giant investment firm, and the Founders Fund, an American VC company that was an early investor in Space X and Facebook.",
+            "zh": "该公司已从贝莱德（BlackRock）这家大型投资公司、以及美国风投机构 Founders Fund 等支持者那里筹集 2.15 亿美元；Founders Fund 曾是 SpaceX 和 Facebook 的早期投资者。"
+          },
+          {
+            "no": "15",
+            "en": "Microsoft (whose own topological machines are still at an early stage of development) offers access via Azure, its cloud-computing service, to machines from IonQ, Honeywell and a company called Quantum Circuits. Amazon hosts machines from Rigetti, IonQ and D-Wave, a Canadian company that builds specialised, fixed-purpose computers called quantum annealers.（n.退火炉；炼韧器）",
+            "zh": "微软自己的拓扑量子机器仍处在早期开发阶段，但它通过云计算服务 Azure 向用户开放 IonQ、霍尼韦尔以及 Quantum Circuits 公司机器的使用权限。亚马逊则托管 Rigetti、IonQ 和加拿大公司 D-Wave 的机器；D-Wave 制造的是名为量子退火机的专用、固定用途计算机。"
+          },
+          {
+            "no": "16",
+            "en": "Rather than have hardware-makers come up with useful algorithms, the hope is that existing businesses, by being given access to the machines in this way, will invent such algorithm for themselves. With that in mind, says Krysta Svore, who leads Microsoft's quantum-computing research, one task is to make those machines as easy as possible to use.",
+            "zh": "这种做法的设想并不是让硬件制造商提出有用算法，而是让现有企业通过这样的方式接触机器，进而为自己发明相关算法。微软量子计算研究负责人 Krysta Svore 说，正因如此，一项重要任务就是尽可能降低这些机器的使用门槛。"
+          },
+          {
+            "no": "17",
+            "en": "The firm has developed tools intended to help customers wrap their brains around the counter-intuitive properties of quantum computers. It has also developed software intended to smooth over differences between machines from different makers, so that programmers do not have to worry about whether they are marshalling(集结） ions or electrons.",
+            "zh": "微软开发了一些工具，旨在帮助客户理解量子计算机那些反直觉的特性。它还开发了软件，用来抹平不同厂商机器之间的差异，这样程序员就不必操心自己调度的究竟是离子还是电子。"
+          },
+          {
+            "no": "18",
+            "en": "She compares this to the early days of classical computing, when the development of compilers and early programming languages freed human beings from the need to think in the ones and zeros of raw machine code.",
+            "zh": "她把这与经典计算早期相比：当时，编译器和早期编程语言的发展，使人类不再需要直接用原始机器码中的 0 和 1 来思考。"
+          },
+          {
+            "no": "19",
+            "en": "The big question is what all this is leading up to. Despite the excitement, the industry's commercial pioneers have theirwork cut out for them. There is plenty of promise, but, as yet, no certainty. Finding algorithms that are both commercially useful and simple enough to work within a NISQ machine's limitations is not easy.",
+            "zh": "最大的问题是，这一切最终会通向哪里。尽管前景令人兴奋，这个行业的商业先行者仍有艰巨工作要做。希望很多，但目前没有确定答案。要找到既有商业用途、又足够简单而能在 NISQ 机器限制内运行的算法，并不容易。"
+          },
+          {
+            "no": "20",
+            "en": "A report published last year by America's National Academy of Sciences reminded readers that no commercial applicationsare currently known to exist. The first step, then, is to go looking.",
+            "zh": "美国国家科学院去年发布的一份报告提醒读者，目前尚无已知的商业应用。因此，第一步就是去寻找。"
+          },
+          {
+            "no": "21",
+            "en": "The industry has been cheered by Google's demonstration lastyear of \"quantum supremacy\", in which it used a NISQ machine to perform, with minutes of computing time, a calculation that would have taken thousands of years on classical hardware. Google's calculation was highly contrived[9] and of little use in the real world. But it proved a point.",
+            "zh": "谷歌去年展示“量子霸权”令业界振奋：它用一台 NISQ 机器在几分钟计算时间内完成了一项若用经典硬件则需数千年的计算。谷歌的这项计算高度人为设计[9]，在现实世界中几乎没有用处，但它证明了一个观点。"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "conceivable",
+        "zh": "[kənˈsiːvəbl] adj.可想象的; 可信的",
+        "note": ""
+      },
+      {
+        "en": "intractable",
+        "zh": "not tractable; difficult to manage or mold",
+        "note": ""
+      },
+      {
+        "en": "juggle",
+        "zh": "[ˈdʒʌgl] vi.变戏法;欺骗;快速地操纵vt.欺骗;耍把戏;拿不稳;失去平衡)",
+        "note": ""
+      },
+      {
+        "en": "boon",
+        "zh": "(福利、恩惠）",
+        "note": ""
+      },
+      {
+        "en": "incumbent",
+        "zh": "[ɪnˈkʌmbənt] adj. 现任的；依靠的；负有职责的",
+        "note": ""
+      },
+      {
+        "en": "nascent",
+        "zh": "[ˈnæsnt] adj.发生中的;初期的;新生的",
+        "note": ""
+      },
+      {
+        "en": "bestow",
+        "zh": "/ bɪˈstəʊ /赠予，授予（财产、权力或荣誉）",
+        "note": ""
+      },
+      {
+        "en": "fully fledged",
+        "zh": "adj. 成熟的；快会飞的；羽毛丰满的",
+        "note": ""
+      },
+      {
+        "en": "contrived",
+        "zh": "（[kənˈtraɪvd] adj. 人为的；做作的；不自然的）",
+        "note": ""
+      }
+    ],
+    "questions": []
+  },
+  {
+    "slug": "press-reading-unit-2-passage-2",
+    "unit": "Unit 2 Passage 2",
+    "title": "ByteDance",
+    "source": "Economist",
+    "file": "Unit 2 Reading Passage 2.docx",
+    "articles": [
+      {
+        "heading": "ByteDance",
+        "headingZh": "字节跳动",
+        "meta": [],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "China's first global software company is going from strength to strength. America doesn't like it one bit.",
+            "zh": "中国第一家全球化软件公司正变得越来越强。美国对此一点也不喜欢。"
+          },
+          {
+            "no": "2",
+            "en": "As covid-19 has forced the world's teenagers out of school and into their rooms, they have turned to a familiar digital companion, TikTok. The short-video app was downloaded 115m times in March.",
+            "zh": "随着新冠疫情迫使世界各地的青少年离开学校、待在房间里，他们转向了一个熟悉的数字伙伴：TikTok。今年 3 月，这款短视频应用的下载量达到 1.15 亿次。"
+          },
+          {
+            "no": "3",
+            "en": "Its nearly 1bn regular users enjoy silly clips of dog antics （滑稽动作）alongside pandemic advice from the World Health Organisation. Collectively, TikTok videos tagged with #coronavirus have been watched 53bn times.",
+            "zh": "TikTok 近 10 亿常规用户既会观看狗狗搞怪的 silly 短片，也会看到世界卫生组织发布的疫情建议。总体来看，带有 #coronavirus 标签的 TikTok 视频观看量已达 530 亿次。"
+          },
+          {
+            "no": "4",
+            "en": "TikTok's popularity over the past two years has shone the spotlight on (用聚光灯照射,聚焦)ByteDance, its Beijing-based developer. Founded by a Chinese computer scientist, Zhang Yiming, in 2011, it is now the world's biggest unlisted technology “unicorn”[1], recently valued at between $90bn and$100bn.",
+            "zh": "TikTok 过去两年的走红，让其位于北京的开发者字节跳动成为焦点。字节跳动由中国计算机科学家张一鸣于 2011 年创立，如今是全球最大的未上市科技“独角兽”[1]，近期估值在 900 亿至 1000 亿美元之间。"
+          },
+          {
+            "no": "5",
+            "en": "It is also the only technology firm bar (except) Apple with more than 100m users in both China and America, where TikTok has taken on(compete against) the likes of (like)YouTube and Instagram.",
+            "zh": "它也是除苹果之外，唯一一家在中国和美国都拥有超过 1 亿用户的科技公司；在美国，TikTok 已经开始与 YouTube、Instagram 等平台竞争。"
+          },
+          {
+            "no": "6",
+            "en": "And ByteDance isn't done (socially unacceptable). The 60,000 people in its buzzy offices—“We are like flies,” says one former employee—crank out （v.制成；） one app after another. In the past year it has launched a worldwide corporate-software service (Lark), a music-streaming app in India and Indonesia(Resso) and, in China, a messaging rival to WeChat.",
+            "zh": "而字节跳动还远未停下脚步。它热闹的办公室里有 6 万名员工，一名前员工说：“我们就像苍蝇一样。”这些员工不断推出一个又一个应用。过去一年里，它推出了面向全球的企业软件服务 Lark，在印度和印度尼西亚推出了音乐流媒体应用 Resso，并在中国推出了一款与微信竞争的即时通讯产品。"
+          },
+          {
+            "no": "7",
+            "en": "As other firms sack （v.解雇; 炒鱿鱼）workers amid covid-19, ByteDance is hiring 10,000 globally. It plans to employ 30,000 on top of that (in addition to that) this year. ByteDance is not the first Chinese firm with foreign ambitions.",
+            "zh": "在新冠疫情期间，其他公司纷纷裁员，字节跳动却在全球招聘 1 万人。除此之外，它今年还计划再增加 3 万名员工。字节跳动并不是第一家怀有海外雄心的中国公司。"
+          },
+          {
+            "no": "8",
+            "en": "Commodity giants such as CNOOC(abbr. for China National Offshore Oil Corporation中国海洋石油总公司）an oil firm, have been buying foreign reserves, and rivals, since the 1990s. In the past decade industrial giants have pursued Western competitors from carmaking (as with Geely's purchase of Volvo) to chemicals (ChemChina's of Syngenta先正达(Syngenta)是全球领先的农业科技和作物保护公司，总部设在瑞士巴塞尔，业务遍及世界90多个国家和地区，涉及生物信息、作物转化、合成化学等）More haphazardly, conglomerates (综合性大企业） like Fosun（复星国际） and Anbang （安邦）splurged（炫耀） on trophy assets (including ClubMed and the Waldorf Astoria hotel, respectively).",
+            "zh": "自 20 世纪 90 年代以来，中海油这样的石油类大宗商品巨头就一直在海外收购资源和竞争对手。过去十年里，中国工业巨头也追逐西方竞争者，领域从汽车制造（如吉利收购沃尔沃）到化工（如中国化工收购先正达）。更零散一些的是，复星、安邦等综合性企业曾大手笔买入炫耀性资产，例如分别收购 Club Med 和华尔道夫酒店。"
+          },
+          {
+            "no": "9",
+            "en": "Unlike most of its peripatetic （四处游走）predecessors, though, ByteDance has built its empire by making products that appeal beyond China. It is China's first global software giant. It has also courted foreign investors. （to be translated)",
+            "zh": "不过，与多数四处出海收购的前辈不同，字节跳动是靠打造能吸引中国以外用户的产品来建立自己的商业帝国。它是中国第一家全球性软件巨头，也一直在争取外国投资者。"
+          },
+          {
+            "no": "10",
+            "en": "Filings in Hong Kong show that it has used an arrangement called the “Sina structure”, which allows it to accept money from abroad, since its founding (many Chinese tech firms turn to this structure only when eyeing a stockmarket listing in America). Around 80% of ByteDance's investors are non-Chinese. So are four of its five board members. The other is Mr Zhang.",
+            "zh": "香港备案文件显示，字节跳动自成立以来就采用一种名为“新浪结构”的安排，使其能够接受海外资金；许多中国科技公司通常只有在考虑赴美上市时才会转向这种结构。字节跳动约 80% 的投资者不是中国人。其五名董事会成员中也有四名是非中国人，剩下一位是张先生。"
+          },
+          {
+            "no": "11",
+            "en": "All this helps ensure ByteDance is not, in contrast to many Chinese tech upstarts, in hock to （欠债）Alibaba, Baidu and Tencent— which is handy, for Bytedance competes with China's tech titans for ad revenue. It makes most of its money selling ads in its two main Chinese apps: Douyin, a Chinese TikTok, and Toutiao, a multimedia-and-news app akin to Facebook's news feed (its WeChat rival, Duoshan[2], disappointed).",
+            "zh": "这一切都有助于确保字节跳动不像许多中国科技新贵那样受制于阿里巴巴、百度和腾讯。这一点很有用，因为字节跳动正与中国科技巨头争夺广告收入。它的大部分收入来自两款主要中国应用的广告销售：抖音，即中国版 TikTok；以及今日头条，一款类似 Facebook 信息流的多媒体新闻应用。它挑战微信的产品多闪[2]则表现令人失望。"
+          },
+          {
+            "no": "12",
+            "en": "How much money it makes, exactly, is unclear: as a private company Bytedance does not publish its accounts. But leaks and statements from investors put last year's revenue at between 104bn yuan and 140bn yuan ($15bn-20bn), more than Uber, Snapchat and Twitter combined.",
+            "zh": "它到底赚了多少钱并不清楚：作为一家私人公司，字节跳动不公布财务账目。但泄露信息和投资者声明显示，它去年的收入在 1040 亿至 1400 亿元人民币（150 亿至 200 亿美元）之间，超过 Uber、Snapchat 和 Twitter 的总和。"
+          },
+          {
+            "no": "13",
+            "en": "Its ad revenues in China surpassed Tencent's and Baidu's and now trail (落后于）only those of Alibaba. It reportedly turned a profit in June 2019, a feat in the world of loss-making（总是亏损的） unicorns. If the firm generates $25bn in sales this year, as it is expected to despite covid-19, it will have done so three years faster than Facebook.",
+            "zh": "字节跳动在中国的广告收入已经超过腾讯和百度，如今仅落后于阿里巴巴。据报道，它在 2019 年 6 月实现盈利，这在普遍亏损的独角兽公司中是一项难得成就。尽管有新冠疫情影响，如果该公司今年销售额如预期达到 250 亿美元，它实现这一规模的速度将比 Facebook 快三年。"
+          },
+          {
+            "no": "14",
+            "en": "It is the only big Chinese firm whose share of the domestic advertising market is growing fast, from 9% to 17% in 2019, according to Bernstein, a research firm. A recently launched advertising network, Pangle[3], which lets advertisers reach consumers across any of its non-Chinese apps, may at last help it monetise （货币化）TikTok.",
+            "zh": "研究公司 Bernstein 的数据显示，它是唯一一家国内广告市场份额快速增长的中国大型公司，2019 年份额从 9% 升至 17%。它最近推出的广告网络 Pangle[3] 允许广告商通过其任一非中国应用触达消费者，最终可能帮助 TikTok 实现商业变现。"
+          },
+          {
+            "no": "15",
+            "en": "No wonder American rivals are trying to clip its wings. Facebook’s TikTok clone, Lasso, has flopped (fail). YouTube is said to be developing another (called Shorts). But the biggest threat has emerged in the form of America’s government, wary of China’s rise in any sphere.",
+            "zh": "难怪美国竞争对手正试图削弱它的势头。Facebook 仿照 TikTok 推出的 Lasso 已经失败；据说 YouTube 正在开发另一款同类产品，名为 Shorts。但最大的威胁来自美国政府，它对中国在任何领域的崛起都保持警惕。"
+          },
+          {
+            "no": "16",
+            "en": "Politicians in Washington fear that data on American users is being handed to Beijing; that Chinese algorithm designers are infecting impressionable(易受影响的) Western youngsters with communist propaganda; and that ByteDance content is censored in line with party whims.",
+            "zh": "华盛顿的政客担心，美国用户数据会被交给北京；中国算法设计者会用共产主义宣传影响容易受影响的西方年轻人；字节跳动平台上的内容也会按照党的意愿接受审查。"
+          },
+          {
+            "no": "17",
+            "en": "In March two Republican senators introduced a bill that would ban TikTok from all government devices. The Committee on Foreign Investment in the United States (CFIUS) is reviewing ByteDance’s acquisition in 2018 of Musical.ly[4], another app, which had 60m users in America and Europe.",
+            "zh": "今年 3 月，两名共和党参议员提出法案，拟禁止所有政府设备使用 TikTok。美国外国投资委员会（CFIUS）正在审查字节跳动 2018 年收购 Musical.ly[4] 一事；Musical.ly 是另一款应用，在美国和欧洲拥有 6000 万用户。"
+          },
+          {
+            "no": "18",
+            "en": "In statements, TikTok has said that it stores all American “user data in the United States” and that its American operations are “not influenced by any foreign government, including the Chinese government”. The firm is trying to mollify (安抚)critics and has hired prominent security and legal experts in America to help it.",
+            "zh": "TikTok 在声明中表示，它把所有美国“用户数据存储在美国”，其美国业务“不受任何外国政府，包括中国政府的影响”。该公司正试图安抚批评者，并聘请美国知名安全和法律专家提供帮助。"
+          },
+          {
+            "no": "19",
+            "en": "Last month it opened a “transparency centre” in Los Angeles, where it promises to share information about its content-moderation, privacy and security controls, and said it would stop using moderators (主持人，版主）in China to handle content from users outside the country.",
+            "zh": "上个月，TikTok 在洛杉矶开设了一个“透明中心”，承诺分享有关内容审核、隐私和安全控制的信息，并表示将停止让中国境内审核员处理海外用户内容。"
+          },
+          {
+            "no": "20",
+            "en": "That, most lawyers and technologists reckon, may help get CFIUS off its back. Listing ByteDance in Hong Kong, which is under consideration, may also foster trust. So would anointing（指定）— a non-Chinese successor—though, at 37, Mr Zhang may not be ready to retire.",
+            "zh": "多数律师和技术专家认为，这些举措可能有助于让 CFIUS 不再紧盯它。正在考虑中的字节跳动赴港上市，也可能增强信任。任命一位非中国籍继任者同样会有帮助，不过 37 岁的张先生也许还没准备退休。"
+          },
+          {
+            "no": "21",
+            "en": "As a last resort【万不得已（作为最后手段—）】 he is said to be willing to contemplate spinning TikTok off(拆分）. That would cement the digital divide between China and the West—until another hit ByteDance app tries to bridge it.",
+            "zh": "据说，作为最后手段，他愿意考虑将 TikTok 拆分出去。那将进一步固化中国与西方之间的数字鸿沟，直到字节跳动的下一款热门应用再次试图弥合它。"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "unicorn",
+        "zh": "A Unicorn startup company is a private company, having a post-money valuation of $ 1 billion or more. A unicorn company refers to a startup or a private company with a valuation exceeding $ 1 billion.独角兽公司，投资界术语，一般指成立不超过10年；估值要超过10亿美元，少部分估值超过100亿美元的企业。 其不仅是优质和市场潜力无限的绩优股，而且商业模式很难被复制。",
+        "note": ""
+      },
+      {
+        "en": "Duoshan",
+        "zh": "多闪是字节跳动旗下针对年轻人推出，一款好友小视频社交 APP。 多闪从 2018 年年中正式立项，产品主要分为三个模块：消息列表、随拍、世界， 旨在帮助用户没有压力的记录生活中的点点滴滴。 2019 年 1 月 15 日，多闪在北京正式发布。“多闪”以短视频+社交为基础，其中主要功能为“随拍”，用户拍下的视频在72小时内可以被别人看到，而72小时后则转换为个人相册。随拍内容还以人为聚合，并且能够知道谁在关注自己，看自己所发的视频。此外该产品还有视频红包、斗图等功能。",
+        "note": ""
+      },
+      {
+        "en": "Pangle",
+        "zh": "Pangle是TikTok Ads旗下领先的视频化广告平台，聚合全球优质媒体，以“帮助全球应用获得成功，推动广告价值高效转化”为目标，为全球广告主提供高效的用户增长解决方案。",
+        "note": ""
+      },
+      {
+        "en": "Musical.ly",
+        "zh": "musical.ly 是一款音乐类短视频社区应用，是近年来深受全球青少年用户喜爱的短视频社交App，于2014年4月上线，用户通过将自己拍摄的视频，配上乐库的音乐，从而快速地创建时长15秒的MV，或选择自己喜欢的热门打榜歌曲，通过对口型以及肢体动作来制作音乐视频。Musical.ly全球日活跃用户数超过2000万，其中北美活跃用户超过600万。 2017年11月10日，今日头条10亿美元收购北美音乐短视频社交平台Musical.ly 。2018年7月24日消息，Musical.ly上月宣布关闭Live.ly应用。 2018年8月1日，北京字节跳动科技公司宣布将关闭自己在2017年12月以近10亿美元收购的流行Musical.ly视频应用，并将用户转移到抖音海外版TikTok上面 [2] 。",
+        "note": ""
+      }
+    ],
+    "questions": []
+  },
+  {
+    "slug": "press-reading-unit-3-5g",
+    "unit": "Unit 3 Reading Materials",
+    "title": "The Transformative Power of 5G / Qualcomm 5G",
+    "source": "Scientific American / Digital Trends",
+    "file": "Unit 3 Telecommunications --reading materials.doc",
+    "articles": [
+      {
+        "heading": "The Transformative Power of 5G",
+        "headingZh": "5G 的变革力量",
+        "meta": [
+          "This once-in-a-decade mobile phone network upgrade is expected to place us squarely in the middle of the Internet of Things.",
+          "by Scientific American Custom Media"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "Major carriers are in the process of rolling out ultra-high-speed mobile- phone networks that use fifth-generation (5G) technology, transmitting data up to 50 times faster than current phone networks. But the promise of 5G is that it will provide more than just a boost to our phone service and download speeds. “5G will be one of the more transformative technologies we’ve had so far,” says Karri Kuoppamaki, vice president of radio network technology and strategy at T-Mobile, where he is overseeing the company’s rollout of 5G networks.",
+            "zh": "主要运营商正在陆续推出采用第五代（5G）技术的超高速移动通信网络，其数据传输速度最高可达现有手机网络的 50 倍。但 5G 的潜力并不只是提升手机服务和下载速度。T-Mobile 无线网络技术与战略副总裁 Karri Kuoppamaki 表示：“5G 将是迄今为止最具变革性的技术之一。”他正负责该公司 5G 网络的部署。"
+          },
+          {
+            "no": "2",
+            "en": "There are three differences between 5G and the current 4G: speed, bandwidth and what network specialists call latency, which is the time it takes for data to move from a server on the network to a device. 5G networks are faster, can handle a higher volume of data, and reduce wait times. The new technology is able to shoot data from millions of local sensors or gadgets to distant cloud computers for processing and then return the relevant guidance — all in a fraction of a second. This deluge of data flooding through our society will enable a host of new services, including connecting new devices and equipment.",
+            "zh": "5G 与当前 4G 主要有三点不同：速度、带宽，以及网络专家所说的延迟，也就是数据从网络服务器传到设备所需的时间。5G 网络速度更快，可处理更大规模的数据，并缩短等待时间。这项新技术能够把来自数百万本地传感器或设备的数据发送到远程云计算机处理，再返回相关指令——整个过程只需不到一秒。大量数据在社会中流动，将催生一系列新服务，包括连接新的装置和设备。"
+          },
+          {
+            "no": "3",
+            "en": "Sensors themselves can be tinier, cheaper and more durable because of yet another advantage of 5G: smaller batteries. 5G devices stay connected to the network instead of engaging in the back-and-forth signaling that 4G networks require for connectivity, which saps （reduce） battery life. 5G will power up our daily lives. “We’ll constantly have the information we need to make decisions,” Kuoppamaki predicts.",
+            "zh": "传感器本身也可以做得更小、更便宜、更耐用，这得益于 5G 的另一项优势：电池可以更小。5G 设备会持续保持联网，而不必像 4G 网络那样为维持连接不断来回发送信号、消耗电量。5G 将为日常生活注入动力。Kuoppamaki 预测：“我们会持续获得做决策所需的信息。”"
+          },
+          {
+            "no": "4",
+            "en": "The first 5G networks came online in late 2019 in major cities around the world. That’s more or less in keeping with the pattern of major decadal upgrades in phone-network capabilities. To get a sense of how influential these upgrades can be, consider that the last big upgrade — from 3G to 4G networks around 2010 — drove the proliferation of phone apps that are now integral to our connected culture. “The move to 4G created the app economy, and made Google and Facebook what they are today,” says Kuoppamaki.",
+            "zh": "首批 5G 网络于 2019 年底在全球主要城市上线。这大体符合手机网络能力大约每十年重大升级一次的规律。若想理解这些升级可能产生多大影响，可以回想上一次大升级：约 2010 年从 3G 转向 4G，推动了手机应用激增，而这些应用如今已成为互联文化不可或缺的一部分。Kuoppamaki 说：“转向 4G 创造了应用经济，也成就了今天的 Google 和 Facebook。”"
+          },
+          {
+            "no": "5",
+            "en": "The first applications to benefit from 5G will likely be those involving live-streaming video — that is, using a phone to record and transmit an event as it is happening. 5G speeds can cope with 8K image resolution, which entails quadruple the amount of information of ultra-high-definition 4K images and beyond even the capabilities of most TVs. The network also has enough extra bandwidth to simultaneously transmit multiple other video streams, allowing users to switch between camera angles at sporting events, for example, or to pan the viewpoint around 360 degrees.",
+            "zh": "最早受益于 5G 的应用，很可能是实时视频直播，也就是用手机记录并传输正在发生的事件。5G 的速度足以支持 8K 图像分辨率，而 8K 所包含的信息量是超高清 4K 图像的四倍，甚至超出大多数电视的处理能力。5G 网络还有足够的额外带宽，可同时传输多个视频流，例如让用户在体育赛事中切换不同机位，或把视角平移成 360 度全景。"
+          },
+          {
+            "no": "6",
+            "en": "Other applications certain to get early 5G upgrades include mobile gaming and virtual reality (VR) apps that embed (immerse) goggle-wearing users in 3D images. These applications will benefit from another aspect of 5G networks. “There’s a misconception that 5G is only about higher speeds,” says Kuoppamaki. “Low latency is a big benefit, too, a more comprehensive, end-to-end measure of data speed than transmission speed.” Gaming and VR apps work best when the images change almost instantly in response to user input, whether it’s swiping on the screen, waving a hand or turning a head. The new 5G networks will reduce latency by 80 percent, providing a near immediate response.",
+            "zh": "其他必然较早迎来 5G 升级的应用包括移动游戏，以及让佩戴头显的用户沉浸在 3D 图像中的虚拟现实（VR）应用。这些应用还会受益于 5G 网络的另一个方面。Kuoppamaki 说：“人们有一种误解，以为 5G 只是速度更快。低延迟也是一大优势，而且它比传输速度更能全面衡量端到端的数据速度。”当画面能几乎即时响应用户输入时，无论是滑动屏幕、挥手还是转头，游戏和 VR 应用的效果都会最好。新的 5G 网络将把延迟降低 80%，提供近乎即时的响应。"
+          },
+          {
+            "no": "7",
+            "en": "The speed and fast response of 5G networks will also affect the kit: VR goggles, for example, can be sleeker, lighter and less clunky, notes Kuoppamaki. That’s because today those goggles need to provide much of the processing power that turns raw data into actual images. But 5G networks can zip data back and forth quickly enough to mean that much of the processing can move to the cloud.",
+            "zh": "Kuoppamaki 指出，5G 网络的速度和快速响应也会影响设备形态：例如，VR 头显可以做得更流线、更轻，也不那么笨重。原因是目前这些头显需要承担大量处理能力，把原始数据转化为实际图像。而 5G 网络能够足够快速地来回传输数据，这意味着许多处理任务可以转移到云端。"
+          },
+          {
+            "no": "8",
+            "en": "Closely related to VR is augmented reality (AR), where graphics and text are superimposed on real images. AR, too, will become widespread with 5G, and in many cases essential, says Kuoppamaki. “Imagine you want to try a little home plumbing to change your faucet,” he says. “You could put on your goggles and let an augmented-reality app walk you through each step under the sink, while you look at your pipes.” 5G-charged VR and AR apps could literally add a new dimension to education and training in almost any domain.",
+            "zh": "与 VR 密切相关的是增强现实（AR），它把图形和文字叠加到真实图像之上。Kuoppamaki 表示，AR 也会随着 5G 普及而变得普遍，并且在许多情况下会成为必需。“想象一下，你想自己动手修一修家里的管道、更换水龙头，”他说，“你可以戴上头显，一边看着水槽下的管道，一边让增强现实应用引导你完成每一步。”由 5G 加持的 VR 和 AR 应用，几乎可以真正为任何领域的教育和培训增加一个新维度。"
+          },
+          {
+            "no": "9",
+            "en": "And, of course, there is the Internet of Things, which will surround us with many ‘smart’ items. Around the home, that could be tomato plants in the garden that can ask for water, roofs that warn of weaknesses after extreme weather, jackets that keep parents updated on a child’s location, trash cans that ask to be emptied, and milk cartons that point out expiration dates. In the streets, it’s a heads-up on open parking spaces, second-to-second data on surrounding traffic for driverless cars, local air- quality warnings, icy sidewalk alerts, and much more.",
+            "zh": "当然，还有物联网，它会让我们身边充满各种“智能”物品。在家中，这可能包括能提醒浇水的花园番茄、极端天气后提示薄弱点的屋顶、让父母随时了解孩子位置的夹克、提醒清空的垃圾桶，以及提示保质期的牛奶盒。在街道上，它可以提示哪里有空余停车位，为无人驾驶汽车提供周边交通的逐秒数据，发布本地空气质量警报、结冰人行道提醒等等。"
+          },
+          {
+            "no": "10",
+            "en": "“The Internet of Things will change the way we live and how we interact with the environment around us,” says Kuoppamaki.",
+            "zh": "Kuoppamaki 说：“物联网将改变我们的生活方式，也会改变我们与周围环境互动的方式。”"
+          },
+          {
+            "no": "11",
+            "en": "Businesses will benefit, too. Industrial robots, drones and driverless trucks will be more responsive to obstacles and fast-changing conditions. Cables will be redundant, even for the most complex computer-controlled machines, making them easier to move around. Businesses will be free to reconfigure the factory floor in response to product changes or fluctuations in customer orders. “Today, it’s hard for factories to change quickly,” says Kuoppamaki. “If you can make equipment more mobile, you can reduce the time to market.” What’s more, he adds, sensors in the machinery will constantly feed remote AI software with the monitoring data it needs to self-adjust in response to variations in product quality, and to judge when the equipment requires preventive maintenance to avoid down-time and more expensive repairs.",
+            "zh": "企业也会受益。工业机器人、无人机和无人驾驶卡车将能更快响应障碍物和迅速变化的环境。即便是最复杂的计算机控制机器，电缆也会变得多余，从而更容易移动。企业可以根据产品变化或客户订单波动，自由重新配置工厂车间。Kuoppamaki 说：“今天，工厂很难快速改变。如果能让设备更具移动性，就能缩短产品上市时间。”他还补充说，机械中的传感器会持续向远程 AI 软件传送监测数据，使软件能够根据产品质量变化进行自我调整，并判断设备何时需要预防性维护，以避免停机和更昂贵的维修。"
+          },
+          {
+            "no": "12",
+            "en": "The 5G transformation won’t happen overnight, warns Kuoppamaki. The first wave of sophisticated applications are likely three or more years away. Cost may be a temporary barrier, too because currently, the only phones that can access 5G networks are top-of-the-line new models.",
+            "zh": "Kuoppamaki 警告说，5G 转型不会一夜之间完成。第一批复杂应用可能还需要三年或更久才会出现。成本也可能是暂时障碍，因为目前能够接入 5G 网络的手机只有最高端的新机型。"
+          },
+          {
+            "no": "13",
+            "en": "But the initial benefits, mostly those relating to speeding up existing applications, are already arriving.",
+            "zh": "不过，最初的收益已经到来，主要体现在加快现有应用的运行速度上。"
+          },
+          {
+            "no": "14",
+            "en": "“Like all new technologies, adoption starts in the high end, and then makes its way down,” he says. “It will only take a few years before we see 5G everywhere.” https://www.scientificamerican.com/custom-media/pictet/the-transformative- power-of-5g/",
+            "zh": "他说：“和所有新技术一样，采用会从高端开始，然后逐步向下普及。只需几年时间，我们就会看到 5G 无处不在。” https://www.scientificamerican.com/custom-media/pictet/the-transformative-power-of-5g/"
+          }
+        ]
+      },
+      {
+        "heading": "Qualcomm makes strides in 5G network development: Here’s what it means for you",
+        "headingZh": "高通在 5G 网络发展上取得进展：这对你意味着什么",
+        "meta": [
+          "By Christian de Looper, October 21, 2020"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "Qualcomm wants to make 5G more accessible, more common, and faster. The company recently held its annual 5G Day event, where it made a few announcements related to the rollout of 5G, the continued development of 5G tech, and more.",
+            "zh": "高通希望让 5G 更容易使用、更普及，也更快速。该公司最近举行年度 5G Day 活动，发布了几项与 5G 部署、5G 技术持续发展等相关的消息。"
+          },
+          {
+            "no": "2",
+            "en": "Of course, you might be wondering whether any of this really matters to you and how it will benefit the average smartphone user. Here’s a quick rundown (outline) of Qualcomm’s new 5G-related announcements, and what they could mean for you. Qualcomm wants to help build 5G infrastructure",
+            "zh": "当然，你也许会想，这些事情是否真的与你有关，又会如何让普通智能手机用户受益。下面简要梳理高通最新的 5G 相关公告，以及它们可能对你意味着什么：高通希望帮助建设 5G 基础设施。"
+          },
+          {
+            "no": "3",
+            "en": "Traditionally, Qualcomm has developed and manufactured chipsets and modems that can connect to 5G networks, but now it wants to play a bigger role in the actual infrastructure behind 5G. Specifically, the company is building Radio Access Network (RAN) chips, which are designed to be used in 5G base stations for your phone (or tablet, or computer) to connect.",
+            "zh": "传统上，高通开发并制造能够连接 5G 网络的芯片组和调制解调器；但现在，它希望在支撑 5G 的实际基础设施中发挥更大作用。具体来说，该公司正在打造无线电接入网（RAN）芯片，这类芯片用于 5G 基站，让你的手机、平板或电脑能够接入网络。"
+          },
+          {
+            "no": "4",
+            "en": "It’s important to note that Qualcomm won’t necessarily be directly competing with the likes of Huawei and Ericsson. Instead, it will supply those companies with the 5G chips and related software to power their infrastructure. That marks a shift for cell infrastructure, which has traditionally been built all by one company. Making 5G networks a little more modular also means that they could be more easily updated and developed without carriers having to deploy all-new infrastructure, but it remains to be seen if that will actually happen.",
+            "zh": "需要注意的是，高通未必会直接与华为、爱立信等公司竞争。相反，它会向这些公司提供 5G 芯片和相关软件，为它们的基础设施赋能。这标志着蜂窝网络基础设施的一种转变：传统上，这类基础设施往往由一家公司整体搭建。让 5G 网络更加模块化，也意味着它们可能更容易更新和发展，运营商不必每次都部署全新基础设施；不过，这是否会真正发生仍有待观察。"
+          },
+          {
+            "no": "5",
+            "en": "But what does that mean for you? Well, Qualcomm has been a leader in the 5G world for some time, and it entering this particular business could help make real-world 5G networks faster and more reliable. Unlike other companies, Qualcomm has expertise in the end-user device chipsets, too, so it knows exactly how to make them interoperate for the best performance. Qualcomm’s chips, of course, support the super-fast mmWave (millimeter- wave) networks, and the widespread Sub-6 networks, so if they become widespread, you may get much better mmWave support. There’s a new record for fastest 5G speeds",
+            "zh": "那么，这对你意味着什么？高通长期以来一直是 5G 领域的领导者，它进入这一特定业务，可能有助于让现实中的 5G 网络更快、更可靠。不同于其他公司，高通也熟悉终端用户设备中的芯片组，因此它很清楚怎样让这些设备彼此协同，以获得最佳性能。高通芯片当然支持超高速的毫米波（mmWave）网络，也支持覆盖更广的 Sub-6 网络；如果这些方案普及，你可能会获得更好的毫米波支持。5G 最快速度也有了新纪录。"
+          },
+          {
+            "no": "6",
+            "en": "Qualcomm also announced that in partnership with Verizon and Ericsson, it achieved a peak 5G speed of a whopping (very large) 5.06Gbps. The speed was achieved with a bunch of fancy tech on a mmWave network and using what’s called carrier aggregation, which combines multiple channels to make for faster speeds.",
+            "zh": "高通还宣布，它与 Verizon 和爱立信合作，实现了高达 5.06Gbps 的 5G 峰值速度。这一速度是在毫米波网络上借助一系列先进技术实现的，其中包括所谓“载波聚合”，也就是把多个信道组合起来以获得更快速度。"
+          },
+          {
+            "no": "7",
+            "en": "According to Qualcomm, 5G will eventually reach speeds of 10Gbps(gigabytes千兆字节）, but that’s just talk right now — we’ll have to wait and see if that happens and if it’s accessible.",
+            "zh": "高通称，5G 最终将达到 10Gbps 的速度，但目前这还只是说法，我们还得等待，看它是否真的能实现，以及普通用户能否用得上。"
+          },
+          {
+            "no": "8",
+            "en": "It’s important to be very clear about how Qualcomm achieved this huge peak speed — in a tightly controlled lab environment. In other words, carriers aren’t going to be able to flick a switch and turn on 5Gbps speeds anytime soon.",
+            "zh": "必须说清楚的是，高通是在严格控制的实验室环境中实现这一巨大峰值速度的。换句话说，运营商短期内并不能按下一个开关，就立刻开启 5Gbps 网速。"
+          },
+          {
+            "no": "9",
+            "en": "But that doesn’t mean that it won’t benefit you. As companies like Qualcomm continue to work on 5G development, and as the tech gets better and better it will eventually make its way to the real world. When it does, you likely won’t get 5Gbps, considering things like distance, obstacles, and the number of people using the same cell tower as you. But you should still get faster speeds than you did before, and hopefully, faster speeds than you’ll get on even the best 4G LTE networks. https://www.digitaltrends.com/mobile/qualcomm-5g-day-2020-roundup/",
+            "zh": "但这并不意味着它对你没有好处。随着高通等公司持续推进 5G 开发、技术不断成熟，这些成果最终会进入现实世界。到那时，考虑到距离、障碍物以及与你共用同一基站的人数等因素，你可能拿不到 5Gbps 的速度。但你仍应获得比过去更快的网速，并且有望超过最好的 4G LTE 网络。 https://www.digitaltrends.com/mobile/qualcomm-5g-day-2020-roundup/"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "Internet of Things (IOT)",
+        "zh": "",
+        "note": "A system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers ( UIDs ) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction."
+      },
+      {
+        "en": "T-Mobile",
+        "zh": "",
+        "note": "A multinational mobile phone operator. It is a subsidiary of German Telecom and belongs to the Freemove Union. T-Mobile operate GSM networks in Western Europe and the United States and participate in network operations in Eastern Europe and South-East Asia through financial means. The company has 109 million users and is one of the world's largest mobile phone companies."
+      },
+      {
+        "en": "8K image resolution 8K分辨率",
+        "zh": "",
+        "note": ""
+      },
+      {
+        "en": "ultra-high-definition 4K images超高清4K图像",
+        "zh": "",
+        "note": ""
+      },
+      {
+        "en": "virtual reality (VR) 虚拟现实",
+        "zh": "",
+        "note": "An artificial environment created with computer hardware and software and presented to the user in such a way that it appears and feels like a real environment."
+      },
+      {
+        "en": "VR goggles VR眼镜即VR头显，虚拟现实头戴式显示设备",
+        "zh": "",
+        "note": ""
+      },
+      {
+        "en": "augmented reality (AR) 增强现实",
+        "zh": "",
+        "note": "A type of virtual reality that aims to duplicate the world’s environment in a computer. An augmented reality system generates a composite view for the user that is the combination of the real scene viewed by the user and a virtual scene generated by the computer that augments the scene with additional information."
+      },
+      {
+        "en": "down-time停机时间；停工期",
+        "zh": "",
+        "note": ""
+      },
+      {
+        "en": "Qualcomm高通公司",
+        "zh": "",
+        "note": "Founded in 1985 and headquartered in San Diego, California, USA, Qualcomm is the world's leading wireless technology innovator and has changed the way the world connects, computes and communicates. Its invention opened the era of mobile interconnection."
+      },
+      {
+        "en": "Radio Access Network (RAN) 无线电接入网",
+        "zh": "",
+        "note": "A part of a mobile communication system and the realization of radio access technology. It exists on a device, a mobile phone, a computer, or any remotely controlled machine with a core network and provides a communication connection between the two."
+      },
+      {
+        "en": "mmWave (millimeter-wave)毫米波",
+        "zh": "",
+        "note": "Millimeter wave is an electromagnetic wave between microwave and light wave. Usually millimeter wave band refers to 30 GHz~300 GHz, corresponding wavelength is 1 mmGHz~10 mm.. The millimeter wave communication refers to the communication with millimeter wave as the carrier of information transmission."
+      },
+      {
+        "en": "Sub-6",
+        "zh": "",
+        "note": "The global 5 G network frequency band is mainly divided into two major ranges: Sub-6GHz and millimeter wave. At present, the main use of this band in China is Sub-6GHz, which has strong signal penetration but slower speed of data transmission than that of millimeter wave."
+      },
+      {
+        "en": "Verizon威瑞森电信",
+        "zh": "",
+        "note": "The largest local telephone company and the largest wireless communications company in the United States."
+      },
+      {
+        "en": "Ericsson爱立信公司",
+        "zh": "",
+        "note": "Founded in 1876 in Stockholm, Sweden., Ericsson is the world's largest provider of mobile communications networks."
+      },
+      {
+        "en": "carrier aggregation载波聚合",
+        "zh": "",
+        "note": "The aggregation of two or more carrier units (Component Carrier) to support a larger transmission bandwidth (up to 100 MHz)."
+      },
+      {
+        "en": "LTE (Long Term Evolution)长期演进技术",
+        "zh": "",
+        "note": "LTE (Long Term Evolution) project is an evolution of 3G, a transition between 3 G and 4 technologies, and a global standard of 3.9 G, which improves and enhances 3G air access technology by using OFDM and MIMO as the sole criteria for its wireless network evolution."
+      }
+    ],
+    "questions": []
+  },
+  {
+    "slug": "press-reading-unit-4-robots",
+    "unit": "Unit 4 Reading",
+    "title": "Designing customized brains for robots",
+    "source": "MIT News",
+    "file": "Unit 4 reading.docx",
+    "articles": [
+      {
+        "heading": "Designing customized “brains” for robots",
+        "headingZh": "为机器人设计定制“大脑”",
+        "meta": [
+          "A new system devises hardware architectures to hasten robots’ response time",
+          "Daniel Ackerman | MIT News Office",
+          "Publication Date: January 21, 2021"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "Contemporary robots can move quickly. “The motors are fast, and they’re powerful,” says Sabrina Neuman.",
+            "zh": "当代机器人可以移动得很快。Sabrina Neuman 说：“电机速度快，而且动力强。”"
+          },
+          {
+            "no": "2",
+            "en": "Yet in complex situations, like interactions with people, robots often don’t move quickly. “The hang up is what’s going on in the robot’s head,” she adds.",
+            "zh": "然而，在复杂情境中，比如与人互动时，机器人往往动不快。她补充说：“卡住它们的是机器人大脑里正在发生的事。”"
+          },
+          {
+            "no": "3",
+            "en": "Perceiving stimuli and calculating a response takes a “boatload of computation,” which limits reaction time, says Neuman, who recently graduated with a PhD from the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). Neuman has found a way to fight this mismatch between a robot’s “mind” and body. The method, called robomorphic computing, uses a robot’s physical layout and intended applications to generate a customized computer chip that minimizes the robot’s response time.",
+            "zh": "Neuman 最近从麻省理工学院计算机科学与人工智能实验室（CSAIL）获得博士学位。她说，感知刺激并计算反应需要“海量计算”，这限制了反应速度。Neuman 找到了一种方法来应对机器人“心智”和身体之间的不匹配。该方法称为机器人形态计算，它利用机器人的物理布局和预期应用，生成一枚定制计算机芯片，从而尽量缩短机器人的响应时间。"
+          },
+          {
+            "no": "4",
+            "en": "The advance could fuel a variety of robotics applications, including, potentially, frontline medical care of contagious patients. “It would be fantastic if we could have robots that could help reduce risk for patients and hospital workers,” says Neuman.",
+            "zh": "这一进展可能推动多种机器人应用，甚至包括传染病患者的一线医疗护理。Neuman 说：“如果我们能拥有帮助降低患者和医院工作人员风险的机器人，那将非常好。”"
+          },
+          {
+            "no": "5",
+            "en": "Neuman will present the research at this April’s International Conference on Architectural Support for Programming Languages and Operating Systems. MIT co-authors include graduate student Thomas Bourgeat and Srini Devadas, the Edwin Sibley Webster Professor of Electrical Engineering and Neuman’s PhD advisor. Other co-authors include Brian Plancher, Thierry Tambe, and Vijay Janapa Reddi, all of Harvard University. Neuman is now a postdoctoral NSF Computing Innovation Fellow at Harvard’s School of Engineering and Applied Sciences.",
+            "zh": "Neuman 将在今年 4 月的“编程语言和操作系统架构支持国际会议”上介绍这项研究。麻省理工学院的合作者包括研究生 Thomas Bourgeat，以及 Edwin Sibley Webster 电气工程教授、Neuman 的博士导师 Srini Devadas。其他合作者包括哈佛大学的 Brian Plancher、Thierry Tambe 和 Vijay Janapa Reddi。Neuman 目前是哈佛大学工程与应用科学学院的 NSF 计算创新博士后研究员。"
+          },
+          {
+            "no": "6",
+            "en": "There are three main steps in a robot’s operation, according to Neuman. The first is perception, which includes gathering data using sensors or cameras. The second is mapping and localization: “Based on what they’ve seen, they have to construct a map of the world around them and then localize themselves within that map,” says Neuman. The third step is motion planning and control — in other words, plotting a course of action.",
+            "zh": "Neuman 表示，机器人运行主要有三个步骤。第一步是感知，包括通过传感器或摄像头收集数据。第二步是建图和定位。Neuman 说：“根据它们看到的内容，它们必须构建周围世界的地图，然后在这张地图中确定自身位置。”第三步是运动规划和控制，换句话说，就是规划行动路线。"
+          },
+          {
+            "no": "7",
+            "en": "These steps can take time and an awful lot of computing power. “For robots to be deployed into the field and safely operate in dynamic environments around humans, they need to be able to think and react very quickly,” says Plancher. “Current algorithms cannot be run on current CPU hardware fast enough.”",
+            "zh": "这些步骤可能很耗时，也需要极大的算力。Plancher 说：“机器人若要部署到现场，并在人类周围的动态环境中安全运行，就必须能够非常快速地思考和反应。现有算法在当前 CPU 硬件上运行得还不够快。”"
+          },
+          {
+            "no": "8",
+            "en": "Neuman adds that researchers have been investigating better algorithms, but she thinks software improvements alone aren’t the answer. “What’s relatively new is the idea that you might also explore better hardware.” That means moving beyond a standard-issue CPU processing chip that comprises a robot’s brain — with the help of hardware acceleration.",
+            "zh": "Neuman 补充说，研究人员一直在探索更好的算法，但她认为仅靠软件改进并不是答案。“相对较新的想法是，也可以探索更好的硬件。”这意味着借助硬件加速，超越构成机器人“大脑”的标准 CPU 处理芯片。"
+          },
+          {
+            "no": "9",
+            "en": "Hardware acceleration refers to the use of a specialized hardware unit to perform certain computing tasks more efficiently. A commonly used hardware accelerator is the graphics processing unit (GPU), a chip specialized for parallel processing. These devices are handy for graphics because their parallel structure allows them to simultaneously process thousands of pixels. “A GPU is not the best at everything, but it’s the best at what it’s built for,” says Neuman. “You get higher performance for a particular application.” Most robots are designed with an intended set of applications and could therefore benefit from hardware acceleration. That’s why Neuman’s team developed robomorphic computing.",
+            "zh": "硬件加速指使用专门硬件单元，更高效地执行某些计算任务。常见硬件加速器是图形处理单元（GPU），这是一种专门用于并行处理的芯片。它们适合图形处理，因为并行结构允许它们同时处理成千上万个像素。Neuman 说：“GPU 并不是样样都最强，但它最擅长自己被设计来完成的任务。对特定应用来说，你能获得更高性能。”大多数机器人都是围绕一组预期应用设计的，因此可以受益于硬件加速。这正是 Neuman 团队开发机器人形态计算的原因。"
+          },
+          {
+            "no": "10",
+            "en": "The system creates a customized hardware design to best serve a particular robot’s computing needs. The user inputs the parameters of a robot, like its limb layout and how its various joints can move. Neuman’s system translates these physical properties into mathematical matrices. These matrices are “sparse,” meaning they contain many zero values that roughly correspond to movements that are impossible given a robot’s particular anatomy. (Similarly, your arm’s movements are limited because it can only bend at certain joints — it’s not an infinitely pliable spaghetti noodle.)",
+            "zh": "该系统会创建定制硬件设计，以更好服务某个特定机器人的计算需求。用户输入机器人的参数，例如肢体布局以及各关节的运动方式。Neuman 的系统会把这些物理属性转化为数学矩阵。这些矩阵是“稀疏的”，也就是说其中包含许多零值，大致对应于受该机器人特定身体结构限制而不可能发生的运动。（同样，你的手臂运动也有限制，因为它只能在某些关节处弯曲，而不是一根可以无限弯折的意大利面。）"
+          },
+          {
+            "no": "11",
+            "en": "The system then designs a hardware architecture specialized to run calculations only on the non-zero values in the matrices. The resulting chip design is therefore tailored to maximize efficiency for the robot’s computing needs. And that customization paid off in testing.",
+            "zh": "随后，系统会设计一种硬件架构，专门只对矩阵中的非零值进行计算。因此，最终芯片设计会针对机器人的计算需求进行定制，以最大化效率。测试表明，这种定制取得了成效。"
+          },
+          {
+            "no": "12",
+            "en": "Hardware architecture designed using this method for a particular application outperformed off-the-shelf CPU and GPU units. While Neuman’s team didn’t fabricate a specialized chip from scratch, they programmed a customizable field-programmable gate array (FPGA) chip according to their system’s suggestions. Despite operating at a slower clock rate, that chip performed eight times faster than the CPU and 86 times faster than the GPU.",
+            "zh": "用这种方法为特定应用设计的硬件架构，表现优于现成 CPU 和 GPU。Neuman 团队虽然没有从零开始制造专用芯片，但根据系统建议，对可定制的现场可编程门阵列（FPGA）芯片进行了编程。尽管该芯片运行时钟频率较低，其执行速度仍比 CPU 快 8 倍，比 GPU 快 86 倍。"
+          },
+          {
+            "no": "13",
+            "en": "“I was thrilled with those results,” says Neuman. “Even though we were hamstrung by the lower clock speed, we made up for it by just being more efficient.”",
+            "zh": "Neuman 说：“这些结果让我非常兴奋。虽然较低的时钟速度限制了我们，但我们通过更高效率弥补了这一点。”"
+          },
+          {
+            "no": "14",
+            "en": "Plancher sees widespread potential for robomorphic computing. “Ideally we can eventually fabricate a custom motion-planning chip for every robot, allowing them to quickly compute safe and efficient motions,” he says. “I wouldn’t be surprised if 20 years from now every robot had a handful of custom computer chips powering it, and this could be one of them.” Neuman adds that robomorphic computing might allow robots to relieve humans of risk in a range of settings, such as caring for covid-19 patients or manipulating heavy objects.",
+            "zh": "Plancher 看到了机器人形态计算的广泛潜力。他说：“理想情况下，我们最终可以为每台机器人制造定制运动规划芯片，让它们快速计算安全、高效的动作。若 20 年后每台机器人都由几枚定制计算机芯片驱动，我不会感到惊讶，而这可能就是其中之一。”Neuman 补充说，机器人形态计算或许能让机器人在多种场景中替人承担风险，例如照护新冠患者或搬运重物。"
+          },
+          {
+            "no": "15",
+            "en": "“This work is exciting because it shows how specialized circuit designs can be used to accelerate a core component of robot control,” says Robin Deits, a robotics engineer at Boston Dynamics who was not involved in the research. “Software performance is crucial for robotics because the real world never waits around for the robot to finish thinking.” He adds that Neuman’s advance could enable robots to think faster, “unlocking exciting behaviors that previously would be too computationally difficult.”",
+            "zh": "未参与这项研究的波士顿动力机器人工程师 Robin Deits 表示：“这项工作令人兴奋，因为它展示了如何用专用电路设计来加速机器人控制的核心组成部分。软件性能对机器人至关重要，因为现实世界永远不会等机器人思考完。”他补充说，Neuman 的进展可能让机器人思考得更快，“实现一些过去因计算难度过高而无法完成的精彩行为”。"
+          },
+          {
+            "no": "16",
+            "en": "Neuman next plans to automate the entire system of robomorphic computing. Users will simply drag and drop their robot’s parameters, and “out the other end comes the hardware description. I think that’s the thing that’ll push it over the edge and make it really useful.”",
+            "zh": "Neuman 下一步计划让整个机器人形态计算系统自动化。用户只需拖放机器人的参数，“另一端就会生成硬件描述。我认为这正是把它推过临界点、让它真正有用的关键。”"
+          },
+          {
+            "no": "17",
+            "en": "This research was funded by the National Science Foundation, the Computing Research Agency, the CIFellows Project, and the Defense Advanced Research Projects Agency. The material is available at https://news.mit.edu/2021/robot-customized-hardware-0121",
+            "zh": "这项研究由美国国家科学基金会、计算研究协会、CIFellows 项目和国防高级研究计划局资助。原文材料见：https://news.mit.edu/2021/robot-customized-hardware-0121"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "hang up",
+        "zh": "搁置；悬挂",
+        "note": ""
+      },
+      {
+        "en": "stimuli",
+        "zh": "刺激",
+        "note": ""
+      },
+      {
+        "en": "boatload",
+        "zh": "一条船的货物；大量",
+        "note": ""
+      },
+      {
+        "en": "robomorphic",
+        "zh": "机器人形态的",
+        "note": ""
+      },
+      {
+        "en": "contagious",
+        "zh": "传染的",
+        "note": ""
+      },
+      {
+        "en": "fellow",
+        "zh": "研究员",
+        "note": ""
+      },
+      {
+        "en": "algorithms ['ælɡərɪðəm]",
+        "zh": "算法",
+        "note": ""
+      },
+      {
+        "en": "standard-issue",
+        "zh": "[军]常规的",
+        "note": ""
+      },
+      {
+        "en": "graphics processing unit, GPU",
+        "zh": "图形处理器",
+        "note": ""
+      },
+      {
+        "en": "handy",
+        "zh": "方便的；手边的",
+        "note": ""
+      },
+      {
+        "en": "pixels",
+        "zh": "像素",
+        "note": ""
+      },
+      {
+        "en": "sparse",
+        "zh": "稀少的；稀疏的",
+        "note": ""
+      },
+      {
+        "en": "pliable",
+        "zh": "易曲折的；柔软的",
+        "note": ""
+      },
+      {
+        "en": "tailored",
+        "zh": "特制的；合身的",
+        "note": ""
+      },
+      {
+        "en": "paid off",
+        "zh": "付清； 得到好处/回报",
+        "note": ""
+      },
+      {
+        "en": "off-the-shelf",
+        "zh": "成品的；现成的",
+        "note": ""
+      },
+      {
+        "en": "gate array",
+        "zh": "门数组，门阵列",
+        "note": ""
+      },
+      {
+        "en": "clock rate",
+        "zh": "时钟速率",
+        "note": ""
+      },
+      {
+        "en": "hamstrung",
+        "zh": "残废的；做不了的（hamstring的过去式和过去分词形式）",
+        "note": ""
+      },
+      {
+        "en": "custom motion-planning",
+        "zh": "定做的/定制的移动规划",
+        "note": ""
+      },
+      {
+        "en": "unlock",
+        "zh": "开锁；开启；揭开",
+        "note": ""
+      },
+      {
+        "en": "drag and drop",
+        "zh": "拖放",
+        "note": ""
+      },
+      {
+        "en": "CIFellows Project",
+        "zh": "Computing Innovation Fellows Project，计算创新研究员项目",
+        "note": ""
+      }
+    ],
+    "questions": [
+      {
+        "en": "What slows down the response time of robots in complex situations?",
+        "zh": "是什么导致机器人在复杂情况下的响应时间变慢？"
+      },
+      {
+        "en": "What is the way Neuman has found to fight the mismatch between a robot’s “mind” and body?",
+        "zh": "Neuman 找到了什么方法来解决机器人“心智”和身体之间的不匹配？"
+      },
+      {
+        "en": "What are major steps in a robot’s operation?",
+        "zh": "机器人运行的主要步骤是什么？"
+      },
+      {
+        "en": "What could be widespread potential for robomorphic computing?",
+        "zh": "机器人形态计算可能有哪些广泛应用潜力？"
+      }
+    ]
+  },
+  {
+    "slug": "press-reading-unit-5-materials",
+    "unit": "Unit 5 Readings",
+    "title": "3D Printing Polymers / Recycling Plastics",
+    "source": "UC Santa Barbara / Science News",
+    "file": "Unit 5 阅读两篇.docx",
+    "articles": [
+      {
+        "heading": "3D Printing Polymers",
+        "headingZh": "3D 打印聚合物",
+        "meta": [
+          "The material yields soft, elastic objects that feel like human tissue",
+          "By James Badham"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "Researchers in the labs of Christopher Bates, an assistant professor of materials at UC Santa Barbara, and Michael Chabinyc, a professor of materials and chair of the department, have teamed to develop the first 3D-printable \"bottlebrush\" elastomer[1] . The new material results in printed objects that have unusual softness and elasticity -- mechanical properties that closely resemble those of human tissue.",
+            "zh": "加州大学圣巴巴拉分校材料学助理教授 Christopher Bates 与材料学教授、系主任 Michael Chabinyc 实验室的研究人员合作，开发出首种可 3D 打印的“瓶刷”弹性体[1]。这种新材料打印出的物体具有异常柔软和富有弹性的特点，其机械性能与人体组织十分接近。"
+          },
+          {
+            "no": "2",
+            "en": "Conventional elastomers, i.e. rubbers, are stiffer than many biological tissues. That's due to the size and shape of their constituent polymers[2] , which are long, linear molecules that easily entangle like cooked spaghetti. In contrast, bottlebrush polymers have additional polymers attached to the linear backbone, leading to a structure more akin to a bottle brush you might find in your kitchen. The bottlebrush polymer structure imparts (赋予） the ability to form extremely soft elastomers.",
+            "zh": "传统弹性体，也就是橡胶，比许多生物组织更硬。原因在于其组成聚合物[2]的尺寸和形状：这些聚合物是长而线性的分子，很容易像煮熟的意大利面一样缠结在一起。相比之下，瓶刷聚合物在线性主链上连接了额外的聚合物，形成的结构更像厨房里的瓶刷。这种瓶刷聚合物结构使材料能够形成极其柔软的弹性体。"
+          },
+          {
+            "no": "3",
+            "en": "The ability to 3D-print bottlebrush elastomers makes it possible to leverage these unique mechanical properties in applications that require careful control over the dimensions of objects ranging from biomimetic[3] tissue like implants to high-sensitivity electronic devices, such as touch pads, sensors and actuators.",
+            "zh": "能够 3D 打印瓶刷弹性体，意味着这些独特机械性能可以用于那些需要精确控制物体尺寸的应用，从类似植入物的仿生[3]组织，到高灵敏度电子设备，如触摸板、传感器和执行器。"
+          },
+          {
+            "no": "4",
+            "en": "Two postdoctoral researchers -- Renxuan Xie and Sanjoy Mukherjee -- played key roles in developing the new material. Their findings were published in the journal Science Advances.",
+            "zh": "两位博士后研究人员谢仁轩和 Sanjoy Mukherjee 在开发这种新材料中发挥了关键作用。他们的研究成果发表在《科学进展》杂志上。"
+          },
+          {
+            "no": "5",
+            "en": "Xie's and Mukherjee's key discovery involves the self-assembly of bottlebrush polymers at the nanometer length scale, which causes a solid-to-liquid transition in response to applied pressure. This material is categorized as a yield-stress fluid[4], meaning it begins as a semi-soft solid that holds its shape, like butter or toothpaste, but when sufficient pressure is applied, it liquefies and can be squeezed through a syringe. The team exploits this property to create inks in a 3D-printing process called direct ink writing (DIW).",
+            "zh": "Xie 和 Mukherjee 的关键发现与瓶刷聚合物在纳米尺度上的自组装有关：材料在外加压力作用下会发生从固体到液体的转变。这种材料被归类为屈服应力流体[4]，也就是说，它最初是能保持形状的半软固体，像黄油或牙膏一样；但当施加足够压力时，它会液化，并可通过注射器挤出。团队利用这一性质，为一种称为直接墨水书写（DIW）的 3D 打印工艺制备墨水。"
+          },
+          {
+            "no": "6",
+            "en": "The researchers can tune the material to flow under various amounts of pressure to match the desired processing conditions. \"For instance, maybe you want the polymer to hold its shape under a different level of stress, such as when vibration is present,\" says Xie. \"Our material can hold its shape for hours. That's important, because if the material sags[5] during printing, the printed part will have poor structural stability.\"",
+            "zh": "研究人员可以调节材料在不同压力下的流动行为，以匹配所需加工条件。Xie 说：“例如，在有振动的情况下，你也许希望聚合物能在不同应力水平下保持形状。我们的材料可以保持形状数小时。这很重要，因为如果材料在打印过程中下垂[5]，打印件的结构稳定性就会很差。”"
+          },
+          {
+            "no": "7",
+            "en": "Once the object is printed, UV light is shined onto it to activate crosslinkers[6] that Mukherjee synthesized and included as a part of the ink formulation. The crosslinkers can link up nearby bottlebrush polymers, resulting in a super-soft elastomer. At that point, the material becomes a permanent solid -- it will no longer liquefy[7] under pressure -- and exhibits extraordinary properties.",
+            "zh": "物体打印完成后，研究人员会用紫外光照射它，以激活 Mukherjee 合成并加入墨水配方中的交联剂[6]。这些交联剂可以把附近的瓶刷聚合物连接起来，形成超柔软弹性体。此时，材料变成永久固体，不再会在压力下液化[7]，并呈现出非凡性能。"
+          },
+          {
+            "no": "8",
+            "en": "\"We start with long polymers that are not crosslinked,\" said Xie. \"That allows them to flow like a fluid. But, after you shine the light on them, the small molecules between the polymer chains react and are linked together into a network, so you have a solid, an elastomer that, when stretched, will return to its original shape.",
+            "zh": "Xie 说：“我们一开始使用的是尚未交联的长聚合物，这使它们能够像流体一样流动。但当你用光照射它们后，聚合物链之间的小分子会发生反应，并连接成网络，于是你得到的就是一种固体、一种弹性体；被拉伸后，它会恢复原状。”"
+          },
+          {
+            "no": "9",
+            "en": "The softness of a material is measured in terms of its modulus[8] , and for most elastomers, it is rather high, meaning their stiffness and elasticity are similar to those of a rubber band. \"The modulus of our material is a thousand times smaller than that of a rubber band,\" Xie notes. \"It is super-soft -- it feels very much like human tissue -- and very stretchy. It can stretch about three to four times its length.\" An Accidental Ink",
+            "zh": "材料的柔软度用模量[8]衡量。对大多数弹性体来说，模量相当高，这意味着它们的刚度和弹性与橡皮筋相似。Xie 指出：“我们材料的模量比橡皮筋小一千倍。它超级柔软，触感非常像人体组织，而且很能拉伸，可拉长到自身长度的三到四倍。”一次偶然得到的墨水"
+          },
+          {
+            "no": "10",
+            "en": "Mukherjee discovered the material by accident, while trying to develop a material for a different project, one that would increase the amount of charge that can be stored by an actuator[9]. When the elastomer came to Xie for characterization, he knew immediately that it was special. \"I could see right away that it was different, because it could hold its shape so well,\" he recalled.",
+            "zh": "Mukherjee 是在为另一个项目开发材料时偶然发现这种材料的；那个项目原本旨在提高执行器[9]可存储的电荷量。当这种弹性体交到 Xie 手中做性能表征时，他立刻意识到它很特别。他回忆说：“我马上就看出它不一样，因为它能很好地保持形状。”"
+          },
+          {
+            "no": "11",
+            "en": "\"When we saw this really well-defined yield stress, it dawned on everyone collectively that we could 3D-print it,\" Bates said, \"and that would be cool, because none of the 3D-printable materials we know of have this super-soft property.\"",
+            "zh": "Bates 说：“当我们看到这种非常明确的屈服应力时，大家同时意识到我们可以对它进行 3D 打印。这会很有意思，因为据我们所知，没有哪种可 3D 打印材料具备这种超柔软特性。”"
+          },
+          {
+            "no": "12",
+            "en": "Bottlebrush polymers have been around for more than twenty years. But, Bates said, \"The field has exploded in the past ten years thanks to advances in synthetic chemistry that provide exquisite control over the size and shape of these unique molecules.",
+            "zh": "瓶刷聚合物已经存在二十多年。不过 Bates 表示：“过去十年，得益于合成化学的进步，人们能够精细控制这些独特分子的尺寸和形状，这一领域因此迅速发展。”"
+          },
+          {
+            "no": "13",
+            "en": "\"These super-soft elastomers might be applicable as implants[10],\" he added. \"You may be able to reduce inflammation（炎症） and rejection by the body if the mechanical properties of an implant match native tissue.\"",
+            "zh": "他补充说：“这些超柔软弹性体或许可用于植入物[10]。如果植入物的机械性能与天然组织相匹配，就可能减少人体炎症和排斥反应。”"
+          },
+          {
+            "no": "14",
+            "en": "Another important element of the new material is that it is pure polymer, Chabinyc noted.\"There's no water or other solvent in them to artificially make them softer,\" he said.",
+            "zh": "Chabinyc 指出，这种新材料的另一个重要特点是它是纯聚合物。他说：“其中没有水或其他溶剂来人为地让它变软。”"
+          },
+          {
+            "no": "15",
+            "en": "To understand the importance of having no water in the polymer, it's helpful to think of Jell-O, which is mostly water and can hold its shape, but only as long as the water remains inside. \"If the water went away, then you'd just have a shapeless pile of material,\" said Chabinyc. \"With a conventional polymer, you must figure out how to keep the right amount of water in it to maintain its structure, but this new material is all solid, so it will never change.\"",
+            "zh": "要理解聚合物中不含水的重要性，可以想想果冻。果冻大部分是水，也能保持形状，但前提是水一直留在里面。Chabinyc 说：“如果水没了，剩下的就只是一堆没有形状的材料。对传统聚合物来说，你必须想办法让其中保留适量水分，以维持结构；但这种新材料完全是固体，因此永远不会这样变化。”"
+          },
+          {
+            "no": "16",
+            "en": "Moreover, the new material can be 3D-printed and processed without solvent, which is also unusual. \"People often add solvent to liquify a solid so that it can be squeezed out of a nozzle,\" said Xie, \"but if you add solvent, it has to evaporate after printing causing the object to change its shape or crack.\"",
+            "zh": "此外，这种新材料可以在无溶剂条件下进行 3D 打印和加工，这一点也很少见。Xie 说：“人们常常添加溶剂来让固体液化，以便从喷嘴挤出；但如果加入溶剂，打印后它必须蒸发，这会导致物体变形或开裂。”"
+          },
+          {
+            "no": "17",
+            "en": "Mukherjee added, \"We wanted the material and the printing process to be as clean and as easy as possible, so we played a chemistry trick with solubility and self-assembly, which enabled the solvent-free process. The fact that we don't use solvent is a tremendous advantage.\"",
+            "zh": "Mukherjee 补充说：“我们希望材料和打印过程尽可能干净、简单，所以在溶解性和自组装上用了一个化学技巧，从而实现无溶剂工艺。不使用溶剂本身就是一个巨大优势。”"
+          }
+        ]
+      },
+      {
+        "heading": "Chemists are reimagining recycling to keep plastics out of landfills",
+        "headingZh": "化学家正在重新构想回收方式，让塑料远离填埋场",
+        "meta": [
+          "Too much of today's plastic is impossible to recycle",
+          "By Maria Temming"
+        ],
+        "paragraphs": [
+          {
+            "no": "1",
+            "en": "It feels good to recycle. There’s a certain sense of accomplishment that comes from dutifully sorting soda bottles, plastic bags and yogurt cups from the rest of the garbage. The more plastic you put in that blue bin, the more you’re keeping out of landfills and the oceans, right?",
+            "zh": "回收会让人感觉不错。认真把汽水瓶、塑料袋和酸奶杯从其他垃圾中分出来，确实会带来某种成就感。你投入蓝色回收桶的塑料越多，就越能让它们远离垃圾填埋场和海洋，对吧？"
+          },
+          {
+            "no": "2",
+            "en": "Wrong. No matter how meticulous you are in cleaning and separating your plastics, most end up in the trash heap anyway.",
+            "zh": "并非如此。无论你多么细致地清洗并分类塑料，大多数最终还是会进入垃圾堆。"
+          },
+          {
+            "no": "3",
+            "en": "Take flexible food packages. Those films contain several layers of different plastics. Because each plastic has to be recycled separately, those films are not recyclable. Grocery bags and shrink wrap are too flimsy, prone to getting tangled up with other materials on a conveyor belt. The polypropylene[11]in yogurt cups and other items doesn’t usually get recycled either; recycling a hodgepodge[12] of polypropylene produces a dark, smelly plastic that few manufacturers will use.",
+            "zh": "以软质食品包装为例。这些薄膜包含多层不同塑料。由于每种塑料都必须分开回收，这些薄膜本身就无法回收。购物袋和收缩膜也太轻薄，容易在传送带上与其他材料缠在一起。酸奶杯等物品中的聚丙烯[11]通常也不会被回收；如果把混杂[12]的聚丙烯一起回收，得到的会是一种颜色发暗、带有气味的塑料，几乎没有制造商愿意使用。"
+          },
+          {
+            "no": "4",
+            "en": "Only two kinds of plastic are commonly recycled in the United States: the kind in plastic soda bottles, polyethylene terephthalate [13], or PET[14]; and the plastic found in milk jugs and detergent containers — high-density polyethylene, or HDPE.",
+            "zh": "在美国，常规回收的塑料只有两类：汽水瓶所用的聚对苯二甲酸乙二醇酯[13]，即 PET[14]；以及牛奶桶和洗涤剂容器所用的高密度聚乙烯，即 HDPE。"
+          },
+          {
+            "no": "5",
+            "en": "Together, those plastics make up only about a quarter of the world’s plastic trash, researchers reported in 2017 in Science Advances. And when those plastics are recycled, they aren’t good for much. Melting plastic down to recycle changes its consistency, so PET from bottles has to be mixed with brand-new plastic to make a sturdy final product. Recycling a mix of multicolored HDPE pieces creates a dark plastic good only for making products like park benches and waste bins, in which properties like color don’t matter much.",
+            "zh": "研究人员 2017 年在《科学进展》上报告称，这些塑料合起来也只占全球塑料垃圾约四分之一。而且即便它们被回收，用途也很有限。熔化塑料进行回收会改变材料的一致性，因此瓶子中的 PET 必须与全新塑料混合，才能制成结实的最终产品。多色 HDPE 碎片混合回收后会形成深色塑料，只适合制作公园长椅、垃圾桶等产品，因为这些产品不太在意颜色等属性。"
+          },
+          {
+            "no": "6",
+            "en": "The difficulties of recycling plastic into anything manufacturers want to use is a big reason why the world is littered with so much plastic waste, says Eric Beckman, a chemical engineer at the University of Pittsburgh. In 2018 alone, the United States landfilled 27 million tons of plastic and recycled a mere 3 million, according to the U.S. Environmental Protection Agency. Low recycling rates aren’t just a problem in the United States. Of the 6.3 billion tons of plastic that have been discarded around the world, only about 9 percent has gotten recycled. Another 12 percent has been burned, and almost 80 percent has piled up on land or in waterways. Good news/bad news",
+            "zh": "匹兹堡大学化学工程师 Eric Beckman 表示，塑料很难被回收成制造商愿意使用的材料，这是全球塑料垃圾遍地的重要原因。美国环境保护署数据显示，仅 2018 年，美国就填埋了 2700 万吨塑料，只回收了区区 300 万吨。低回收率并不只是美国的问题。全球已被丢弃的 63 亿吨塑料中，只有约 9% 被回收；另有 12% 被焚烧，近 80% 则堆积在陆地或水道中。好消息/坏消息"
+          },
+          {
+            "no": "7",
+            "en": "The amount of plastic recycled in the United States has increased over the last few decades — but those levels still pale in comparison with the amount of plastic that goes into landfills. Plastic waste management, 1960–2018 E. OTWELL SOURCE: EPA",
+            "zh": "过去几十年，美国回收的塑料数量有所增加，但与进入垃圾填埋场的塑料数量相比，仍然相形见绌。塑料废弃物管理，1960-2018。E. OTWELL，资料来源：EPA"
+          },
+          {
+            "no": "8",
+            "en": "With plastic collecting everywhere from the top of Mount Everest [15]to the bottom of the Mariana Trench[16], there’s an urgent need to reduce the amount of plastic that gets thrown away (SN: 1/16/21, p. 5). Some people propose replacing plastics with biodegradable materials, but those replacements are generally not as strong or cheap to make as plastics (SN: 6/22/19, p. 18). Since, realistically, plastic is not going away any time soon, chemists who understand the ins and outs of all this pesky [17]plastic are working to make it easier to recycle and turn into higher-quality material that’s useful for more things.",
+            "zh": "从珠穆朗玛峰顶[15]到马里亚纳海沟底部[16]，塑料无处不在，因此迫切需要减少被丢弃的塑料量（SN: 1/16/21, p. 5）。有人主张用可生物降解材料替代塑料，但这些替代材料通常不如塑料结实，生产成本也不如塑料低（SN: 6/22/19, p. 18）。现实地看，塑料短期内不会消失。因此，熟悉这些麻烦[17]塑料内情的化学家，正在努力让塑料更容易回收，并把它们转化为更高质量、用途更广的材料。"
+          },
+          {
+            "no": "9",
+            "en": "“There’s not going to be a single technology that’s going to be the answer,” says Ed Daniels, senior project manager at the REMADE Institute in West Henrietta, N.Y., which funds research into new recycling techniques. Some projects are on the brink of breaking into industry; others are still just promising lab experiments. But all are focused on designing a future where any plastic that ends up in the recycling bin can have a second and third life in a new product. 窗体底端 Picking plastics apart",
+            "zh": "纽约州西亨丽埃塔 REMADE 研究所高级项目经理 Ed Daniels 表示：“不会有某一项单独技术成为最终答案。”该研究所资助新回收技术研究。有些项目已接近进入产业界；另一些仍只是前景可期的实验室实验。但它们都指向同一个未来：任何进入回收箱的塑料，都能在新产品中获得第二次、第三次生命。拆解塑料"
+          },
+          {
+            "no": "10",
+            "en": "One of the biggest bottlenecks in plastic recycling is that every material has to get processed separately. “Most plastics are like oil and water,” says chemist Geoffrey Coates of Cornell University. They just don’t mix. Take, for example, a polyethylene detergent jug and its polypropylene cap. “If you melt those down, and I make a bottle out of that, and I squeeze it, it would basically crack down the side,” Coates says. “It’s crazy brittle. Totally worthless.”",
+            "zh": "塑料回收最大的瓶颈之一，是每种材料都必须分开处理。康奈尔大学化学家 Geoffrey Coates 说：“大多数塑料就像油和水一样，根本混不到一起。”以聚乙烯洗涤剂瓶和聚丙烯瓶盖为例。Coates 说：“如果把它们熔在一起，再拿来做一个瓶子，一挤基本就会从侧面裂开。它脆得离谱，完全没有价值。”"
+          },
+          {
+            "no": "11",
+            "en": "That’s why the first destination for plastic recyclables is a material recovery facility, where people and machines do the sorting. Separated plastics can then be washed, shredded, melted and remolded. The system works well for simple items like soda bottles and milk jugs. But not for items like deodorant [18]containers — where the bottle, crank and cap could all be made of different kinds of plastic. Food packaging films that contain several layers of different plastic are particularly tricky to take apart. Every year, 100 million tons of these multilayer films are produced worldwide. When thrown away, those plastics go to landfills, says chemical engineer George Huber of the University of Wisconsin–Madison. At the Waste Management Material Recovery Facility in Elkridge, Md., workers sort trash moving past them on conveyor belts. SAUL LOEB/AFP VIA GETTY IMAGES",
+            "zh": "因此，塑料可回收物的第一站是材料回收设施，在那里由人员和机器进行分拣。分开的塑料随后可以被清洗、切碎、熔化并重新成型。这个系统适用于汽水瓶、牛奶桶等简单物品，但不适用于除臭剂[18]容器这类产品，因为瓶身、旋钮和瓶盖可能分别由不同塑料制成。含有多层不同塑料的食品包装膜尤其难以拆解。威斯康星大学麦迪逊分校化学工程师 George Huber 表示，全球每年生产 1 亿吨此类多层薄膜，一旦被丢弃，它们就会进入垃圾填埋场。在马里兰州埃尔克里奇的 Waste Management 材料回收设施，工人们会分拣传送带上经过的垃圾。SAUL LOEB/AFP VIA GETTY IMAGES"
+          },
+          {
+            "no": "12",
+            "en": "To tackle that problem, Huber and colleagues devised a strategy for dealing with complex mixtures of plastics. The process uses a series of liquid solvents to dissolve individual plastic components off a product. The trick is choosing the right solvents to dissolve only one kind of plastic at a time, Huber says.",
+            "zh": "为解决这个问题，Huber 和同事设计了一种处理复杂塑料混合物的策略。这个过程使用一系列液体溶剂，逐一溶解产品中的不同塑料成分。Huber 说，关键在于选择合适溶剂，确保每次只溶解一种塑料。"
+          },
+          {
+            "no": "13",
+            "en": "The team tested the technique on a packaging film that contained polyethylene and PET, as well as a plastic oxygen barrier made of ethylene vinyl alcohol[19], or EVOH, that keeps food fresh.",
+            "zh": "该团队在一种包装膜上测试了这项技术。该薄膜含有聚乙烯和 PET，还含有一层由乙烯乙烯醇[19]（EVOH）制成、用于保持食物新鲜的塑料阻氧层。"
+          },
+          {
+            "no": "14",
+            "en": "Stirring the film into a toluene[20] solvent first dissolved the polyethylene layer. Dunking the remaining EVOH-PET film in a solvent called DMSO[21] stripped off the EVOH. The researchers then plucked out the remaining PET film and recovered the other two plastics from their separate solvents by mixing in “antisolvent” chemicals. Those chemicals caused the plastic molecules that were dispersed in the liquids to bunch together into solid clumps that could be fished out.",
+            "zh": "先把薄膜放入甲苯[20]溶剂中搅拌，可溶解聚乙烯层。再把剩余的 EVOH-PET 薄膜浸入一种名为 DMSO[21] 的溶剂中，可剥离 EVOH。随后，研究人员取出剩余的 PET 薄膜，并通过加入“反溶剂”化学品，从各自溶剂中回收另外两种塑料。这些化学品会使分散在液体中的塑料分子聚集成固体团块，便于捞出。"
+          },
+          {
+            "no": "15",
+            "en": "This process recovered practically all of the plastic from the original film, the researchers reported last November in Science Advances. When tested on a jumble of polyethylene, PET and EVOH beads, the solvent washes recovered more than 95 percent of each material — hinting that these solvents could be used to strip plastic components off bulkier items than packaging films. So in theory, recovery facilities could use this technique to disassemble multiplastic deodorant containers and other products of various shapes and sizes.",
+            "zh": "研究人员去年 11 月在《科学进展》上报告称，这一过程几乎回收了原始薄膜中的全部塑料。在一堆聚乙烯、PET 和 EVOH 珠粒上测试时，溶剂清洗回收了每种材料 95% 以上。这提示这些溶剂也可用于从比包装膜更厚重的物品上剥离塑料成分。因此，理论上回收设施可以利用这项技术，拆解多塑料除臭剂容器以及其他各种形状和尺寸的产品。"
+          },
+          {
+            "no": "16",
+            "en": "Huber and colleagues next plan to look for solvents to dissolve more kinds of plastic, such as the polystyrene [22]in Styrofoam[23] . But it will take a lot more work to make this strategy efficient at sorting all the intricate plastic combinations in real-world recyclables. False advertising",
+            "zh": "Huber 和同事下一步计划寻找能够溶解更多塑料的溶剂，例如泡沫塑料 Styrofoam[23] 中的聚苯乙烯[22]。但若要让这一策略高效分拣现实可回收物中各种复杂塑料组合，还需要大量工作。虚假广告"
+          },
+          {
+            "no": "17",
+            "en": "Many plastic products are labeled with a number inside a triangle that symbolizes recycling. Yet, only plastics with 1 (polyethylene terephthalate) or 2 (high-density polyethylene) are widely recycled in the United States. The rest typically go to the landfill. PET Water and soft drink bottles, salad domes, cookie trays, salad dressing and peanut butter containers HDPE Milk and juice bottles, freezer bags, shampoo and detergent bottles PVC Cosmetic containers, commercial cling wrap保鲜膜 LDPE Squeeze bottles, cling wrap, trash bags PP Microwave dishes, ice cream tubs, yogurt containers, detergent bottle caps PS CD cases, plastic disposable cups, plastic cutlery, video cases EPS Foam polystyrene hot drink cups, food takeaway trays, protective packaging for fragile items Other Water cooler bottles, flexible films, multimaterial packaging SOURCE: ELLEN MACARTHUR FOUNDATION 2017 Making plastics mix",
+            "zh": "许多塑料产品都会标上一个位于三角形中的数字，看起来像是回收标志。然而，在美国，只有标号 1（聚对苯二甲酸乙二醇酯）或 2（高密度聚乙烯）的塑料被广泛回收，其余通常进入填埋场。PET：水瓶和软饮料瓶、沙拉盒盖、饼干托盘、沙拉酱和花生酱容器。HDPE：牛奶和果汁瓶、冷冻袋、洗发水和洗涤剂瓶。PVC：化妆品容器、商用保鲜膜。LDPE：挤压瓶、保鲜膜、垃圾袋。PP：微波炉餐盒、冰淇淋桶、酸奶杯、洗涤剂瓶盖。PS：CD 盒、一次性塑料杯、塑料餐具、录像带盒。EPS：泡沫聚苯乙烯热饮杯、外卖餐盒、易碎物品保护包装。其他：饮水机桶、软质薄膜、多材料包装。资料来源：艾伦·麦克阿瑟基金会，2017。让塑料混合起来"
+          },
+          {
+            "no": "18",
+            "en": "There may also be chemical shortcuts that allow multilayer films and other mixtures of plastics to be recycled as they are. Additives called compatibilizers[24] help different melted-down plastics blend, so that unsorted materials can be treated as one. But there is no universal compatibilizer that allows every kind of plastic to be mixed together. And existing compatibilizers are not widely used because they are not very potent — and adding a lot of compatibilizer to a plastic blend gets expensive.",
+            "zh": "也可能存在一些化学捷径，使多层薄膜和其他塑料混合物能在不拆分的情况下回收。名为增容剂[24]的添加剂能帮助不同熔融塑料混合，使未分拣材料可以被当作一种材料处理。但目前没有一种通用增容剂能让所有塑料混在一起。现有增容剂也未被广泛使用，因为效力不够强；而向塑料混合物中加入大量增容剂又会提高成本。"
+          },
+          {
+            "no": "19",
+            "en": "To boost viability, Coates and colleagues created a highly potent compatibilizer for polyethylene and polypropylene. Together, those two plastics make up more than half of the world’s plastic. The new compatibilizer molecule contains two segments of polyethylene, interspersed with two segments of polypropylene. Those alternating segments latch onto plastic molecules of the same kind in a mixture, bringing polyethylene and polypropylene together. It’s as if polyethylene were made of Legos, and polypropylene were made of Duplos, and the researchers made a special building block with connectors that fit both types of blocks.",
+            "zh": "为提高可行性，Coates 和同事开发出一种针对聚乙烯和聚丙烯的高效增容剂。这两种塑料合计占全球塑料总量的一半以上。新的增容剂分子包含两个聚乙烯片段，并穿插两个聚丙烯片段。这些交替片段会抓住混合物中同类塑料分子，把聚乙烯和聚丙烯拉到一起。就好像聚乙烯由乐高积木构成，聚丙烯由 Duplo 积木构成，而研究人员做出了一块特殊积木，连接件能同时匹配两类积木。"
+          },
+          {
+            "no": "20",
+            "en": "Having two polyethylene and two polypropylene connectors for each compatibilizer molecule, rather than one, made this compatibilizer stronger than previous versions, Coates and colleagues reported in 2017 in Science. The first test of the new compatibilizer involved welding together strips of polyethylene and polypropylene. Ordinarily, the two materials easily peel apart. But with a layer of compatibilizer between them, the plastic strips broke, rather than the compatibilizer seal, when pulled apart.",
+            "zh": "Coates 和同事 2017 年在《科学》上报告称，每个增容剂分子不是只有一个连接点，而是有两个聚乙烯连接端和两个聚丙烯连接端，这让它比以往版本更强。对这种新增容剂的首次测试，是把聚乙烯条和聚丙烯条焊在一起。通常这两种材料很容易剥离；但在中间加入一层增容剂后，拉开时断裂的是塑料条，而不是增容剂形成的结合处。"
+          },
+          {
+            "no": "21",
+            "en": "In a second test, the researchers mixed the compatibilizer into a melted blend of polyethylene and polypropylene. It took only 1 percent compatibilizer to create a tough new plastic.",
+            "zh": "在第二次测试中，研究人员把增容剂混入熔融的聚乙烯和聚丙烯混合物。只需加入 1% 的增容剂，就能制成一种坚韧的新塑料。"
+          },
+          {
+            "no": "22",
+            "en": "“These are crazy potent additives,” Coates says. Other compatibilizers had to be added at concentrations up to 10 percent to hold these two plastics together. The new compatibilizer is now the basis for Coates’ start-up, Intermix Performance Materials, based in Ithaca, N.Y. Good as new",
+            "zh": "Coates 说：“这些添加剂效力惊人。”其他增容剂往往需要加入高达 10% 的浓度，才能把这两种塑料黏合在一起。这种新增容剂如今已成为 Coates 位于纽约州伊萨卡的初创公司 Intermix Performance Materials 的技术基础。像新的一样好"
+          },
+          {
+            "no": "23",
+            "en": "Even if every piece of plastic trash could easily be recycled, that still wouldn’t solve the world’s plastic problem. There are a couple major issues with how recycling currently works that severely limit the usability of recycled materials.",
+            "zh": "即便每一件塑料垃圾都能轻松回收，也仍不足以解决全球塑料问题。当前回收体系本身存在几个主要问题，严重限制了回收材料的可用性。"
+          },
+          {
+            "no": "24",
+            "en": "For one thing, recycled plastics inherit all the dyes, flame retardants and other additives that gave each original plastic piece its distinctive look and feel. “The plastic that you actually recover at the end of all this is really a very complex mixture,” says chemist Susannah Scott of the University of California, Santa Barbara. Few manufacturers can use plastic with a random mishmash [25]of properties to make something new.",
+            "zh": "首先，再生塑料会继承原始塑料中所有染料、阻燃剂和其他添加剂，而正是这些物质赋予了每件塑料独特的外观和触感。加州大学圣巴巴拉分校化学家 Susannah Scott 说：“最终真正回收得到的塑料，其实是一种非常复杂的混合物。”很少有制造商能够用这种性质随机混杂[25]的塑料来制造新产品。"
+          },
+          {
+            "no": "25",
+            "en": "Plus, recycling breaks some of the chemical bonds in plastic molecules, affecting the strength and consistency of the material. Melting down and remolding plastic is sort of like reheating pizza in the microwave — you get out basically what you put in, just not as good. That limits the number of times plastic can be recycled before it has to be landfilled.",
+            "zh": "其次，回收会破坏塑料分子中的部分化学键，影响材料强度和稳定性。熔化并重塑塑料有点像用微波炉重新加热披萨：拿出来的基本还是放进去的东西，只是没那么好了。这限制了塑料在最终进入填埋场之前能够被回收的次数。"
+          },
+          {
+            "no": "26",
+            "en": "The solution to both problems could lie in a new kind of recycling process, called chemical recycling, which promises to make pure new plastic an infinite number of times. Chemical recycling involves taking plastics apart on the molecular level.",
+            "zh": "解决这两个问题的办法，可能在于一种名为化学回收的新型回收工艺。它有望反复制造出纯净的新塑料。化学回收是在分子层面拆解塑料。"
+          },
+          {
+            "no": "27",
+            "en": "The molecules that make up plastics are called polymers, which are made of smaller monomers[26]. Using heat and chemicals, it is possible to disassemble polymers into monomers, separate those building blocks from dyes and other contaminants, and piece the monomers back together into good-as-new plastic.",
+            "zh": "构成塑料的分子叫作聚合物，由更小的单体[26]组成。借助热量和化学物质，可以把聚合物拆解成单体，将这些构件与染料和其他污染物分离，再把单体重新拼接成如同全新的塑料。"
+          },
+          {
+            "no": "28",
+            "en": "“Chemical recycling has really started to emerge as a force, I would say, within the last three or four years,” says University of Pittsburgh’s Beckman. But most chemical recycling techniques are too expensive or energy intensive for commercial use. “It’s not ready for prime time,” he says.",
+            "zh": "匹兹堡大学的 Beckman 说：“我会说，过去三四年里，化学回收确实开始成为一股力量。”但多数化学回收技术用于商业化仍过于昂贵，或耗能过高。他说：“它还没到真正大规模登场的时候。”"
+          },
+          {
+            "no": "29",
+            "en": "Different plastics require different chemical recycling processes, and some break down more easily than others. “The one that’s farthest along is PET,” Beckman says. “That polymer happens to be easy to take apart.” Several companies are developing methods to chemically recycle PET, including the French company Carbios.",
+            "zh": "不同塑料需要不同的化学回收流程，有些塑料也比另一些更容易分解。Beckman 说：“进展最靠前的是 PET。这种聚合物恰好容易拆解。”包括法国 Carbios 公司在内的多家公司，正在开发 PET 化学回收方法。"
+          },
+          {
+            "no": "30",
+            "en": "Carbios is testing enzymes produced by microorganisms to break down PET. Researchers at the company described their work on one such enzyme last April in Nature. Microbes normally use the enzyme, called leaf-branch compost[27] cutinase[28], to decompose the waxy coating on plant leaves. But the cutinase is also good at breaking PET down into its monomers: ethylene glycol[29] and terephthalic acid[30] . Microbial help",
+            "zh": "Carbios 正在测试由微生物产生的酶，用它们来分解 PET。该公司研究人员去年 4 月在《自然》上介绍了其中一种酶的研究。微生物通常用这种名为 leaf-branch compost[27] cutinase[28] 的酶来分解植物叶片上的蜡质涂层。但这种角质酶也擅长把 PET 分解为单体：乙二醇[29]和对苯二甲酸[30]。微生物助力"
+          },
+          {
+            "no": "31",
+            "en": "An enzyme naturally produced by microbes broke down about 50 percent of polyethylene terephthalate, or PET (blue line). A tweaked version of the enzyme broke down more than 80 percent of the plastic (black dotted line). Increasing the amount of the enzyme from 1 milligram per gram of PET to 3 milligrams made it even more efficient — breaking down about 90 percent of PET. PET breakdown by an enzyme E. OTWELL SOURCE: V. TOURNIER ET AL/NATURE 2020",
+            "zh": "一种由微生物自然产生的酶，可以分解约 50% 的聚对苯二甲酸乙二醇酯，即 PET（蓝线）。经过改造的酶可分解 80% 以上的塑料（黑色虚线）。把酶用量从每克 PET 1 毫克提高到 3 毫克后，效率进一步提高，可分解约 90% 的 PET。酶分解 PET。E. OTWELL，资料来源：V. TOURNIER 等，Nature 2020"
+          },
+          {
+            "no": "32",
+            "en": "“The enzyme is like a molecular scissor,” says Alain Marty, chief scientific officer at Carbios. But because it evolved to decompose plant matter, not plastic, it’s not perfect. To make the enzyme better at snipping apart PET, “we redesigned what we call the active site of the enzyme,” Marty says. This involved swapping out some of the amino acids[31]along that PET docking site for others.",
+            "zh": "Carbios 首席科学官 Alain Marty 说：“这种酶就像一把分子剪刀。”但由于它进化出来是为了分解植物物质，而不是塑料，所以并不完美。为了让这种酶更好地剪开 PET，Marty 说：“我们重新设计了酶的活性位点。”这包括把 PET 对接位点附近的一些氨基酸[31]替换成其他氨基酸。"
+          },
+          {
+            "no": "33",
+            "en": "When the researchers tested their mutant enzyme on colored plastic flakes from PET bottles, applying 3 milligrams of the enzyme per gram of PET, about 90 percent of the plastic broke down in about 10 hours. The original enzyme had maxed out at about 50 percent. Using the terephthalic acid monomers produced in that process, the researchers made new plastic bottles that were just as strong as the originals. Carbios is now building a plant near Lyon, France, to start chemically recycling PET later this year. Milder conditions",
+            "zh": "研究人员在 PET 瓶制成的彩色塑料薄片上测试这种突变酶时，每克 PET 加入 3 毫克酶，约 90% 的塑料在约 10 小时内被分解。原始酶最高只能分解约 50%。研究人员利用这一过程中产生的对苯二甲酸单体，制成了与原瓶同样坚固的新塑料瓶。Carbios 目前正在法国里昂附近建厂，准备今年晚些时候开始对 PET 进行化学回收。更温和的条件"
+          },
+          {
+            "no": "34",
+            "en": "But other plastics, like polyethylene and polypropylene, are much harder to break down via chemical recycling. Taking apart polyethylene molecules, for instance, requires temperatures over 400° Celsius. At such high heat, the chemistry is chaotic. Plastic molecules break down randomly, generating a complex mixture of compounds that can be burned as fuel but not used to make new materials.",
+            "zh": "但其他塑料，如聚乙烯和聚丙烯，通过化学回收分解要困难得多。比如，拆解聚乙烯分子需要超过 400 摄氏度的高温。在如此高温下，化学反应会变得混乱。塑料分子随机裂解，生成复杂的化合物混合物；这些混合物可以作为燃料燃烧，却不能用来制造新材料。"
+          },
+          {
+            "no": "35",
+            "en": "Scott, the UC Santa Barbara chemist, proposes partially breaking down these sturdy plastics in a more controlled way, under milder conditions, to make other kinds of useful molecules. She and colleagues recently came up with a way to transform polyethylene into alkylaromatic[32]compounds, which can be used as biodegradable ingredients in shampoos, detergents and other products. The process involves placing polyethylene inside a reaction chamber set to 280° C, with a catalyst powder containing platinum nanoparticles[33]. .",
+            "zh": "加州大学圣巴巴拉分校化学家 Scott 提出，可以在更温和条件下，以更可控方式部分分解这些坚固塑料，从而制造其他有用分子。她和同事最近想出一种方法，把聚乙烯转化为烷基芳香族[32]化合物；这类化合物可作为洗发水、洗涤剂和其他产品中的可生物降解成分。该过程需要把聚乙烯放入设定为 280°C 的反应室，并加入含有铂纳米颗粒[33]的催化剂粉末。"
+          },
+          {
+            "no": "36",
+            "en": "Polyethylene is a long molecule, in which hydrogen atoms are connected to a carbon backbone that can be thousands of carbon atoms long. The platinum is good at breaking carbon-hydrogen bonds, Scott says. “When you do that, you generate hydrogen in the reactor, and the platinum catalyst can use the hydrogen to break the carbon-carbon bonds [in the molecule backbone]. So it actually chops the chain into smaller pieces.”",
+            "zh": "聚乙烯是一种长分子，其中氢原子连接在碳主链上，而这条碳主链可能长达数千个碳原子。Scott 说，铂很擅长打断碳氢键。“这样做时，反应器中会产生氢气，而铂催化剂可以利用这些氢气打断分子主链中的碳-碳键。所以它实际上是在把链条切成更小的片段。”"
+          },
+          {
+            "no": "37",
+            "en": "Since this reaction takes place at a relatively mild 280° C, it happens in an orderly fashion, snapping long polyethylene molecules into shorter chains that are each about 30 carbons long. Those fragments then arrange themselves into the six-sided ring structures characteristic of alkylaromatic compounds.",
+            "zh": "由于这个反应发生在相对温和的 280°C 下，它会以有序方式进行，把长聚乙烯分子切成较短链条，每条约含 30 个碳原子。随后，这些片段会排列成烷基芳香族化合物特有的六元环结构。"
+          },
+          {
+            "no": "38",
+            "en": "After 24 hours in the reaction chamber, “most of the products are liquids, and most of the liquids are alkylaromatics,” Scott says. In experiments, about 69 percent of the plastic in a low-density polyethylene bag was converted into liquid. About 55 percent of a high-density polyethylene bottle cap was transformed. The process produces hydrocarbon gases too, which could be used to generate heat to run the reaction at a recycling plant, Scott says.",
+            "zh": "Scott 说，在反应室中放置 24 小时后，“大多数产物都是液体，而且大多数液体都是烷基芳香族化合物”。实验中，一个低密度聚乙烯袋中约 69% 的塑料转化为液体，一个高密度聚乙烯瓶盖中约 55% 被转化。Scott 表示，该过程还会产生烃类气体，这些气体可用于供热，帮助回收工厂运行反应。"
+          },
+          {
+            "no": "39",
+            "en": "For now, this is just a lab demo, and like many new recycling strategies, it’s still a long way off from commercialization. And no single upgrade to the recycling pipeline will rid the world of its growing mountains of plastic trash. “We’re going to need a suite of technologies to meet this challenge,” says Daniels, of the REMADE Institute. But each new technology — whether it’s focused on making plastics easier to recycle, or transforming them into more useful materials — could help. Built to last",
+            "zh": "目前，这还只是实验室演示。和许多新的回收策略一样，它距离商业化仍有很长距离。而且，单靠回收流程中的任何一次升级，都无法消除全球不断增长的塑料垃圾山。REMADE 研究所的 Daniels 说：“我们需要一整套技术来应对这一挑战。”但每一种新技术，无论重点是让塑料更易回收，还是把塑料转化为更有用材料，都可能有所帮助。为持久使用而设计"
+          },
+          {
+            "no": "40",
+            "en": "The plastics produced today were never designed to be used more than once. That’s why recycling plastics — particularly into material that is as good as new — is so difficult. But researchers are going back to the drawing board to ask themselves, “What does the next generation of materials look like? How do you design a material specifically so that it never has to go into a landfill?” says Eric Beckman, a chemical engineer at the University of Pittsburgh. “Chemists are looking at whether you can design a polymer that falls apart on command.”",
+            "zh": "今天生产的塑料从一开始就不是为多次使用而设计的。这就是塑料回收如此困难的原因，尤其是要把它回收到像新材料一样的水平时。但研究人员正在回到起点，重新追问：“下一代材料应该是什么样？如何专门设计一种材料，让它永远不必进入填埋场？”匹兹堡大学化学工程师 Eric Beckman 说，“化学家正在研究，能否设计一种可按需分解的聚合物。”"
+          },
+          {
+            "no": "41",
+            "en": "The development of a class of next-gen polymers, called PDKs, for poly(diketoenamine)s[34], was reported in Nature Chemistry in 2019. “PDKs have the ability to break their bonds under relatively mild conditions — certainly with much lower energy intensity than any of the plastics that are currently used today,” says study coauthor Brett Helms, a chemist at the Lawrence Berkeley National Laboratory in California. Simply dunking the plastic in an acid solution with a pH of 1 or 2 is enough to break the bonds between its monomer building blocks.",
+            "zh": "2019 年，《自然化学》报道了一类下一代聚合物的开发，这类聚合物名为 PDK，即聚（二酮烯胺）[34]。研究合作者、加州劳伦斯伯克利国家实验室化学家 Brett Helms 说：“PDK 能够在相对温和条件下断开自身化学键，能耗强度当然远低于目前使用的任何塑料。”只要把这种塑料浸入 pH 值为 1 或 2 的酸性溶液中，就足以打断其单体构件之间的键。"
+          },
+          {
+            "no": "42",
+            "en": "“Materials don’t usually encounter a pH that’s that low, so it’s not like if you put PDKs in vinegar, the polymer is going to start breaking down,” Helms says. But it could make for easy recycling. The PDK monomers can then be used to make pristine new plastic, again and again.",
+            "zh": "Helms 说：“材料通常不会遇到那么低的 pH 值，所以并不是说把 PDK 放进醋里，聚合物就会开始分解。”但这一特性可以让回收变得容易。随后，PDK 单体可被一次又一次地用于制造纯净的新塑料。"
+          },
+          {
+            "no": "43",
+            "en": "Widespread plastics like polyethylene terephthalate, or PET, and polyethylene are so cheap to make that any breakout polymer would have a tough time entering the market, Beckman says. So for now, inherently recyclable plastic is just an academic curiosity. But maybe, decades from now, plastics made to be recyclable from the get-go will help solve the world’s plastic waste problem. — Maria Temming",
+            "zh": "Beckman 说，PET 和聚乙烯等广泛使用的塑料制造成本极低，任何突破性聚合物想进入市场都会很艰难。因此就目前而言，本质上可回收的塑料还只是一种学术上的新奇事物。但也许几十年后，从一开始就被设计为可回收的塑料，将有助于解决全球塑料废弃物问题。— Maria Temming"
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "en": "elastomer",
+        "zh": "^() n. [力] 弹性体，[高分子] 高弹体",
+        "note": ""
+      },
+      {
+        "en": "polymers",
+        "zh": "^() n. [高分子] 聚合物",
+        "note": ""
+      },
+      {
+        "en": "biomimetic",
+        "zh": "^() adj. 仿生的",
+        "note": ""
+      },
+      {
+        "en": "yield-stress fluid",
+        "zh": "^() yield-stress fluid屈服应力流体",
+        "note": ""
+      },
+      {
+        "en": "sags",
+        "zh": "^() v. 中间下垂，下凹",
+        "note": ""
+      },
+      {
+        "en": "crosslinkers",
+        "zh": "^() 固化剂",
+        "note": ""
+      },
+      {
+        "en": "liquefy",
+        "zh": "^() vt. 液化；溶解",
+        "note": ""
+      },
+      {
+        "en": "modulus",
+        "zh": "^() n. 系数",
+        "note": ""
+      },
+      {
+        "en": "actuator",
+        "zh": "^() 传动装置",
+        "note": ""
+      },
+      {
+        "en": "implants",
+        "zh": "^() 移植",
+        "note": ""
+      },
+      {
+        "en": "polypropylene",
+        "zh": "^() [ˌpɒliˈprəʊpəliːn] [高分子] 聚丙烯",
+        "note": ""
+      },
+      {
+        "en": "hodgepodge",
+        "zh": "^() [ˈhɒdʒpɑːdʒ] n.烩；混煮；一团糟",
+        "note": ""
+      },
+      {
+        "en": "terephthalate",
+        "zh": "^() [teref'θæleit]n. 对苯二酸盐；对苯二酸酯",
+        "note": ""
+      },
+      {
+        "en": "PET",
+        "zh": "^() 聚对苯二甲酸乙二醇酯",
+        "note": ""
+      },
+      {
+        "en": "Mount Everest",
+        "zh": "^() 埃佛勒斯峰, 喜马拉雅山主峰之一，中国称珠穆朗玛峰",
+        "note": ""
+      },
+      {
+        "en": "Mariana Trench",
+        "zh": "^() 马里亚纳海沟（太平洋海底）",
+        "note": ""
+      },
+      {
+        "en": "pesky",
+        "zh": "^() adj. 讨厌的，麻烦的",
+        "note": ""
+      },
+      {
+        "en": "deodorant",
+        "zh": "^() adj. 除臭的，防臭的",
+        "note": ""
+      },
+      {
+        "en": "ethylene vinyl alcohol",
+        "zh": "^() 乙烯乙烯醇",
+        "note": ""
+      },
+      {
+        "en": "toluene",
+        "zh": "^() 甲苯",
+        "note": ""
+      },
+      {
+        "en": "DMSO",
+        "zh": "^() 二甲基亚砜",
+        "note": ""
+      },
+      {
+        "en": "polystyrene",
+        "zh": "^() 聚苯乙烯",
+        "note": ""
+      },
+      {
+        "en": "Styrofoam",
+        "zh": "^() 泡沫聚苯乙烯",
+        "note": ""
+      },
+      {
+        "en": "compatibilizers",
+        "zh": "^() n. [助剂] 增容剂",
+        "note": ""
+      },
+      {
+        "en": "mishmash",
+        "zh": "n. 混杂物",
+        "note": ""
+      },
+      {
+        "en": "monomers",
+        "zh": "^() 单体",
+        "note": ""
+      },
+      {
+        "en": "leaf-branch compost",
+        "zh": "堆肥；混合物",
+        "note": ""
+      },
+      {
+        "en": "cutinase",
+        "zh": "角质酶",
+        "note": ""
+      },
+      {
+        "en": "ethylene glycol",
+        "zh": "乙二醇",
+        "note": ""
+      },
+      {
+        "en": "terephthalic acid",
+        "zh": "对苯二甲酸",
+        "note": ""
+      },
+      {
+        "en": "amino acids",
+        "zh": "^() [生化] 氨基酸",
+        "note": ""
+      },
+      {
+        "en": "alkylaromatic",
+        "zh": "^() 烷基芳烃的",
+        "note": ""
+      },
+      {
+        "en": "platinum nanoparticles",
+        "zh": "^() 铂纳米颗粒",
+        "note": ""
+      },
+      {
+        "en": "PDKs",
+        "zh": "^() 聚二酮烯胺",
+        "note": ""
+      }
+    ],
+    "questions": []
+  }
+];
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function linkify(value) {
+    return escapeHtml(value).replace(/(https?:\/\/[^\s<]+)/g, (url) => `<a class="source-url" href="${url}" target="_blank" rel="noreferrer">${url}</a>`);
+  }
+
+  function renderMeta(items) {
+    return items && items.length ? `<div class="reading-meta-lines">${items.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : "";
+  }
+
+  function renderParagraph(item, index) {
+    return `
+      <article class="parallel-paragraph">
+        <div class="para-index">${String(index + 1).padStart(2, "0")}</div>
+        <div class="para-copy">
+          <p class="para-en">${linkify(item.en)}</p>
+          <p class="para-zh">${escapeHtml(item.zh || "译文待补充")}</p>
+        </div>
+      </article>
+    `;
+  }
+
+  function renderArticle(article) {
+    return `
+      <section class="reading-article">
+        <div class="reading-article-head">
+          <h3>${escapeHtml(article.heading)}</h3>
+          ${article.headingZh ? `<p>${escapeHtml(article.headingZh)}</p>` : ""}
+          ${renderMeta(article.meta)}
+        </div>
+        <div class="parallel-list">
+          ${article.paragraphs.map((paragraph, index) => renderParagraph(paragraph, index)).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderTerms(reading) {
+    if (!reading.terms || !reading.terms.length) return "";
+    return `
+      <section class="term-table-card">
+        <div class="reading-section-head">
+          <h3>术语表</h3>
+          <p>按 English Term / 中文对应 / 说明整理，便于考前快速回看。</p>
+        </div>
+        <div class="term-table-wrap">
+          <table class="term-table">
+            <thead>
+              <tr><th>English Term</th><th>中文对应</th><th>说明</th></tr>
+            </thead>
+            <tbody>
+              ${reading.terms.map((term) => `
+                <tr>
+                  <td>${escapeHtml(term.en)}</td>
+                  <td>${escapeHtml(term.zh || "")}</td>
+                  <td>${escapeHtml(term.note || "")}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    `;
+  }
+
+  function renderQuestions(reading) {
+    if (!reading.questions || !reading.questions.length) return "";
+    return `
+      <section class="reading-questions">
+        <div class="reading-section-head">
+          <h3>阅读思考题</h3>
+          <p>英文题目下方附中文提示，保持与正文一致的对照方式。</p>
+        </div>
+        <ol>
+          ${reading.questions.map((question) => `<li><span>${escapeHtml(question.en)}</span><small>${escapeHtml(question.zh)}</small></li>`).join("")}
+        </ol>
+      </section>
+    `;
+  }
+
+  function renderReading(reading) {
+    const paragraphCount = reading.articles.reduce((sum, article) => sum + article.paragraphs.length, 0);
+    return `
+      <div class="reply">
+        <section class="tldr reading-tldr">
+          <h2>${escapeHtml(reading.title)}</h2>
+          <p>${escapeHtml(reading.unit)} 阅读材料已整理为逐段英中对照，英文段落下方直接跟随中文译文。</p>
+        </section>
+        <div class="source-meta">
+          <span>${escapeHtml(reading.unit)}</span>
+          <span>${escapeHtml(reading.source)}</span>
+          <span>${paragraphCount} 个对照段落</span>
+          <span>来源文件：${escapeHtml(reading.file)}</span>
+        </div>
+        <div class="reading-stack">
+          ${reading.articles.map(renderArticle).join("")}
+          ${renderTerms(reading)}
+          ${renderQuestions(reading)}
+        </div>
+      </div>
+    `;
+  }
+
+  const content = Object.fromEntries(bilingualReadings.map((reading) => [reading.slug, renderReading(reading)]));
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = content;
+  }
+  root.reviewContent = { ...(root.reviewContent || {}), ...content };
+})(typeof self !== "undefined" ? self : this);

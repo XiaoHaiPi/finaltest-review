@@ -1,29 +1,69 @@
 <svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">复习地图</title>
-  <desc id="desc">主页、课程和知识点的层级关系示意图</desc>
-  <rect width="720" height="520" rx="18" fill="#FFFAF0"/>
-  <path d="M70 95H650M70 183H650M70 271H650M70 359H650M70 447H650" stroke="#D9D0BD" stroke-width="2" stroke-dasharray="8 12"/>
-  <path d="M126 134C187 81 268 78 331 126C398 177 461 178 594 93" stroke="#1D6F67" stroke-width="10" stroke-linecap="round"/>
-  <path d="M123 332C184 289 258 287 326 330C407 382 480 382 599 299" stroke="#B53B36" stroke-width="10" stroke-linecap="round"/>
-  <path d="M146 235H574" stroke="#18211F" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="126" cy="134" r="31" fill="#18211F"/>
-  <circle cx="333" cy="128" r="31" fill="#1D6F67"/>
-  <circle cx="594" cy="93" r="31" fill="#C98B2B"/>
-  <circle cx="146" cy="235" r="24" fill="#325F91"/>
-  <circle cx="360" cy="235" r="24" fill="#18211F"/>
-  <circle cx="574" cy="235" r="24" fill="#325F91"/>
-  <circle cx="123" cy="332" r="31" fill="#B53B36"/>
-  <circle cx="326" cy="330" r="31" fill="#C98B2B"/>
-  <circle cx="599" cy="299" r="31" fill="#1D6F67"/>
-  <text x="96" y="62" fill="#18211F" font-family="Georgia, serif" font-size="30" font-weight="700">Review Route</text>
-  <text x="96" y="486" fill="#65706D" font-family="Segoe UI, sans-serif" font-size="20">Home / Course / Topic</text>
-  <text x="116" y="143" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">1</text>
-  <text x="323" y="137" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">2</text>
-  <text x="584" y="102" fill="#18211F" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">3</text>
-  <text x="136" y="243" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">A</text>
-  <text x="350" y="243" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">B</text>
-  <text x="564" y="243" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">C</text>
-  <text x="113" y="341" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">4</text>
-  <text x="316" y="339" fill="#18211F" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">5</text>
-  <text x="589" y="308" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">6</text>
+  <desc id="desc">用简笔线稿展示首页、课程子页面和知识点的复习路径</desc>
+  <rect x="18" y="18" width="684" height="484" rx="10" fill="#FFFAF0" stroke="#18211F" stroke-width="4"/>
+  <path d="M58 90H662M58 138H662M58 186H662M58 234H662M58 282H662M58 330H662M58 378H662M58 426H662" stroke="#D9D0BD" stroke-width="2" stroke-dasharray="7 13"/>
+  <path d="M92 70C142 44 218 47 258 75" stroke="#18211F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M472 454C531 482 601 475 640 438" stroke="#18211F" stroke-width="3" stroke-linecap="round"/>
+
+  <g stroke="#18211F" stroke-width="4" stroke-linejoin="round">
+    <rect x="78" y="116" width="148" height="92" rx="6" fill="#F7F3E8"/>
+    <rect x="286" y="96" width="148" height="92" rx="6" fill="#F7F3E8"/>
+    <rect x="494" y="116" width="148" height="92" rx="6" fill="#F7F3E8"/>
+    <rect x="96" y="308" width="130" height="92" rx="6" fill="#F7F3E8"/>
+    <rect x="296" y="296" width="130" height="92" rx="6" fill="#F7F3E8"/>
+    <rect x="496" y="308" width="130" height="92" rx="6" fill="#F7F3E8"/>
+  </g>
+
+  <g stroke="#1D6F67" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M226 162C245 153 264 147 286 142"/>
+    <path d="M434 142C456 147 475 153 494 162"/>
+    <path d="M153 208C153 248 155 278 161 308"/>
+    <path d="M360 188C360 226 360 258 361 296"/>
+    <path d="M568 208C568 248 566 278 561 308"/>
+  </g>
+
+  <g stroke="#B53B36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M275 138L288 141L279 151"/>
+    <path d="M483 151L494 162L479 165"/>
+    <path d="M158 294L161 308L150 298"/>
+    <path d="M361 282L361 296L351 286"/>
+    <path d="M563 294L561 308L572 298"/>
+  </g>
+
+  <g fill="#18211F" font-family="Georgia, serif" font-weight="700">
+    <text x="92" y="76" font-size="30">Review Route</text>
+    <text x="110" y="154" font-size="23">Home</text>
+    <text x="318" y="134" font-size="23">Course</text>
+    <text x="524" y="154" font-size="23">Pages</text>
+    <text x="119" y="346" font-size="21">Terms</text>
+    <text x="317" y="334" font-size="21">Q&amp;A</text>
+    <text x="522" y="346" font-size="21">Summary</text>
+  </g>
+
+  <g stroke="#65706D" stroke-width="3" stroke-linecap="round">
+    <path d="M104 174H194"/>
+    <path d="M104 188H173"/>
+    <path d="M312 154H405"/>
+    <path d="M312 168H382"/>
+    <path d="M520 174H612"/>
+    <path d="M520 188H590"/>
+    <path d="M122 366H200"/>
+    <path d="M122 380H178"/>
+    <path d="M322 354H400"/>
+    <path d="M322 368H378"/>
+    <path d="M522 366H600"/>
+    <path d="M522 380H578"/>
+  </g>
+
+  <g stroke="#C98B2B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M106 337L116 349L138 326"/>
+    <path d="M306 325L316 337L338 314"/>
+    <path d="M506 337L516 349L538 326"/>
+  </g>
+
+  <path d="M108 454H392" stroke="#18211F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M405 454L436 443L423 474L405 454Z" fill="#F7F3E8" stroke="#18211F" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M416 453L425 462" stroke="#18211F" stroke-width="3" stroke-linecap="round"/>
+  <text x="108" y="488" fill="#65706D" font-family="Segoe UI, sans-serif" font-size="20">Home / Course / Topic</text>
 </svg>

@@ -4,6 +4,7 @@
     doing: "复习中",
     done: "已掌握",
   };
+  const THEME_KEY = "review-theme";
 
   function $(selector, root) {
     return (root || document).querySelector(selector);
@@ -60,8 +61,71 @@
     localStorage.setItem(statusKey(courseSlug, topicSlug), status);
   }
 
+  function readStoredTheme() {
+    try {
+      return localStorage.getItem(THEME_KEY);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function saveTheme(theme) {
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch (error) {
+      // Theme still changes for the current page even if storage is unavailable.
+    }
+  }
+
+  function preferredTheme() {
+    const stored = readStoredTheme();
+    if (stored === "dark" || stored === "light") return stored;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+
+  function currentTheme() {
+    return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+  }
+
+  function updateThemeButton(theme) {
+    const button = $("#theme-toggle");
+    if (!button) return;
+
+    const isDark = theme === "dark";
+    button.setAttribute("aria-pressed", String(isDark));
+    button.setAttribute("aria-label", isDark ? "切换到浅色模式" : "切换到深色模式");
+    button.title = isDark ? "切换到浅色模式" : "切换到深色模式";
+  }
+
+  function applyTheme(theme) {
+    const normalized = theme === "dark" ? "dark" : "light";
+    document.documentElement.dataset.theme = normalized;
+    document.documentElement.style.colorScheme = normalized;
+    updateThemeButton(normalized);
+  }
+
+  function setupThemeToggle() {
+    const button = $("#theme-toggle");
+    if (!button) return;
+
+    updateThemeButton(currentTheme());
+    button.addEventListener("click", () => {
+      const nextTheme = currentTheme() === "dark" ? "light" : "dark";
+      saveTheme(nextTheme);
+      applyTheme(nextTheme);
+    });
+  }
+
   function findCourse(slug) {
     return window.reviewData.courses.find((course) => course.slug === slug);
+  }
+
+  function subtitleMarkup(value, className) {
+    return value ? `<p class="${className || "title-subtitle"}">${escapeHtml(value)}</p>` : "";
+  }
+
+  function bilingualLabel(item) {
+    return item && item.subtitle ? `${item.title} / ${item.subtitle}` : item.title;
   }
 
   function findSection(course, slug) {
@@ -102,11 +166,17 @@
           <small>${escapeHtml(window.reviewData.site.owner)}</small>
         </span>
       </a>
-      <nav class="top-nav" aria-label="主导航">
-        <a href="${sitePath(root, "index.html")}">首页</a>
-        <a href="${coursePath(root, window.reviewData.courses[0])}">课程</a>
-      </nav>
+      <div class="top-actions">
+        <nav class="top-nav" aria-label="主导航">
+          <a href="${sitePath(root, "index.html")}">首页</a>
+          <a href="${sitePath(root, "index.html#course-list")}">课程</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+        </button>
+      </div>
     `;
+    setupThemeToggle();
   }
 
   function renderFooter(page) {
@@ -120,32 +190,20 @@
 
   function renderHome(page) {
     const root = page.root || "";
-    const totalTopics = window.reviewData.courses.reduce((sum, course) => sum + courseTopics(course).length, 0);
     const coursesMarkup = window.reviewData.courses.map((course) => courseCard(root, course)).join("");
 
     $("#app").innerHTML = `
       <section class="home-hero">
         <div class="hero-copy">
-          <p class="eyebrow">Final Review Desk</p>
+          <p class="eyebrow">Final Review Desk / 期末复习台</p>
           <h1>${escapeHtml(window.reviewData.site.title)}</h1>
           <p class="hero-lead">${escapeHtml(window.reviewData.site.subtitle)}</p>
-          <div class="hero-actions">
-            <a class="button primary" href="${coursePath(root, window.reviewData.courses[0])}">进入复习</a>
-            <a class="button ghost" href="#course-list">查看课程</a>
-          </div>
-        </div>
-        <div class="hero-board" aria-label="复习概览">
-          <img src="${sitePath(root, "assets/review-map.svg")}" alt="课程与知识点复习地图">
-          <div class="stat-strip">
-            <span><strong>${window.reviewData.courses.length}</strong> 门课程</span>
-            <span><strong>${totalTopics}</strong> 个知识点</span>
-          </div>
         </div>
       </section>
 
       <section class="toolbar-section" id="course-list">
         <div>
-          <p class="section-kicker">Courses</p>
+          <p class="section-kicker">Courses / 课程</p>
           <h2>课程目录</h2>
         </div>
         <label class="search-box">
@@ -160,9 +218,9 @@
     $("#course-search").addEventListener("input", (event) => {
       const query = normalize(event.target.value);
       const filtered = window.reviewData.courses.filter((course) => {
-        const sectionText = sectionsFor(course).map((section) => section.title).join(" ");
-        const topicText = courseTopics(course).map((topic) => topic.title).join(" ");
-        return normalize(`${course.title} ${course.code} ${course.summary} ${sectionText} ${topicText}`).includes(query);
+        const sectionText = sectionsFor(course).map((section) => `${section.title} ${section.subtitle || ""}`).join(" ");
+        const topicText = courseTopics(course).map((topic) => `${topic.title} ${topic.subtitle || ""}`).join(" ");
+        return normalize(`${course.title} ${course.subtitle || ""} ${course.code} ${course.summary} ${sectionText} ${topicText}`).includes(query);
       });
       $("#courses").innerHTML = filtered.map((course) => courseCard(root, course)).join("") || emptyState("没有匹配课程");
     });
@@ -171,7 +229,17 @@
   function courseCard(root, course) {
     const progress = progressFor(course);
     const focus = course.examFocus.map((item) => `<span>${escapeHtml(item)}</span>`).join("");
-    const sectionCount = sectionsFor(course).length;
+    const sections = sectionsFor(course);
+    const sectionCount = sections.length;
+    const sectionPreview = sections
+      .map((section) => `
+        <a href="${sectionPath(root, course, section)}">
+          <strong>${escapeHtml(section.title)}</strong>
+          ${section.subtitle ? `<small>${escapeHtml(section.subtitle)}</small>` : ""}
+          <span>${section.topics.length} 个知识点</span>
+        </a>
+      `)
+      .join("");
     return `
       <article class="course-card">
         <div class="course-card-top">
@@ -179,8 +247,10 @@
           <span>${sectionCount} 个子页面 / ${progress.total} 个知识点</span>
         </div>
         <h3>${escapeHtml(course.title)}</h3>
+        ${subtitleMarkup(course.subtitle, "card-subtitle")}
         <p>${escapeHtml(course.summary)}</p>
         <div class="tag-row">${focus}</div>
+        <div class="course-card-sections">${sectionPreview}</div>
         <div class="progress-line" aria-label="已掌握 ${progress.percent}%">
           <span style="width:${progress.percent}%"></span>
         </div>
@@ -211,6 +281,7 @@
         <div>
           <p class="eyebrow">${escapeHtml(course.code)} Course</p>
           <h1>${escapeHtml(course.title)}</h1>
+          ${subtitleMarkup(course.subtitle)}
           <p>${escapeHtml(course.summary)}</p>
         </div>
         <aside class="course-panel">
@@ -223,9 +294,11 @@
         </aside>
       </section>
 
+      ${renderExamBlueprint(course)}
+
       <section class="toolbar-section compact">
         <div>
-          <p class="section-kicker">Course Pages</p>
+          <p class="section-kicker">Course Pages / 课程子页面</p>
           <h2>课程子页面</h2>
         </div>
         <label class="search-box">
@@ -240,11 +313,54 @@
     $("#section-search").addEventListener("input", (event) => {
       const query = normalize(event.target.value);
       const filtered = sections.filter((section) => {
-        const topicText = section.topics.map((topic) => topic.title).join(" ");
-        return normalize(`${section.title} ${section.code || ""} ${section.summary || ""} ${topicText}`).includes(query);
+        const topicText = section.topics.map((topic) => `${topic.title} ${topic.subtitle || ""}`).join(" ");
+        return normalize(`${section.title} ${section.subtitle || ""} ${section.code || ""} ${section.summary || ""} ${topicText}`).includes(query);
       });
       $("#sections").innerHTML = sectionCards(root, course, filtered) || emptyState("没有匹配子页面");
     });
+  }
+
+  function renderExamBlueprint(course) {
+    const blueprint = course.examBlueprint;
+    if (!blueprint) return "";
+
+    const parts = (blueprint.parts || [])
+      .map((part) => `
+        <article class="exam-part">
+          <span>${escapeHtml(part.label)}${part.labelZh ? ` / ${escapeHtml(part.labelZh)}` : ""}</span>
+          <strong>
+            ${escapeHtml(part.title)}
+            ${part.titleZh ? `<small>${escapeHtml(part.titleZh)}</small>` : ""}
+          </strong>
+          <em>${escapeHtml(part.score)}</em>
+        </article>
+      `)
+      .join("");
+
+    const scopes = (blueprint.scopes || [])
+      .map((scope) => `<li><strong>${escapeHtml(scope.label)}</strong><span>${escapeHtml(scope.text)}</span></li>`)
+      .join("");
+
+    return `
+      <section class="exam-brief" aria-labelledby="exam-brief-title">
+        <div class="exam-brief-head">
+          <div>
+            <p class="section-kicker">Exam Blueprint / 考试题型</p>
+            <h2 id="exam-brief-title">${escapeHtml(blueprint.title)}</h2>
+          </div>
+          <span class="exam-date">${escapeHtml(blueprint.date)}</span>
+        </div>
+        <div class="exam-brief-grid">
+          <div class="exam-parts" aria-label="考试题型">
+            ${parts}
+          </div>
+          <div class="exam-scope">
+            <h3>复习范围</h3>
+            <ol>${scopes}</ol>
+          </div>
+        </div>
+      </section>
+    `;
   }
 
   function sectionCards(root, course, sections) {
@@ -258,6 +374,7 @@
               <span>${section.topics.length} 个知识点</span>
             </div>
             <h3>${escapeHtml(section.title)}</h3>
+            ${subtitleMarkup(section.subtitle, "card-subtitle")}
             <p>${escapeHtml(section.summary || "")}</p>
             <div class="progress-line" aria-label="已掌握 ${progress.percent}%">
               <span style="width:${progress.percent}%"></span>
@@ -292,6 +409,7 @@
         <div>
           <p class="eyebrow">${escapeHtml(course.code)} ${escapeHtml(section.code || "Section")}</p>
           <h1>${escapeHtml(section.title)}</h1>
+          ${subtitleMarkup(section.subtitle)}
           <p>${escapeHtml(section.summary || "")}</p>
         </div>
         <aside class="course-panel">
@@ -306,7 +424,7 @@
 
       <section class="toolbar-section compact">
         <div>
-          <p class="section-kicker">Knowledge Points</p>
+          <p class="section-kicker">Knowledge Points / 知识点</p>
           <h2>知识点目录</h2>
         </div>
         <label class="search-box">
@@ -320,7 +438,7 @@
 
     $("#topic-search").addEventListener("input", (event) => {
       const query = normalize(event.target.value);
-      const topics = section.topics.filter((topic) => normalize(topic.title).includes(query));
+      const topics = section.topics.filter((topic) => normalize(`${topic.title} ${topic.subtitle || ""}`).includes(query));
       $("#topics").innerHTML = topicCards(root, course, section, topics) || emptyState("没有匹配知识点");
     });
   }
@@ -334,6 +452,7 @@
           <a class="topic-card status-${status}" href="${topicPath(root, course, section, topic)}">
             <span class="topic-index">${String(index).padStart(2, "0")}</span>
             <strong>${escapeHtml(topic.title)}</strong>
+            ${subtitleMarkup(topic.subtitle, "topic-subtitle")}
             <span class="topic-status">${STATUS[status]}</span>
           </a>
         `;
@@ -362,7 +481,7 @@
         { label: "首页", href: sitePath(root, "index.html") },
         { label: course.title, href: coursePath(root, course) },
         { label: section.title, href: sectionPath(root, course, section) },
-        { label: topic.title },
+        { label: bilingualLabel(topic) },
       ])}
       <article class="topic-layout">
         <aside class="topic-sidebar">
@@ -385,10 +504,11 @@
         <section class="topic-main">
           <p class="eyebrow">${escapeHtml(course.code)} / ${escapeHtml(section.title)}</p>
           <h1>${escapeHtml(topic.title)}</h1>
+          ${subtitleMarkup(topic.subtitle)}
           ${renderTopicContent(topic)}
           <nav class="topic-nav" aria-label="知识点切换">
-            ${previous ? `<a href="${topicPath(root, course, section, previous)}">上一项：${escapeHtml(previous.title)}</a>` : "<span>已经是第一项</span>"}
-            ${next ? `<a href="${topicPath(root, course, section, next)}">下一项：${escapeHtml(next.title)}</a>` : "<span>已经是最后一项</span>"}
+            ${previous ? `<a href="${topicPath(root, course, section, previous)}">上一项：${escapeHtml(bilingualLabel(previous))}</a>` : "<span>已经是第一项</span>"}
+            ${next ? `<a href="${topicPath(root, course, section, next)}">下一项：${escapeHtml(bilingualLabel(next))}</a>` : "<span>已经是最后一项</span>"}
           </nav>
         </section>
       </article>
@@ -404,6 +524,8 @@
         });
       });
     });
+
+    setupPracticeChecks();
   }
 
   function statusButton(value, current) {
@@ -452,6 +574,85 @@
     `;
   }
 
+  function normalizePracticeText(value) {
+    return String(value || "")
+      .toLowerCase()
+      .replace(/[’‘]/g, "'")
+      .replace(/[“”]/g, "\"")
+      .replace(/\u00a0/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function practiceTokens(value, mode) {
+    const normalized = normalizePracticeText(value);
+    if (!normalized) return [];
+
+    const words = normalized.match(/[a-z0-9]+(?:['-][a-z0-9]+)?/g) || [];
+    if (mode !== "zh") {
+      return words.filter((word) => word.length > 1);
+    }
+
+    const cjkRuns = normalized.match(/[\u4e00-\u9fff]+/g) || [];
+    const grams = [];
+    cjkRuns.forEach((run) => {
+      if (run.length === 1) {
+        grams.push(run);
+        return;
+      }
+      for (let index = 0; index < run.length - 1; index += 1) {
+        grams.push(run.slice(index, index + 2));
+      }
+    });
+    return grams.concat(words.filter((word) => word.length > 2));
+  }
+
+  function overlapScore(input, answer, mode) {
+    const answerTokens = Array.from(new Set(practiceTokens(answer, mode)));
+    const inputTokens = Array.from(new Set(practiceTokens(input, mode)));
+    if (!answerTokens.length || !inputTokens.length) return 0;
+
+    const inputSet = new Set(inputTokens);
+    const answerSet = new Set(answerTokens);
+    const covered = answerTokens.filter((token) => inputSet.has(token)).length / answerTokens.length;
+    const precision = inputTokens.filter((token) => answerSet.has(token)).length / inputTokens.length;
+    return Math.round((covered * 0.72 + precision * 0.28) * 100);
+  }
+
+  function scoreLabel(score) {
+    if (score >= 82) return "较接近参考答案";
+    if (score >= 62) return "覆盖了主要信息";
+    if (score >= 38) return "有部分重合";
+    return "与参考答案差异较大";
+  }
+
+  function setupPracticeChecks() {
+    document.querySelectorAll("[data-practice-check]").forEach((block) => {
+      const input = $("[data-practice-input]", block);
+      const button = $("[data-practice-action]", block);
+      const result = $("[data-practice-result]", block);
+      const answer = $("[data-practice-answer]", block);
+      if (!input || !button || !result || !answer) return;
+
+      button.addEventListener("click", () => {
+        const value = input.value.trim();
+        if (!value) {
+          result.className = "practice-result is-visible is-low";
+          result.textContent = "先输入你的译文或改写句，再进行自检。";
+          return;
+        }
+
+        const score = overlapScore(value, answer.textContent, block.dataset.practiceMode || "zh");
+        const level = score >= 62 ? "is-good" : score >= 38 ? "is-mid" : "is-low";
+        result.className = `practice-result is-visible ${level}`;
+        result.innerHTML = `
+          <strong>${scoreLabel(score)}：${score}%</strong>
+          <span>分数按关键词和字符覆盖度估算，表达允许不同处理；展开参考答案后重点核对术语、逻辑关系和信息完整度。</span>
+        `;
+      });
+    });
+  }
+
   function breadcrumb(root, items) {
     const markup = items
       .map((item) => (item.href ? `<a href="${item.href}">${escapeHtml(item.label)}</a>` : `<span>${escapeHtml(item.label)}</span>`))
@@ -469,6 +670,7 @@
 
   function init() {
     const page = window.PAGE || { type: "home", root: "" };
+    applyTheme(preferredTheme());
     renderTopbar(page);
     renderFooter(page);
 

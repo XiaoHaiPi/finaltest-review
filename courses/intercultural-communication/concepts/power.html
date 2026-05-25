@@ -5,17 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="跨文化交际 概念：power">
   <title>power | 概念 | 跨文化交际</title>
-  <link rel="icon" href="../../../assets/favicon.svg?v=20260525-expanded-concepts" type="image/svg+xml">
-  <link rel="stylesheet" href="../../../assets/style.css?v=20260525-expanded-concepts">
+  <script>
+    (() => {
+      try {
+        const stored = localStorage.getItem("review-theme");
+        const systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = stored === "dark" || stored === "light" ? stored : systemDark ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+  <link rel="icon" href="../../../assets/favicon.svg?v=20260525-reading-zh-polish" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../assets/style.css?v=20260525-reading-zh-polish">
 </head>
 <body>
   <header id="site-topbar"></header>
   <main id="app"></main>
   <footer id="site-footer"></footer>
   <script>window.PAGE = {"type":"topic","course":"intercultural-communication","section":"concepts","topic":"power","root":"../../../"};</script>
-  <script src="../../../assets/data.js?v=20260525-expanded-concepts"></script>
-  <script src="../../../assets/content.js?v=20260525-expanded-concepts"></script>
-  <script src="../../../assets/app.js?v=20260525-expanded-concepts"></script>
+  <script src="../../../assets/data.js?v=20260525-reading-zh-polish"></script>
+  <script src="../../../assets/content.js?v=20260525-reading-zh-polish"></script>
+  <script src="../../../assets/news-content.js?v=20260525-reading-zh-polish"></script>
+  <script src="../../../assets/reading-content.js?v=20260525-reading-zh-polish"></script>
+  <script src="../../../assets/app.js?v=20260525-reading-zh-polish"></script>
   <script>window.StudyApp.init();</script>
 </body>
 </html>
