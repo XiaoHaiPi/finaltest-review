@@ -54,6 +54,7 @@
       title: "期末复习站",
       subtitle: "课程、知识点、掌握进度集中管理",
       owner: "Final Review",
+      assetVersion: "20260525-content-import",
     },
     courses: [
       {

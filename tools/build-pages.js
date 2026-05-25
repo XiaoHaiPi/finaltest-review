@@ -3,6 +3,7 @@ const path = require("path");
 const data = require("../assets/data.js");
 
 const projectRoot = path.resolve(__dirname, "..");
+const assetVersion = data.site.assetVersion || "dev";
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -30,17 +31,17 @@ function pageHtml({ title, description, root, page }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
-  <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="${root}assets/style.css">
+  <link rel="icon" href="${root}assets/favicon.svg?v=${assetVersion}" type="image/svg+xml">
+  <link rel="stylesheet" href="${root}assets/style.css?v=${assetVersion}">
 </head>
 <body>
   <header id="site-topbar"></header>
   <main id="app"></main>
   <footer id="site-footer"></footer>
   <script>window.PAGE = ${JSON.stringify(page)};</script>
-  <script src="${root}assets/data.js"></script>
-  <script src="${root}assets/content.js"></script>
-  <script src="${root}assets/app.js"></script>
+  <script src="${root}assets/data.js?v=${assetVersion}"></script>
+  <script src="${root}assets/content.js?v=${assetVersion}"></script>
+  <script src="${root}assets/app.js?v=${assetVersion}"></script>
   <script>window.StudyApp.init();</script>
 </body>
 </html>
