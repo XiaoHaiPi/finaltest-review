@@ -54,7 +54,7 @@
       title: "期末复习站",
       subtitle: "面向期末考试的精炼复习知识集合",
       owner: "Final Review",
-      assetVersion: "20260525-curated-concepts",
+      assetVersion: "20260525-expanded-concepts",
     },
     courses: [
       {
@@ -68,7 +68,7 @@
             slug: "concepts",
             title: "概念",
             code: "Concepts",
-            summary: "跨文化交际课程的 41 个核心概念，按期末复习需要整理为精炼定义、考试抓手、易混点和记忆句。",
+            summary: "跨文化交际课程的 41 个核心概念，按期末复习需要整理为定义、提出人/代表学者、主要特征、跨文化交际意义和考试辨析。",
             topics: interculturalConceptTopics,
           },
         ],
