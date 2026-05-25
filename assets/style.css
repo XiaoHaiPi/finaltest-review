@@ -561,6 +561,7 @@ input {
 }
 
 .topic-main {
+  min-width: 0;
   padding: clamp(1rem, 3vw, 2rem);
   background: rgba(255, 250, 240, 0.7);
   border: 1px solid var(--line);
@@ -598,6 +599,7 @@ input {
 .reply {
   display: grid;
   gap: 1rem;
+  min-width: 0;
 }
 
 .reply h2,
@@ -618,8 +620,11 @@ input {
 
 .reply p,
 .reply li,
-.reply dd {
+.reply dd,
+.reply th,
+.reply td {
   color: var(--muted);
+  overflow-wrap: anywhere;
 }
 
 .reply p,
@@ -690,6 +695,7 @@ input {
 }
 
 .reply pre {
+  max-width: 100%;
   overflow: auto;
   padding: 1rem;
   color: var(--paper-strong);
@@ -739,7 +745,10 @@ input {
 }
 
 .reply table {
+  display: block;
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
   border-collapse: collapse;
   overflow: hidden;
   background: var(--paper-strong);

@@ -32,6 +32,7 @@
 - `courses/<course>/<section>/index.html`: 课程子页面，例如 `概念`
 - `courses/<course>/<section>/<topic>.html`: 知识点页
 - `assets/data.js`: 课程与知识点数据
+- `assets/content.js`: 知识点正文内容
 - `assets/app.js`: 页面渲染与复习状态
 - `assets/style.css`: 共享样式
 - `assets/review-map.svg`: 首页复习地图视觉资源
@@ -68,7 +69,13 @@ http://127.0.0.1:6690/
 
 后续课程、子页面、知识点都集中维护在 `assets/data.js` 中。修改数据后重新运行 `node tools/build-pages.js`，即可生成新的静态页面。
 
-知识点正文写在对应知识点对象的 `contentHtml` 字段中。正文使用语义化 HTML 片段，外壳统一为：
+知识点正文可以写在对应知识点对象的 `contentHtml` 字段中，也可以放在 `reference/概念定义.md` 后运行导入脚本生成 `assets/content.js`。
+
+```bash
+node tools/import-reference.js
+```
+
+正文使用语义化 HTML 片段，外壳统一为：
 
 ```html
 <div class="reply">

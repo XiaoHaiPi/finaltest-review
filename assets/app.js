@@ -420,7 +420,8 @@
   }
 
   function renderTopicContent(topic) {
-    const content = topic.contentHtml || topic.content;
+    const importedContent = window.reviewContent ? window.reviewContent[topic.slug] : "";
+    const content = topic.contentHtml || topic.content || importedContent;
     if (content) {
       return `<div class="topic-content">${content}</div>`;
     }

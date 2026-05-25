@@ -39,6 +39,7 @@ function pageHtml({ title, description, root, page }) {
   <footer id="site-footer"></footer>
   <script>window.PAGE = ${JSON.stringify(page)};</script>
   <script src="${root}assets/data.js"></script>
+  <script src="${root}assets/content.js"></script>
   <script src="${root}assets/app.js"></script>
   <script>window.StudyApp.init();</script>
 </body>
