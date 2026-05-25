@@ -1,0 +1,29 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">复习地图</title>
+  <desc id="desc">主页、课程和知识点的层级关系示意图</desc>
+  <rect width="720" height="520" rx="18" fill="#FFFAF0"/>
+  <path d="M70 95H650M70 183H650M70 271H650M70 359H650M70 447H650" stroke="#D9D0BD" stroke-width="2" stroke-dasharray="8 12"/>
+  <path d="M126 134C187 81 268 78 331 126C398 177 461 178 594 93" stroke="#1D6F67" stroke-width="10" stroke-linecap="round"/>
+  <path d="M123 332C184 289 258 287 326 330C407 382 480 382 599 299" stroke="#B53B36" stroke-width="10" stroke-linecap="round"/>
+  <path d="M146 235H574" stroke="#18211F" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="126" cy="134" r="31" fill="#18211F"/>
+  <circle cx="333" cy="128" r="31" fill="#1D6F67"/>
+  <circle cx="594" cy="93" r="31" fill="#C98B2B"/>
+  <circle cx="146" cy="235" r="24" fill="#325F91"/>
+  <circle cx="360" cy="235" r="24" fill="#18211F"/>
+  <circle cx="574" cy="235" r="24" fill="#325F91"/>
+  <circle cx="123" cy="332" r="31" fill="#B53B36"/>
+  <circle cx="326" cy="330" r="31" fill="#C98B2B"/>
+  <circle cx="599" cy="299" r="31" fill="#1D6F67"/>
+  <text x="96" y="62" fill="#18211F" font-family="Georgia, serif" font-size="30" font-weight="700">Review Route</text>
+  <text x="96" y="486" fill="#65706D" font-family="Segoe UI, sans-serif" font-size="20">Home / Course / Topic</text>
+  <text x="116" y="143" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">1</text>
+  <text x="323" y="137" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">2</text>
+  <text x="584" y="102" fill="#18211F" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">3</text>
+  <text x="136" y="243" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">A</text>
+  <text x="350" y="243" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">B</text>
+  <text x="564" y="243" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">C</text>
+  <text x="113" y="341" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">4</text>
+  <text x="316" y="339" fill="#18211F" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">5</text>
+  <text x="589" y="308" fill="#FFFAF0" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">6</text>
+</svg>
