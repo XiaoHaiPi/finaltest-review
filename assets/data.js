@@ -52,23 +52,23 @@
   return {
     site: {
       title: "期末复习站",
-      subtitle: "课程、知识点、掌握进度集中管理",
+      subtitle: "面向期末考试的精炼复习知识集合",
       owner: "Final Review",
-      assetVersion: "20260525-content-import",
+      assetVersion: "20260525-curated-concepts",
     },
     courses: [
       {
         slug: "intercultural-communication",
         title: "跨文化交际",
         code: "ICC",
-        summary: "围绕跨文化交际核心概念、身份、语言、非语言与适应过程建立复习目录。",
-        examFocus: ["概念辨析", "理论框架", "案例分析", "术语解释"],
+        summary: "为期末考试复习整理跨文化交际核心概念，重点覆盖身份、语言、非语言、文化维度与适应过程。",
+        examFocus: ["术语解释", "概念辨析", "理论框架", "案例分析"],
         sections: [
           {
             slug: "concepts",
             title: "概念",
             code: "Concepts",
-            summary: "跨文化交际课程中的 41 个核心概念集中放在这里。",
+            summary: "跨文化交际课程的 41 个核心概念，按期末复习需要整理为精炼定义、考试抓手、易混点和记忆句。",
             topics: interculturalConceptTopics,
           },
         ],

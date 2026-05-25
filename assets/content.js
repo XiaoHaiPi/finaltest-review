@@ -1,28 +1,297 @@
 (function (root) {
-  const content = {
-  "generalizations": "<div class=\"reply\">\n  <p>概括性判断，基于有限数据，却推广到更大的人群。往难听点说就是以偏概全。</p>\n</div>",
-  "objectivity": "<div class=\"reply\">\n  <p>客观性判断，不受个人感情、解释或偏见影响，基于事实。</p>\n</div>",
-  "ethnocentrism": "<div class=\"reply\">\n  <p>民族中心主义，把自己的文化过度当做评价其他文化的标准，认为自己的文化优于一切文化。</p>\n</div>",
-  "human-communication": "<div class=\"reply\">\n  <p>人类沟通，是一个动态的过程，人们在特定的场景下，试图通过符号来与其他人分享自己的想法。 包含几个关键要素：</p>\n  <ol><li>动态过程（dynamic process）</li><li>分享想法（share their thoughts）</li><li>使用符号（through the use of symbols）</li><li>特定场景（in particular settings）</li></ol>\n</div>",
-  "symbol": "<div class=\"reply\">\n  <p>符号，用来表达人们内在想法、感受和体验的形式。 前提：人与人之间不存在直接的心灵感应，无法直接读取他人的想法。 本质：符号是内在思想的外在载体，是沟通得以实现的核心工具。</p>\n</div>",
-  "culture": "<div class=\"reply\">\n  <p>文化，一套人为创造的客观与主观要素。这些要素在过去提高了人们在特定生态环境中的生存概率，并为群体成员带来了满足感。因此，它们被拥有共同语言、生活在同一时空的人们所共享。 核心要点：</p>\n  <ol><li>人为创造</li><li>包含主观与客观要素</li><li>通过语言符号系统传递与共享</li></ol>\n</div>",
-  "world-view": "<div class=\"reply\">\n  <p>世界观，一个群体解读现实与事件的方式，包括他们对自身的认知，以及他们如何与周围的世界建立联系。</p>\n</div>",
-  "intercultural-communication-competence": "<div class=\"reply\">\n  <p>跨文化沟通能力，在跨文化互动中，能有效、恰当实现沟通目标的能力。 三大核心构成要素：</p>\n  <ol><li>Motivation 动机</li><li>Knowledge 知识储备</li><li>Communication Skills 沟通技能</li></ol>\n</div>",
-  "deep-culture": "<div class=\"reply\">\n  <p>deep structure of culture，文化深层结构，一个文化中集体行动的“方式”和“原因”，由一套有意识的和无意识的共同假设构成，关于世界如何运作，它将整个文化凝聚在一起，并让每个文化独一无二。</p>\n  <ol><li>它决定了一个文化的根本视角，比如伦理观、是非观、美丑判断等</li><li>“局外人”很难理解，但是是理解文化差异的关键</li><li>解释了为什么不同文化的人会有截然不同的行为动机（比如对财富、年龄等的看法）</li></ol>\n</div>",
-  "social-organizations-institutions": "<div class=\"reply\">\n  <p>社会组织（社会制度），文化深层结构的核心。这些组织是文化中最关键的群体与归属关系。 集体制度为成员提供了稳定的社会结构，帮助人们满足基本需求，并将个体凝聚成一个协作的整体。</p>\n</div>",
-  "family": "<div class=\"reply\">\n  <p>家庭，任何基于性表达、亲子关系或其他亲属关系的群体，成员间通常通过血缘、婚姻或收养相互联结，且满足：</p>\n  <ol><li>经济与照料单元</li><li>身份认同归属</li><li>长期维系承诺</li></ol>\n  <p>核心功能：</p>\n  <ol><li>文化与社会化的首要载体</li><li>早期依恋与安全感的来源</li><li>身份认同的基础</li><li>情感体验的最初场所</li></ol>\n  <p>两种基础的家庭形式：</p>\n  <ol><li>出身家庭（family of orientation）</li><li>生育/组建家庭（family of procreation）</li></ol>\n</div>",
-  "individual-collective-dimension": "<div class=\"reply\">\n  <p>个体主义与集体主义 个体主义-集体主义维度，指的是一种文化倾向于鼓励人们表现出独特性、独立性，还是顺从性、相互依赖性。</p>\n  <h3>个体主义 individualism</h3>\n  <p>个人优先于群体，推崇独立、竞争、自我决断、追求个人目标、独自生活</p>\n  <h3>集体主义 collectivism</h3>\n  <p>群体的需求和目标优先于个人，强调相互依赖、群体成就、合作、和谐</p>\n</div>",
-  "perception": "<div class=\"reply\">\n  <p>感知，我们理解世界、构建现实的方式。 不是被动接受信息，而是主动的、三步式的信息处理过程：</p>\n  <ol><li>选择</li><li>组织</li><li>解读</li></ol>\n</div>",
-  "belief": "<div class=\"reply\">\n  <p>信念，对事物的主观确信，不一定有客观证据支撑。 关键特征：</p>\n  <ol><li>来源：可以来源于任何地方</li><li>社会性：当信念被群体共享时，会被强化，成为文化的一部分</li><li>驱动行为：信念会直接影响人的行动</li></ol>\n</div>",
-  "cultural-values": "<div class=\"reply\">\n  <p>文化价值观，一个文化中被广泛认可的、关于“什么是好坏、对错、可取不可取”的指导原则，建立在群体共享的信念之上。 关键特征：</p>\n  <ol><li>文化性：不是个人偏好，而是被整个文化群体所共享，渗透在文化的方方面面</li><li>指导性：为人们的行为提供判断标准</li><li>稳定性：文化价值观通常是持久的，会代代相传，塑造人们的行为规范</li></ol>\n</div>",
-  "behaviors": "<div class=\"reply\">\n  <p>行为，内在的信念和价值观的外在表现形式，是信念和价值观的落地。 关键特征：</p>\n  <ol><li>由文化塑造</li><li>场景化：合适与否取决于文化和场景</li></ol>\n</div>",
-  "cultural-patterns-value-orientations": "<div class=\"reply\">\n  <p>文化模式  / 价值取向 文化模式是一个文化中，由共同的信念和价值观衍生出来的，被主流群体共享的社会特征集合，包含了这个群体看待世界的方式、态度和行为规范。 作用是为跨文化沟通提供一套系统性框架，帮我们识别、分析不同文化的核心价值观，理解它们如何塑造人们的行为。</p>\n  <p>四大特征：</p>\n  <ol><li>文化模式是对主流群体的概括，不能指代个体</li><li>文化模式是相互关联的：文化里的价值观是相互联系，共同发挥作用的</li><li>文化模式是动态变化的</li><li>文化模式存在矛盾性</li></ol>\n</div>",
-  "high-context-low-context": "<div class=\"reply\">\n  <h2>考试背诵版：高语境 / 低语境</h2>\n  <p>提出者</p>\n  <p><strong>Edward T. Hall</strong>，中文常译为<strong>爱德华·霍尔</strong>。</p>\n  <p>核心概念</p>\n  <p>Hall 将文化中的沟通方式区分为<strong>高语境沟通</strong>和<strong>低语境沟通</strong>。</p>\n  <p>高语境沟通 High-context communication</p>\n  <p>信息主要依赖<strong>语境、关系、身份、场合、共享背景、潜台词和非语言信号</strong>来传递，语言本身只承载部分信息。</p>\n  <p>低语境沟通 Low-context communication</p>\n  <p>信息主要依赖<strong>明确、直接、具体的语言或文字</strong>来传递，沟通者倾向于把意思说清楚、写清楚。</p>\n  <h2>选择题高频考点</h2>\n  <table><thead><tr><th>考点</th><th>高语境</th><th>低语境</th></tr></thead><tbody><tr><td>信息来源</td><td>语境、关系、场景、非语言线索</td><td>语言、文字、明确表达</td></tr><tr><td>表达方式</td><td>间接、含蓄、委婉</td><td>直接、清楚、直白</td></tr><tr><td>人际关系</td><td>重视关系、身份、面子、群体</td><td>重视个人、规则、事实、契约</td></tr><tr><td>非语言信号</td><td>非常重要</td><td>相对次要</td></tr><tr><td>沟通前提</td><td>双方有较多共享背景</td><td>不假设双方有很多共同背景</td></tr><tr><td>常见形式</td><td>暗示、沉默、眼神、语气、场合</td><td>合同、说明书、邮件、会议纪要</td></tr></tbody></table>\n  <h2>适合直接记忆的版本</h2>\n  <h3>高语境</h3>\n  <ul><li>信息隐藏在<strong>语境</strong>中。</li><li>依赖共享经验和社会关系。</li><li>表达含蓄、间接。</li><li>重视面子、人情、身份、关系。</li><li>非语言信号很重要。</li></ul>\n  <h3>低语境</h3>\n  <ul><li>信息体现在<strong>语言</strong>中。</li><li>依赖清楚、明确的表达。</li><li>表达直接、具体。</li><li>重视规则、事实、效率、契约。</li><li>文字和口头说明很重要。</li></ul>\n  <h2>选择题常见问法</h2>\n  <h3>可能考法 1：概念配对</h3>\n  <p>题目可能问：<strong>“High-context communication” 指什么？</strong></p>\n  <ul><li>正确：信息很大程度上依赖语境、关系和非语言线索。</li><li>错误：信息主要依赖明确的文字和语言表达。</li></ul>\n  <h3>可能考法 2：提出者</h3>\n  <p>题目可能问：<strong>高语境和低语境沟通理论由谁提出？</strong></p>\n  <ul><li>Edward T. Hall</li><li>Hofstede</li><li>Sapir and Whorf</li><li>Trompenaars</li></ul>\n  <p>注意：<strong>Hofstede</strong>常考文化维度理论，不是高低语境理论的提出者。</p>\n  <h3>可能考法 3：特征判断</h3>\n  <p>题目可能问：<strong>以下哪项属于高语境文化的沟通特征？</strong></p>\n  <ul><li>表达含蓄，依赖语境和非语言暗示。</li><li>强调所有信息都必须写进合同。</li><li>说话越直接越好。</li><li>尽量避免对背景和关系的依赖。</li></ul>\n  <h2>易错点</h2>\n  <ul><li><strong>高语境不等于不用语言。</strong>它只是说语言之外的语境信息更重要。</li><li><strong>低语境不等于没有语境。</strong>它只是更强调把意思明确表达出来。</li><li><strong>高语境不一定更高级，低语境也不代表低级。</strong>这里的 high / low 不是价值判断。</li><li><strong>不要绝对化国家或民族。</strong>同一个文化内部也会因场合、职业、关系亲疏而变化。</li><li><strong>考试中看到“直接、明确、书面、合同、规则”</strong>，通常对应低语境。</li><li><strong>考试中看到“含蓄、暗示、关系、面子、非语言、共享背景”</strong>，通常对应高语境。</li></ul>\n  <h2>一句话记忆</h2>\n  <blockquote><p><strong>高语境：</strong>话不说尽，意思在关系和场景里。</p></blockquote>\n  <blockquote><p><strong>低语境：</strong>话要说清，意思在语言和文字里。</p></blockquote>\n</div>",
-  "context": "<div class=\"reply\">\n  <h2>考试背诵版：Context 语境</h2>\n  <p>英文</p>\n  <p><strong>Context</strong></p>\n  <p>中文</p>\n  <p><strong>语境</strong>，也可理解为沟通发生的背景、环境、情境。</p>\n  <p>核心定义</p>\n  <p>Context refers to the circumstances, background, or environment in which communication takes place and meaning is interpreted.</p>\n  <p>中文定义</p>\n  <p>语境是指沟通发生时的各种背景和条件，包括语言环境、物理环境、社会关系、文化背景、时间地点、交际目的、参与者身份等，它影响信息的表达和理解。</p>\n  <h2>一句话理解</h2>\n  <blockquote><p><strong>Context 就是帮助我们理解“这句话/这个行为到底是什么意思”的背景条件。</strong> 跨文化交际概念速记</p></blockquote>\n  <h2>核心考点</h2>\n  <h3>Context 的作用</h3>\n  <ul><li>帮助人们理解语言和行为的真正含义。</li><li>影响说话方式、礼貌程度、称呼方式和表达策略。</li><li>决定某个行为在特定文化中是否合适。</li><li>影响非语言信号的解释，例如眼神、沉默、距离、手势。</li><li>在跨文化交际中，语境差异容易导致误解。</li></ul>\n  <h2>Context 包括哪些内容？</h2>\n  <table><thead><tr><th>类型</th><th>含义</th><th>例子</th></tr></thead><tbody><tr><td>语言语境</td><td>一句话前后的语言内容，也叫上下文</td><td>“他真厉害”可能是真夸，也可能是讽刺，要看前后文</td></tr><tr><td>物理语境</td><td>沟通发生的地点、空间、环境</td><td>教室、办公室、餐桌、会议室、医院</td></tr><tr><td>社会语境</td><td>参与者之间的社会关系、身份、地位</td><td>老师和学生、老板和员工、长辈和晚辈</td></tr><tr><td>文化语境</td><td>文化规范、价值观、习俗、禁忌</td><td>有些文化重视直接表达，有些文化重视委婉含蓄</td></tr><tr><td>心理语境</td><td>沟通者的情绪、态度、意图、期待</td><td>同一句话在生气时和开玩笑时含义不同</td></tr><tr><td>时间语境</td><td>沟通发生的时间、时机、历史背景</td><td>迟到 5 分钟在不同文化或不同场合意义不同</td></tr><tr><td>交际目的</td><td>说话人想达到的目的</td><td>请求、拒绝、道歉、邀请、命令、劝说</td></tr></tbody></table>\n  <h2>和高语境 / 低语境的关系</h2>\n  <h3>高语境文化</h3>\n  <p>更依赖 context 来理解信息。</p>\n  <ul><li>意思常常不完全说出来。</li><li>需要看关系、场合、身份、语气、沉默。</li><li>语境信息非常重要。</li></ul>\n  <h3>低语境文化</h3>\n  <p>相对较少依赖 context，更依赖明确语言。</p>\n  <ul><li>意思倾向于直接说出来。</li><li>强调清晰表达、规则、文字、合同。</li><li>语境仍然存在，但作用相对较小。</li></ul>\n  <h2>选择题高频关键词</h2>\n  <p>background situation environment setting relationship culture time and place participants meaning interpretation</p>\n  <h2>考试可能这样考</h2>\n  <h3>考法 1：定义题</h3>\n  <p><strong>Context in communication refers to:</strong></p>\n  <ul><li>The circumstances and background in which communication takes place.</li><li>Only the words spoken by the speaker.</li><li>Only the grammar of a sentence.</li><li>Only the physical place of communication.</li></ul>\n  <h3>考法 2：判断题</h3>\n  <p><strong>Context only means the words before and after a sentence.</strong></p>\n  <ul><li>正确</li><li>错误</li></ul>\n  <p>原因：在跨文化交际中，context 不只指语言上下文，还包括文化、社会关系、场合、身份、非语言信号等。</p>\n  <h3>考法 3：与 high-context 的关系</h3>\n  <p><strong>In high-context communication, meaning is mainly interpreted through:</strong></p>\n  <ul><li>Context, relationship, shared background and nonverbal cues.</li><li>Explicit words only.</li><li>Written rules only.</li><li>Grammar only.</li></ul>\n  <h2>容易混淆的点</h2>\n  <table><thead><tr><th>概念</th><th>区别</th></tr></thead><tbody><tr><td>Context</td><td>语境、情境、背景条件，范围更大。</td></tr><tr><td>Text</td><td>文本或话语本身，即实际说出或写出的内容。</td></tr><tr><td>Co-text</td><td>语言上下文，即某句话前后的文字或话语。</td></tr><tr><td>Culture</td><td>文化是 context 的重要组成部分，但 context 不只等于 culture。</td></tr></tbody></table>\n  <h2>易错点</h2>\n  <ul><li><strong>Context 不等于单纯的“上下文”。</strong>在跨文化交际中，它的范围比语言上下文更广。</li><li><strong>Context 不等于 culture。</strong>文化是语境的一部分，但语境还包括时间、地点、身份、关系、目的等。</li><li><strong>Context 会影响 meaning。</strong>同一句话在不同语境中可能有完全不同的意思。</li><li><strong>Context 是动态的。</strong>它会随着场合、关系、时间和交际目的变化。</li><li><strong>跨文化误解常常来自语境判断不同。</strong>一方觉得是礼貌，另一方可能觉得是冷淡或不真诚。</li></ul>\n  <h2>例子帮助理解</h2>\n  <h3>例子：“你真准时。”</h3>\n  <p>这句话的意思取决于 context。</p>\n  <ul><li>如果对方真的准时到达，可能是表扬。</li><li>如果对方迟到了半小时，可能是讽刺。</li><li>如果说话人是朋友，可能是玩笑。</li><li>如果说话人是老师或老板，可能带有批评意味。</li></ul>\n  <p>所以，理解这句话不能只看文字，还要看时间、关系、语气、场合和文化习惯。</p>\n  <h2>最适合背的版本</h2>\n  <p><strong>Context refers to the background, situation, and environment in which communication takes place. It includes linguistic, physical, social, cultural, psychological and temporal factors, and it helps people interpret meaning.</strong></p>\n  <h2>中文速记口诀</h2>\n  <blockquote><p><strong>语境看背景，意义看情境；同一句话，换个场合，意思可能不同。</strong></p></blockquote>\n</div>",
-  "uncertainty-avoidance": "<div class=\"reply\">\n  <h2>考试背诵版：Uncertainty Avoidance</h2>\n  <p>英文</p>\n  <p><strong>Uncertainty Avoidance</strong></p>\n  <p>中文</p>\n  <p><strong>不确定性规避</strong>，也可译为<strong>规避不确定性</strong>。</p>\n  <p>提出者</p>\n  <p><strong>Geert Hofstede</strong>，霍夫斯泰德。</p>\n  <p>所属理论</p>\n  <p><strong>Hofstede&#39;s cultural dimensions theory</strong>，霍夫斯泰德文化维度理论。</p>\n  <p>核心定义</p>\n  <p>Uncertainty avoidance refers to the degree to which members of a culture feel uncomfortable with uncertainty, ambiguity, and unknown situations.</p>\n  <p>中文定义</p>\n  <p>不确定性规避指一个文化中的人们面对不确定、模糊、未知或不可预测情况时感到焦虑或不适的程度，以及他们试图通过规则、制度、计划、传统和明确结构来减少不确定性的倾向。</p>\n  <h2>一句话理解</h2>\n  <blockquote><p><strong>不确定性规避，就是一个文化有多害怕“说不清、没规定、不可预测”的情况。</strong> 跨文化交际概念速记</p></blockquote>\n  <h2>高不确定性规避 vs 低不确定性规避</h2>\n  <table><thead><tr><th>维度</th><th>高不确定性规避</th><th>低不确定性规避</th></tr></thead><tbody><tr><td>面对未知</td><td>容易感到焦虑、不安</td><td>较能接受模糊和变化</td></tr><tr><td>规则制度</td><td>喜欢明确规则、程序、标准</td><td>规则较少，弹性更大</td></tr><tr><td>计划安排</td><td>倾向于提前计划，避免意外</td><td>更能接受临时调整</td></tr><tr><td>变化与创新</td><td>对变化较谨慎，可能抗拒新事物</td><td>更愿意尝试新方法、新想法</td></tr><tr><td>工作学习</td><td>希望任务清楚、要求明确、标准固定</td><td>能接受开放式任务和探索式学习</td></tr><tr><td>沟通方式</td><td>希望表达准确、流程清楚、答案确定</td><td>更能接受模糊表达、讨论和不确定答案</td></tr></tbody></table>\n  <h2>高不确定性规避文化的特点</h2>\n  <h3>High uncertainty avoidance</h3>\n  <ul><li>人们对不确定、模糊、未知情况更容易感到紧张。</li><li>社会中通常有较多规则、法律、制度、程序。</li><li>人们喜欢清楚的说明、明确的标准和固定的流程。</li><li>对偏离常规的行为可能更不宽容。</li><li>更重视安全感、稳定性、秩序和可预测性。</li><li>在课堂或职场中，学生或员工可能更希望老师、上司给出明确答案和具体要求。</li></ul>\n  <h2>低不确定性规避文化的特点</h2>\n  <h3>Low uncertainty avoidance</h3>\n  <ul><li>人们较能接受不确定、模糊和未知的情况。</li><li>规则和制度相对较少，或执行方式较灵活。</li><li>对变化、新想法、新尝试更开放。</li><li>更能容忍不同意见、不同生活方式和非传统行为。</li><li>遇到问题时可能更倾向于灵活处理，而不是严格依赖既定规则。</li><li>在课堂或职场中，人们较能接受讨论、探索、开放式答案和临时变化。</li></ul>\n  <h2>选择题高频关键词</h2>\n  <h3>看到这些词，多半是高不确定性规避</h3>\n  <p>rules structure order stability predictability security formal procedures avoid ambiguity</p>\n  <h3>看到这些词，多半是低不确定性规避</h3>\n  <p>flexibility tolerance ambiguity change innovation risk-taking informality adaptability</p>\n  <h2>考试常见问法</h2>\n  <h3>考法 1：问提出者</h3>\n  <p><strong>Uncertainty avoidance is one of the cultural dimensions proposed by:</strong></p>\n  <ul><li>Geert Hofstede</li><li>Edward T. Hall</li><li>Sapir and Whorf</li><li>Kluckhohn and Strodtbeck</li></ul>\n  <p>注意：<strong>Hall</strong> 对应高语境/低语境；<strong>Hofstede</strong> 对应文化维度。</p>\n  <h3>考法 2：问定义</h3>\n  <p><strong>Uncertainty avoidance refers to:</strong></p>\n  <ul><li>The degree to which people feel uncomfortable with ambiguity and uncertainty.</li><li>The degree to which people avoid all kinds of risks.</li><li>The degree to which people prefer individual freedom.</li><li>The degree to which people accept unequal power distribution.</li></ul>\n  <h3>考法 3：判断文化特征</h3>\n  <p><strong>A culture with high uncertainty avoidance is likely to emphasize:</strong></p>\n  <ul><li>Rules, structure, security and predictability.</li><li>Ambiguity, flexibility and few formal rules.</li><li>Informality and tolerance of uncertainty.</li><li>Complete rejection of laws and procedures.</li></ul>\n  <h2>容易混淆的点</h2>\n  <table><thead><tr><th>易错说法</th><th>为什么错</th><th>正确理解</th></tr></thead><tbody><tr><td>Uncertainty avoidance 就是 risk avoidance</td><td>不完全一样</td><td>它主要指对<strong>模糊、未知、不确定</strong>的焦虑，不只是避免风险。</td></tr><tr><td>高不确定性规避的人一定不冒险</td><td>太绝对</td><td>他们不是绝对不冒险，而是更希望风险可预测、有规则、有保障。</td></tr><tr><td>低不确定性规避就是没有规则</td><td>太绝对</td><td>低不确定性规避文化也有规则，只是对模糊和变化的容忍度更高。</td></tr><tr><td>高不确定性规避等于高权力距离</td><td>混淆维度</td><td>不确定性规避关注对未知的态度；权力距离关注对等级和权力不平等的接受程度。</td></tr><tr><td>高不确定性规避就是更落后</td><td>价值判断错误</td><td>Hofstede 的维度是文化差异描述，不是优劣排名。</td></tr></tbody></table>\n  <h2>和其他概念的区别</h2>\n  <table><thead><tr><th>概念</th><th>关注的问题</th><th>关键词</th></tr></thead><tbody><tr><td>Uncertainty avoidance</td><td>人们如何面对未知、模糊和不可预测</td><td>规则、稳定、焦虑、模糊、可预测性</td></tr><tr><td>Power distance</td><td>人们是否接受权力和地位不平等</td><td>等级、权威、服从、地位差异</td></tr><tr><td>Individualism vs collectivism</td><td>人们更重视个人还是群体</td><td>个人、群体、独立、归属</td></tr><tr><td>High-context vs low-context</td><td>信息主要靠语境还是语言表达</td><td>语境、直接、含蓄、明确表达</td></tr></tbody></table>\n  <h2>例子帮助理解</h2>\n  <h3>高不确定性规避场景</h3>\n  <p>老师布置论文时，如果只说“写一个你感兴趣的跨文化主题”，学生可能会不安，会追问字数、格式、结构、评分标准、参考文献数量和截止时间。</p>\n  <p>这体现了对<strong>明确要求、清楚规则和可预测评价标准</strong>的需要。</p>\n  <h3>低不确定性规避场景</h3>\n  <p>老师布置开放式任务时，学生可能觉得这是发挥创造力的机会，愿意自己确定主题、方法和表达形式。</p>\n  <p>这体现了对<strong>开放性、灵活性和不确定性</strong>的较高容忍度。</p>\n  <h2>最适合背的英文定义</h2>\n  <p><strong>Uncertainty avoidance refers to the extent to which members of a culture feel threatened or uncomfortable by uncertain, ambiguous, or unknown situations.</strong></p>\n  <h2>最适合背的中文定义</h2>\n  <p><strong>不确定性规避指一个文化中的成员面对不确定、模糊或未知情境时感到不安的程度，以及他们通过规则、制度、计划和结构来减少不确定性的倾向。</strong></p>\n  <h2>速记口诀</h2>\n  <blockquote><p><strong>怕模糊，要规则，是高不确定性规避；能变通，能接受未知，是低不确定性规避。</strong></p></blockquote>\n</div>",
-  "power-distance": "<div class=\"reply\">\n  <h2>考试背诵版：Power Distance</h2>\n  <p>英文</p>\n  <p><strong>Power Distance</strong></p>\n  <p>中文</p>\n  <p><strong>权力距离</strong></p>\n  <p>提出者</p>\n  <p><strong>Geert Hofstede</strong>，霍夫斯泰德。</p>\n  <p>所属理论</p>\n  <p><strong>Hofstede&#39;s cultural dimensions theory</strong>，霍夫斯泰德文化维度理论。</p>\n  <p>核心定义</p>\n  <p>Power distance refers to the extent to which the less powerful members of a society accept and expect that power is distributed unequally.</p>\n  <p>中文定义</p>\n  <p>权力距离指一个社会中权力较小的成员对于权力不平等分配的接受程度和期待程度。</p>\n  <h2>一句话理解</h2>\n  <blockquote><p><strong>权力距离就是：人们有多接受“上级就是上级，下级就是下级”的等级差异。</strong> 跨文化交际概念速记</p></blockquote>\n  <h2>高权力距离 vs 低权力距离</h2>\n  <table><thead><tr><th>维度</th><th>高权力距离</th><th>低权力距离</th></tr></thead><tbody><tr><td>对等级的态度</td><td>接受明显等级差异</td><td>强调平等，等级差异较弱</td></tr><tr><td>对权威的态度</td><td>尊重、服从权威</td><td>可以质疑、讨论、挑战权威</td></tr><tr><td>决策方式</td><td>上级决策，下级执行</td><td>倾向协商、参与式决策</td></tr><tr><td>沟通方式</td><td>上下级沟通较正式、间接</td><td>沟通较平等、直接、开放</td></tr><tr><td>称呼方式</td><td>重视头衔、职位、身份</td><td>较少强调头衔，可能直呼名字</td></tr><tr><td>课堂表现</td><td>学生更少质疑老师，老师是权威</td><td>学生可以提问、争论，老师像引导者</td></tr><tr><td>职场表现</td><td>老板权威强，员工等待指示</td><td>员工更可能表达意见，老板较平易近人</td></tr></tbody></table>\n  <h2>高权力距离文化的特点</h2>\n  <h3>High power distance</h3>\n  <ul><li>社会接受权力和地位的不平等。</li><li>等级制度明显，上下级界限清楚。</li><li>人们重视身份、头衔、职位、资历和年龄。</li><li>下级通常不轻易公开反驳上级。</li><li>领导、老师、父母等权威人物拥有较高话语权。</li><li>决策常由上级或权威人物作出。</li><li>沟通可能更正式、谨慎、委婉。</li></ul>\n  <h2>低权力距离文化的特点</h2>\n  <h3>Low power distance</h3>\n  <ul><li>社会倾向于减少权力和地位差异。</li><li>人们更强调平等、个人意见和参与。</li><li>下级可以向上级提出建议甚至不同意见。</li><li>领导者更像协调者或团队成员，而不只是命令者。</li><li>老师和学生之间关系较平等，课堂互动更多。</li><li>职场中更鼓励讨论、协商和反馈。</li><li>沟通方式相对直接、开放、非正式。</li></ul>\n  <h2>选择题高频关键词</h2>\n  <h3>高权力距离关键词</h3>\n  <p>hierarchy authority status obedience titles rank centralized decision-making respect for superiors</p>\n  <h3>低权力距离关键词</h3>\n  <p>equality participation consultation questioning authority informality open communication decentralized decision-making</p>\n  <h2>考试常见问法</h2>\n  <h3>考法 1：问提出者</h3>\n  <p><strong>Power distance is one of the cultural dimensions proposed by:</strong></p>\n  <ul><li>Geert Hofstede</li><li>Edward T. Hall</li><li>Sapir and Whorf</li><li>Trompenaars only</li></ul>\n  <p>注意：<strong>Hofstede</strong> 对应权力距离、不确定性规避、个人主义/集体主义等文化维度；<strong>Hall</strong> 常对应高语境/低语境。</p>\n  <h3>考法 2：问定义</h3>\n  <p><strong>Power distance refers to:</strong></p>\n  <ul><li>The extent to which less powerful members accept and expect unequal power distribution.</li><li>The physical distance between people in communication.</li><li>The degree to which people avoid uncertainty.</li><li>The preference for individual goals over group goals.</li></ul>\n  <h3>考法 3：判断文化特征</h3>\n  <p><strong>In a high power distance culture, people are more likely to:</strong></p>\n  <ul><li>Respect hierarchy and accept authority.</li><li>Treat superiors and subordinates as completely equal in all situations.</li><li>Openly challenge teachers and managers as a norm.</li><li>Reject all titles, ranks and status differences.</li></ul>\n  <h2>典型场景理解</h2>\n  <h3>课堂场景：高权力距离</h3>\n  <p>学生通常认为老师是知识和课堂秩序的权威，不太会当众反驳老师。老师讲、学生听的模式更常见。</p>\n  <p>关键词：<strong>teacher authority, respect, less questioning</strong></p>\n  <h3>课堂场景：低权力距离</h3>\n  <p>学生可以主动提问、讨论甚至挑战老师观点。老师更像引导者，课堂更强调互动和批判性思维。</p>\n  <p>关键词：<strong>discussion, equality, questioning</strong></p>\n  <h3>职场场景：高权力距离</h3>\n  <p>员工更倾向于等待上级指示，不轻易越级表达意见。老板或管理者拥有明显决策权。</p>\n  <p>关键词：<strong>boss-centered, hierarchy, instructions</strong></p>\n  <h3>职场场景：低权力距离</h3>\n  <p>员工更容易参与讨论、提出建议或表达不同意见。管理者可能鼓励反馈和团队合作。</p>\n  <p>关键词：<strong>participation, feedback, teamwork</strong></p>\n  <h2>容易混淆的点</h2>\n  <table><thead><tr><th>易错说法</th><th>为什么错</th><th>正确理解</th></tr></thead><tbody><tr><td>Power distance 是人与人之间的物理距离</td><td>把 power distance 误解成 physical distance</td><td>它指<strong>权力和地位差异的接受程度</strong>，不是站得远不远。</td></tr><tr><td>权力距离只看掌权者的态度</td><td>忽略了定义中的 less powerful members</td><td>重点是<strong>权力较小的人</strong>是否接受和期待权力不平等。</td></tr><tr><td>高权力距离一定不好，低权力距离一定好</td><td>这是价值判断</td><td>Hofstede 维度是描述文化差异，不是评价文化优劣。</td></tr><tr><td>高权力距离等于不确定性规避高</td><td>混淆两个维度</td><td>权力距离关注<strong>等级和权威</strong>；不确定性规避关注<strong>模糊、未知和规则</strong>。</td></tr><tr><td>低权力距离就是完全没有领导</td><td>太绝对</td><td>低权力距离文化也有领导，只是领导和下属之间更强调平等、沟通和参与。</td></tr></tbody></table>\n  <h2>和其他概念的区别</h2>\n  <table><thead><tr><th>概念</th><th>关注的问题</th><th>关键词</th></tr></thead><tbody><tr><td>Power distance</td><td>人们是否接受权力和地位不平等</td><td>等级、权威、服从、地位、头衔</td></tr><tr><td>Uncertainty avoidance</td><td>人们如何面对未知、模糊和不可预测</td><td>规则、稳定、焦虑、模糊、可预测性</td></tr><tr><td>Individualism vs collectivism</td><td>人们更重视个人还是群体</td><td>个人目标、群体利益、独立、归属</td></tr><tr><td>High-context vs low-context</td><td>信息主要依赖语境还是明确语言</td><td>含蓄、直接、语境、文字表达</td></tr></tbody></table>\n  <h2>最适合背的英文定义</h2>\n  <p><strong>Power distance refers to the extent to which the less powerful members of a society accept and expect that power is distributed unequally.</strong></p>\n  <h2>最适合背的中文定义</h2>\n  <p><strong>权力距离指一个社会中权力较小的成员对权力不平等分配的接受和期待程度。</strong></p>\n  <h2>速记口诀</h2>\n  <blockquote><p><strong>认等级、敬权威，是高权力距离；讲平等、敢讨论，是低权力距离。</strong></p></blockquote>\n</div>",
-  "masculinity-femininity": "<div class=\"reply\">\n  <h2>考试背诵版：Masculinity / Femininity</h2>\n  <p>英文</p>\n  <p><strong>Masculinity / Femininity</strong></p>\n  <p>中文</p>\n  <p><strong>男性化 / 女性化</strong>，也可译为<strong>阳刚气质 / 阴柔气质</strong>。</p>\n  <p>提出者</p>\n  <p><strong>Geert Hofstede</strong>，霍夫斯泰德。</p>\n  <p>所属理论</p>\n  <p><strong>Hofstede&#39;s cultural dimensions theory</strong>，霍夫斯泰德文化维度理论。</p>\n  <p>核心定义</p>\n  <p>Masculinity versus femininity refers to the degree to which a culture values achievement, competition, assertiveness and material success, as opposed to care, cooperation, modesty and quality of life.</p>\n  <p>中文定义</p>\n  <p>男性化 / 女性化指一个文化更重视竞争、成就、成功、物质回报和果断表现，还是更重视关怀、合作、谦逊、人际关系和生活质量。</p>\n  <h2>一句话理解</h2>\n  <blockquote><p><strong>Masculinity / Femininity 不是在说男人和女人，而是在说一个社会更崇尚“赢、成功、竞争”，还是更重视“关怀、合作、生活质量”。</strong> 跨文化交际概念速记</p></blockquote>\n  <h2>高男性化文化 vs 女性化文化</h2>\n  <table><thead><tr><th>维度</th><th>高男性化文化</th><th>女性化文化</th></tr></thead><tbody><tr><td>核心价值</td><td>成就、成功、竞争、表现</td><td>关怀、合作、生活质量、关系</td></tr><tr><td>社会理想</td><td>成为赢家、强者、成功者</td><td>过得幸福、平衡、和谐</td></tr><tr><td>工作观</td><td>重视升职、收入、绩效、地位</td><td>重视工作生活平衡、团队氛围、福利</td></tr><tr><td>沟通方式</td><td>可能更直接、果断、强调结果</td><td>更重视照顾感受、协商、避免伤害关系</td></tr><tr><td>冲突处理</td><td>倾向竞争、辩论、坚持立场</td><td>倾向妥协、调解、寻找共识</td></tr><tr><td>教育观</td><td>强调成绩、排名、优秀、竞争</td><td>强调参与、支持、共同成长、不要过度比较</td></tr><tr><td>性别角色</td><td>传统性别角色可能更分明</td><td>性别角色更重叠，男女都可承担关怀和职业角色</td></tr></tbody></table>\n  <h2>高男性化文化的特点</h2>\n  <h3>High masculinity culture</h3>\n  <ul><li>重视<strong>achievement</strong>，即成就和成功。</li><li>重视<strong>competition</strong>，认为竞争能推动进步。</li><li>强调<strong>assertiveness</strong>，即果断、自信、敢表达。</li><li>看重<strong>material success</strong>，例如金钱、职位、奖项、社会地位。</li><li>人们更容易用成绩、排名、收入、头衔来衡量成功。</li><li>职场中强调绩效、晋升、目标达成和个人表现。</li><li>社会可能更赞赏强者、赢家、英雄式人物。</li></ul>\n  <h2>女性化文化的特点</h2>\n  <h3>Femininity culture</h3>\n  <ul><li>重视<strong>care</strong>，即关怀、照顾和同理心。</li><li>重视<strong>cooperation</strong>，强调合作而不是过度竞争。</li><li>强调<strong>modesty</strong>，即谦逊、低调、不炫耀。</li><li>看重<strong>quality of life</strong>，即生活质量和幸福感。</li><li>人们更关注工作生活平衡、家庭、健康和人际关系。</li><li>职场中更强调团队气氛、公平、福利和支持。</li><li>冲突中更倾向于协商、妥协和维护关系。</li></ul>\n  <h2>选择题高频关键词</h2>\n  <h3>Masculinity 男性化关键词</h3>\n  <p>achievement competition success assertiveness ambition performance material rewards winning status</p>\n  <h3>Femininity 女性化关键词</h3>\n  <p>care cooperation modesty quality of life work-life balance relationships consensus support equality</p>\n  <h2>考试常见问法</h2>\n  <h3>考法 1：问提出者</h3>\n  <p><strong>Masculinity versus femininity is one of the cultural dimensions proposed by:</strong></p>\n  <ul><li>Geert Hofstede</li><li>Edward T. Hall</li><li>Sapir and Whorf</li><li>Brown and Levinson</li></ul>\n  <p>注意：<strong>Hofstede</strong> 对应文化维度；<strong>Hall</strong> 常对应高语境 / 低语境。</p>\n  <h3>考法 2：问定义</h3>\n  <p><strong>Masculinity in Hofstede&#39;s cultural dimensions emphasizes:</strong></p>\n  <ul><li>Achievement, competition, assertiveness and material success.</li><li>Only biological differences between men and women.</li><li>Avoidance of uncertainty and ambiguity.</li><li>Acceptance of unequal power distribution.</li></ul>\n  <h3>考法 3：判断女性化文化特征</h3>\n  <p><strong>A feminine culture is more likely to value:</strong></p>\n  <ul><li>Cooperation, modesty, care and quality of life.</li><li>Aggressive competition and material rewards only.</li><li>Strict hierarchy and obedience to authority.</li><li>Avoiding all ambiguous situations.</li></ul>\n  <h2>典型场景理解</h2>\n  <h3>职场：高男性化文化</h3>\n  <p>公司特别强调业绩排名、奖金、晋升速度和个人成就。员工可能愿意加班竞争，以证明自己更优秀。</p>\n  <p>关键词：<strong>performance, promotion, competition, success</strong></p>\n  <h3>职场：女性化文化</h3>\n  <p>公司更关注员工福利、工作生活平衡、团队合作和心理健康。领导可能鼓励协商而不是单纯比较绩效。</p>\n  <p>关键词：<strong>well-being, cooperation, balance, care</strong></p>\n  <h3>课堂：高男性化文化</h3>\n  <p>学生和家长更重视分数、排名、竞赛、奖项和进入名校。优秀常常通过“比别人强”来体现。</p>\n  <p>关键词：<strong>grades, ranking, excellence, achievement</strong></p>\n  <h3>课堂：女性化文化</h3>\n  <p>课堂更重视学生的参与感、合作能力、心理舒适度和全面发展，老师可能避免过度公开比较学生。</p>\n  <p>关键词：<strong>participation, support, equality, development</strong></p>\n  <h2>容易混淆的点</h2>\n  <table><thead><tr><th>易错说法</th><th>为什么错</th><th>正确理解</th></tr></thead><tbody><tr><td>Masculinity / Femininity 是指男人和女人的数量</td><td>把文化维度误解成性别比例</td><td>它关注的是<strong>社会价值取向</strong>，不是人口中男女比例。</td></tr><tr><td>男性化文化就是男人掌权</td><td>过度简化</td><td>男性化文化重点是<strong>竞争、成就、成功、物质回报</strong>，不等同于单纯男性掌权。</td></tr><tr><td>女性化文化就是女性地位更高</td><td>概念不准确</td><td>女性化文化强调<strong>关怀、合作、谦逊、生活质量</strong>，不是简单说女性统治社会。</td></tr><tr><td>男性化文化好，女性化文化弱</td><td>这是价值判断</td><td>Hofstede 的维度是描述文化差异，不是判断文化优劣。</td></tr><tr><td>Masculinity 等于 individualism</td><td>混淆两个维度</td><td>男性化关注<strong>竞争和成就</strong>；个人主义关注<strong>个人与群体的关系</strong>。</td></tr><tr><td>Femininity 等于 collectivism</td><td>不完全一样</td><td>女性化强调<strong>关怀和生活质量</strong>；集体主义强调<strong>群体归属和群体利益</strong>。</td></tr></tbody></table>\n  <h2>和其他 Hofstede 维度的区别</h2>\n  <table><thead><tr><th>概念</th><th>关注的问题</th><th>关键词</th></tr></thead><tbody><tr><td>Masculinity / Femininity</td><td>社会更重视竞争成就，还是关怀生活质量</td><td>成就、竞争、成功、关怀、合作、生活质量</td></tr><tr><td>Power distance</td><td>人们是否接受权力和地位不平等</td><td>等级、权威、服从、地位、头衔</td></tr><tr><td>Uncertainty avoidance</td><td>人们如何面对未知、模糊和不可预测</td><td>规则、稳定、焦虑、模糊、可预测性</td></tr><tr><td>Individualism / Collectivism</td><td>人们更重视个人目标还是群体利益</td><td>个人、群体、独立、归属、忠诚</td></tr></tbody></table>\n  <h2>英文定义：适合直接背</h2>\n  <p><strong>Masculinity refers to a cultural preference for achievement, competition, assertiveness and material success, while femininity refers to a cultural preference for cooperation, modesty, care for others and quality of life.</strong></p>\n  <h2>中文定义：适合直接背</h2>\n  <p><strong>男性化 / 女性化是霍夫斯泰德文化维度之一，指一个文化更重视竞争、成就、成功和物质回报，还是更重视合作、关怀、谦逊、人际关系和生活质量。</strong></p>\n  <h2>速记口诀</h2>\n  <blockquote><p><strong>重竞争、拼成就，是男性化；重关怀、讲平衡，是女性化。</strong></p></blockquote>\n</div>"
-};
+  const entries = {
+    "generalizations": {
+      definition: "概括性判断是根据有限观察总结出的群体倾向，用来帮助理解文化差异，但不能当成对每个个体的绝对判断。",
+      points: ["基于有限资料，推广到较大群体。", "可以作为跨文化分析的起点。", "必须保持开放，遇到新证据要修正。"],
+      watch: ["generalization 不等于 stereotype。前者可修正，后者僵化。", "考试看到 limited data、larger group、tendency，通常指 generalization。"],
+      memory: "概括是起点，不是结论。"
+    },
+    "objectivity": {
+      definition: "客观性指判断尽量基于事实、证据和可观察信息，减少个人情绪、偏见和文化立场的干扰。",
+      points: ["强调 facts、evidence、observable behavior。", "跨文化分析中要先描述，再解释，最后评价。", "客观不是没有立场，而是能意识到自己的立场。"],
+      watch: ["不要把自己的文化习惯当作客观标准。", "与 ethnocentrism 相反，objectivity 要求暂停价值评判。"],
+      memory: "先看事实，再下判断。"
+    },
+    "ethnocentrism": {
+      definition: "民族中心主义是以自己的文化作为评价其他文化的标准，并倾向于认为本文化更正常、更优越。",
+      points: ["核心是 self-culture as standard。", "容易导致误解、偏见和文化优越感。", "跨文化交际中需要用文化相对主义和客观性来克服。"],
+      watch: ["不是单纯热爱本文化，而是用本文化压倒性地评价他者。", "考试常见关键词：superior、judge other cultures、own culture as center。"],
+      memory: "把自己的文化当尺子量所有文化，就是 ethnocentrism。"
+    },
+    "human-communication": {
+      definition: "人类沟通是人们在特定情境中借助符号分享意义的动态过程。",
+      points: ["dynamic process：沟通不断变化。", "symbols：语言、动作、图像等都可承载意义。", "meaning sharing：目标是让意义被理解。", "setting/context：情境影响表达和解释。"],
+      watch: ["沟通不是简单传递信息，而是共同建构意义。", "跨文化沟通失败常来自符号意义和语境理解不同。"],
+      memory: "communication = symbols + meaning + context + process。"
+    },
+    "symbol": {
+      definition: "符号是承载意义的形式，可以是语言、手势、图像、物品或行为，用来表达人的思想、感受和经验。",
+      points: ["符号本身和意义之间通常是约定关系。", "同一符号在不同文化中可能有不同意义。", "语言是最重要的符号系统之一。"],
+      watch: ["符号不是意义本身，而是意义的载体。", "跨文化误解常来自对同一符号的不同解释。"],
+      memory: "没有共享符号，就没有可理解的沟通。"
+    },
+    "culture": {
+      definition: "文化是一个群体共享、习得并代际传递的生活方式和意义系统，包括价值观、信念、行为规范、制度和物质产物。",
+      points: ["learned：文化不是天生的。", "shared：被群体成员共同理解。", "transmitted：通过语言、家庭、教育等传递。", "dynamic：文化会变化，不是固定不变。"],
+      watch: ["文化既有可见层面，也有深层价值和假设。", "不要把文化等同于国家；国家内部也有差异。"],
+      memory: "文化是人们学会如何生活、解释世界和与人相处的系统。"
+    },
+    "world-view": {
+      definition: "世界观是一个文化群体对现实、人性、自然、时间、命运和人与世界关系的基本看法。",
+      points: ["属于深层文化，常常不被直接说出。", "影响价值判断、行为动机和沟通方式。", "宗教、哲学、历史经验都会塑造世界观。"],
+      watch: ["world-view 不只是个人观点，而是群体共享的深层理解框架。", "理解世界观有助于解释行为背后的 why。"],
+      memory: "世界观回答：世界是什么样的，人应该怎样活。"
+    },
+    "intercultural-communication-competence": {
+      definition: "跨文化交际能力是在跨文化情境中有效并恰当地实现沟通目标的能力。",
+      points: ["motivation：愿意沟通和理解他者。", "knowledge：了解文化、语境和沟通规则。", "skills：倾听、解释、调适和解决冲突。", "effectiveness + appropriateness：既达成目标，又符合情境。"],
+      watch: ["只懂文化知识不等于有能力，还需要动机和技能。", "恰当性比“说得流利”更重要。"],
+      memory: "ICC = motivation + knowledge + skills。"
+    },
+    "deep-culture": {
+      definition: "深层文化是文化中不易被看见的价值观、信念、世界观和基本假设，解释人们为什么这样行动。",
+      points: ["比食物、服装、节日等表层文化更难观察。", "常通过家庭、制度、宗教、教育等长期塑造。", "决定一个文化对对错、美丑、身份、关系的根本看法。"],
+      watch: ["deep culture 关注 why，不只是 what。", "跨文化冲突往往发生在深层价值不一致时。"],
+      memory: "表层文化看行为，深层文化看原因。"
+    },
+    "social-organizations-institutions": {
+      definition: "社会组织或社会制度是文化中稳定组织人际关系、分配角色和维持秩序的结构，如家庭、教育、宗教、政府和经济制度。",
+      points: ["帮助个体获得身份和归属。", "规定角色、责任和权力关系。", "是文化传递和社会化的重要渠道。"],
+      watch: ["institution 不一定是具体建筑，而是稳定的社会规则和组织方式。", "家庭通常被视为最基本的社会制度。"],
+      memory: "社会制度把个人组织成可合作的社会。"
+    },
+    "family": {
+      definition: "家庭是基于血缘、婚姻、收养或亲属关系形成的基本社会单位，是文化学习和身份形成的首要场所。",
+      points: ["承担照料、经济支持和情感支持功能。", "传递语言、价值观、礼貌规则和性别角色。", "常区分 family of orientation 与 family of procreation。"],
+      watch: ["不同文化对家庭边界、亲属责任和代际关系理解不同。", "家庭不仅是私人关系，也是文化制度。"],
+      memory: "家庭是一个人最早接触文化的地方。"
+    },
+    "individual-collective-dimension": {
+      definition: "个体主义/集体主义维度描述一个文化更强调个人独立和个人目标，还是群体归属和群体利益。",
+      points: ["individualism：独立、自我表达、个人成就、个人权利。", "collectivism：相互依赖、群体和谐、责任、忠诚。", "影响称呼、决策、冲突处理和自我介绍方式。"],
+      watch: ["它描述文化倾向，不代表每个个体都一样。", "集体主义不等于没有个人，个体主义也不等于自私。"],
+      memory: "个人优先看 individualism，群体优先看 collectivism。"
+    },
+    "perception": {
+      definition: "感知是人们选择、组织并解释信息，从而理解世界和构建现实的过程。",
+      points: ["selection：注意到哪些信息。", "organization：如何分类和组织信息。", "interpretation：如何解释意义。", "文化会影响三步中的每一步。"],
+      watch: ["perception 不是被动接收，而是主动建构。", "同一行为在不同文化感知中可能意义不同。"],
+      memory: "我们不是直接看见世界，而是通过文化理解世界。"
+    },
+    "belief": {
+      definition: "信念是人们认为真实或正确的观念，可以来自经验、宗教、教育、传统或社会群体。",
+      points: ["可以有证据，也可以主要来自主观确信。", "群体共享的信念会成为文化的一部分。", "信念会支持价值观，并进一步影响行为。"],
+      watch: ["belief 关注 true/false 的确信；value 关注 good/bad 的判断。", "信念不一定客观正确，但会真实影响行动。"],
+      memory: "belief 是“我认为是真的”。"
+    },
+    "cultural-values": {
+      definition: "文化价值观是一个文化群体共享的关于好坏、对错、重要与不重要的判断标准。",
+      points: ["建立在共享信念之上。", "指导行为选择和社会评价。", "相对稳定，但会随社会变化而调整。"],
+      watch: ["value 不是个人偏好，而是群体层面的指导原则。", "价值观常通过行为规范体现出来。"],
+      memory: "value 是“什么值得追求”。"
+    },
+    "behaviors": {
+      definition: "行为是文化信念和价值观在具体情境中的外在表现，包括语言行为、非语言行为和社会行动。",
+      points: ["行为受文化、语境、身份和关系共同影响。", "同一行为在不同文化中可能合适或不合适。", "观察行为时要结合其背后的价值和情境。"],
+      watch: ["不能只凭一次行为判断整个文化。", "behavior 是可见结果，belief/value 是内在原因。"],
+      memory: "行为是价值观落地后的样子。"
+    },
+    "cultural-patterns-value-orientations": {
+      definition: "文化模式或价值取向是一组相互关联的主流价值和行为倾向，用来概括一个文化处理关键问题的方式。",
+      points: ["提供分析文化差异的框架。", "通常描述主流倾向，不等于个体特征。", "文化模式之间相互关联，并会动态变化。"],
+      watch: ["不要把文化模式绝对化或标签化。", "Hofstede、Hall 等理论都可视为分析文化模式的工具。"],
+      memory: "文化模式是理解文化差异的地图，不是每个人的身份证。"
+    },
+    "high-context-low-context": {
+      definition: "高语境/低语境是 Hall 提出的沟通维度，区分信息主要依赖语境关系，还是依赖明确语言表达。",
+      points: ["high-context：含蓄、间接、重关系、重非语言线索。", "low-context：直接、明确、重文字、重规则和信息清晰。", "高低不是价值高低，只是沟通方式差异。"],
+      watch: ["高语境不是不用语言，低语境也不是没有语境。", "合同、说明书、清楚表达常对应低语境；暗示、面子、关系常对应高语境。"],
+      memory: "高语境：意思在场景里；低语境：意思在话语里。"
+    },
+    "context": {
+      definition: "语境是沟通发生的背景和条件，包括语言、物理、社会、文化、心理、时间和交际目的等因素。",
+      points: ["影响语言和非语言行为的解释。", "帮助判断某句话或行为真正是什么意思。", "跨文化误解常来自语境判断不同。"],
+      watch: ["context 不只是上下文，也不等于 culture。", "同一句话换场合、关系或语气，意义可能完全不同。"],
+      memory: "语境决定意义。"
+    },
+    "uncertainty-avoidance": {
+      definition: "不确定性规避是 Hofstede 文化维度之一，指文化成员面对模糊、未知和不可预测情况时感到不安的程度。",
+      points: ["高不确定性规避：重规则、秩序、计划、安全感。", "低不确定性规避：能接受模糊、变化、弹性和探索。", "影响课堂要求、职场流程和社会规范。"],
+      watch: ["不等于 risk avoidance；重点是对 ambiguity 和 uncertainty 的焦虑。", "也不等于 power distance，二者关注的问题不同。"],
+      memory: "怕模糊、要规则，是高不确定性规避。"
+    },
+    "power-distance": {
+      definition: "权力距离是 Hofstede 文化维度之一，指社会中权力较小成员接受并期待权力不平等分配的程度。",
+      points: ["高权力距离：等级清楚、尊重权威、重头衔和身份。", "低权力距离：强调平等、参与、质疑和协商。", "影响师生关系、职场沟通和决策方式。"],
+      watch: ["power distance 不是物理距离。", "定义重点是 less powerful members 是否接受权力不平等。"],
+      memory: "认等级、敬权威，是高权力距离。"
+    },
+    "masculinity-femininity": {
+      definition: "男性化/女性化是 Hofstede 文化维度之一，描述一个文化更重视竞争成就，还是关怀合作和生活质量。",
+      points: ["masculinity：achievement、competition、assertiveness、material success。", "femininity：care、cooperation、modesty、quality of life。", "它讨论社会价值取向，不是男女比例。"],
+      watch: ["男性化不等于男人掌权，女性化不等于女性统治。", "不要把 masculinity/femininity 与 individualism/collectivism 混淆。"],
+      memory: "重竞争和成功是男性化，重关怀和生活质量是女性化。"
+    },
+    "face-facework": {
+      definition: "面子是人在互动中希望维持的社会形象；面子功夫是维护、挽回或保护面子的沟通策略。",
+      points: ["face 包括自尊、体面、他人评价和社会身份。", "facework 包括道歉、委婉表达、回避冲突、给台阶。", "高语境和集体主义文化通常更重视面子管理。"],
+      watch: ["face 不是简单的 vanity，而是社会关系中的公共形象。", "直接批评、公开拒绝可能威胁他人面子。"],
+      memory: "面子是形象，面子功夫是保护形象的做法。"
+    },
+    "social-identities": {
+      definition: "社会身份是个体基于群体归属形成的身份，如国籍、民族、性别、宗教、阶层、职业等。",
+      points: ["来自 group membership。", "影响人们如何看待自己，也影响他人如何对待自己。", "在跨文化沟通中常与权力、刻板印象和归属感相关。"],
+      watch: ["一个人同时拥有多重社会身份。", "社会身份不是固定不变的，会随情境被强调或弱化。"],
+      memory: "社会身份回答：我属于哪些群体。"
+    },
+    "personal-identity": {
+      definition: "个人身份是个体独特的自我理解，包括性格、经历、能力、兴趣、价值选择和人生故事。",
+      points: ["强调 uniqueness 和 personal history。", "与社会身份相互影响，但不完全等同。", "跨文化互动中个体差异不能被群体标签完全覆盖。"],
+      watch: ["不要用社会身份替代个人身份。", "同一文化群体内部也有丰富个人差异。"],
+      memory: "个人身份回答：我作为独特个体是谁。"
+    },
+    "gender": {
+      definition: "性别是文化和社会对男性、女性及其他性别身份所赋予的角色、期待和行为规范。",
+      points: ["gender 是社会文化建构，不等同于 biological sex。", "影响语言使用、礼貌规范、职业期待和家庭角色。", "不同文化对性别角色的边界不同。"],
+      watch: ["不要把 gender 简化为生理差异。", "性别规范会随时代、群体和情境变化。"],
+      memory: "sex 偏生理，gender 偏社会文化。"
+    },
+    "ethnic-identity-ethnicity": {
+      definition: "族群身份是个体对某一族群的归属感；族群性通常与共同祖先、历史、语言、文化传统和群体记忆相关。",
+      points: ["包括自我认同和他人识别。", "可通过语言、饮食、仪式、历史记忆等表达。", "在移民和多元文化社会中尤其重要。"],
+      watch: ["ethnicity 不等于 race，也不等于 nationality。", "族群身份既有客观文化线索，也有主观归属感。"],
+      memory: "族群身份强调共同文化传统和归属感。"
+    },
+    "national-character": {
+      definition: "国民性格是对一个国家成员常见性格或行为倾向的概括性描述。",
+      points: ["可作为了解国家文化叙事的入口。", "经常出现在旅游、媒体和跨文化比较中。", "必须谨慎使用，避免把国家标签套到个人身上。"],
+      watch: ["national character 很容易滑向 stereotype。", "国家内部存在地区、阶层、族群和个人差异。"],
+      memory: "国民性格可以参考，不能绝对化。"
+    },
+    "ascribed-avowed-identities": {
+      definition: "赋予身份是别人强加或归类给你的身份；自认身份是你自己承认、选择或强调的身份。",
+      points: ["ascribed identity：由他人、制度或社会标签赋予。", "avowed identity：个体主动声明或认同。", "二者不一致时容易产生误解或冲突。"],
+      watch: ["别人怎么看你，不一定等于你怎么定义自己。", "跨文化沟通要尊重对方的 avowed identity。"],
+      memory: "ascribed 是别人给的，avowed 是自己认的。"
+    },
+    "language": {
+      definition: "语言是由符号和规则构成的意义系统，是文化传递、身份表达和社会互动的核心工具。",
+      points: ["语言反映文化，也参与塑造文化。", "词汇、语法、称呼和礼貌形式都带有文化意义。", "语言选择会表达身份、距离、权力和关系。"],
+      watch: ["会翻译字面意义不等于理解文化意义。", "语言差异不仅是词汇差异，也是思维和关系表达差异。"],
+      memory: "语言是文化的主要符号系统。"
+    },
+    "denotative-connotative-meaning": {
+      definition: "外延意义是词语的字面或词典意义；内涵意义是词语引发的情感、联想和文化含义。",
+      points: ["denotative meaning：直接、基本、字面意义。", "connotative meaning：情感色彩、社会评价、文化联想。", "跨文化误解常来自内涵意义不同。"],
+      watch: ["同一个词外延相近，内涵可能差异很大。", "翻译时不能只看 denotation，还要看 connotation。"],
+      memory: "外延看字面，内涵看联想。"
+    },
+    "nonverbal-communication": {
+      definition: "非语言沟通是不依靠词语本身传递意义的沟通方式，包括表情、眼神、姿势、手势、距离、触碰和时间使用等。",
+      points: ["常常更依赖文化规则。", "可以补充、强调、替代或矛盾于语言信息。", "在高语境沟通中尤其重要。"],
+      watch: ["非语言信号不是全球通用的。", "同一手势、眼神或沉默在不同文化中可能意义相反。"],
+      memory: "不说话，也在沟通。"
+    },
+    "paralanguage": {
+      definition: "副语言是语言内容之外的声音特征，如语调、音高、音量、语速、停顿、笑声和沉默。",
+      points: ["影响一句话的态度和情绪意义。", "同一句话用不同语气可能表达赞美、讽刺或命令。", "沉默也可以是一种副语言信号。"],
+      watch: ["paralanguage 属于 nonverbal communication，但与声音有关。", "不要只看 words，还要听 how it is said。"],
+      memory: "副语言是话语的声音表情。"
+    },
+    "proxemics": {
+      definition: "空间语言学研究人们如何使用距离和空间来表达关系、身份、亲密程度和权力。",
+      points: ["由 Edward T. Hall 提出并发展。", "常见距离包括亲密距离、个人距离、社交距离和公共距离。", "文化会影响人们觉得多近才合适。"],
+      watch: ["proxemics 不是 power distance。前者是空间距离，后者是权力不平等接受程度。", "距离过近或过远都可能造成跨文化不适。"],
+      memory: "人和人站多远，也是一种文化信息。"
+    },
+    "monochronic-polychronic-time": {
+      definition: "单时制/多时制是 Hall 提出的时间取向差异：单时制强调线性计划，多时制强调关系和灵活安排。",
+      points: ["monochronic：一次做一件事，重日程、准时、效率。", "polychronic：多任务并行，重关系、弹性、情境变化。", "影响会议、约会、截止时间和工作方式。"],
+      watch: ["多时制不是不守时，而是时间优先级不同。", "单时制也不是冷漠，只是更重计划和任务。"],
+      memory: "M-time 看时间表，P-time 看关系网。"
+    },
+    "culture-shock": {
+      definition: "文化冲击是进入陌生文化环境后，因规则、语言、价值和日常习惯不同而产生的压力、困惑和不适。",
+      points: ["常见阶段：蜜月期、挫折期、恢复期、适应期。", "表现为孤独、焦虑、疲惫、误解和身份不稳定。", "通过学习文化规则、建立支持网络和调整期待可缓解。"],
+      watch: ["culture shock 是适应过程的一部分，不代表失败。", "它强调短期心理和行为反应。"],
+      memory: "熟悉的规则失效时，就容易文化冲击。"
+    },
+    "acculturation": {
+      definition: "文化适应是不同文化群体持续接触后，个体或群体在价值、行为、身份和生活方式上发生调整的过程。",
+      points: ["常见策略：integration、assimilation、separation、marginalization。", "既涉及主流文化学习，也涉及原文化保持。", "移民、留学和跨国工作中常见。"],
+      watch: ["acculturation 比 culture shock 更长期。", "assimilation 是融入主流并弱化原文化，不等于 integration。"],
+      memory: "文化冲击是反应，文化适应是过程。"
+    },
+    "stereotyping": {
+      definition: "刻板印象是对某个群体形成固定、简化且过度概括的看法，并把它套用到个体身上。",
+      points: ["是一种认知捷径。", "忽视个体差异和情境差异。", "可能看似中性或积极，但仍然会限制真实理解。"],
+      watch: ["stereotype 比 generalization 更僵化、更难修正。", "考试关键词：fixed、oversimplified、all members。"],
+      memory: "刻板印象把活人压成标签。"
+    },
+    "prejudices": {
+      definition: "偏见是在充分了解之前，对某个群体或成员形成的负面态度、情绪或评价。",
+      points: ["偏见主要是态度层面。", "常基于刻板印象，并可能导致歧视行为。", "可表现为恐惧、厌恶、排斥或轻视。"],
+      watch: ["prejudice 是态度，discrimination 是行为。", "偏见不一定公开表达，但会影响判断。"],
+      memory: "偏见是还没了解就先否定。"
+    },
+    "racism": {
+      definition: "种族主义是基于种族分类对群体进行等级化，并通过观念、制度或行为造成特权和压迫的体系。",
+      points: ["包含个人态度，也包含制度性不平等。", "常把身体特征与能力、价值或道德错误关联。", "与权力结构密切相关。"],
+      watch: ["racism 不只是个人讨厌某群体，还可能是制度和结构问题。", "racism 通常涉及 prejudice + power。"],
+      memory: "种族主义是把种族差异变成等级和权力差异。"
+    },
+    "power": {
+      definition: "权力是影响他人行为、控制资源、定义意义和决定谁有话语权的能力。",
+      points: ["可来自职位、知识、财富、制度、语言能力或文化资本。", "跨文化交际中，权力影响谁被听见、谁被解释、谁需要适应。", "权力既存在于个人关系，也存在于社会结构。"],
+      watch: ["power 不等于 power distance。power 是影响力本身；power distance 是对权力不平等的接受程度。", "分析跨文化冲突时要看文化差异，也要看权力差异。"],
+      memory: "权力决定谁能定义规则和意义。"
+    }
+  };
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function list(items) {
+    return `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+  }
+
+  function card(type, title, items) {
+    return `
+      <section class="card ${type}">
+        <h2>${escapeHtml(title)}</h2>
+        ${list(items)}
+      </section>
+    `;
+  }
+
+  function render(entry) {
+    return `
+      <div class="reply">
+        <section class="tldr">
+          <h2>核心定义</h2>
+          <p>${escapeHtml(entry.definition)}</p>
+        </section>
+        <div class="grid grid-2">
+          ${card("card-b", "考试抓手", entry.points)}
+          ${card("card-o", "易混点", entry.watch)}
+        </div>
+        <blockquote>
+          <p>${escapeHtml(entry.memory)}</p>
+        </blockquote>
+      </div>
+    `;
+  }
+
+  const content = Object.fromEntries(
+    Object.entries(entries).map(([slug, entry]) => [slug, render(entry)])
+  );
+
   if (typeof module !== "undefined" && module.exports) {
     module.exports = content;
   }
