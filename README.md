@@ -68,9 +68,26 @@ http://127.0.0.1:6690/
 
 后续课程、子页面、知识点都集中维护在 `assets/data.js` 中。修改数据后重新运行 `node tools/build-pages.js`，即可生成新的静态页面。
 
-知识点正文内容可以继续扩展为：
+知识点正文写在对应知识点对象的 `contentHtml` 字段中。正文使用语义化 HTML 片段，外壳统一为：
+
+```html
+<div class="reply">
+  <h2>核心概念</h2>
+  <p>这里写正文。</p>
+</div>
+```
+
+常用结构：
 
 - 核心概念
 - 考试重点
 - 易混点
 - 自测题
+
+可用语义类：
+
+- 布局：`.grid.grid-2`、`.grid.grid-3`、`.card`、`.row`、`.col`
+- 对比：`.pros-cons`、`.pros`、`.cons`
+- 状态：`.badge`、`.tags`、`.tag`、`.note`、`.warn`、`.tip`
+- 结构：`.stats`、`.timeline`、`.checklist`
+- 高级：`.tldr`、`.pullquote`、`.formula`、`.terminal`、`.dialog`、`.progress`

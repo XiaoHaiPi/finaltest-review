@@ -385,12 +385,7 @@
         <section class="topic-main">
           <p class="eyebrow">${escapeHtml(course.code)} / ${escapeHtml(section.title)}</p>
           <h1>${escapeHtml(topic.title)}</h1>
-          <div class="placeholder-grid">
-            ${placeholderBlock("核心概念")}
-            ${placeholderBlock("考试重点")}
-            ${placeholderBlock("易混点")}
-            ${placeholderBlock("自测题")}
-          </div>
+          ${renderTopicContent(topic)}
           <nav class="topic-nav" aria-label="知识点切换">
             ${previous ? `<a href="${topicPath(root, course, section, previous)}">上一项：${escapeHtml(previous.title)}</a>` : "<span>已经是第一项</span>"}
             ${next ? `<a href="${topicPath(root, course, section, next)}">下一项：${escapeHtml(next.title)}</a>` : "<span>已经是最后一项</span>"}
@@ -421,6 +416,38 @@
         <h2>${escapeHtml(title)}</h2>
         <p>内容待补充。</p>
       </section>
+    `;
+  }
+
+  function renderTopicContent(topic) {
+    const content = topic.contentHtml || topic.content;
+    if (content) {
+      return `<div class="topic-content">${content}</div>`;
+    }
+
+    return `
+      <div class="topic-content">
+        <div class="reply">
+          <div class="grid grid-2">
+            <section class="card card-b">
+              <h2>核心概念</h2>
+              <p>内容待补充。</p>
+            </section>
+            <section class="card card-g">
+              <h2>考试重点</h2>
+              <p>内容待补充。</p>
+            </section>
+            <section class="card card-o">
+              <h2>易混点</h2>
+              <p>内容待补充。</p>
+            </section>
+            <section class="card card-r">
+              <h2>自测题</h2>
+              <p>内容待补充。</p>
+            </section>
+          </div>
+        </div>
+      </div>
     `;
   }
 
