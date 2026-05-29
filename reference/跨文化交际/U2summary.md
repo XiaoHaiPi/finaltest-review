@@ -1,0 +1,11 @@
+- Communication helps fulfill interpersonal needs, assists in gathering information about other people, establishes cultural and personal identities, and allows you to influence other people.
+- Communication is a dynamic process in which people attempt to share their internal states with other people through the use of symbols.
+- The components of communication include source, encoding, message, channel, receiver, decoding, feedback, and noise.
+- Communication is dynamic, symbolic, contextual, self-reflective, irreversible, has a consequence, and is complex.
+- Misconceptions about human communication are that it can solve all problems, that people are born good communicators, and that the message sent is the one that is received.
+- Culture and communication are so intertwined that it is easy to think that culture is communication and that communication is culture.
+- Culture is a set of human-made objective and subjective elements that in the past have increased the probability of survival and resulted in satisfaction for the participants in an ecological niche and thus became shared among those who could communicate with each other because they had a common language and lived in the same time and place.
+- Culture informs its members regarding life; therefore, it reduces confusion and helps them predict what to expect from life.
+- The central characteristics of culture are that it is shared, transmitted from generation to generation, based on symbols, learned, and dynamic.
+- The elements that compose culture are worldview, religion, history, values, social organization, and language.
+- Intercultural competence can be developed if you are motivated, have a fund of knowledge about the other person, and possess certain communication skills.

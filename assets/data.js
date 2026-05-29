@@ -35,18 +35,23 @@
     { slug: "ethnic-identity-ethnicity", title: "ethnic identity/ethnicity" },
     { slug: "national-character", title: "national character" },
     { slug: "ascribed-avowed-identities", title: "ascribed/avowed identities" },
+    { slug: "cultural-identity", title: "cultural identity" },
     { slug: "language", title: "language" },
     { slug: "denotative-connotative-meaning", title: "denotative/connotative meaning" },
     { slug: "nonverbal-communication", title: "nonverbal communication" },
     { slug: "paralanguage", title: "paralanguage" },
     { slug: "proxemics", title: "proxemics" },
     { slug: "monochronic-polychronic-time", title: "monochronic/polychronic time" },
+    { slug: "silence", title: "silence" },
     { slug: "culture-shock", title: "culture shock" },
     { slug: "acculturation", title: "acculturation" },
     { slug: "stereotyping", title: "stereotyping" },
     { slug: "prejudices", title: "prejudices" },
     { slug: "racism", title: "racism" },
     { slug: "power", title: "power" },
+    { slug: "intercultural-ethics", title: "ethics" },
+    { slug: "cultural-relativism", title: "cultural relativism" },
+    { slug: "cultural-universalism", title: "cultural universalism" },
   ];
 
   const interculturalExamTopics = [
@@ -58,6 +63,17 @@
     { slug: "exam-chapter-6-language", title: "Chapter 6 Language" },
     { slug: "exam-chapter-7-nonverbal", title: "Chapter 7 Nonverbal Communication" },
     { slug: "exam-chapter-8-adaptation-ethics", title: "Chapter 8 Adaptation, Obstacles and Ethics" },
+  ];
+
+  const interculturalUnitSummaryTopics = [
+    { slug: "unit-summary-1-globalization", title: "Unit 1 Summary", subtitle: "全球化与跨文化交际挑战" },
+    { slug: "unit-summary-2-communication-culture", title: "Unit 2 Summary", subtitle: "沟通、文化与跨文化能力" },
+    { slug: "unit-summary-3-deep-structure-family", title: "Unit 3 Summary", subtitle: "深层文化结构与家庭" },
+    { slug: "unit-summary-4-perception-patterns", title: "Unit 4 Summary", subtitle: "感知、价值观与文化模式" },
+    { slug: "unit-summary-5-identity", title: "Unit 5 Summary", subtitle: "身份与跨文化交际" },
+    { slug: "unit-summary-6-language", title: "Unit 6 Summary", subtitle: "语言、意义与翻译" },
+    { slug: "unit-summary-7-nonverbal", title: "Unit 7 Summary", subtitle: "非语言交际" },
+    { slug: "unit-summary-8-adaptation-ethics", title: "Unit 8 Summary", subtitle: "文化适应、障碍与伦理" },
   ];
 
   const interculturalSummaryTopics = [
@@ -76,6 +92,19 @@
     { slug: "summary-identity-types", title: "Identity Types" },
     { slug: "summary-language", title: "Language" },
     { slug: "summary-verbal-nonverbal", title: "Verbal & Nonverbal Communication" },
+  ];
+
+  const interculturalPastPaperTopics = [
+    { slug: "icc-2025-final-exam", title: "2025 Final Exam Paper", subtitle: "2024-2025 学年第 2 学期期末试卷自测" },
+    { slug: "icc-2023-final-exam", title: "2023 Final Exam Paper", subtitle: "2023 年期末试卷自测" },
+  ];
+
+  const interculturalCaseTopics = [
+    { slug: "case-age-status", title: "Case Study 1 Age and Status", subtitle: "年龄、资历与地位" },
+    { slug: "case-public-praise-japan", title: "Case Study 2 Praising Japanese in Public Workplaces", subtitle: "在工作场所当众表扬日本人" },
+    { slug: "case-british-manager-thailand", title: "Case Study 3 A British General Manager in Thailand", subtitle: "英国总经理在泰国" },
+    { slug: "case-smile-apology", title: "Case Study 4 Understanding a Smile", subtitle: "怎样理解道歉时的微笑" },
+    { slug: "case-indirect-answer", title: "Case Study 5 Why Was His Answer Not Related to the Question?", subtitle: "为何他答非所问" },
   ];
 
   const pressTranslationTopics = [
@@ -110,6 +139,30 @@
     { slug: "press-style-structure-writing", title: "News Structure and Writing", subtitle: "新闻结构、新闻价值与导语写作" },
   ];
 
+  const pressCommonKnowledgeTopics = [
+    { slug: "press-common-knowledge", title: "Newspaper Common Knowledge", subtitle: "报刊选读常识题" },
+  ];
+
+  const pressReadingKnowledgeTopics = [
+    { slug: "press-reading-language-features", title: "Language Features", subtitle: "新闻语言：时态、语态、前置修饰语" },
+    { slug: "press-reading-source-terms", title: "Source Attribution and Terms", subtitle: "出处表达与新闻术语" },
+    { slug: "press-reading-compound-words", title: "Compound Words", subtitle: "复合词" },
+    { slug: "press-reading-headline-grammar", title: "Headline Grammar", subtitle: "新闻标题语法特征" },
+    { slug: "press-reading-headline-lexis", title: "Headline Lexis", subtitle: "新闻标题词汇特征" },
+    { slug: "press-reading-news-structure", title: "News Report Structure", subtitle: "消息结构" },
+    { slug: "press-reading-feature-stories", title: "Feature Stories", subtitle: "新闻特写" },
+    { slug: "press-reading-news-vs-feature", title: "News Story vs Feature", subtitle: "消息与特写区别" },
+    { slug: "press-reading-feature-structure", title: "Feature Structure", subtitle: "特写结构" },
+    { slug: "press-reading-news-value", title: "News Classification and Value", subtitle: "英语新闻分类与新闻价值" },
+    { slug: "press-reading-headline-rules", title: "Headline Importance and Rules", subtitle: "标题作用与语法规则" },
+    { slug: "press-reading-lead-writing", title: "Writing a Lead", subtitle: "导语写作" },
+    { slug: "press-reading-inverted-pyramid", title: "Inverted Pyramid", subtitle: "倒金字塔" },
+  ];
+
+  const pressPastPaperTopics = [
+    { slug: "press-2021-2022-final-exam", title: "2021-2022 Final Exam Paper", subtitle: "2021-2022 学年第 2 学期期末试卷自测" },
+  ];
+
   const topicSubtitles = {
     "generalizations": "概括性判断",
     "objectivity": "客观性",
@@ -140,18 +193,23 @@
     "ethnic-identity-ethnicity": "族群身份 / 族群性",
     "national-character": "国民性格",
     "ascribed-avowed-identities": "赋予身份 / 自认身份",
+    "cultural-identity": "文化身份",
     "language": "语言",
     "denotative-connotative-meaning": "外延意义 / 内涵意义",
     "nonverbal-communication": "非语言沟通",
     "paralanguage": "副语言",
     "proxemics": "空间语言学 / 人际距离",
     "monochronic-polychronic-time": "单时制 / 多时制",
+    "silence": "沉默",
     "culture-shock": "文化冲击",
     "acculturation": "文化适应",
     "stereotyping": "刻板印象",
     "prejudices": "偏见",
     "racism": "种族主义",
     "power": "权力",
+    "intercultural-ethics": "伦理 / 跨文化伦理",
+    "cultural-relativism": "文化相对主义",
+    "cultural-universalism": "文化普遍主义",
     "exam-chapter-1-globalization": "第一章：全球化社会挑战",
     "exam-chapter-2-communication-culture": "第二章：沟通与文化基础",
     "exam-chapter-3-deep-structure-family": "第三章：深层结构与家庭",
@@ -175,6 +233,28 @@
     "summary-identity-types": "身份类型",
     "summary-language": "语言",
     "summary-verbal-nonverbal": "言语与非言语交际",
+    "icc-2025-final-exam": "2024-2025 学年第 2 学期期末试卷自测",
+    "icc-2023-final-exam": "2023 年期末试卷自测",
+    "case-age-status": "年龄、资历与地位",
+    "case-public-praise-japan": "在工作场所当众表扬日本人",
+    "case-british-manager-thailand": "英国总经理在泰国",
+    "case-smile-apology": "怎样理解道歉时的微笑",
+    "case-indirect-answer": "为何他答非所问",
+    "press-common-knowledge": "报刊选读常识题",
+    "press-reading-language-features": "新闻语言：时态、语态、前置修饰语",
+    "press-reading-source-terms": "出处表达与新闻术语",
+    "press-reading-compound-words": "复合词",
+    "press-reading-headline-grammar": "新闻标题语法特征",
+    "press-reading-headline-lexis": "新闻标题词汇特征",
+    "press-reading-news-structure": "消息结构",
+    "press-reading-feature-stories": "新闻特写",
+    "press-reading-news-vs-feature": "消息与特写区别",
+    "press-reading-feature-structure": "特写结构",
+    "press-reading-news-value": "英语新闻分类与新闻价值",
+    "press-reading-headline-rules": "标题作用与语法规则",
+    "press-reading-lead-writing": "导语写作",
+    "press-reading-inverted-pyramid": "倒金字塔",
+    "press-2021-2022-final-exam": "2021-2022 学年第 2 学期期末试卷自测",
   };
 
   function withTopicSubtitles(topics) {
@@ -186,7 +266,7 @@
       title: "期末复习站",
       subtitle: "面向期末考试的精炼复习知识集合",
       owner: "Final Review",
-      assetVersion: "20260525-reading-zh-polish",
+      assetVersion: "20260529-icc-2025-paper",
     },
     courses: [
       {
@@ -194,7 +274,7 @@
         title: "跨文化交际",
         subtitle: "Intercultural Communication",
         code: "ICC",
-        summary: "为期末考试复习整理跨文化交际核心概念、选择与简答章节要点和课程总结，重点覆盖身份、语言、非语言、文化维度与适应过程。",
+        summary: "为期末考试复习整理跨文化交际核心概念、选择与简答章节要点、单元 Summary、课程总结和案例分析，重点覆盖身份、语言、非语言、文化维度与适应过程。",
         examFocus: ["术语解释", "选择题", "简答题", "案例分析"],
         examBlueprint: {
           title: "跨文化交际题型",
@@ -228,12 +308,36 @@
             topics: withTopicSubtitles(interculturalExamTopics),
           },
           {
+            slug: "unit-summary",
+            title: "单元 Summary",
+            subtitle: "Unit Summary",
+            code: "Units",
+            summary: "整合 reference/跨文化交际 下 Unit1summary.md 与 U2-U8summary.md 的 8 个单元教材 Summary，保留英文要点并补充中文速记。",
+            topics: withTopicSubtitles(interculturalUnitSummaryTopics),
+          },
+          {
             slug: "course-summary",
             title: "课程总结",
             subtitle: "Course Summary",
             code: "Summary",
             summary: "从《跨文化总结.pdf》整理的单元式知识点总结，按全球化挑战、沟通、文化、能力、家庭、身份、语言和非语言交际等主题复习。",
             topics: withTopicSubtitles(interculturalSummaryTopics),
+          },
+          {
+            slug: "past-papers",
+            title: "历年真题",
+            subtitle: "Past Exam Papers",
+            code: "Papers",
+            summary: "根据 2022-2023 与 2024-2025 学年第二学期《跨文化交际/跨文化交流》期末试卷整理的真题自测，包含判断题、定义匹配、选择题点选判分、案例分析和写作评分要点。",
+            topics: withTopicSubtitles(interculturalPastPaperTopics),
+          },
+          {
+            slug: "case-analysis",
+            title: "案例分析",
+            subtitle: "Case Analysis",
+            code: "Cases",
+            summary: "从《跨文化交际案例分析(1).doc》整理的 5 个跨文化交际案例，保留源文件英文 Case description、Questions 和原有中英文分析段落，仅按页面阅读需要分块排版。",
+            topics: withTopicSubtitles(interculturalCaseTopics),
           },
         ],
         topics: withTopicSubtitles(interculturalConceptTopics),
@@ -297,6 +401,30 @@
             code: "Style",
             summary: "从《新闻语体特征.pptx》整理新闻标题、词汇、语法、结构、新闻价值、倒金字塔和导语写作要点。",
             topics: withTopicSubtitles(pressStyleTopics),
+          },
+          {
+            slug: "press-common-knowledge",
+            title: "报刊常识题",
+            subtitle: "Newspaper Common Knowledge",
+            code: "Common",
+            summary: "整理《报刊选读常识题.md》中的报刊元素、英美重要通讯社、主流新闻期刊和主流报纸名录。",
+            topics: withTopicSubtitles(pressCommonKnowledgeTopics),
+          },
+          {
+            slug: "press-reading-knowledge",
+            title: "阅读知识点汇总",
+            subtitle: "Reading Knowledge Summary",
+            code: "Reading Know",
+            summary: "从《报刊阅读知识点汇总.pptx》拆分新闻语言、标题、结构、特写、新闻价值、导语写作和倒金字塔等 13 个阅读知识点，并补充中英文对照。",
+            topics: withTopicSubtitles(pressReadingKnowledgeTopics),
+          },
+          {
+            slug: "past-papers",
+            title: "历年真题",
+            subtitle: "Past Exam Papers",
+            code: "Papers",
+            summary: "根据 2021-2022 学年第 2 学期《英美报刊选读》考试试卷整理的真题自测，包含选择题点选判分、重做时选项内容乱序、英译汉和新闻摘要写作自检。",
+            topics: withTopicSubtitles(pressPastPaperTopics),
           },
         ],
         topics: withTopicSubtitles(pressTranslationTopics),

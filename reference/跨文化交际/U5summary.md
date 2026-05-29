@@ -1,0 +1,7 @@
+- Identity is a highly abstract, dynamic, multifaceted concept that defines who you are.
+- Identities can be categorized as human, social, and personal; another classification scheme uses personal, relational, and communal.
+- Every individual has multiple identities—racial, gender, ethnic, national, regional, organizational, personal, and perhaps cyber/fantasy, and others—that act in concert. The importance of any single identity is a result of the context.
+- Identity is acquired through interaction with other members of one’s cultural group. The family exerts a primary influence on early identity formation.
+- Identities are established through group membership and are enacted in various ways, including rites of passage, personal appearance, and participation in commemorative events. Concepts of identity within the same group can change over time.
+- Competent intercultural communication is achieved when the participants find commonality in ascribed and avowed identities.
+- As society becomes increasingly multicultural, new concepts of cultural identity are evolving.

@@ -695,6 +695,599 @@
   }
 };
 
+  const pressKnowledgePages = {
+    "press-common-knowledge": {
+      title: "Newspaper Common Knowledge",
+      lead: "根据《报刊选读常识题.md》整理。保留报刊元素定义、英美重要通讯社、主流新闻期刊和主流报纸名录。",
+      source: "报刊选读常识题.md",
+      sections: [
+        {
+          title: "News Elements / 新闻元素",
+          table: {
+            headers: ["Element", "Definition", "中文"],
+            rows: [
+              ["Headline", "Catches your attention / Sums up the story", "标题：吸引注意力 / 总结故事"],
+              ["Byline", "Writer's name / Writer's specialty, e.g. sports, food, crime, current events", "署名行：作者姓名 / 作者专业，如体育、食品、犯罪、时事"],
+              ["Placeline (optional)", "Where the story begins", "地点行（可选）：故事开始的位置"],
+              ["Lead", "The opening section / Gives most important information / Should answer most of the 5W's", "导语：开头部分 / 提供最重要信息 / 应回答大部分 5W"],
+              ["Body", "Supplies detail / Most important details come first", "正文：提供细节 / 最重要细节优先"],
+              ["Facts", "Simple true statements", "事实：简单真实的陈述"],
+              ["Quotation", "What someone actually said / Adds accuracy / Adds at-the-scene feeling", "引文：某人实际说的话 / 增加准确性 / 增加现场感"]
+            ]
+          }
+        },
+        {
+          title: "Major News Agencies / 英美重要通讯社",
+          points: ["AP", "Reuters", "Bloomberg", "News", "BBC / VOA / CNN", "ABC / Fox News"]
+        },
+        {
+          title: "British Mainstream News Magazines / 英国主流新闻期刊",
+          points: ["The Economist", "The Spectator", "New Statesman", "Nature", "Science News"]
+        },
+        {
+          title: "British Mainstream Newspapers / 英国主流报纸",
+          points: ["The Times", "Financial Times", "The Guardian", "The Daily Telegraph", "Independent"]
+        },
+        {
+          title: "American Mainstream News Magazines / 美国主流新闻期刊",
+          points: ["TechLife", "Scientific American", "Newsweek", "New Yorker", "National Geographic", "Time"]
+        },
+        {
+          title: "American Mainstream Newspapers / 美国主流报纸",
+          points: ["The New York Times", "The Washington Post", "Los Angeles Times", "The Wall Street Journal"]
+        }
+      ]
+    },
+    "press-reading-knowledge-summary": {
+      title: "Reading Knowledge Summary",
+      lead: "根据《报刊阅读知识点汇总.pptx》整理。题型内容不纳入，以当前网页题型为准；本页保留新闻语法、标题、结构、特写、新闻价值、导语写作和倒金字塔等知识点。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "1. Language Features: Tense, Voice and Premodifiers / 新闻语言：时态、语态、前置修饰语",
+          points: [
+            "英语新闻标题常用一般现在时报道过去发生的事情，以增强新闻的新鲜感、现实感和直接感。Example: Gunston Gets His Gong = Gunston Got His Gong.",
+            "标题中表示将来常用 linking verb + infinitive phrase，并省略 linking verb。Example: Prisoners To Go On Strike Tonight = Prisoners Are To Go On Strike Tonight.",
+            "现在分词可直接表示正在进行的动作或事件。Example: US Troops Conducting War Games In Mideast = US Troops Are Conducting War Games In Mideast.",
+            "被动语态标题常省略 be，同时新闻标题更多使用主动语态。Examples: Van Goghs Recovered After Theft = Van Goghs Are Recovered After Theft; 500 Reported Killed in S. Korean Building Collapse.",
+            "新闻正文中可使用 parenthesis / 插入语。Example: The group of five Senators, led by Frank Church, Democrat of Idaho, the committee chairman, is on a six-day visit to China.",
+            "前置修饰语 Adv + past participle: deeply-carpeted conference room, hard-won result, heavily-guarded government complex, highly-sophisticated technology, sparsely-populated area.",
+            "前置修饰语 noun + past participle: disaster-hit area, web-enabled phone, state-owned enterprise.",
+            "前置修饰语 noun + noun: arms-reduction talks, hunger-strike sitdown, supply-demand imbalance.",
+            "前置修饰语 noun + present participle: cancer-causing drugs, energy-saving device, oil-producing country, policy-making body.",
+            "前置修饰语 noun + adjective: earthquake-prone area, baby-friendly hospital, interest-free loan.",
+            "复合前置修饰语: wait-and-see policy, touch-and-go tension, off-and-on war, shorter-than-usual-time summit conference, the Be-kind-to-Animal campaign."
+          ],
+          examples: [
+            "Exercise: Most economists predict that the cap-and-trade program will go forward. 排放限制与额度交易计划",
+            "Exercise: Unlike Europe, the emerging market countries are not speaking with a unified voice. 新兴市场国家"
+          ]
+        },
+        {
+          title: "2. Source Attribution and Journalistic Terms / 出处表达与新闻术语",
+          points: [
+            "Source attribution 常用来源词：analysts, authoritative sources, authorities, circles, industrial quarters, well-informed sources, observers, neutral sources, in-circle sources, spokesman/spokeswoman, witnesses.",
+            "来源表达：According to an anonymous source; foreign radios announced...; It is alleged that...; It has been calculated that...",
+            "Journalistic terms: express paper, bulletin, tabloid, review news, press office, publisher, chief editor, freelancer, correspondent, contributor, headline news, running stories, criticism, profile, comic strip, supplement, wanted column."
+          ]
+        },
+        {
+          title: "3. Compound Words / 复合词",
+          points: [
+            "Compound words are made up of two or more separate words. Nouns, adjectives or verbs can be combined to make compounds.",
+            "Three forms: one word, two words, hyphenated. Examples: flatmate, lovesick; tourist guide, travel agent; low-paid, film-goer.",
+            "Noun compounds n. + v.: sunrise, earthquake, daybreak, birth-control, haircut, dress-design.",
+            "Noun compounds v. + n.: playboy, watchdog, flashlight, typewriter.",
+            "Noun compounds v. + prep.: drawback, handout, ringback, breakup.",
+            "Other noun compounds: swimming pool, waiting room, walking stick, safety belt, chairman, motorcycle.",
+            "Adjective compounds: heart-breaking, self-defeating, homemade, handmade, handwritten, hardworking, good-looking, easy-going, well-wishing, widespread, well-meant, well-timed, upbeat, tax free, self-conscious, grass green, smoke-free.",
+            "Verb compounds: housekeep, lip-read, day-dream, window-shop, uplift, spoon-feed.",
+            "Compounds with hyphens: wait-and-see attitude, life-and-death issue, hit-and-run accident, deficit-ridden state-owned enterprise, ready-to-eat food, after-sales service, hide-and-seek game, round-the-clock service, by-no-means negligible role, difficult-to-operate machine, never-to-be-forgotten film, corruption-free country, terror-stricken country, heart-in-the-mouth situation, all-talk-no-action craven, search-and-rescue mission, win-win policy, can-do attitude."
+          ]
+        },
+        {
+          title: "4. News Headline Features: Grammar / 新闻标题语法特征",
+          points: [
+            "Headline features include grammatical features and lexical features.",
+            "Omission of indefinite articles: Firm Provides Clinical Training for Rural Areas = A firm provides clinical training for rural areas; 37 Killed in Italian Plane Crash = 37 killed in an Italian plane crash.",
+            "Omission of conjunctions and pronouns: Laurel, Aquino Cut Ties = Laurel and Aquino cut ties; Mother, Daughter Share Fulbright Year = A mother and her daughter share a Fulbright year.",
+            "Omission of be in any form: Pope to Visit Japan in February = Pope is to visit Japan in February; Three Dead After Inhaling Oven Gas = Three are dead after inhaling oven gas; Food Prices Soaring = Food prices are soaring.",
+            "Tenses: present tense is widely used to describe events happening in the past or present. Examples: Earthquake Rocks Turkey; Nightclub Fire Kills 233 in Brazil; Obama Says Struggling over Whether to Intervene in Syria; Living Costs Going Up.",
+            "Future tense: linking verb + infinitive phrase. Example: Largest Chinese Trade Delegation to Visit US in Nov. = The largest Chinese trade delegation is to visit US in Nov.",
+            "Passive voice is used when the receiver of the event or action is more important than the executor. Examples: Journalist Fired in Spy Debate; Manipulation Found in Singapore's FX Market.",
+            "Active voice is more widely used to make headlines more colorful and appealing. Examples: Fed Waits for Job Market to Perk Up; Sanofi Expects FDA Decision on Lemtrada in H2 2013."
+          ]
+        },
+        {
+          title: "5. News Headline Features: Lexis / 新闻标题词汇特征",
+          points: [
+            "Preference for short words saves space and avoids wordiness. Examples: Allowance to Be Cut in 200,000 Families; Reshuffle Axes France's Cabinet; Ethiopia Jails Jews Escaping to Israel.",
+            "Wide use of shortenings: acronyms, abbreviations, clippings.",
+            "Shortening examples: bn = billion; Fed = Federal Reserve; tech = technology.",
+            "Exercise: Give a shorter word with similar meaning in headlines: assistance; threaten; restrictions; investigation; explosion; check.",
+            "Exercise: Give complete forms and translate shortenings: grads, nuke, champ, doc, Ark."
+          ]
+        },
+        {
+          title: "6. Structure of a News Report / 消息结构",
+          points: [
+            "The structure of a news report follows a specific structure: headline, subheading, by-line, summary lead, and fact-based paragraphs.",
+            "Headline: title of the article, often 10 words or less. It introduces the topic and captures readers' interest, often through controversial wording.",
+            "Subheading: not always included; expands upon the headline's content if needed.",
+            "By-line: includes the author's name and sometimes occupation.",
+            "Summary lead: first paragraph, usually 1-2 sentences and less than 30 words; contains the 5WH: who, what, where, when, why, how.",
+            "Fact-based paragraphs: expand on 5WH and include quotations from key people; organized from most to least important so editors can cut bottom paragraphs if needed.",
+            "Element table: headline catches attention and sums up story; byline gives writer and specialty; placeline gives where the story begins; lead gives opening and most important information; body supplies detail; facts are simple true statements; quotation gives what someone actually said and adds accuracy and at-the-scene feeling."
+          ],
+          examples: [
+            "Exercise analysis text: Students Grow Flying Sauce. Jim Wilkes, Science Reporter. TORONTO - In the cult movie classic Attack of the Killer Tomatoes, mutant vegetables cut a deadly swath through the community, consuming everyone in their path. Canadian astronaut Bob Thirsk says Toronto students cultivating tomato seeds from space should not worry about life imitating art. The article then uses quotations, background, project details, experiment results, and conclusion to show news structure."
+          ]
+        },
+        {
+          title: "7. Feature Stories / 新闻特写",
+          points: [
+            "A feature story is about details: painting a picture of a person, event, or place so the topic becomes alive to the reader.",
+            "Feature stories allow a writer to be creative. They are not just about facts; they are more about storytelling and weaving an interesting narrative.",
+            "Types of features: news feature, profile, spot feature, trend, live-in.",
+            "Chinese classifications: 人物特写 profile; 事件特写 WHAT-feature; 旅游特写 locality feature / travelogue; 亲历特写 personal experience feature / eyewitness account / eye-account / I-account.",
+            "A news feature is written in the style of a news article, tackles a topic with detail, and requires facts and research.",
+            "News features should focus on a specific topic that can be covered within a given word count; the topic should be important and include firsthand accounts, expert opinions, facts and evidence.",
+            "A news feature has a news point, plenty of information, and reflects the reporter's writing skills and hard work. There is no single way to write one; each writer may have a style.",
+            "Profile feature: explores the background and character of a particular person or group, focusing on a news angle or one aspect of personal/professional life.",
+            "Travelogue: truthful account of an individual's travel experiences, usually past tense and first person.",
+            "Eyewitness account: description given by someone present at an event."
+          ]
+        },
+        {
+          title: "8. News Story vs Feature / 消息与特写区别",
+          points: [
+            "Difference factors: time factor, writing style, length, lead, ending.",
+            "Time factor: features are not as time-dependent as news stories.",
+            "Writing style: news stories go straight to the point and use simple effective words; feature stories have creative structure and can be colorful and flowery.",
+            "Length: a news story is shorter and can range from a few sentences to about 600 words; a feature can be longer than 2000 words, especially in magazines.",
+            "Lead: a feature lead does not give the news directly; it gets readers interested in the rest of the story. News story leads sell the story by telling the key facts.",
+            "Ending: a news story can end after the most important things are mentioned, but a feature story needs a specific ending that gives readers satisfaction."
+          ]
+        },
+        {
+          title: "9. Structure of a Feature / 特写结构",
+          points: [
+            "Feature structure: intro or lead, transition, body, conclusion, length.",
+            "Intro/lead must attract immediate attention and pull the reader into the story. It can use description, narration, dialogue, question, unusual statement, call to action, or comparison-contrast.",
+            "Transition: even with a good lead, a solid transition is needed into the body. The lead lures the audience; the transition sets the hook and promises entertainment, information, self-awareness, or another valuable reward.",
+            "Body: sound subject knowledge plus good writing skills take readers through experiences; use crisp dialogue, documentary but vivid facts and details, careful observation, suspense, and plot when appropriate.",
+            "Body is the major area and can contain many short pieces, but it should never be padded.",
+            "Every word and concept must be rightly written and placed; paragraphs should be well-connected, forceful and coordinated.",
+            "Avoid unnecessary details, but never omit important information when required.",
+            "The body should build toward the climax.",
+            "Conclusion should give readers satisfaction and tie back to the lead for unity; it may use a short tight summary, anecdote, or quote, and narrative writing can build toward a climax.",
+            "Length: a feature should be as long as it remains interesting; readers' interest is the main yardstick."
+          ]
+        },
+        {
+          title: "10. English News Writing: Classification and News Value / 英语新闻写作：分类与新闻价值",
+          points: [
+            "Classification by medium: newspaper coverage, magazine coverage, radio news, TV news, cable news, dispatches.",
+            "Classification by location/scope: home news, local news.",
+            "Classification by content: political news, economic news, technological news, cultural news, sports news, violence and crime news, disaster news, weather news, obituary, entertainment.",
+            "News value determiners: timeliness and freshness; importance, consequence, impact or significance; prominence; nearness, proximity or locality.",
+            "Other news values: unusualness, bizarreness, oddity or novelty. Classic example: when a dog bites a man, that is not news; when a man bites a dog, that is news.",
+            "Interest values: crime, morals and ethics, population, life, marriage, family, friendship, love and emotion, money, sex."
+          ]
+        },
+        {
+          title: "11. Headline Importance and Grammar Rules / 标题作用与语法规则",
+          points: [
+            "Headline importance: summarize the news so readers know the story at a glance.",
+            "Headline importance: attract readers with large print and sometimes shocking or sensational language.",
+            "Headline importance: index the news by ranking story importance through print size and page placement.",
+            "Headline importance: decorate the page and fill space.",
+            "Rule 1: sentences are preferred to phrases. Example: Granny Hugs Daughter Lost for 30 Years is stronger than A Fortunate Grandmother.",
+            "Rule 2: nominal groups are condensed. Example: Co-Hab off Campus Triggers Arguments.",
+            "Rule 3: past tense verb form does not have -ed. Examples: Horse Bites Girl On Face; Sexual Harassment Sparks Concern on Campus.",
+            "Rule 4: for future events, will/shall is replaced by to. Examples: French Major to Compete in Beijing; President to Talk on Peace Pact.",
+            "Rule 5: in passive voice, to be is omitted. Examples: Boy Found Dead In Basement; Cab-Driver Trapped in Fake Accident.",
+            "Rule 6: copular verbs are often left out. Examples: Prep Program Trendy Prior to Graduate Exams; Peace Studies New in the West, Says UK Professor.",
+            "Rule 7: with present progressive, to be is often omitted. Example: Computer Lab Trying Out New Rules."
+          ]
+        },
+        {
+          title: "12. Writing a Lead / 导语写作",
+          points: [
+            "Requirement: usually one sentence; summarize the news; attract readers' attention.",
+            "Tip 1: a lead should contain the essence of the story.",
+            "Tip 2: a lead should begin with the most important elements of information.",
+            "Tip 3: a lead writer should use active voice if possible.",
+            "Tip 4: a lead writer should try not to overwhelm the reader with too much detail.",
+            "Tip 5: a lead writer should weed out anything indicative of personal opinion.",
+            "Tip 6: a good lead gets the most readers to the next paragraph; it should inform, underline and stimulate in a way that best conveys the story's meaning."
+          ],
+          examples: [
+            "Example core lead: The death toll soared to 750 as a devastating 8.8-magnitude earthquake hit Chile early Saturday.",
+            "Active voice improvement: A power outage last night angered dozens of students in Dormitory No.12 who lost files in their computers.",
+            "Example: Dental surgeons said yesterday they had discovered why snoring can kill sometimes: it can damage the arteries.",
+            "Sample lead: The student union next week will award the title of Model Student in Learning from Lei Feng to a fourth-year computer major who has been, for more than three years, helping a disabled roommate climb stairs, carry books, and get meals and hot water.",
+            "Lead exercise facts: who = a boy student, a girl student, Professor Tang, all from Chinese Department of Nanjing University; what = the boy confessed love before classmates and took her away with the professor's consent, causing a stir online; when = Tuesday, before Foreign Literature class; where = Xianlin campus classroom."
+          ]
+        },
+        {
+          title: "13. Inverted Pyramid / 倒金字塔",
+          points: [
+            "The inverted pyramid structure: summary lead, backup (quotes or facts), supporting points, ending.",
+            "It comes from the American Civil War.",
+            "The inverted pyramid lead should be presented as simply and clearly as possible.",
+            "Writers decide what is most important and then arrange information in descending order of importance.",
+            "The inverted pyramid saves readers' time and editors' space."
+          ],
+          examples: [
+            "Sample: NANJING - A Yak-42 airliner carrying 116 passengers and 10 crew members crashed on takeoff from the Nanjing Airport in East China yesterday at 15:06 (Beijing time). So far, 100 people on board are dead and 26 injured.",
+            "Backup: A full-scale rescue attempt for the injured is still underway. The aircraft of GP 7552 flight failed to lift off and burst into flames about meters from the runway. The plane was operated by China-General-Purpose Airline Company and used on the Nanjing-Xiamen route.",
+            "Headline: Nanjing air crash kills at least 100.",
+            "Follow-up: Zhu Rongji and department leaders flew to Nanjing to inspect the scene, lament the dead and express condolences. Fire brigade, medical teams and police arrived. Cause remains under investigation. Nanjing Airport resumed normal operation."
+          ]
+        }
+      ]
+    }
+  };
+
+  const pressReadingKnowledgePages = {
+    "press-reading-language-features": {
+      title: "Language Features",
+      lead: "新闻阅读中最常见的语言特征：标题时态、语态、省略和前置修饰语。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Tense and Voice / 时态与语态",
+          points: [
+            { en: "English news headlines often use the simple present tense for past events to create immediacy and freshness.", zh: "英语新闻标题常用一般现在时报道过去事件，以增强新闻的新鲜感、现实感和现场感。" },
+            { en: "Future events are often expressed by an infinitive phrase, with the linking verb omitted.", zh: "标题中的将来意义常用不定式短语表达，并省略 be 动词。" },
+            { en: "Present participles can directly show an ongoing action or developing event.", zh: "现在分词可直接表示正在进行的动作或正在发展的事件。" },
+            { en: "Passive headlines often omit be, while active voice is generally preferred when possible.", zh: "被动语态标题常省略 be；能用主动语态时，新闻标题通常更偏好主动表达。" }
+          ],
+          examples: [
+            { en: "Gunston Gets His Gong = Gunston Got His Gong.", zh: "标题用一般现在时 Gets 表示过去发生的 Got。" },
+            { en: "Prisoners To Go On Strike Tonight = Prisoners Are To Go On Strike Tonight.", zh: "To go on strike 表示将来安排，完整句中应补出 are。" },
+            { en: "Van Goghs Recovered After Theft = Van Goghs Are Recovered After Theft.", zh: "Recovered 表示被动意义，标题省略 are。" }
+          ]
+        },
+        {
+          title: "Premodifiers / 前置修饰语",
+          points: [
+            { en: "Adverb + past participle: deeply-carpeted conference room, hard-won result.", zh: "副词 + 过去分词：deeply-carpeted conference room（铺厚地毯的会议室），hard-won result（来之不易的结果）。" },
+            { en: "Noun + past participle: disaster-hit area, web-enabled phone, state-owned enterprise.", zh: "名词 + 过去分词：disaster-hit area（受灾地区），web-enabled phone（联网手机），state-owned enterprise（国有企业）。" },
+            { en: "Noun + noun: arms-reduction talks, hunger-strike sitdown, supply-demand imbalance.", zh: "名词 + 名词：arms-reduction talks（裁军谈判），hunger-strike sitdown（绝食静坐），supply-demand imbalance（供需失衡）。" },
+            { en: "Noun + present participle: cancer-causing drugs, energy-saving device, oil-producing country.", zh: "名词 + 现在分词：cancer-causing drugs（致癌药物），energy-saving device（节能装置），oil-producing country（产油国）。" },
+            { en: "Noun + adjective: earthquake-prone area, baby-friendly hospital, interest-free loan.", zh: "名词 + 形容词：earthquake-prone area（地震多发区），baby-friendly hospital（爱婴医院），interest-free loan（无息贷款）。" },
+            { en: "Complex premodifiers compress long explanations into a compact noun phrase.", zh: "复合前置修饰语能把较长说明压缩成紧凑的名词短语。" }
+          ],
+          examples: [
+            { en: "the cap-and-trade program", zh: "排放限制与额度交易计划。" },
+            { en: "the emerging market countries", zh: "新兴市场国家。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-source-terms": {
+      title: "Source Attribution and Terms",
+      lead: "新闻常用出处表达和基础新闻术语，阅读时用于判断消息来源、报道身份和新闻类型。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Source Attribution / 出处表达",
+          points: [
+            { en: "Common source words include analysts, authorities, observers, witnesses and well-informed sources.", zh: "常见来源词包括 analysts（分析人士）、authorities（官方人士）、observers（观察人士）、witnesses（目击者）和 well-informed sources（消息灵通人士）。" },
+            { en: "Attribution may be direct or indirect: According to an anonymous source; It is alleged that; It has been calculated that.", zh: "出处表达可以直接或间接，如 According to an anonymous source（据匿名消息人士称）、It is alleged that（据称）、It has been calculated that（经计算）。" },
+            { en: "Source attribution helps readers judge credibility and distance the report from unverified claims.", zh: "出处表达帮助读者判断可信度，也让报道与未经证实的说法保持距离。" }
+          ]
+        },
+        {
+          title: "Journalistic Terms / 新闻术语",
+          points: [
+            { en: "Publication terms: express paper, bulletin, tabloid, review news, supplement.", zh: "出版类术语：express paper（快报）、bulletin（公报）、tabloid（小报）、review news（述评新闻）、supplement（副刊）。" },
+            { en: "Editorial roles: publisher, chief editor, freelancer, correspondent, contributor.", zh: "编辑与供稿角色：publisher（出版人）、chief editor（总编辑）、freelancer（自由撰稿人）、correspondent（通讯员/记者）、contributor（投稿人）。" },
+            { en: "News types and columns: headline news, running stories, criticism, profile, comic strip, wanted column.", zh: "新闻类型与栏目：headline news（头条新闻）、running stories（连续报道）、criticism（评论/批评）、profile（人物特写）、comic strip（连环漫画）、wanted column（招聘/寻人栏目）。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-compound-words": {
+      title: "Compound Words",
+      lead: "复合词是新闻英语压缩信息的重要方式，尤其常见于标题和前置修饰语。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Forms / 构成形式",
+          points: [
+            { en: "Compound words are made up of two or more separate words.", zh: "复合词由两个或两个以上独立词组合而成。" },
+            { en: "Nouns, adjectives and verbs can be combined to make compounds.", zh: "名词、形容词和动词都可以参与构成复合词。" },
+            { en: "Compounds may appear as one word, two words or hyphenated words.", zh: "复合词形式可分为连写、分写和加连字符三类。" }
+          ],
+          examples: [
+            { en: "flatmate, lovesick; tourist guide, travel agent; low-paid, film-goer.", zh: "flatmate、lovesick 为连写；tourist guide、travel agent 为分写；low-paid、film-goer 为连字符形式。" }
+          ]
+        },
+        {
+          title: "Patterns / 常见模式",
+          points: [
+            { en: "Noun compounds: sunrise, earthquake, playboy, watchdog, drawback, handout.", zh: "名词复合词：sunrise（日出）、earthquake（地震）、playboy（花花公子）、watchdog（监督机构）、drawback（缺点）、handout（讲义/施舍物）。" },
+            { en: "Adjective compounds: heart-breaking, homemade, hardworking, good-looking, upbeat, tax free.", zh: "形容词复合词：heart-breaking（令人心碎的）、homemade（自制的）、hardworking（勤奋的）、good-looking（好看的）、upbeat（乐观的）、tax free（免税的）。" },
+            { en: "Verb compounds: housekeep, lip-read, day-dream, window-shop, uplift, spoon-feed.", zh: "动词复合词：housekeep（料理家务）、lip-read（读唇）、day-dream（做白日梦）、window-shop（浏览橱窗）、uplift（提升）、spoon-feed（填鸭式灌输）。" },
+            { en: "Hyphenated compounds are very common in news headlines and compact modifiers.", zh: "连字符复合词在新闻标题和紧凑修饰语中非常常见。" }
+          ],
+          examples: [
+            { en: "wait-and-see attitude; life-and-death issue; round-the-clock service; search-and-rescue mission; win-win policy.", zh: "观望态度；生死攸关的问题；全天候服务；搜救任务；双赢政策。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-headline-grammar": {
+      title: "Headline Grammar",
+      lead: "新闻标题语法以省略、压缩和时态特殊用法为核心。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Omission / 省略",
+          points: [
+            { en: "Headline features include grammatical features and lexical features.", zh: "新闻标题特征包括语法特征和词汇特征。" },
+            { en: "Indefinite articles are often omitted.", zh: "不定冠词 a/an 常被省略。" },
+            { en: "Conjunctions and pronouns are often omitted when the relation remains clear.", zh: "关系清楚时，连词和代词常被省略。" },
+            { en: "Be verbs are often omitted in any form.", zh: "be 动词各种形式在标题中都常被省略。" }
+          ],
+          examples: [
+            { en: "Firm Provides Clinical Training for Rural Areas = A firm provides clinical training for rural areas.", zh: "标题省略了 A。" },
+            { en: "Laurel, Aquino Cut Ties = Laurel and Aquino cut ties.", zh: "标题用逗号替代 and。" },
+            { en: "Food Prices Soaring = Food prices are soaring.", zh: "标题省略 are。" }
+          ]
+        },
+        {
+          title: "Tense and Voice / 时态与语态",
+          points: [
+            { en: "The present tense is widely used for recent past or current events.", zh: "一般现在时常用于近期已发生或当前正在发展的新闻事件。" },
+            { en: "The infinitive form often expresses future arrangements.", zh: "不定式常表示未来安排。" },
+            { en: "Passive voice is used when the receiver of the action is more important than the actor.", zh: "当动作承受者比施动者更重要时，标题常用被动意义。" },
+            { en: "Active voice is more frequent because it makes headlines vivid and appealing.", zh: "主动语态更常见，因为它让标题更生动、更有吸引力。" }
+          ],
+          examples: [
+            { en: "Earthquake Rocks Turkey; Pope to Visit Japan in February; Journalist Fired in Spy Debate.", zh: "分别体现一般现在时、to do 表将来、过去分词表被动。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-headline-lexis": {
+      title: "Headline Lexis",
+      lead: "新闻标题词汇强调短小、醒目、节省版面。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Short Words / 短词偏好",
+          points: [
+            { en: "Headlines prefer short words to save space and avoid wordiness.", zh: "标题偏好短词，以节省版面并避免冗长。" },
+            { en: "Headline midgets often replace longer formal words.", zh: "标题小词常替代较长的正式词。" },
+            { en: "Short verbs can make a headline stronger and more direct.", zh: "短动词能让标题更有力度、更直接。" }
+          ],
+          examples: [
+            { en: "Allowance to Be Cut; Reshuffle Axes France's Cabinet; Ethiopia Jails Jews Escaping to Israel.", zh: "cut、axes、jails 都是标题中常见的短小动词。" },
+            { en: "assistance -> aid; threaten -> vow; restrictions -> curbs; investigation -> probe; explosion -> blast; check -> curb.", zh: "常见短词替换：援助 aid；威胁/扬言 vow；限制 curbs；调查 probe；爆炸 blast；遏制 curb。" }
+          ]
+        },
+        {
+          title: "Shortenings / 缩略形式",
+          points: [
+            { en: "Acronyms, abbreviations and clippings are widely used in headlines.", zh: "首字母缩略词、缩写和截短词在新闻标题中使用广泛。" },
+            { en: "bn means billion, Fed means Federal Reserve, and tech means technology.", zh: "bn 表示 billion（十亿），Fed 表示 Federal Reserve（美联储），tech 表示 technology（技术）。" },
+            { en: "Clippings shorten common words while keeping the meaning recoverable.", zh: "截短词压缩常见词，但读者仍能还原含义。" }
+          ],
+          examples: [
+            { en: "grads = graduates; nuke = nuclear weapon / nuclear; champ = champion; doc = doctor; Ark. = Arkansas.", zh: "grads 指毕业生；nuke 指核武/核相关；champ 指冠军；doc 指医生；Ark. 指阿肯色州。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-news-structure": {
+      title: "News Report Structure",
+      lead: "消息结构通常由标题、副标题、署名、导语和事实段落组成。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Main Parts / 主要组成",
+          points: [
+            { en: "A news report normally includes a headline, subheading, by-line, summary lead and fact-based paragraphs.", zh: "新闻报道通常包括标题、副标题、署名行、概要导语和事实性段落。" },
+            { en: "The headline introduces the topic and captures readers' interest, often in ten words or fewer.", zh: "标题介绍主题并吸引读者，通常不超过十个词。" },
+            { en: "The subheading is optional and expands the headline when needed.", zh: "副标题不是必需项，需要时用于扩展标题内容。" },
+            { en: "The by-line gives the author's name and sometimes the author's occupation.", zh: "署名行提供作者姓名，有时也写出作者身份或职业。" },
+            { en: "The summary lead is usually one or two sentences and answers the 5WH.", zh: "概要导语通常为一到两句，回答 5WH：who, what, where, when, why, how。" }
+          ]
+        },
+        {
+          title: "Body and Elements / 正文与新闻元素",
+          points: [
+            { en: "Fact-based paragraphs expand the 5WH and often include quotations from key people.", zh: "事实性段落展开 5WH，并常引用关键人物的话。" },
+            { en: "Details are usually arranged from most important to least important.", zh: "细节通常按重要程度由高到低排列。" },
+            { en: "Headline catches attention; lead gives key information; body supplies detail; quotation adds accuracy and an at-the-scene feeling.", zh: "标题吸引注意；导语提供核心信息；正文补充细节；引语增加准确性和现场感。" }
+          ],
+          examples: [
+            { en: "Students Grow Flying Sauce uses quotations, background, project details, experiment results and conclusion to show news structure.", zh: "《Students Grow Flying Sauce》通过引语、背景、项目细节、实验结果和结尾展示消息结构。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-feature-stories": {
+      title: "Feature Stories",
+      lead: "新闻特写重细节、叙事和现场感，让人物、事件或地点变得生动。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Definition and Types / 定义与类型",
+          points: [
+            { en: "A feature story paints a picture of a person, event or place through details.", zh: "新闻特写通过细节描绘人物、事件或地点，使主题更鲜活。" },
+            { en: "Feature stories are more about storytelling and narrative than bare facts.", zh: "特写不仅陈述事实，更强调故事化叙述。" },
+            { en: "Types include news feature, profile, spot feature, trend and live-in.", zh: "常见类型包括新闻特写、人物特写、现场特写、趋势特写和体验式特写。" },
+            { en: "Chinese classifications include profile, WHAT-feature, travelogue and eyewitness account.", zh: "中文分类可包括人物特写、事件特写、旅游特写和亲历/目击特写。" }
+          ]
+        },
+        {
+          title: "Writing Focus / 写作重点",
+          points: [
+            { en: "A news feature is written in a news style but gives more detail and background.", zh: "新闻特写仍具有新闻写法，但提供更多细节和背景。" },
+            { en: "It should focus on a specific topic that can be handled within the word count.", zh: "特写应聚焦一个具体题材，并能在规定篇幅内展开。" },
+            { en: "Good features use firsthand accounts, expert opinions, facts and evidence.", zh: "优秀特写会使用一手经历、专家意见、事实和证据。" },
+            { en: "A profile explores the background and character of a person or group from a news angle.", zh: "人物特写从新闻角度呈现个人或群体的背景与性格。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-news-vs-feature": {
+      title: "News Story vs Feature",
+      lead: "消息与特写的区别主要体现在时效、文风、长度、导语和结尾。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Comparison / 对比要点",
+          points: [
+            { en: "Time factor: features are not as time-dependent as news stories.", zh: "时效性：特写不像消息那样强烈依赖即时性。" },
+            { en: "Writing style: news stories go straight to the point; features can be more creative and descriptive.", zh: "文风：消息直奔重点；特写可更具创造性和描写性。" },
+            { en: "Length: a news story is usually shorter, while a feature can be much longer.", zh: "长度：消息通常较短；特写篇幅可更长，杂志特写尤其明显。" },
+            { en: "Lead: a news lead gives key facts; a feature lead first attracts interest.", zh: "导语：消息导语交代核心事实；特写导语先吸引读者兴趣。" },
+            { en: "Ending: news may stop after key facts, but feature needs a satisfying ending.", zh: "结尾：消息可在交代完重点后结束；特写需要更有完成感的结尾。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-feature-structure": {
+      title: "Feature Structure",
+      lead: "特写结构强调吸引人的开头、顺畅过渡、有层次的主体和有回响的结尾。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Intro and Transition / 开头与过渡",
+          points: [
+            { en: "The intro or lead must attract attention immediately and pull readers into the story.", zh: "开头/导语必须立即吸引注意，把读者带入故事。" },
+            { en: "A feature lead may use description, narration, dialogue, a question, an unusual statement, a call to action or contrast.", zh: "特写导语可用描写、叙述、对话、提问、反常陈述、行动号召或对比。" },
+            { en: "A solid transition is needed to move from the lead into the body.", zh: "从导语进入主体需要稳固的过渡段。" },
+            { en: "The transition promises information, entertainment, self-awareness or another reward.", zh: "过渡段要向读者承诺后文将提供信息、趣味、认识或其他阅读回报。" }
+          ]
+        },
+        {
+          title: "Body and Conclusion / 主体与结尾",
+          points: [
+            { en: "The body uses subject knowledge and writing skills to guide readers through experiences.", zh: "主体部分依靠主题知识和写作技巧带领读者经历事件。" },
+            { en: "Useful tools include dialogue, vivid facts, careful observation, suspense and plot.", zh: "可用手段包括对话、生动事实、细致观察、悬念和情节。" },
+            { en: "The body should not be padded; every word and concept should be rightly placed.", zh: "主体不能注水，每个词和概念都应放在合适位置。" },
+            { en: "The conclusion should give satisfaction and may echo the lead.", zh: "结尾应给读者满足感，并可呼应开头。" },
+            { en: "A feature should be as long as it remains interesting.", zh: "特写长度以读者兴趣能否维持为标准。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-news-value": {
+      title: "News Classification and Value",
+      lead: "英语新闻可按媒介、地域和内容分类；新闻价值决定哪些事实值得报道。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Classification / 新闻分类",
+          points: [
+            { en: "By medium: newspaper coverage, magazine coverage, radio news, TV news, cable news and dispatches.", zh: "按媒介分：报纸报道、杂志报道、广播新闻、电视新闻、有线新闻和电讯稿。" },
+            { en: "By location or scope: home news and local news.", zh: "按地域/范围分：国内新闻和地方新闻。" },
+            { en: "By content: political, economic, technological, cultural, sports, crime, disaster, weather, obituary and entertainment news.", zh: "按内容分：政治、经济、科技、文化、体育、犯罪、灾难、天气、讣告和娱乐新闻。" }
+          ]
+        },
+        {
+          title: "News Value / 新闻价值",
+          points: [
+            { en: "Major news values include timeliness, freshness, importance, consequence, impact, significance, prominence and proximity.", zh: "主要新闻价值包括时效性、新鲜性、重要性、后果、影响、意义、显著性和接近性。" },
+            { en: "Other values include unusualness, bizarreness, oddity and novelty.", zh: "其他价值包括反常性、离奇性、奇特性和新颖性。" },
+            { en: "A classic example: when a dog bites a man, that is not news; when a man bites a dog, that is news.", zh: "经典例子：狗咬人不是新闻，人咬狗才是新闻。" },
+            { en: "Interest values may involve crime, morals, population, life, marriage, family, friendship, love, emotion, money and sex.", zh: "趣味性价值可能涉及犯罪、道德、人口、生活、婚姻、家庭、友谊、爱情、情感、金钱和性等。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-headline-rules": {
+      title: "Headline Importance and Rules",
+      lead: "标题既概括新闻，也吸引读者，还承担索引版面和装饰版面的功能。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Importance / 标题作用",
+          points: [
+            { en: "A headline summarizes the news so readers know the story at a glance.", zh: "标题概括新闻，使读者一眼了解报道内容。" },
+            { en: "A headline attracts readers with large print and sometimes striking language.", zh: "标题通过醒目的字号和有冲击力的语言吸引读者。" },
+            { en: "A headline indexes the news by showing story importance through size and page placement.", zh: "标题通过字号和版面位置体现新闻重要性，起到索引作用。" },
+            { en: "A headline can also decorate the page and fill space.", zh: "标题还可美化版面、填补版面空间。" }
+          ]
+        },
+        {
+          title: "Grammar Rules / 语法规则",
+          points: [
+            { en: "Rule 1: sentence-style headlines are often stronger than phrase-style headlines.", zh: "规则一：句子式标题通常比短语式标题更有力。" },
+            { en: "Rule 2: nominal groups are condensed.", zh: "规则二：名词词组要压缩。" },
+            { en: "Rule 3: past events often use a present-tense verb form without -ed.", zh: "规则三：过去事件常用不带 -ed 的现在时动词。" },
+            { en: "Rule 4: future events often use to instead of will or shall.", zh: "规则四：未来事件常用 to 替代 will/shall。" },
+            { en: "Rule 5: be is omitted in passive voice.", zh: "规则五：被动语态中省略 be。" },
+            { en: "Rule 6: copular verbs are often omitted.", zh: "规则六：系动词常被省略。" },
+            { en: "Rule 7: be is often omitted in the present progressive.", zh: "规则七：现在进行时常省略 be。" }
+          ],
+          examples: [
+            { en: "President to Talk on Peace Pact; Boy Found Dead In Basement; Computer Lab Trying Out New Rules.", zh: "分别体现 to 表将来、过去分词表被动、现在分词表进行。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-lead-writing": {
+      title: "Writing a Lead",
+      lead: "导语通常用一句话概括新闻并吸引读者继续阅读。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Requirements and Tips / 要求与技巧",
+          points: [
+            { en: "A lead is usually one sentence that summarizes the news and attracts attention.", zh: "导语通常是一句话，用来概括新闻并吸引读者注意。" },
+            { en: "A lead should contain the essence of the story.", zh: "导语应包含报道的核心。" },
+            { en: "A lead should begin with the most important information.", zh: "导语应从最重要的信息写起。" },
+            { en: "Use active voice if possible.", zh: "能用主动语态时尽量使用主动语态。" },
+            { en: "Do not overwhelm readers with too much detail.", zh: "不要用过多细节压倒读者。" },
+            { en: "Weed out personal opinion.", zh: "删除带有个人观点色彩的信息。" },
+            { en: "A good lead informs, underlines and stimulates readers to continue.", zh: "好导语既告知信息，又突出重点，并刺激读者继续阅读。" }
+          ]
+        },
+        {
+          title: "Examples / 示例",
+          examples: [
+            { en: "The death toll soared to 750 as a devastating 8.8-magnitude earthquake hit Chile early Saturday.", zh: "周六凌晨智利发生 8.8 级强震，死亡人数飙升至 750 人。" },
+            { en: "A power outage last night angered dozens of students in Dormitory No.12 who lost files in their computers.", zh: "昨晚停电导致 12 号宿舍数十名学生电脑文件丢失，引发不满。" },
+            { en: "Dental surgeons said yesterday they had discovered why snoring can kill sometimes: it can damage the arteries.", zh: "牙科外科医生昨日表示，他们发现了打鼾有时会致命的原因：它可能损伤动脉。" }
+          ]
+        }
+      ]
+    },
+    "press-reading-inverted-pyramid": {
+      title: "Inverted Pyramid",
+      lead: "倒金字塔结构把最重要的信息放在最前面，后文依次补充背景和细节。",
+      source: "报刊阅读知识点汇总.pptx",
+      sections: [
+        {
+          title: "Structure / 结构",
+          points: [
+            { en: "The inverted pyramid consists of a summary lead, backup, supporting points and ending.", zh: "倒金字塔结构包括概要导语、补充材料、支持性细节和结尾。" },
+            { en: "Backup information may include quotes or facts.", zh: "补充材料可包括引语或事实。" },
+            { en: "Writers arrange information in descending order of importance.", zh: "作者按重要程度递减安排信息。" },
+            { en: "The inverted pyramid saves readers' time and editors' space.", zh: "倒金字塔结构节省读者时间，也方便编辑删节版面。" },
+            { en: "It is historically associated with the American Civil War.", zh: "倒金字塔结构通常被认为与美国南北战争时期的电报新闻有关。" }
+          ]
+        },
+        {
+          title: "Sample / 示例",
+          examples: [
+            { en: "NANJING - A Yak-42 airliner carrying 116 passengers and 10 crew members crashed on takeoff from the Nanjing Airport in East China yesterday at 15:06.", zh: "南京电：昨日 15:06，一架载有 116 名乘客和 10 名机组人员的 Yak-42 客机在南京机场起飞时坠毁。" },
+            { en: "So far, 100 people on board are dead and 26 injured.", zh: "截至目前，机上 100 人死亡，26 人受伤。" },
+            { en: "Headline: Nanjing air crash kills at least 100.", zh: "标题：南京空难造成至少 100 人死亡。" }
+          ]
+        }
+      ]
+    }
+  };
+
   function escapeHtml(value) {
     return String(value || "")
       .replace(/&/g, "&amp;")
@@ -904,6 +1497,489 @@
     `;
   }
 
+  function renderKnowledgeTable(table) {
+    if (!table) return "";
+    const headers = table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("");
+    const rows = table.rows.map((row) => `
+      <tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>
+    `).join("");
+    return `
+      <div class="term-table-wrap">
+        <table class="term-table">
+          <thead><tr>${headers}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function knowledgePointMarkup(point) {
+    if (point && typeof point === "object") {
+      return `
+        <li class="bilingual-point">
+          <span>${escapeHtml(point.en || point.text || "")}</span>
+          ${point.zh ? `<small>${escapeHtml(point.zh)}</small>` : ""}
+        </li>
+      `;
+    }
+    return `<li>${escapeHtml(point)}</li>`;
+  }
+
+  function knowledgeListMarkup(items, className) {
+    if (!items || !items.length) return "";
+    const isBilingual = items.some((item) => item && typeof item === "object");
+    const classes = [className, isBilingual ? "bilingual-list" : ""].filter(Boolean).join(" ");
+    return `<ul${classes ? ` class="${classes}"` : ""}>${items.map(knowledgePointMarkup).join("")}</ul>`;
+  }
+
+  function renderKnowledgePage(page) {
+    const sections = page.sections.map((section) => `
+      <section class="style-section">
+        <h3>${escapeHtml(section.title)}</h3>
+        ${renderKnowledgeTable(section.table)}
+        ${knowledgeListMarkup(section.points)}
+        ${knowledgeListMarkup(section.examples, "example-list")}
+      </section>
+    `).join("");
+
+    return `
+      <div class="reply press-knowledge">
+        <section class="tldr">
+          <h2>${escapeHtml(page.title)}</h2>
+          <p>${escapeHtml(page.lead)}</p>
+        </section>
+        <div class="source-meta">
+          <span>来源：${escapeHtml(page.source)}</span>
+          <span>${page.sections.length} 组知识</span>
+        </div>
+        <div class="style-guide">${sections}</div>
+      </div>
+    `;
+  }
+
+  const pressPastPaper2122ChoiceQuestions = [
+    {
+      no: 1,
+      prompt: "“ABC, CBS, NBC all cut away from Trump’s news conference on the election” — What do the acronyms of ABC, CBS, NBC in the above news headline refer to respectively?",
+      answer: "C",
+      note: "ABC = American Broadcasting Company; CBS = Columbia Broadcasting Company; NBC = National Broadcasting Company.",
+      options: [
+        ["A", "American Broadcasting Company; Cross-Bank Solution; Nuclear, Biological and Chemical weapons"],
+        ["B", "American-Born Chinese; Columbia Broadcasting Company; National Broadcasting Company"],
+        ["C", "American Broadcasting Company; Columbia Broadcasting Company; National Broadcasting Company"],
+        ["D", "American-Born Chinese; Cross-Bank Solution; Nuclear, Biological and Chemical weapons"],
+      ],
+    },
+    {
+      no: 2,
+      prompt: "Our model provides a biologically _____ way for artificial neural networks to learn new visual concepts from a small number of examples.",
+      answer: "B",
+      note: "固定搭配为 biologically plausible，意为“生物学上合理/可信的”。",
+      options: [
+        ["A", "correct"],
+        ["B", "plausible"],
+        ["C", "interesting"],
+        ["D", "standard"],
+      ],
+    },
+    {
+      no: 3,
+      prompt: "John Preskill, a quantum-computing researcher, ___ such machines NISQS—Noisy, Intermediate-Scale Quantum computers.",
+      answer: "A",
+      note: "dubs 表示“把……称为 / 给……起名为”。",
+      options: [
+        ["A", "dubs"],
+        ["B", "invents"],
+        ["C", "makes"],
+        ["D", "likes"],
+      ],
+    },
+    {
+      no: 4,
+      prompt: "Choose a shorter word with similar meaning of the underlined word in the headline: Conservatives Threaten to Make Gay Marriage 2022 Issue",
+      answer: "B",
+      note: "headline midget 语境中 vow 可压缩表达“威胁/扬言要做某事”的公开表态。",
+      options: [
+        ["A", "curb"],
+        ["B", "vow"],
+        ["C", "stem"],
+        ["D", "probe"],
+      ],
+    },
+    {
+      no: 5,
+      prompt: "Give the complete form of the underlined shortening in the headline below: College Grads Face Tough Employment Market",
+      answer: "A",
+      note: "Grads 是 graduates 的 clipping。",
+      options: [
+        ["A", "Graduates"],
+        ["B", "Grands"],
+        ["C", "Grades"],
+        ["D", "Gradual"],
+      ],
+    },
+    {
+      no: 6,
+      prompt: "This ______ of data flooding through our society will enable a host of new services, including connecting new devices and equipment.",
+      answer: "C",
+      note: "原文表达为 This deluge of data flooding through our society。",
+      options: [
+        ["A", "emergence"],
+        ["B", "appearance"],
+        ["C", "deluge"],
+        ["D", "advent"],
+      ],
+    },
+    {
+      no: 7,
+      prompt: "In terms of word formation, which following word is different from the others?",
+      answer: "D",
+      note: "Microsoft, Motel, Covidiot 都可视为 blending；Minister 不是这类构词。",
+      options: [
+        ["A", "Microsoft"],
+        ["B", "Motel"],
+        ["C", "Covidiot"],
+        ["D", "Minister"],
+      ],
+    },
+    {
+      no: 8,
+      prompt: "Now the French military has been given the ____ to create “augmented soldiers”.",
+      answer: "D",
+      note: "give the go-ahead 表示“批准 / 放行”。",
+      options: [
+        ["A", "passport"],
+        ["B", "motivation"],
+        ["C", "ethics"],
+        ["D", "go-ahead"],
+      ],
+    },
+    {
+      no: 9,
+      prompt: "In terms of grammatical features of English news headline, which is the best among the following headlines?",
+      answer: "C",
+      note: "Pope to Visit Japan in February 使用标题中常见的 to do 表示将来；其余选项可进一步压缩冠词、连接词或 be 动词。",
+      options: [
+        ["A", "37 Killed in an Italian Plane Crash"],
+        ["B", "Laurel and Aquino Cut Ties"],
+        ["C", "Pope to Visit Japan in February"],
+        ["D", "Food Prices Are Soaring"],
+      ],
+    },
+    {
+      no: 10,
+      prompt: "Which one is NOT appropriate for a news headline in terms of lexical features of English news headline?",
+      answer: "C",
+      note: "Investigation 可用更短的 headline midget probe；C 也显得名词堆叠过重。",
+      options: [
+        ["A", "College Grads Face Tough Employment Market"],
+        ["B", "Allowance to Be Cut in 200,000 Families"],
+        ["C", "Investigation of Violence, Mass Escapes from Egypt Prisons"],
+        ["D", "Grassroots Heroes Aid HK’s Pandemic Fight"],
+      ],
+    },
+    {
+      no: 11,
+      prompt: "Which rhetorical device employed in each headline below is different from others?",
+      answer: "D",
+      note: "A/B/C 主要借用经典文本或固定表达形成 allusion；D 更偏拟人化/双关式标题。",
+      options: [
+        ["A", "To Buy or Not to Buy Is the Question for Homebuyers"],
+        ["B", "A Tale of Two Hearts"],
+        ["C", "Farewell to Covid-19"],
+        ["D", "The New Beetle Hits Town"],
+      ],
+    },
+    {
+      no: 12,
+      prompt: "Which one of the following statements is NOT correct?",
+      answer: "B",
+      note: "Subheading 不是 always included；副标题是可选结构。",
+      options: [
+        ["A", "The Headline is the title of the article which is made up of 10 words or less."],
+        ["B", "The Subheading, which is always included in an article, expands upon the Headline’s content."],
+        ["C", "The by-line includes the article’s author’s name, and sometimes that person’s occupation."],
+        ["D", "The Summary Lead consists of the first paragraph; the content of this paragraph consists of the 5WH of the article."],
+      ],
+    },
+    {
+      no: 13,
+      prompt: "In terms of the differences between a News report and a Feature, which is NOT correct of the following statements?",
+      answer: "B",
+      note: "Feature 通常比 hard news 更强调叙事和细节，并不等于 News story 更长。",
+      options: [
+        ["A", "Features are not as time-dependent as News stories."],
+        ["B", "A News story is longer than a Feature story."],
+        ["C", "The lead of a Feature does not give the news instead; while the lead of a News story sells the story."],
+        ["D", "A news story can end anywhere after the most important things have been mentioned, but a feature story has to be ended in specific manner."],
+      ],
+    },
+    {
+      no: 14,
+      prompt: "We’ve reached the point now where we could potentially _____ people’s DNA to breed into them extra strength.",
+      answer: "A",
+      note: "原文为 manipulate people’s DNA。",
+      options: [
+        ["A", "manipulate"],
+        ["B", "fabricate"],
+        ["C", "make up"],
+        ["D", "create"],
+      ],
+    },
+    {
+      no: 15,
+      prompt: "This material is _____ as a yield-stress fluid, meaning it begins as a semi-soft solid that holds its shape, like butter or toothpaste.",
+      answer: "B",
+      note: "原文为 This material is categorized as a yield-stress fluid。",
+      options: [
+        ["A", "symbolized"],
+        ["B", "categorized"],
+        ["C", "characterized"],
+        ["D", "described"],
+      ],
+    },
+    {
+      no: 16,
+      prompt: "Which translation for each headline below is NOT appropriate?",
+      answer: "A",
+      note: "Florida is tight 指佛罗里达州选情胶着；“佛罗里达为270激战正酣”容易误解为佛州本身争夺270张选举人票。",
+      options: [
+        ["A", "Florida is Tight in Battle for 270: 佛罗里达为 270 激战正酣"],
+        ["B", "Son of the Soil: 大地之子"],
+        ["C", "World Corruption and Anti-Corruption: 席卷全球的腐败和反腐败斗争"],
+        ["D", "Here Comes the Son: 子承父业的小布什"],
+      ],
+    },
+    {
+      no: 17,
+      prompt: "These complex neural hierarchies for visual recognition allow humans to learn new tasks and, crucially, _____ prior learning.",
+      answer: "C",
+      note: "leverage prior learning 表示“利用/借助已有学习经验”。",
+      options: [
+        ["A", "underscore"],
+        ["B", "recognize"],
+        ["C", "leverage"],
+        ["D", "generalize"],
+      ],
+    },
+    {
+      no: 18,
+      prompt: "Dr. Peter M. Glazer and his co-authors developed an _____ approach using a novel combination of nanoparticles, synthetic pieces of DNA, and a simple IV injection.",
+      answer: "C",
+      note: "原文为 developed an alternative approach。",
+      options: [
+        ["A", "different"],
+        ["B", "proper"],
+        ["C", "alternative"],
+        ["D", "new"],
+      ],
+    },
+    {
+      no: 19,
+      prompt: "The advance could fuel a variety of robotics applications, including, potentially, frontline medical care of _____ patients.",
+      answer: "B",
+      note: "原文为 frontline medical care of contagious patients。",
+      options: [
+        ["A", "deadly"],
+        ["B", "contagious"],
+        ["C", "feeble"],
+        ["D", "dying"],
+      ],
+    },
+    {
+      no: 20,
+      prompt: "Replace each of the underlined words in the headlines below with a shortest possible midget. Which is NOT right?",
+      answer: "A",
+      note: "observes 比 watches 更长，不能作为 shortest possible midget；其余 ties/nuke/probe 都是标题短词。",
+      options: [
+        ["A", "World Watches Mid-east Peace Talks: Observes"],
+        ["B", "China, Japan Renew Relations: Ties"],
+        ["C", "EEC Warns Nuclear Arms Spread: Nuke"],
+        ["D", "Mayor Orders Fire Investigation: Probe"],
+      ],
+    },
+  ];
+
+  const pressPastPaper2122Translation = {
+    no: 21,
+    title: "II. English-Chinese Translation",
+    score: "30 points",
+    prompt: "There are three differences between 5G and the current 4G: speed, bandwidth and what network specialists call latency, which is the time it takes for data to move from a server on the network to a device. 5G networks are faster, can handle a higher volume of data, and reduce wait times. The new technology is able to shoot data from millions of local sensors or gadgets to distant cloud computers for processing and then return the relevant guidance — all in a fraction of a second. This deluge of data flooding through our society will enable a host of new services, including connecting new devices and equipment.",
+    answer: "5G 与现有 4G 有三个差异：速度、带宽以及网络专家所说的延迟，即数据从网络服务器传输到设备所需的时间。5G 网络速度更快，能处理更大的数据量，并减少等待时间。新技术能够把来自数百万本地传感器或设备的数据发送到远端云计算机进行处理，再返回相关指令，而这一切都在几分之一秒内完成。这股涌入社会的数据洪流将催生大量新服务，包括连接新的设备和器材。",
+  };
+
+  const pressPastPaper2122Summary = {
+    no: 22,
+    title: "III. News Summary",
+    score: "30 points",
+    prompt: "Read the following news report and write a news summary around 100 words, consisting of the 5WH of the article.",
+    articleTitle: "Scientists successfully grow plants in soil from the moon",
+    article: [
+      "In a NASA-funded study, scientists at the University of Florida grew plants in soil collected from the moon, according to a study published Thursday in the journal Communications Biology.",
+      "The study is paramount to NASA's long-term goals in human space exploration, NASA administrator Bill Nelson said in a press release. The research could also have implications for plants growing in harsh conditions on Earth, he added.",
+      "\"We'll need to use resources found on the Moon and Mars to develop food sources for future astronauts living and operating in deep space,\" Nelson said.",
+      "In the study, researchers planted the seeds of Arabidopsis thaliana — a plant related to mustard greens, as well as other cruciferous vegetables, including broccoli and cauliflower — in lunar soil, which was sampled directly from the moon from missions Apollo 11, 12 and 17.",
+      "To compare, researchers also planted the seeds in a lunar simulant, designed to closely mimic real lunar soil.",
+      "Anna-Lisa Paul, a research professor in the horticultural sciences department at the University of Florida and the study's first author, described the samples from the moon as \"fine\" and \"powdery.\" It also \"sticks to everything,\" Paul added.",
+      "The seeds started to sprout within days of planting.",
+      "\"We planted them, walked away for a couple of days and then when we first went back in to take a look, it was amazing to see that every plant group, all the seedlings germinated,\" said Paul, who is also the director for the University of Florida's Interdisciplinary Center for Biotechnology Research.",
+      "Although all of the seeds sprouted, the ones that grew in lunar soil did not grow as \"robust\" as those in the control, according to the release. Some of the plants grown in the lunar soil samples had \"stunted\" roots and leaves, as well as some \"reddish pigmentation,\" the release said.",
+      "After the plants had grown for 20 days, researchers harvested the plants and prepared to study the plant RNA. The expressed gene patterns matched the way in which researchers had seen Arabidopsis react to stress before in other harsh environments, such as when soil carries excess salt or heavy metals, according to the release.",
+      "\"Now that we have lunar soil that have been in contact with biology, we can begin to ask the question: how would you and how hard would it be to mitigate any of the adverse reactions that we saw?\" said Robert Ferl, assistant vice president for research at the University of Florida and an author on the study.",
+    ],
+    checklist: [
+      ["Who", "Scientists at the University of Florida, including Anna-Lisa Paul and Robert Ferl."],
+      ["What", "They successfully grew Arabidopsis plants in real lunar soil, though the plants showed stress and weaker growth."],
+      ["Where", "At the University of Florida, using moon soil collected during Apollo 11, 12 and 17."],
+      ["When", "The study was published Thursday in Communications Biology; plants were harvested after 20 days."],
+      ["Why", "The research supports NASA's long-term goal of using lunar and Martian resources to grow food for astronauts."],
+      ["How", "Researchers planted seeds in lunar soil and a lunar simulant, compared growth, and studied RNA stress responses."],
+    ],
+    answer: "Scientists at the University of Florida have successfully grown Arabidopsis thaliana plants in lunar soil collected during Apollo 11, 12 and 17, according to a NASA-funded study published Thursday in Communications Biology. The experiment supports NASA's long-term human space exploration goals by testing whether future astronauts could use lunar or Martian resources to grow food. Researchers planted seeds in real lunar soil and in a lunar simulant for comparison. All seeds germinated, but plants in lunar soil grew less robustly and showed stress responses. After 20 days, researchers studied their RNA to understand the plants' reactions to harsh conditions.",
+  };
+
+  function paperAnswerLabel(options, answer) {
+    const option = options.find((item) => item[0] === answer);
+    return option ? `${option[0]}. ${option[1]}` : answer;
+  }
+
+  function renderPaperQuizControls(group) {
+    return `
+      <div class="paper-controls">
+        <button class="practice-check-button" type="button" data-quiz-score="${escapeHtml(group)}">批改本部分</button>
+        <button class="practice-check-button ghost" type="button" data-quiz-reset="${escapeHtml(group)}">重做</button>
+        <p class="paper-score" data-quiz-score-result="${escapeHtml(group)}" aria-live="polite"></p>
+      </div>
+    `;
+  }
+
+  function renderPressChoiceQuestion(question) {
+    const answerText = paperAnswerLabel(question.options, question.answer);
+    return `
+      <article class="quiz-question" data-quiz-question data-quiz-group="press2122-multiple" data-answer="${escapeHtml(question.answer)}" data-answer-label="${escapeHtml(answerText)}">
+        <div class="quiz-question-head">
+          <span>${String(question.no).padStart(2, "0")}</span>
+          <p>${escapeHtml(question.prompt)}</p>
+        </div>
+        <div class="quiz-options" role="radiogroup" aria-label="Question ${question.no}" data-quiz-options>
+          ${question.options.map(([value, text]) => `
+            <label class="quiz-option">
+              <input type="radio" name="press2122-mc-${question.no}" value="${escapeHtml(value)}" data-quiz-radio>
+              <span class="quiz-option-letter">${escapeHtml(value)}</span>
+              <span class="quiz-option-text">${escapeHtml(text)}</span>
+            </label>
+          `).join("")}
+        </div>
+        <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        <details class="answer-detail">
+          <summary>解析</summary>
+          <p>${escapeHtml(question.note || answerText)}</p>
+        </details>
+      </article>
+    `;
+  }
+
+  function renderPaperPracticeQuestion(item, mode, placeholder) {
+    return `
+      <article class="practice-item" data-practice-check data-practice-mode="${escapeHtml(mode)}">
+        <div class="practice-head">
+          <span class="practice-no">${String(item.no).padStart(2, "0")}</span>
+          <span class="practice-source">${escapeHtml(item.score)}</span>
+        </div>
+        <p class="practice-prompt">${escapeHtml(item.prompt)}</p>
+        <textarea data-practice-input placeholder="${escapeHtml(placeholder)}" rows="8"></textarea>
+        <div class="practice-controls">
+          <button class="practice-check-button" type="button" data-practice-action>自检覆盖度</button>
+          <span class="practice-result" data-practice-result aria-live="polite"></span>
+        </div>
+        <details class="answer-detail">
+          <summary>显示参考答案</summary>
+          <p data-practice-answer>${escapeHtml(item.answer)}</p>
+        </details>
+      </article>
+    `;
+  }
+
+  function renderPressSummaryArticle() {
+    return `
+      <article class="source-document">
+        <div class="source-doc-body">
+          <h3>${escapeHtml(pressPastPaper2122Summary.articleTitle)}</h3>
+          ${pressPastPaper2122Summary.article.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+        </div>
+      </article>
+    `;
+  }
+
+  function renderPressSummaryChecklist() {
+    return `
+      <section class="note">
+        <h3>5WH 自检要点</h3>
+        <ul>
+          ${pressPastPaper2122Summary.checklist.map(([label, text]) => `<li><strong>${escapeHtml(label)}:</strong> ${escapeHtml(text)}</li>`).join("")}
+        </ul>
+      </section>
+    `;
+  }
+
+  function renderPressPastPaper2122() {
+    return `
+      <div class="reply past-paper">
+        <section class="tldr">
+          <h2>2021-2022 学年第 2 学期《英美报刊选读》试卷自测</h2>
+          <p>根据 /root/final-review-site/reference/英美报刊选读/报刊21~22.pdf 整理。PDF 未附官方答案页，选择题按课程材料、课文原文和新闻英语常识整理为参考答案；可点选批改，点击重做会固定 A/B/C/D 标号并重新打乱选项内容。</p>
+        </section>
+        <div class="source-meta">
+          <span>南京邮电大学研究生考试试卷</span>
+          <span>2021/2022 学年第 2 学期</span>
+          <span>Part I 40分 / Part II 30分 / Part III 30分</span>
+        </div>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>I. Multiple Choice <small>40 points</small></h2>
+              <p>Choose the correct answer from A-D. 选择后会立即显示正误。</p>
+            </div>
+            <span>2 points each</span>
+          </div>
+          <div class="quiz-list">
+            ${pressPastPaper2122ChoiceQuestions.map(renderPressChoiceQuestion).join("")}
+          </div>
+          ${renderPaperQuizControls("press2122-multiple")}
+          <details>
+            <summary>当前整理参考答案</summary>
+            <p data-quiz-answer-list="press2122-multiple"></p>
+          </details>
+        </section>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>${escapeHtml(pressPastPaper2122Translation.title)} <small>${escapeHtml(pressPastPaper2122Translation.score)}</small></h2>
+              <p>Translate the paragraph into Chinese. 先输入译文，再自检关键词覆盖度。</p>
+            </div>
+            <span>Q21</span>
+          </div>
+          ${renderPaperPracticeQuestion(pressPastPaper2122Translation, "zh", "在这里输入你的中文译文")}
+        </section>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>${escapeHtml(pressPastPaper2122Summary.title)} <small>${escapeHtml(pressPastPaper2122Summary.score)}</small></h2>
+              <p>Write a news summary around 100 words, covering the 5WH of the article.</p>
+            </div>
+            <span>Q22</span>
+          </div>
+          ${renderPressSummaryArticle()}
+          ${renderPressSummaryChecklist()}
+          ${renderPaperPracticeQuestion(pressPastPaper2122Summary, "en", "在这里写约 100 词英文新闻摘要")}
+        </section>
+      </div>
+    `;
+  }
+
   const content = {};
   pressData.translationUnits.forEach((unit) => {
     content[unit.slug] = renderTranslationUnit(unit);
@@ -918,6 +1994,13 @@
   Object.entries(pressData.stylePages).forEach(([slug, page]) => {
     content[slug] = renderStylePage(page);
   });
+  Object.entries(pressKnowledgePages).forEach(([slug, page]) => {
+    content[slug] = renderKnowledgePage(page);
+  });
+  Object.entries(pressReadingKnowledgePages).forEach(([slug, page]) => {
+    content[slug] = renderKnowledgePage(page);
+  });
+  content["press-2021-2022-final-exam"] = renderPressPastPaper2122();
 
   if (typeof module !== "undefined" && module.exports) {
     module.exports = content;

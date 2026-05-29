@@ -1,0 +1,12 @@
+
+- Venturing into a new culture can cause anxiety and emotional distress, resulting in mental and physical fatigue.
+- Culture shock is a mental state that can occur when moving from a familiar to an unfamiliar environment and finding that established patterns of behavior are ineffective.
+- According to the U-curve model, cultural adaptation has four phases: honeymoon, disillusionment, recovery, and adjustment. Culture shock can occur during the disillusionment stage.
+- Kim sees acculturation, or cultural adjustment, as a continuing process of stress-adaptation-growth.
+- Cultural adaptation strategies include learning about the host culture and its language, avoiding ethnocentrism, and maintaining contact with your own culture.
+- Obstacles to effective intercultural communication include a preference for similarities, dealing with uncertainty, the risk of withdrawal, stereotyping tendencies, problems of prejudice and racism, and issues of power.
+- Prejudice is a strong feeling or attitude toward a particular social group or thing.
+- Racism occurs when individuals believe that their race/ethnicity is superior to another race/ethnicity.
+- Because communication is an activity that has a consequence, we must develop a communication ethic.
+- The two major perspectives on ethics are relativism and universalism.
+- An intercultural ethic asks you to be mindful of the power of communication, respect the worth of all individuals, seek commonalities among people and cultures, recognize the validity of differences, and take individual responsibility for your actions.

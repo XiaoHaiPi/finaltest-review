@@ -1,0 +1,10 @@
+- Globalization has created an interdependent world community.
+- Interdependency has brought many benefits but also raised new challenges.
+- The globalized community must work across national and cultural borders to manage growing and potential international problems.
+- Social challenges include population growth, migration, urbanization, and aging populations.
+- Ecological concerns consist of international competition for natural resources, including water and food stocks, and environmental changes/degradation.
+- Nations will have to cooperate over humanitarian and legal issues, such as disease control, natural disaster relief, and transnational crime.
+- Political issues relating to international governance include the international legal system, ethics in scientific research, and human rights differences.
+- Security issues that require international coordination include weapons of mass destruction, terrorists, and emerging threats such as sectarian and ethnic tensions.
+- Problems relating to the study of intercultural communication encompass individual uniqueness, generalizing, lack of objectivity, and compromise.
+- Communication is not a panacea for all intercultural difficulties.

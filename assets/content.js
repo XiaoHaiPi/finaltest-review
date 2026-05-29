@@ -327,6 +327,46 @@
       icc: ["跨文化交际不是平等真空中的文化差异交换，权力会影响谁需要适应谁。", "语言优势、主流文化地位、国籍、种族、性别和阶层都会影响交际权力。", "分析文化误解时，要同时看意义差异和权力差异。"],
       exam: ["power 不等于 power distance：power 是影响力本身，power distance 是对权力不平等的接受程度。", "答题关键词：resources、control、authority、discourse、voice、inequality。", "案例题中如果有人能定义规则、评价他人或要求他人适应，就涉及 power。"],
       memory: "权力决定谁能制定规则、解释意义和被认真听见。"
+    },
+    "cultural-identity": {
+      scholar: ["代表学者：Fong、Ting-Toomey、Chung、Klyukanov 和 Dervin 都从群体归属、符号意义和互动建构角度讨论 cultural identity。"],
+      definition: "文化身份是个体对某一文化群体的归属感、情感意义和自我定位，也包括他人通过语言、传统、规范和符号行为对其文化归属的识别。",
+      features: ["文化身份是抽象、复杂、动态并由社会建构的。", "它包含共同传统、遗产、语言、规范、符号性言语与非言语行为。", "它不是固定标签，而是在自我称呼与他人归类之间不断协商。"],
+      icc: ["文化身份会塑造人们对合适交际行为、身份展示和沟通风格的期待。", "跨文化互动中，身份期待不同可能引发焦虑、误解甚至冲突。", "理解文化身份有助于避免把个体简化为国籍或族群标签。"],
+      exam: ["cultural identity 常考定义、动态性和社会建构性。", "可与 social identity 区分：cultural identity 更强调共享符号系统、文化传统和归属感的情感意义。", "案例题中涉及身份展示、归属感和他人归类时可调用。"],
+      memory: "文化身份是我如何归属某种文化，以及别人如何识别这种归属。"
+    },
+    "silence": {
+      scholar: ["无单一提出人：silence 属于非语言交际研究中的重要概念，常与 Hall 的高低语境理论一起分析。"],
+      definition: "沉默是交际过程中没有使用话语但仍可能承载意义的非语言行为，它可以提供思考、情绪控制、反馈、礼貌或不满表达的空间。",
+      features: ["沉默可以表示深思、尊重、尴尬、拒绝、同意、不满或等待，意义依赖语境。", "高语境文化通常更能通过沉默、停顿和非语言线索传递意义。", "低语境文化可能更容易把沉默理解为缺乏回应、信息不足或不礼貌。"],
+      icc: ["跨文化交际中，沉默的误读会导致对礼貌、态度和能力的错误判断。", "分析沉默时要同时看关系、权力、场合、文化语境和交际目的。", "沉默也可作为反馈，让双方判断观点是否清楚或是否重要。"],
+      exam: ["silence 属于 nonverbal communication。", "不要把沉默一律解释为无话可说；它可能是礼貌、思考或冲突回避。", "案例中看到对方不回答、停顿或回避直接表态，可从 high-context 与 facework 分析。"],
+      memory: "沉默不是没有意义，而是意义没有用话语说出来。"
+    },
+    "intercultural-ethics": {
+      scholar: ["无单一提出人：ethics 是跨文化交际中处理价值冲突和道德选择的基础工具。"],
+      definition: "伦理是在面对困难道德选择时用来判断和行动的原则工具；跨文化语境中的伦理尤其关注如何在冲突权利、文化差异和共同人性之间作出负责选择。",
+      features: ["伦理选择常发生在没有唯一正确答案、需要平衡竞争性权利的时候。", "跨文化伦理要求尊重个体价值、承认差异合理性，并意识到沟通具有影响力。", "它不等于简单迎合任何文化，也不等于用本文化标准压倒他文化。"],
+      icc: ["跨文化交际中的伦理帮助人们避免民族中心主义、文化霸权和无原则相对主义。", "它要求交际者在尊重差异的同时承担自己行动的后果。", "讨论文化冲突时，伦理视角可以补充权力、身份和价值分析。"],
+      exam: ["ethics 可与 cultural relativism、universalism 一起考。", "关键词：moral choices、competing rights、responsibility、respect。", "案例题结尾提出建议时，可加入尊重个体、寻找共同点和承认差异。"],
+      memory: "伦理是在文化差异中负责任地做选择。"
+    },
+    "cultural-relativism": {
+      scholar: ["代表学者：Franz Boas 和后续人类学传统常与文化相对主义联系在一起。"],
+      definition: "文化相对主义认为伦理系统和文化规范会因文化而异，不同系统各有其内部合理性，不能简单用单一文化标准判断所有文化。",
+      features: ["它反对民族中心主义，要求把行为放回其文化语境中理解。", "它强调不同文化系统都可能有效，而非天然高低有别。", "过度相对主义可能难以处理伤害、压迫或基本权利冲突。"],
+      icc: ["文化相对主义能帮助交际者暂缓评价、理解差异并减少误解。", "它鼓励先问“这一行为在对方文化中意味着什么”，再作判断。", "在伦理困境中，需要与普遍主义、人权和责任意识一起平衡。"],
+      exam: ["relativism 与 universalism 是一对高频对比。", "relativism 强调文化语境和多种伦理系统的有效性。", "不要写成“任何行为都必须接受”；更准确是先理解语境，再进行审慎伦理判断。"],
+      memory: "文化相对主义先把行为放回文化语境中理解。"
+    },
+    "cultural-universalism": {
+      scholar: ["无单一提出人：universalism 是伦理学和跨文化伦理讨论中的基础立场。"],
+      definition: "文化普遍主义认为无论人、语境、时间或地点如何，都存在适用于所有文化的普遍伦理原则或基本规范。",
+      features: ["它与文化相对主义相对，强调跨文化的共同道德底线。", "它常用于讨论基本人权、人的尊严、公正和不可伤害等问题。", "过度普遍主义可能忽视具体文化语境，并被误用为本文化优越感。"],
+      icc: ["普遍主义帮助跨文化交际者在差异之外寻找共同伦理基础。", "它可以防止以文化差异为名合理化伤害、压迫和不平等。", "实际分析中应结合语境理解与共同原则，避免相对主义或民族中心主义两个极端。"],
+      exam: ["universalism 强调 immutable universal ethical precepts。", "与 relativism 区分：前者找共同伦理原则，后者强调文化内部合理性。", "案例题涉及权利冲突时，可用 relativism + universalism 平衡分析。"],
+      memory: "文化普遍主义相信差异之外仍有共同伦理底线。"
     }
   };
 
@@ -735,6 +775,377 @@
     }
   };
 
+  const memorizationNotes = {
+    "human-communication": [
+      { title: "Definition / 定义", items: [
+        { en: "Communication, our ability to share ideas and feelings, is the basis of all human contact.", zh: "交际是分享想法和感受的能力，也是所有人类联系的基础。" },
+        { en: "Human communication is a dynamic process in which people attempt to share their thoughts with others through symbols in particular settings.", zh: "人类交际是一个动态过程，人们在特定环境中通过符号与他人分享思想。" }
+      ] },
+      { title: "Elements / 要素", items: [
+        { en: "source", zh: "源" },
+        { en: "encoding", zh: "编码" },
+        { en: "message", zh: "信息" },
+        { en: "channel", zh: "信道" },
+        { en: "receiver", zh: "接收者" },
+        { en: "decoding", zh: "解码" },
+        { en: "feedback", zh: "反馈" },
+        { en: "noise", zh: "噪声" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "Communication is dynamic, symbolic, contextual, self-reflective, irreversible, consequential, and complex.", zh: "交际是动态的、符号性的、有语境的、自我反省的、不可逆的、有后果的、复杂的。" }
+      ] },
+      { title: "Functions / 功能", items: [
+        { en: "Communication helps fulfill interpersonal needs.", zh: "交际有助于满足人际需求。" },
+        { en: "Communication assists with person perception.", zh: "交际有助于人的认知。" },
+        { en: "Communication establishes cultural and personal identities.", zh: "交际确立文化身份和个人身份。" },
+        { en: "Communication has persuasive qualities.", zh: "交际具有说服力。" }
+      ] }
+    ],
+    "culture": [
+      { title: "Definition / 定义", items: [
+        { en: "Culture is a set of human-made objective and subjective elements that increased survival and satisfaction in an ecological niche and became shared among people with a common language living in the same time and place.", zh: "文化是一组人为的客观和主观因素，它们曾提高特定生态位中的生存可能性和满足感，并在同一时空、使用共同语言的人群中共享。" }
+      ] },
+      { title: "Function / 功能", items: [
+        { en: "Culture lays out a somewhat predictable world and offers a blueprint for how to behave and what results to anticipate.", zh: "文化展示一个相对可预测的世界，并为如何行为以及预期何种结果提供蓝图。" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "Culture is shared.", zh: "文化是共享的。" },
+        { en: "Culture is transmitted from generation to generation.", zh: "文化代代相传。" },
+        { en: "Culture is based on symbols.", zh: "文化以符号为基础。" },
+        { en: "Culture is learned.", zh: "文化是习得的。" },
+        { en: "Culture is dynamic.", zh: "文化是动态的。" }
+      ] },
+      { title: "Elements / 要素", items: [
+        { en: "worldview, religion, history, values, social organizations, language, important ideals", zh: "世界观、宗教、历史、价值观、社会组织、语言、重要观念。" }
+      ] }
+    ],
+    "intercultural-communication-competence": [
+      { title: "Basic Components / 基本组成", items: [
+        { en: "Motivation can be extrinsic or intrinsic.", zh: "动机可以是外在的，也可以是内在的。" },
+        { en: "Knowledge works with motivation and requires gathering a fund of knowledge about other cultures.", zh: "知识与动机协同发挥作用，要求人们主动积累关于其他文化的知识。" },
+        { en: "Skills are the specific behaviors used to make a communication encounter successful.", zh: "技巧是为使交际成功而采取的具体行为。" }
+      ] },
+      { title: "Knowledge Types / 知识类型", items: [
+        { en: "content knowledge", zh: "内容知识" },
+        { en: "procedural knowledge", zh: "程序知识" }
+      ] },
+      { title: "Exam Focus / 考试重点", items: [
+        { en: "Most research includes motivation, knowledge, and communication skills.", zh: "多数研究都把动机、知识和交际技巧作为跨文化交际能力的核心。" }
+      ] }
+    ],
+    "family": [
+      { title: "Definition / 定义", items: [
+        { en: "A family is a sexually expressive, parent-child, or other kin relationship in which people form an economic unit, care for the young, attach identity to the group, and commit to maintaining it over time.", zh: "家庭是性关系、亲子关系或其他亲属关系形成的群体，成员形成经济单位、照顾孩子、把身份与群体相连，并承诺长期维持该群体。" }
+      ] },
+      { title: "Forms / 分类", items: [
+        { en: "nuclear family: parent or parents and child or children as one unit", zh: "核心家庭：父母和孩子构成一个单位。" },
+        { en: "extended family: typically includes grandparents and relatives", zh: "大家庭：通常包括祖父母和亲戚。" }
+      ] },
+      { title: "Functions / 功能", items: [
+        { en: "reproductive, economic, socialization, language acquisition, and identity functions", zh: "繁殖功能、经济功能、社会化功能、语言习得功能和身份功能。" }
+      ] },
+      { title: "Significance / 意义", items: [
+        { en: "The family supplies basic physical needs and is the first carrier of essential cultural information.", zh: "家庭不仅满足孩子基本物质需求，也是孩子作为文化成员所需重要信息的第一个载体。" },
+        { en: "Cultural variants include gender roles, individualism and collectivism, individualism and the family, and collectivism and the family.", zh: "家庭互动的文化变体包括性别角色、个人主义与集体主义、个人主义家庭观和集体主义家庭观。" }
+      ] }
+    ],
+    "perception": [
+      { title: "Characteristics / 特点", items: [
+        { en: "Perception is selective.", zh: "认知是有选择性的。" },
+        { en: "Perception is learned.", zh: "认知是后天习得的。" },
+        { en: "Perception is culturally determined.", zh: "认知由文化决定。" },
+        { en: "Perception is consistent.", zh: "认知具有一致性，一旦形成解释通常不易改变。" },
+        { en: "Perception is inaccurate.", zh: "认知并不完全准确，人们会通过受文化、价值观和经历影响的主观镜头看世界。" }
+      ] }
+    ],
+    "belief": [
+      { title: "Definition / 定义", items: [
+        { en: "A belief is a concept or idea that an individual or group holds to be true.", zh: "信念是个人或群体认为真实的概念或想法。" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "Beliefs represent subjective conviction in the truth of something, with or without proof.", zh: "信念代表我们对某事真实性的主观确信，无论是否有证据。" },
+        { en: "Shared beliefs can represent cultural norms and values.", zh: "共同信念可以代表文化规范和价值观。" }
+      ] },
+      { title: "Function / 功能", items: [
+        { en: "Beliefs can associate people with like-minded individuals and reinforce conviction.", zh: "信念可以使人们与志同道合者联系，并强化确信感。" }
+      ] }
+    ],
+    "cultural-values": [
+      { title: "Definition / 定义", items: [
+        { en: "What people consider desirable for themselves and for society is a product of values.", zh: "人们认为对自己和社会而言可取的东西，是价值观的产物。" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "Values are broad-based, enduring, relatively stable, and operate consciously and subconsciously.", zh: "价值观基础广泛、经久稳定，并在有意识和潜意识层面发挥作用。" }
+      ] },
+      { title: "Function and Significance / 功能与意义", items: [
+        { en: "Values permeate and characterize a culture.", zh: "价值观渗透并表征文化。" },
+        { en: "Cultural values establish expected behavior modes and criteria for judging conduct.", zh: "文化价值观建立行为模式和评价行为的标准。" },
+        { en: "They help members decide what is good or bad, right or wrong, appropriate or inappropriate.", zh: "它们帮助文化成员判断好坏、对错、合适与否。" }
+      ] }
+    ],
+    "behaviors": [
+      { title: "Definition / 定义", items: [
+        { en: "Behaviors are the outward manifestations of internalized beliefs and values.", zh: "行为是内化的信念和价值观的外在表现。" }
+      ] },
+      { title: "Relation to Culture / 与文化的关系", items: [
+        { en: "Culture has a regulatory influence on behaviors.", zh: "文化对行为具有调节和规范作用。" }
+      ] },
+      { title: "Relation to ICC / 与跨文化交际的关系", items: [
+        { en: "Beliefs and values exert influence on people's communicative behaviors.", zh: "信念和价值观会影响人们的交际行为。" }
+      ] }
+    ],
+    "cultural-identity": [
+      { title: "Scholars' Definitions / 学者定义", items: [
+        { en: "Fong defines cultural identity through a shared system of symbolic verbal and nonverbal behavior meaningful to members with belonging, traditions, heritage, language, and norms.", zh: "Fong 从共享的象征性言语与非言语行为系统、归属感、传统、遗产、语言和行为规范来界定文化身份。" },
+        { en: "Ting-Toomey and Chung define cultural identity as the emotional significance attached to belonging or affiliation with a larger culture.", zh: "Ting-Toomey 和 Chung 把文化身份定义为人们赋予对更大文化归属或依附感的情感意义。" },
+        { en: "Klyukanov sees cultural identity as membership in a group sharing the same symbolic meanings.", zh: "Klyukanov 将文化身份视为共享相同象征意义的群体成员身份。" },
+        { en: "Dervin defines cultural identity as what people construct whenever they are in contact with other human beings.", zh: "Dervin 认为文化身份是在与他人接触中不断建构出来的东西。" }
+      ] },
+      { title: "Function / 功能", items: [
+        { en: "Identity is increasingly a negotiation between what you call yourself and what others are willing to call you.", zh: "身份越来越成为你如何称呼自己与别人愿意如何称呼你之间的协商。" },
+        { en: "Cultural identity shapes expectations of appropriate communicative behaviors in social settings.", zh: "文化身份塑造人们对不同社会场景中合适交际行为的理解与期待。" },
+        { en: "Different expectations for identity display and communication style can create anxiety, misunderstandings, and conflict.", zh: "身份展示和沟通风格期待不同，可能造成焦虑、误解和冲突。" }
+      ] }
+    ],
+    "language": [
+      { title: "Definition / 定义", items: [
+        { en: "Language is an organized system of verbal and nonverbal symbols used in a common way to express thoughts and feelings.", zh: "语言是一个有组织的符号系统，包括语言符号和非语言符号，人们以共同方式使用它们表达思想和情感。" }
+      ] },
+      { title: "Functions / 功能", items: [
+        { en: "Social interaction: language allows speaking, reading, writing, listening, thinking, emotion expression, stress relief, and invoking assistance.", zh: "社会互动：语言使说、读、写、听、思考、表达情绪、缓解压力和寻求帮助成为可能。" },
+        { en: "Social cohesion: a common language helps people form groups and cooperate.", zh: "社会凝聚：共同语言帮助人们形成群体并合作。" },
+        { en: "Expression of identity: language constructs individual, group, and cultural identity.", zh: "身份表达：语言是建构个人、群体和文化身份的主要机制。" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "Words are only symbols.", zh: "词语只是符号。" },
+        { en: "Words are arbitrary.", zh: "词语具有任意性。" },
+        { en: "Words evoke denotative and connotative meanings.", zh: "词语能唤起外延意义和内涵意义。" }
+      ] }
+    ],
+    "generalizations": [
+      { title: "Definition / 定义", items: [
+        { en: "Generalizations are based on limited data and then applied to a larger population.", zh: "概括基于有限数据，再应用到更大群体。" },
+        { en: "In intercultural communication, this means ascribing characteristics to a larger group based on attributes displayed by a smaller group.", zh: "在跨文化交际中，它指根据较小群体表现出的属性，把特征归于更大群体。" }
+      ] }
+    ],
+    "symbol": [
+      { title: "Definition / 定义", items: [
+        { en: "A symbol is an expression that stands for or represents something else.", zh: "符号是代表或指代其他事物的一种表达。" },
+        { en: "Both intentional and unintentional symbolic events involve attaching meaning to what another person generates.", zh: "无论符号事件是有意还是无意，人们都会对他人产生的符号事件附加意义。" }
+      ] }
+    ],
+    "world-view": [
+      { title: "Definition / 定义", items: [
+        { en: "Worldview is the way a people interpret reality and events, including their images of themselves and how they relate to the world around them.", zh: "世界观是人们解释现实和事件的方式，包括他们对自身的印象以及与周围世界的关系。" }
+      ] },
+      { title: "Characteristics and Function / 特点与功能", items: [
+        { en: "Worldviews are automatic and unconscious, like culture itself.", zh: "世界观像文化本身一样，常是自动和无意识的。" },
+        { en: "Worldview provides underpinnings for perception and makes sense of life.", zh: "世界观为认知和现实体验提供基础，并使生活变得有意义。" }
+      ] }
+    ],
+    "deep-culture": [
+      { title: "Definition / 定义", items: [
+        { en: "Deep structure consists of conscious and unconscious assumptions about how the world works; it unifies a culture, makes it unique, and explains the how and why of collective action.", zh: "深层结构由关于世界如何运作的有意识和无意识假设构成；它统一文化、使文化独特，并解释集体行为的方式和原因。" }
+      ] },
+      { title: "Significance / 意义", items: [
+        { en: "Deep structure institutions transmit culture's most important messages.", zh: "深层结构制度传递文化中最重要的信息。" },
+        { en: "Deep structure institutions and their messages endure.", zh: "深层结构制度及其信息经久不衰。" },
+        { en: "Deep structure institutions and their messages are deeply felt.", zh: "深层结构制度及其信息令人感触很深。" },
+        { en: "Deep structure institutions supply much of a person's identity.", zh: "深层结构制度在很大程度上塑造个人身份。" }
+      ] }
+    ],
+    "social-organizations-institutions": [
+      { title: "Definition / 定义", items: [
+        { en: "Social organizations represent the various social units within the culture.", zh: "社会组织代表文化中的各种社会单位。" }
+      ] },
+      { title: "Classification / 分类", items: [
+        { en: "family, government, schools, tribes, clans, and other units", zh: "家庭、政府、学校、部落、氏族等社会单位。" }
+      ] },
+      { title: "Significance / 意义", items: [
+        { en: "Develop patterned interactions and rules.", zh: "形成模式化互动和规则。" },
+        { en: "Establish communication networks.", zh: "建立交际网络。" },
+        { en: "Cultivate group cohesion.", zh: "培养群体凝聚力。" },
+        { en: "Consistently satisfy individual basic needs.", zh: "持续满足个人基本需求。" }
+      ] }
+    ],
+    "high-context-low-context": [
+      { title: "Definition / 定义", items: [
+        { en: "In high-context communication, most information is already in the person and little is in the explicit code.", zh: "高语境交际中，大部分信息已经存在于人和语境中，明确编码的信息较少。" },
+        { en: "Low-context communication is the opposite: most information is vested in the explicit code.", zh: "低语境交际正相反，大部分信息归属于明确代码。" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "High-context cultures rely on context; low-context cultures rely on words.", zh: "高语境文化依赖语境，低语境文化依赖文字和话语。" },
+        { en: "High-context meaning is often not communicated through words.", zh: "高语境中的大部分意义往往不通过语言直接传达。" },
+        { en: "Low-context cultures often have more population diversity and compartmentalized interpersonal contacts.", zh: "低语境文化通常人口多样性较高，人际联系也更分区化。" }
+      ] },
+      { title: "Function / 功能", items: [
+        { en: "High-context cultures usually have similarity among members, creating shared perceptions, experiences, expectations, and social protocol.", zh: "高语境文化成员相似性较高，形成共享的感知、经验、期待和社会礼仪。" },
+        { en: "People in high-context cultures can express and interpret emotions nonverbally more easily.", zh: "高语境文化中的人更容易用非语言方式表达和解释情绪。" }
+      ] }
+    ],
+    "individual-collective-dimension": [
+      { title: "Collectivism / 集体主义", items: [
+        { en: "Collectivism is a culture's tendency to encourage people to be conforming and interdependent.", zh: "集体主义是鼓励人们遵从并相互依存的文化倾向。" },
+        { en: "Collective cultures emphasize group needs and goals, interdependence, group achievement, and cooperation.", zh: "集体主义文化强调群体需求和目标、相互依赖、群体成就与合作。" }
+      ] },
+      { title: "Individualism / 个人主义", items: [
+        { en: "Individualism is a culture's tendency to encourage people to be unique and independent.", zh: "个人主义是鼓励人们独特和独立的文化倾向。" },
+        { en: "Individualistic cultures value uniqueness, independence, competition, self-determination, individual goals, and the I as a core identity.", zh: "个人主义文化重视独特性、独立、竞争、自我决定、个人目标，以及以“我”为核心的身份。" }
+      ] }
+    ],
+    "uncertainty-avoidance": [
+      { title: "Definition / 定义", items: [
+        { en: "Uncertainty avoidance is the extent to which members of a culture feel threatened by ambiguous or unknown situations.", zh: "不确定性规避指文化成员在模糊或未知情境中感到威胁的程度。" }
+      ] },
+      { title: "High Uncertainty Avoidance / 高不确定性规避", items: [
+        { en: "High uncertainty avoidance cultures reduce unpredictability and ambiguity through intolerance of deviant ideas, consensus, resistance to change, and traditional protocols.", zh: "高不确定性规避文化通过不容忍偏差观点、强调共识、抵制变化和坚持传统礼仪来减少不可预测性和模糊性。" }
+      ] },
+      { title: "Low Uncertainty Avoidance / 低不确定性规避", items: [
+        { en: "Low uncertainty avoidance cultures accept uncertainty more easily, tolerate the unusual, value initiative, dislike hierarchy-related structure, take risks, and prefer fewer rules.", zh: "低不确定性规避文化更容易接受不确定，容忍异常，重视主动性，不喜欢等级结构，愿意冒险，并倾向较少规则。" }
+      ] }
+    ],
+    "power-distance": [
+      { title: "Definition / 定义", items: [
+        { en: "Power distance is the extent to which less powerful members of institutions and organizations expect and accept unequal power distribution.", zh: "权力距离是机构和组织中权力较小成员对权力不平等分配的期待和接受程度。" }
+      ] },
+      { title: "High Power Distance / 高权力距离", items: [
+        { en: "Members accept power as part of society and learn that people are not equal; hierarchy may be based on family name, education, age, profession, or organizational position.", zh: "成员接受权力是社会的一部分，并学习到人并不平等；等级可能基于姓氏、教育、年龄、职业或组织职位。" },
+        { en: "Organizations commonly centralize power, recognize rank and status, follow authority lines, and make more authoritarian decisions.", zh: "组织通常权力集中，认可等级与地位，遵守权威路线，决策更具权威性。" }
+      ] },
+      { title: "Low Power Distance / 低权力距离", items: [
+        { en: "Low power distance cultures minimize inequality, treat subordinates and superiors as equals, deemphasize titles, and prefer consultative consensus decision making.", zh: "低权力距离文化尽量减少不平等，下级和上级平等相待，不强调头衔，并倾向协商式共识决策。" }
+      ] }
+    ],
+    "face-facework": [
+      { title: "Face / 面子", items: [
+        { en: "Face is the self-image a person projects to other people.", zh: "面子是一个人向他人展示的自我形象。" },
+        { en: "In collectivistic cultures, group membership is a major source of identity and status and helps sustain harmonious in-group relationships.", zh: "在集体主义文化中，群体成员身份通常是身份和地位的主要来源，并有助于维持稳定和谐的内群体关系。" }
+      ] },
+      { title: "Facework / 面子功夫", items: [
+        { en: "Facework consists of actions used to acquire or maintain face for oneself or give face to someone else.", zh: "面子功夫是为自己获得或维持面子，或给予他人面子而采取的行动。" },
+        { en: "Collectivists often prefer avoidance and obligating measures in conflict because they consider mutual face and others' face.", zh: "面对冲突时，集体主义者常倾向回避和迁就，因为他们关注彼此面子和他人面子。" },
+        { en: "Individualists tend to focus on self-face and favor confrontational, solution-oriented approaches.", zh: "个人主义者更关注自我面子，倾向对抗性和问题解决导向的方法。" }
+      ] }
+    ],
+    "cultural-patterns-value-orientations": [
+      { title: "Definition / 定义", items: [
+        { en: "Cultural patterns, sometimes called value orientations, collectively describe the cultural values of the dominant group within a culture.", zh: "文化模式，有时称为价值取向，是用来整体描述某一文化中主导群体文化价值观的术语。" }
+      ] },
+      { title: "Characteristics / 特点", items: [
+        { en: "Cultural patterns are integrated.", zh: "文化模式是综合的、相互关联的。" },
+        { en: "Cultural patterns are dynamic.", zh: "文化模式是动态的。" },
+        { en: "Cultural patterns can be contradictory.", zh: "文化模式可能相互矛盾。" }
+      ] }
+    ],
+    "nonverbal-communication": [
+      { title: "Definition / 定义", items: [
+        { en: "Nonverbal communication involves all nonverbal stimuli in a communication setting that are generated by source and environment and have potential message value.", zh: "非言语交际包括交际环境中由来源和环境产生并具有潜在信息价值的所有非言语刺激。" },
+        { en: "It includes intentional and unintentional messages and the reciprocal relationship between verbal and nonverbal messages.", zh: "它包括有意与无意的信息，以及语言信息和非语言信息之间的相互关系。" }
+      ] },
+      { title: "Functions / 功能", items: [
+        { en: "Convey internal states.", zh: "传达内部状态。" },
+        { en: "Create identity.", zh: "创造身份。" },
+        { en: "Regulate interaction.", zh: "调节互动。" },
+        { en: "Substitute for words.", zh: "替代文字。" }
+      ] },
+      { title: "Characteristics and Classes / 特点与分类", items: [
+        { en: "Nonverbal communication is multichannel, often ambiguous, and influenced by numerous variables.", zh: "非语言交际是多渠道的，通常模棱两可，并受许多变量影响。" },
+        { en: "Classes include body messages, appearance, body movement, space and distance, time, and silence.", zh: "分类包括肢体信息、外貌、身体动作、空间与距离、时间和沉默。" }
+      ] }
+    ],
+    "monochronic-polychronic-time": [
+      { title: "Definition / 定义", items: [
+        { en: "Hall proposed that cultures organize time as monochronic time or polychronic time, best understood as points along a continuum.", zh: "霍尔提出文化以单时制或多时制组织时间，更现实的理解是把二者看作连续体上的点。" }
+      ] },
+      { title: "M-time / 单时制", items: [
+        { en: "M-time views time as a scarce resource controlled through schedules and appointments, with one thing done at a time.", zh: "单时制把时间视为稀缺资源，通过日程和预约控制时间，并强调一次只做一件事。" },
+        { en: "M-time values punctuality, product over process, and careful use of time.", zh: "单时制重视准时、结果优先于过程，以及审慎使用时间。" }
+      ] },
+      { title: "P-time / 多时制", items: [
+        { en: "P-time cultures deal with life more holistically; time is less tangible and people can interact with several people or activities at once.", zh: "多时制文化更整体地处理生活；时间不那么有形，人们可以同时与多人互动或处理多项活动。" },
+        { en: "This multitasking orientation helps explain more interruptions in Arabic, Asian, and Latin American conversations.", zh: "这种多任务倾向解释了阿拉伯、亚洲和拉美文化谈话中较多打断现象。" }
+      ] }
+    ],
+    "silence": [
+      { title: "Definition / 定义", items: [
+        { en: "In interpersonal settings, silence provides an interval during which participants can think, suppress emotion, encode a lengthy response, begin another line of thought, emphasize words, express emotions, or indicate thoughtfulness.", zh: "在人际情境中，沉默为参与者提供时间去思考、抑制情绪、组织较长回应、开启另一思路、强调某些词语、表达情绪或表示深思熟虑。" },
+        { en: "Silence also provides feedback about the clarity or significance of an idea in the overall exchange.", zh: "沉默也能提供反馈，提示某个想法在整体交流中的清晰度或重要性。" }
+      ] }
+    ],
+    "proxemics": [
+      { title: "Definition / 定义", items: [
+        { en: "Proxemics is the study of the message system created by variation in distance between people.", zh: "人际距离学研究人与人之间距离变化所形成的信息系统。" },
+        { en: "Hall defines proxemics as interrelated observations and theories of human use of space as a specialized elaboration of culture.", zh: "霍尔把人际距离学定义为关于人类使用空间的一组相互关联的观察和理论，认为空间使用是文化的特殊展开。" }
+      ] },
+      { title: "Focus / 关注点", items: [
+        { en: "personal space, seating, and furniture arrangement", zh: "个人空间、座位安排和家具布置。" }
+      ] }
+    ],
+    "culture-shock": [
+      { title: "Definition / 定义", items: [
+        { en: "Culture shock is precipitated by anxiety from losing familiar signs and symbols of social intercourse, such as words, gestures, facial expressions, customs, and norms.", zh: "文化冲击由失去熟悉的社会交往标志和符号所引起的焦虑触发，例如言语、手势、面部表情、习俗和规范。" },
+        { en: "It disrupts routines, ego, and self-image.", zh: "它会强烈扰乱日常生活、自我和自我形象。" }
+      ] },
+      { title: "Process / 过程", items: [
+        { en: "Culture shock is not one-time; it is a repetitive process of increasingly subtle immersion into a culture.", zh: "文化冲击不是一次性现象，而是不断、更细微地融入文化的重复过程。" },
+        { en: "It often involves taking two steps forward and one step back.", zh: "它常表现为前进两步、后退一步。" }
+      ] }
+    ],
+    "acculturation": [
+      { title: "Definition / 定义", items: [
+        { en: "Acculturation is the adoption of behavior patterns of the surrounding culture.", zh: "文化适应是采纳周围文化行为模式的过程。" },
+        { en: "It is a continuing process of stress-adaptation-growth.", zh: "它是持续的“压力-适应-成长”过程。" },
+        { en: "After entering a different culture, people experience stress and then learn to adapt if culture shock is not severe.", zh: "进入不同文化后，人们会在面对新程序、行为和交际标准时经历压力；如果文化冲击不严重，便开始学习适应新文化。" }
+      ] }
+    ],
+    "ethnocentrism": [
+      { title: "Definition / 定义", items: [
+        { en: "Ethnocentrism is the notion that one's own culture is superior to any other.", zh: "民族中心主义认为自己的文化优于其他任何文化。" },
+        { en: "It measures other cultures by the degree to which they live up to our cultural standards.", zh: "它用其他文化符合本文化标准的程度来衡量他文化。" },
+        { en: "We are ethnocentric when viewing other cultures through the narrow lens of our own culture or social position.", zh: "当我们通过自身文化或社会位置的狭窄视角看待他文化时，就是民族中心主义。" }
+      ] }
+    ],
+    "stereotyping": [
+      { title: "Definition / 定义", items: [
+        { en: "Stereotyping is a complex form of categorization that mentally organizes experiences and guides behavior toward a particular group.", zh: "刻板印象是一种复杂的分类形式，它在心理上组织经验，并引导人们对特定群体的行为。" },
+        { en: "A stereotype is a cognitive structure containing knowledge, beliefs, and expectancies about social groups.", zh: "刻板印象是包含对某些社会群体的知识、信念和期待的认知结构。" }
+      ] }
+    ],
+    "prejudices": [
+      { title: "Definition / 定义", items: [
+        { en: "Prejudices are deeply held negative feelings associated with a particular group, including anger, fear, aversion, and anxiety.", zh: "偏见是与特定群体相关的根深蒂固的负面感受，包括愤怒、恐惧、厌恶和焦虑。" }
+      ] }
+    ],
+    "racism": [
+      { title: "Definition / 定义", items: [
+        { en: "Racism is an extension of stereotyping and prejudice: belief in the inherent superiority of a particular race.", zh: "种族主义是刻板印象和偏见的延伸，即相信某一种族具有固有优越性。" },
+        { en: "It denies basic human equality and correlates ability with physical composition.", zh: "它否认人类基本平等，并把能力与身体构成联系起来。" }
+      ] }
+    ],
+    "power": [
+      { title: "Definition / 定义", items: [
+        { en: "Max Weber considered power as the ability to exert one's will even in the face of opposition.", zh: "马克斯·韦伯认为权力是即使面对反对也能贯彻自身意志的能力。" },
+        { en: "Power is the ability to cause things to happen, control what happens, and prevent things one does not want.", zh: "更广义地说，权力是促使事情发生、控制发生的事，并防止不想发生的事的能力。" }
+      ] }
+    ],
+    "intercultural-ethics": [
+      { title: "Definition / 定义", items: [
+        { en: "Ethics is a tool used when making difficult moral choices.", zh: "伦理是做出困难道德选择时可以使用的工具。" },
+        { en: "These choices often balance competing rights when there does not appear to be one correct answer.", zh: "当似乎没有唯一正确答案时，这些选择往往需要平衡相互竞争的权利。" }
+      ] }
+    ],
+    "cultural-relativism": [
+      { title: "Definition / 定义", items: [
+        { en: "Cultural relativism is based on the belief that ethical systems vary among cultures, all systems are equally valid, and no single system is better than others.", zh: "文化相对主义相信伦理系统会因文化而异，所有系统同样有效，没有单一系统优于其他系统。" }
+      ] }
+    ],
+    "cultural-universalism": [
+      { title: "Definition / 定义", items: [
+        { en: "Cultural universalism is opposed to relativism and maintains that immutable universal ethical precepts apply to all cultures regardless of people, context, time, or place.", zh: "文化普遍主义与相对主义相对，认为无论人、语境、时间或地点如何，都存在适用于所有文化的不变普遍伦理准则。" }
+      ] }
+    ]
+  };
+
   const examReviewEntries = [
     {
       slug: "exam-chapter-1-globalization",
@@ -1067,6 +1478,274 @@
         }
       ],
       memory: "Chapter 8 的答题框架：冲击反应 -> 适应过程 -> 沟通障碍 -> 伦理责任。"
+    }
+  ];
+
+  const unitSummaryReviewEntries = [
+    {
+      slug: "unit-summary-1-globalization",
+      title: "Unit 1 Summary 全球化与跨文化交际挑战",
+      lead: "根据 reference/跨文化交际/Unit1summary.md 整理，重点记住全球化带来的相互依赖、主要挑战类型，以及跨文化交际研究的边界。",
+      sections: [
+        {
+          title: "Globalization and Interdependency 全球化与相互依赖",
+          items: [
+            { en: "Globalization has created an interdependent world community.", zh: "全球化创造了一个相互依赖的世界共同体。" },
+            { en: "Interdependency has brought many benefits but also raised new challenges.", zh: "相互依赖带来许多好处，同时也提出新的挑战。" },
+            { en: "The globalized community must work across national and cultural borders to manage growing and potential international problems.", zh: "全球化共同体必须跨越国家和文化边界，处理不断增加的和潜在的国际问题。" }
+          ]
+        },
+        {
+          title: "Global Challenges 全球化挑战",
+          items: [
+            { en: "Social challenges include population growth, migration, urbanization, and aging populations.", zh: "社会挑战包括人口增长、移民、城市化和人口老龄化。" },
+            { en: "Ecological concerns consist of international competition for natural resources, including water and food stocks, and environmental changes/degradation.", zh: "生态关切包括围绕自然资源的国际竞争，如水资源、粮食储备，以及环境变化或退化。" },
+            { en: "Nations will have to cooperate over humanitarian and legal issues, such as disease control, natural disaster relief, and transnational crime.", zh: "各国需要在人道和法律问题上合作，例如疾病控制、自然灾害救援和跨国犯罪。" },
+            { en: "Political issues relating to international governance include the international legal system, ethics in scientific research, and human rights differences.", zh: "与国际治理有关的政治议题包括国际法律体系、科学研究伦理和人权差异。" },
+            { en: "Security issues that require international coordination include weapons of mass destruction, terrorists, and emerging threats such as sectarian and ethnic tensions.", zh: "需要国际协调的安全议题包括大规模杀伤性武器、恐怖主义，以及教派和族群紧张等新威胁。" }
+          ]
+        },
+        {
+          title: "ICC Study Reminders 跨文化交际研究提醒",
+          items: [
+            { en: "Problems relating to the study of intercultural communication encompass individual uniqueness, generalizing, lack of objectivity, and compromise.", zh: "跨文化交际研究的问题包括个体独特性、概括、缺乏客观性和妥协。" },
+            { en: "Communication is not a panacea for all intercultural difficulties.", zh: "沟通并不是解决所有跨文化困难的万能药。" }
+          ]
+        }
+      ],
+      memory: "Unit 1 可按“全球化 -> 相互依赖 -> 挑战分类 -> 沟通不是万能药”记忆。"
+    },
+    {
+      slug: "unit-summary-2-communication-culture",
+      title: "Unit 2 Summary 沟通、文化与跨文化能力",
+      lead: "根据 reference/跨文化交际/U2summary.md 整理，重点覆盖 communication、culture 和 intercultural competence 三条主线。",
+      sections: [
+        {
+          title: "Communication 沟通",
+          items: [
+            { en: "Communication helps fulfill interpersonal needs, assists in gathering information about other people, establishes cultural and personal identities, and allows you to influence other people.", zh: "沟通帮助满足人际需求，协助收集关于他人的信息，建立文化和个人身份，并使你能够影响他人。" },
+            { en: "Communication is a dynamic process in which people attempt to share their internal states with other people through the use of symbols.", zh: "沟通是一个动态过程，人们通过符号尝试与他人分享自己的内在状态。" },
+            { en: "The components of communication include source, encoding, message, channel, receiver, decoding, feedback, and noise.", zh: "沟通要素包括信息源、编码、信息、信道、接收者、解码、反馈和噪声。" },
+            { en: "Communication is dynamic, symbolic, contextual, self-reflective, irreversible, has a consequence, and is complex.", zh: "沟通具有动态性、符号性、语境性、自我反思性、不可逆性、后果性和复杂性。" },
+            { en: "Misconceptions about human communication are that it can solve all problems, that people are born good communicators, and that the message sent is the one that is received.", zh: "关于人类沟通的误解包括：沟通能解决所有问题、人天生就是优秀沟通者、发送的信息就是接收的信息。" }
+          ]
+        },
+        {
+          title: "Culture 文化",
+          items: [
+            { en: "Culture and communication are so intertwined that it is easy to think that culture is communication and that communication is culture.", zh: "文化与沟通紧密交织，因此人们很容易认为文化就是沟通，沟通就是文化。" },
+            { en: "Culture is a set of human-made objective and subjective elements that in the past have increased the probability of survival and resulted in satisfaction for the participants in an ecological niche and thus became shared among those who could communicate with each other because they had a common language and lived in the same time and place.", zh: "文化是一组人为创造的客观和主观要素，它们过去提高了特定生态环境中人们的生存概率并带来满足感，因此在拥有共同语言、生活于同一时空并能相互沟通的人群中被共享。" },
+            { en: "Culture informs its members regarding life; therefore, it reduces confusion and helps them predict what to expect from life.", zh: "文化向成员提供关于生活的信息，因此减少困惑，并帮助他们预测生活中可以期待什么。" },
+            { en: "The central characteristics of culture are that it is shared, transmitted from generation to generation, based on symbols, learned, and dynamic.", zh: "文化的核心特征是共享、代际传递、以符号为基础、习得和动态变化。" },
+            { en: "The elements that compose culture are worldview, religion, history, values, social organization, and language.", zh: "文化的构成要素包括世界观、宗教、历史、价值观、社会组织和语言。" }
+          ]
+        },
+        {
+          title: "Intercultural Competence 跨文化能力",
+          items: [
+            { en: "Intercultural competence can be developed if you are motivated, have a fund of knowledge about the other person, and possess certain communication skills.", zh: "如果具有动机、关于他人的知识储备以及一定沟通技能，跨文化能力就可以得到发展。" }
+          ]
+        }
+      ],
+      memory: "Unit 2 的核心公式：communication 用符号分享意义，culture 提供解释规则，ICC competence 需要 motivation + knowledge + skills。"
+    },
+    {
+      slug: "unit-summary-3-deep-structure-family",
+      title: "Unit 3 Summary 深层文化结构与家庭",
+      lead: "根据 reference/跨文化交际/U3summary.md 整理，重点理解 deep structures 为什么稳定，以及 family 如何传递文化。",
+      sections: [
+        {
+          title: "Deep Structures 深层结构",
+          items: [
+            { en: "The deep structures of a culture, which include such elements as family (clans), state (community), and religion (worldview), are important because they perpetuate a culture’s most significant beliefs and values. Their messages endure, are deeply felt, and help supply much of a culture’s identity.", zh: "文化的深层结构包括家庭或氏族、国家或社区、宗教或世界观；它们重要是因为会延续一种文化最重要的信念和价值观，其信息持久、深刻，并为文化身份提供重要来源。" }
+          ]
+        },
+        {
+          title: "Family Forms and Change 家庭形式与变化",
+          items: [
+            { en: "Families can take a variety of forms. The two most common are nuclear and extended.", zh: "家庭可以有多种形式，其中最常见的是核心家庭和大家庭。" },
+            { en: "Traditional definitions of “family” are undergoing major changes in the United States.", zh: "在美国，传统的“家庭”定义正在经历重大变化。" },
+            { en: "Globalization and shifting migration patterns in recent years have had major impacts on traditional family structures throughout the world.", zh: "近年来，全球化和迁移模式变化对世界各地的传统家庭结构产生了重大影响。" }
+          ]
+        },
+        {
+          title: "Family Functions 家庭功能",
+          items: [
+            { en: "Families perform a series of key functions in all cultures. These functions include reproduction, economics, socialization, language acquisition, values and religion, identity, and communication.", zh: "家庭在所有文化中都承担一系列关键功能，包括繁衍、经济、社会化、语言习得、价值观与宗教、身份和沟通。" },
+            { en: "Cultures, by using the family as a transmitter of the key elements of culture, teach gender roles, inculcate views on individualism and collectivism, perpetuate perceptions of aging and the elderly, and develop social skills.", zh: "文化通过家庭传递关键文化要素，教授性别角色，灌输个体主义和集体主义观念，延续对老龄化和老年人的看法，并发展社会技能。" }
+          ]
+        }
+      ],
+      memory: "深层结构解释文化为什么能长期延续；家庭是最早、最直接的文化传递者。"
+    },
+    {
+      slug: "unit-summary-4-perception-patterns",
+      title: "Unit 4 Summary 感知、价值观与文化模式",
+      lead: "根据 reference/跨文化交际/U4summary.md 整理，重点复习 perception、values/behaviors、Hall、Hofstede、Kluckhohn & Strodtbeck、facework 等高频框架。",
+      sections: [
+        {
+          title: "Perception, Values and Behaviors 感知、价值与行为",
+          items: [
+            { en: "Perception may be defined as the process whereby people convert external events and experiences into meaningful internal understanding.", zh: "感知可以定义为人们把外部事件和经验转化为有意义的内部理解的过程。" },
+            { en: "Perception is the primary mechanism by which you develop your worldview.", zh: "感知是形成世界观的主要机制。" },
+            { en: "Perception is selective, learned, culturally determined, consistent, and often inaccurate.", zh: "感知具有选择性、习得性、文化决定性、一致性，并且常常不准确。" },
+            { en: "Values are enduring attitudes about the preference for one belief over another. Behaviors are the observable demonstration of internally held beliefs and values.", zh: "价值观是关于一种信念优先于另一种信念的持久态度；行为是内在信念和价值观的可观察表现。" },
+            { en: "Cultural pattern taxonomies are used to illustrate the dominant beliefs and values of a culture.", zh: "文化模式分类用于说明一种文化中的主导信念和价值观。" },
+            { en: "When applying cultural patterns, you should keep in mind that we are more than our culture; cultural patterns are integrated, dynamic, and can be contradictory.", zh: "运用文化模式时要记住，人不只是文化；文化模式相互整合、动态变化，也可能彼此矛盾。" }
+          ]
+        },
+        {
+          title: "Cultural Pattern Taxonomies 文化模式框架",
+          items: [
+            { en: "According to Kohls, the dominant American cultural patterns include personal control over the environment, change, time and its control, equality, individualism/privacy, self-help, competition, future orientation, action/work orientation, informality, directness/openness/honesty, practicality/efficiency, and materialism/acquisitiveness.", zh: "根据 Kohls，主导性的美国文化模式包括控制环境、变化、时间及其控制、平等、个体主义/隐私、自助、竞争、未来取向、行动/工作取向、非正式、直接/开放/诚实、实用/效率和物质主义/占有欲。" },
+            { en: "The Kluckhohn and Strodtbeck value orientation taxonomy includes (1) human nature, (2) the perception of nature, (3) time, (4) activity, and (5) relationships.", zh: "Kluckhohn 和 Strodtbeck 的价值取向分类包括：人性、人与自然、时间、活动和人际关系。" },
+            { en: "In Hall’s context orientation, high-context and low-context describe the degree to which individuals rely on internalized information.", zh: "在 Hall 的语境取向中，高语境和低语境描述个体依赖内化信息的程度。" },
+            { en: "A prominent taxonomy of diverse culture patterns that explains both perceptual and communication differences is Hofstede’s Values Dimension, which includes (1) individualism/collectivism, (2) uncertainty avoidance, (3) power distance, (4) masculinity/femininity, and (5) long-term/short-term orientation.", zh: "Hofstede 的价值维度是解释感知和沟通差异的重要文化模式分类，包括个体主义/集体主义、不确定性规避、权力距离、男性化/女性化和长期/短期取向。" },
+            { en: "Work by Minkov has recently revealed the value dimensions of industry/indulgence, monumentalism/flexumility, and exclusionism/universalism.", zh: "Minkov 的研究提出了勤勉/放纵、纪念碑主义/灵活谦逊、排斥主义/普遍主义等价值维度。" },
+            { en: "Gelfand and her colleagues have used empirical data to demonstrate the classifications of tight and loose cultures.", zh: "Gelfand 及其同事用实证数据说明了紧文化和松文化的分类。" }
+          ]
+        },
+        {
+          title: "Face and Facework 面子与面子功夫",
+          items: [
+            { en: "For Ting-Toomey, face and facework take different forms and are valued differently across cultures.", zh: "在 Ting-Toomey 看来，面子和面子功夫在不同文化中具有不同形式和不同价值。" },
+            { en: "Face is a function of group affiliation in collectivistic cultures and is self-derived in individualistic cultures.", zh: "在集体主义文化中，面子与群体归属相关；在个体主义文化中，面子更多来自自我。" },
+            { en: "In conflict situations, collectivistic cultures focus on other-face and mutual face, while individualistic cultures focus on self-face.", zh: "在冲突情境中，集体主义文化关注他人面子和相互面子，而个体主义文化关注自我面子。" }
+          ]
+        }
+      ],
+      memory: "Unit 4 是框架高频单元：感知解释世界，价值观指导行为，文化维度帮助分析差异，但不能替代个体判断。"
+    },
+    {
+      slug: "unit-summary-5-identity",
+      title: "Unit 5 Summary 身份与跨文化交际",
+      lead: "根据 reference/跨文化交际/U5summary.md 整理，重点掌握 identity 的动态性、多重性、形成方式与 ascribed/avowed identities。",
+      sections: [
+        {
+          title: "Identity Concept 身份概念",
+          items: [
+            { en: "Identity is a highly abstract, dynamic, multifaceted concept that defines who you are.", zh: "身份是一个高度抽象、动态、多面向的概念，用来界定你是谁。" },
+            { en: "Identities can be categorized as human, social, and personal; another classification scheme uses personal, relational, and communal.", zh: "身份可以分为人类身份、社会身份和个人身份；另一种分类方式是个人身份、关系身份和共同体身份。" },
+            { en: "Every individual has multiple identities—racial, gender, ethnic, national, regional, organizational, personal, and perhaps cyber/fantasy, and others—that act in concert. The importance of any single identity is a result of the context.", zh: "每个人都有多重身份，如种族、性别、族群、国家、地区、组织、个人，甚至网络/幻想身份等，这些身份共同发挥作用；任何单一身份的重要性取决于语境。" }
+          ]
+        },
+        {
+          title: "Formation and Performance 形成与表现",
+          items: [
+            { en: "Identity is acquired through interaction with other members of one’s cultural group. The family exerts a primary influence on early identity formation.", zh: "身份通过与自身文化群体其他成员的互动获得；家庭对早期身份形成具有首要影响。" },
+            { en: "Identities are established through group membership and are enacted in various ways, including rites of passage, personal appearance, and participation in commemorative events. Concepts of identity within the same group can change over time.", zh: "身份通过群体成员资格建立，并通过成年礼、个人外表、参与纪念活动等方式表现出来；同一群体内部的身份观念也会随时间变化。" }
+          ]
+        },
+        {
+          title: "Intercultural Significance 跨文化交际意义",
+          items: [
+            { en: "Competent intercultural communication is achieved when the participants find commonality in ascribed and avowed identities.", zh: "当交际参与者能在赋予身份和自认身份之间找到共同点时，更容易实现有效的跨文化沟通。" },
+            { en: "As society becomes increasingly multicultural, new concepts of cultural identity are evolving.", zh: "随着社会日益多元文化化，新的文化身份概念正在发展。" }
+          ]
+        }
+      ],
+      memory: "身份不是固定标签，而是在群体、家庭、互动和语境中不断被形成、表现和协商。"
+    },
+    {
+      slug: "unit-summary-6-language",
+      title: "Unit 6 Summary 语言、意义与翻译",
+      lead: "根据 reference/跨文化交际/U6summary.md 整理，重点复习 language、symbol、meaning、language variation、interpretation 和语言使用能力。",
+      sections: [
+        {
+          title: "Language and Meaning 语言与意义",
+          items: [
+            { en: "Language allows people to exchange information and abstract ideas, and it is an integral part of identity.", zh: "语言使人们能够交换信息和抽象观念，并且是身份的重要组成部分。" },
+            { en: "Language is a set of shared symbols used to create meaning. The words that people use are not only symbolic, but the relationship between the symbol and the meaning is often arbitrary. Symbols can evoke both denotative and connotative meanings.", zh: "语言是一套用于创造意义的共享符号。人们使用的词语不仅具有符号性，而且符号与意义之间的关系常常是任意约定的。符号既能唤起外延意义，也能唤起内涵意义。" },
+            { en: "A culture’s use of language influences how that culture perceives the world and communicates within that world.", zh: "一种文化对语言的使用会影响该文化如何感知世界并在其中进行沟通。" }
+          ]
+        },
+        {
+          title: "Language Variation and Culture 语言变体与文化",
+          items: [
+            { en: "There are usually variations within language groups, such as accents, dialects, argot, and slang.", zh: "语言群体内部通常存在变体，例如口音、方言、行话和俚语。" },
+            { en: "Cultures differ in how people use language as can be seen in an examination of English, Spanish, Brazilian Portuguese, Chinese, Korean, Japanese, Arabic, and German.", zh: "不同文化在语言使用方式上存在差异，这可以从英语、西班牙语、巴西葡萄牙语、汉语、韩语、日语、阿拉伯语和德语等语言中看出。" }
+          ]
+        },
+        {
+          title: "Interpretation and Competence 口译、翻译与语言能力",
+          items: [
+            { en: "Interpreters work with spoken or signed language and translators work with written messages. Consecutive interpretation is when you stop every minute or so to allow the interpreter to relay your message in the other language. Simultaneous interpretation is done while the speakers are talking in their native language. A good interpreter should have knowledge of the target language, dialect, special terminology, and culture.", zh: "口译员处理口语或手语，笔译员处理书面信息。交替传译是说话者每隔一段时间停下来，让译员用另一种语言传达信息；同声传译是在说话者使用母语讲话时同步进行。优秀译员应了解目标语言、方言、专业术语和文化。" },
+            { en: "New technologies have changed the ways people can now interpret different languages.", zh: "新技术已经改变了人们解释和转换不同语言的方式。" },
+            { en: "Every culture has conversational taboos—restrictions against some topics in certain contexts.", zh: "每种文化都有会话禁忌，即在特定语境中对某些话题的限制。" },
+            { en: "Competence in using language in an intercultural context can be improved if you learn a second language, are mindful of the surroundings, are aware of conversation taboos, monitor your speech rate, are aware of vocabulary differences and nonverbal feedback, and are responsive to variations in conversation styles.", zh: "在跨文化语境中使用语言的能力可以通过以下方式提高：学习第二语言，留意周围环境，了解会话禁忌，控制语速，注意词汇差异和非语言反馈，并对会话风格差异保持响应。" }
+          ]
+        }
+      ],
+      memory: "语言不仅是信息工具，也是身份、文化意义和关系规则的符号系统。"
+    },
+    {
+      slug: "unit-summary-7-nonverbal",
+      title: "Unit 7 Summary 非语言交际",
+      lead: "根据 reference/跨文化交际/U7summary.md 整理，重点掌握非语言交际的功能、文化性、定义、特征、类别和改进方法。",
+      sections: [
+        {
+          title: "Definition and Functions 定义与功能",
+          items: [
+            { en: "Nonverbal communication is important to the study of intercultural communication because people use nonverbal communication to express internal states, create identity, regulate interaction, repeat messages, and substitute actions for words.", zh: "非语言交际对跨文化交际研究很重要，因为人们用非语言交际表达内在状态、创造身份、调节互动、重复信息，并用动作替代语言。" },
+            { en: "Nonverbal communication is culture bound.", zh: "非语言交际受文化制约。" },
+            { en: "Nonverbal communication involves all nonverbal stimuli in a communication setting that (1) are generated by both the source and his or her use of the environment and (2) have potential message value for the source and/or the receiver.", zh: "非语言交际包括交际情境中的所有非语言刺激，这些刺激由信息来源及其对环境的使用产生，并且对发送者和/或接收者具有潜在信息价值。" },
+            { en: "Nonverbal messages may be intentional or unintentional.", zh: "非语言信息可以是有意的，也可以是无意的。" },
+            { en: "Nonverbal messages can work alone or in tandem with verbal messages.", zh: "非语言信息可以单独发挥作用，也可以与语言信息配合发挥作用。" }
+          ]
+        },
+        {
+          title: "Features and Categories 特征与类别",
+          items: [
+            { en: "When studying nonverbal communication, it should be remembered that nonverbal messages involve multichannel activity, can be ambiguous, and are composed of numerous interacting variables.", zh: "研究非语言交际时应记住，非语言信息涉及多通道活动，可能具有模糊性，并由许多相互作用的变量构成。" },
+            { en: "Nonverbal behaviors and culture are similar in that both are learned, both are passed from generation to generation, and both involve shared understandings.", zh: "非语言行为与文化相似，因为二者都是习得的、代际传递的，并且都涉及共享理解。" },
+            { en: "The body is a major source of nonverbal messages. These messages are communicated by means of general appearance, judgments of beauty, skin color, attire, body movements (kinesics), posture, gestures, facial expressions, eye contact, touch, and paralanguage.", zh: "身体是非语言信息的主要来源，这些信息通过整体外表、审美判断、肤色、服饰、身体动作（身势学）、姿态、手势、面部表情、眼神接触、触碰和副语言来传递。" },
+            { en: "Cultures differ in their perception and use of personal space, seating, and furniture arrangement.", zh: "不同文化在个人空间、座位和家具安排的感知与使用上存在差异。" },
+            { en: "A culture’s sense of time can be understood by learning how members of that culture view informal time and whether their orientation toward time is monochronic or polychronic.", zh: "理解一种文化的时间观，可以从该文化成员如何看待非正式时间，以及其时间取向是单时制还是多时制入手。" },
+            { en: "The use of silence varies from culture to culture.", zh: "沉默的使用因文化而异。" }
+          ]
+        },
+        {
+          title: "Improvement Skills 提升方法",
+          items: [
+            { en: "You can improve your nonverbal communication skills by keeping your interpretations tentative, being conscious of the context, employing feedback, knowing your culture, and monitoring your nonverbal actions.", zh: "可以通过保持解释的试探性、注意语境、使用反馈、了解自身文化并监控自己的非语言行为来提升非语言交际能力。" }
+          ]
+        }
+      ],
+      memory: "非语言交际最容易被文化差异影响：看见动作以后，先结合语境，再谨慎解释。"
+    },
+    {
+      slug: "unit-summary-8-adaptation-ethics",
+      title: "Unit 8 Summary 文化适应、障碍与伦理",
+      lead: "根据 reference/跨文化交际/U8summary.md 整理，重点复习 culture shock、acculturation、沟通障碍和 intercultural ethics。",
+      sections: [
+        {
+          title: "Culture Shock and Adaptation 文化冲击与适应",
+          items: [
+            { en: "Venturing into a new culture can cause anxiety and emotional distress, resulting in mental and physical fatigue.", zh: "进入一种新文化可能引发焦虑和情绪困扰，并造成身心疲惫。" },
+            { en: "Culture shock is a mental state that can occur when moving from a familiar to an unfamiliar environment and finding that established patterns of behavior are ineffective.", zh: "文化冲击是一种心理状态，可能发生在从熟悉环境进入陌生环境并发现既有行为模式失效时。" },
+            { en: "According to the U-curve model, cultural adaptation has four phases: honeymoon, disillusionment, recovery, and adjustment. Culture shock can occur during the disillusionment stage.", zh: "根据 U 型曲线模型，文化适应有四个阶段：蜜月期、幻灭期、恢复期和适应期；文化冲击可能发生在幻灭期。" },
+            { en: "Kim sees acculturation, or cultural adjustment, as a continuing process of stress-adaptation-growth.", zh: "Kim 将文化适应或文化调适看作压力、适应和成长的持续过程。" },
+            { en: "Cultural adaptation strategies include learning about the host culture and its language, avoiding ethnocentrism, and maintaining contact with your own culture.", zh: "文化适应策略包括学习东道文化及其语言、避免民族中心主义，并保持与自身文化的联系。" }
+          ]
+        },
+        {
+          title: "Communication Obstacles 沟通障碍",
+          items: [
+            { en: "Obstacles to effective intercultural communication include a preference for similarities, dealing with uncertainty, the risk of withdrawal, stereotyping tendencies, problems of prejudice and racism, and issues of power.", zh: "有效跨文化交际的障碍包括偏好相似性、处理不确定性、退缩风险、刻板印象倾向、偏见和种族主义问题，以及权力问题。" },
+            { en: "Prejudice is a strong feeling or attitude toward a particular social group or thing.", zh: "偏见是针对特定社会群体或事物的强烈感受或态度。" },
+            { en: "Racism occurs when individuals believe that their race/ethnicity is superior to another race/ethnicity.", zh: "当个体认为自己的种族或族群优于其他种族或族群时，就会产生种族主义。" }
+          ]
+        },
+        {
+          title: "Intercultural Ethics 跨文化伦理",
+          items: [
+            { en: "Because communication is an activity that has a consequence, we must develop a communication ethic.", zh: "由于沟通是一种会产生后果的活动，我们必须发展沟通伦理。" },
+            { en: "The two major perspectives on ethics are relativism and universalism.", zh: "伦理的两种主要观点是相对主义和普遍主义。" },
+            { en: "An intercultural ethic asks you to be mindful of the power of communication, respect the worth of all individuals, seek commonalities among people and cultures, recognize the validity of differences, and take individual responsibility for your actions.", zh: "跨文化伦理要求人们意识到沟通的力量，尊重所有个体的价值，寻找人与文化之间的共同点，承认差异的合理性，并为自己的行为承担个人责任。" }
+          ]
+        }
+      ],
+      memory: "Unit 8 的答题链条：进入新文化 -> 文化冲击 -> 适应策略 -> 沟通障碍 -> 伦理责任。"
     }
   ];
 
@@ -1925,6 +2604,24 @@
     `;
   }
 
+  function memorizationBlock(sections) {
+    if (!sections) return "";
+    return `
+      <section class="paper-section memorization-block">
+        <div class="paper-section-head">
+          <div>
+            <h2>背诵版匹配要点</h2>
+            <p>来自《跨文化交际背诵版(2)(1).docx》，按当前概念页逐项匹配。</p>
+          </div>
+          <span>DOCX</span>
+        </div>
+        <div class="grid grid-2">
+          ${reviewCards(sections)}
+        </div>
+      </section>
+    `;
+  }
+
   const reviewCardTypes = ["card-b", "card-g", "card-o", "card-p", "card-r"];
 
   function reviewCards(sections) {
@@ -1948,6 +2645,2410 @@
     `;
   }
 
+  const icc2023DefinitionOptions = [
+    { value: "A", text: "proxemics" },
+    { value: "B", text: "cultural patterns" },
+    { value: "C", text: "symbol" },
+    { value: "D", text: "perception" },
+    { value: "E", text: "prejudice" },
+    { value: "F", text: "behavior" },
+    { value: "G", text: "ethnocentrism" },
+    { value: "H", text: "face" },
+    { value: "I", text: "belief" },
+    { value: "J", text: "stereotype" },
+  ];
+
+  const icc2023DefinitionQuestions = [
+    { no: 1, prompt: "the belief that one's culture is superior to all other's", answer: "G" },
+    { no: 2, prompt: "how we make sense of the world and how we construct reality", answer: "D" },
+    { no: 3, prompt: "a concept or idea that an individual or group holds to be true", answer: "I" },
+    { no: 4, prompt: "an umbrella term collectively describing the cultural values of the dominant group within a culture", answer: "B" },
+    { no: 5, prompt: "the interrelated observations and theories of man's use of space as a specialized elaboration of culture", answer: "A" },
+    { no: 6, prompt: "an expression that stands for or represents something else", answer: "C" },
+    { no: 7, prompt: "a complex form of categorization that mentally organizes one's experiences with and guides one's behavior toward a particular group of people", answer: "J" },
+    { no: 8, prompt: "the self-image a person projects to other people", answer: "H" },
+    { no: 9, prompt: "the outward manifestations of people's internalized beliefs and values", answer: "F" },
+    { no: 10, prompt: "deeply held positive or negative feelings associated with a particular group", answer: "E" },
+  ];
+
+  const icc2023MultipleChoiceQuestions = [
+    {
+      no: 11,
+      prompt: "Which of the following is NOT one of the most influential social organizations?",
+      answer: "A",
+      options: [
+        ["A", "schools"],
+        ["B", "family"],
+        ["C", "community"],
+        ["D", "religion"],
+      ],
+    },
+    {
+      no: 12,
+      prompt: "Which of the following is NOT true about cultural patterns?",
+      answer: "C",
+      options: [
+        ["A", "Cultural patterns are integrated."],
+        ["B", "Cultural patterns are dynamic."],
+        ["C", "All individuals within a cultural group share the dominant values of that culture."],
+        ["D", "Cultural patterns can be contradictory."],
+      ],
+    },
+    {
+      no: 13,
+      prompt: "Which of the following is NOT true about the characteristics of culture?",
+      answer: "B",
+      options: [
+        ["A", "Culture is transmitted from generation to generation."],
+        ["B", "Culture is unique."],
+        ["C", "Culture is dynamic."],
+        ["D", "Culture is based on symbols."],
+      ],
+    },
+    {
+      no: 14,
+      prompt: "To develop our intercultural awareness, we need to bear in mind the following EXCEPT that _____.",
+      answer: "C",
+      options: [
+        ["A", "each individual is unique"],
+        ["B", "generalizations are based on limited data and may not be accurate"],
+        ["C", "communication is a cure-all"],
+        ["D", "some external conflicts can be resolved through mutual agreement"],
+      ],
+    },
+    {
+      no: 15,
+      prompt: "Which of the following is NOT an element of communication?",
+      answer: "D",
+      options: [
+        ["A", "noise"],
+        ["B", "encoding"],
+        ["C", "feedback"],
+        ["D", "actions"],
+      ],
+    },
+    {
+      no: 16,
+      prompt: "Which of the following is NOT a characteristic of perception?",
+      answer: "A",
+      options: [
+        ["A", "It is dynamic."],
+        ["B", "It is consistent."],
+        ["C", "It is selective."],
+        ["D", "It is inaccurate."],
+      ],
+    },
+    {
+      no: 17,
+      prompt: "Which of the following is NOT true about family?",
+      answer: "D",
+      options: [
+        ["A", "The family people are born into is called the family of orientation."],
+        ["B", "Cultural values of the nuclear family are reflected in child-rearing practices."],
+        ["C", "Individualistic families stress self-reliance and encourage autonomy."],
+        ["D", "Members of the extended family have gathered only for love and care."],
+      ],
+    },
+    {
+      no: 18,
+      prompt: "Which of the following is NOT an element of culture?",
+      answer: "B",
+      options: [
+        ["A", "history"],
+        ["B", "communication"],
+        ["C", "worldview"],
+        ["D", "values"],
+      ],
+    },
+    {
+      no: 19,
+      prompt: "Which of the following is NOT included in Minkov's cultural dimensions?",
+      answer: "C",
+      options: [
+        ["A", "industry vs indulgence"],
+        ["B", "monumentalism vs flexumility"],
+        ["C", "high-context vs low-context"],
+        ["D", "exclusionism vs universalism"],
+      ],
+    },
+    {
+      no: 20,
+      prompt: "Which of the following is NOT a function of the family?",
+      answer: "A",
+      options: [
+        ["A", "information-carrier function"],
+        ["B", "economic function"],
+        ["C", "identity function"],
+        ["D", "socialization function"],
+      ],
+    },
+    {
+      no: 21,
+      prompt: "Which of the following is NOT the function of nonverbal communication?",
+      answer: "C",
+      options: [
+        ["A", "conveying internal states"],
+        ["B", "creating identity"],
+        ["C", "enhancing social cohesion"],
+        ["D", "regulating interaction"],
+      ],
+    },
+    {
+      no: 22,
+      prompt: "In American culture, silence may be interpreted as _____.",
+      answer: "D",
+      options: [
+        ["A", "assertiveness"],
+        ["B", "enthusiasm"],
+        ["C", "thoughtfulness"],
+        ["D", "apathy"],
+      ],
+    },
+    {
+      no: 23,
+      prompt: "Observing a friend approaching, you offer a broad smile as part of your greeting. This is an _____ act.",
+      answer: "A",
+      options: [
+        ["A", "intentional"],
+        ["B", "unintentional"],
+        ["C", "unconscious"],
+        ["D", "integrated"],
+      ],
+    },
+    {
+      no: 24,
+      prompt: "In Northeast Asian countries like Korea and Japan, _____ is the traditional way of greeting.",
+      answer: "A",
+      options: [
+        ["A", "bowing"],
+        ["B", "embracing"],
+        ["C", "kissing on the cheek"],
+        ["D", "handshake"],
+      ],
+    },
+    {
+      no: 25,
+      prompt: "Which does NOT belong to Phinney's Three Stage Identity Development?",
+      answer: "B",
+      options: [
+        ["A", "unexamined ethnic identity"],
+        ["B", "identity acceptance"],
+        ["C", "ethnic identity search"],
+        ["D", "ethnic identity achievement"],
+      ],
+    },
+    {
+      no: 26,
+      prompt: "_____ culture is typical P-time culture.",
+      answer: "B",
+      options: [
+        ["A", "Northern American"],
+        ["B", "Latin American"],
+        ["C", "Western European"],
+        ["D", "Northern European"],
+      ],
+    },
+    {
+      no: 27,
+      prompt: "Mr. Li, a Chinese immigrant in America, has adapted himself so well to American culture that he gradually lost his Chinese cultural identity. This process is called _____.",
+      answer: "C",
+      options: [
+        ["A", "separation and segregation"],
+        ["B", "integration"],
+        ["C", "assimilation"],
+        ["D", "marginalization"],
+      ],
+    },
+    {
+      no: 28,
+      prompt: "When we enter into a new culture, we may view everything is exotic and feel very excited. So this is in _____ stage of cultural adjustment.",
+      answer: "A",
+      options: [
+        ["A", "honeymoon"],
+        ["B", "culture shock"],
+        ["C", "recovery"],
+        ["D", "effective functioning"],
+      ],
+    },
+    {
+      no: 29,
+      prompt: "Which of the following does NOT belong to the similarities of verbal and nonverbal communication?",
+      answer: "D",
+      options: [
+        ["A", "Both verbal and nonverbal communication use symbols to represent meanings."],
+        ["B", "Human communication is viewed as a whole that combines verbal and nonverbal messages."],
+        ["C", "Both verbal and nonverbal systems require a sender and a receiver to make communication complete."],
+        ["D", "Nonverbal communication usually comes earlier in our life than verbal communication."],
+      ],
+    },
+    {
+      no: 30,
+      prompt: "Which of the following statements about language is NOT true?",
+      answer: "D",
+      options: [
+        ["A", "Language and culture are indispensable components of intercultural communication."],
+        ["B", "One of the most difficult and persistent problems encountered in intercultural communication is that of language differences."],
+        ["C", "It is common to find significant differences within a major language group."],
+        ["D", "Language is the only way that we express our internal feelings."],
+      ],
+    },
+  ];
+
+  const hofstedeChart = [
+    { code: "PDI", label: "Power Distance Index", us: 40, jp: 54 },
+    { code: "IDV", label: "Individualism", us: 91, jp: 46 },
+    { code: "MAS", label: "Masculinity", us: 62, jp: 95 },
+    { code: "UAI", label: "Uncertainty Avoidance Index", us: 46, jp: 92 },
+    { code: "LTO", label: "Long Term Orientation", us: 26, jp: 88 },
+  ];
+
+  function answerLabel(options, answer) {
+    const option = options.find((item) => item.value === answer || item[0] === answer);
+    if (!option) return answer;
+    return option.text ? `${option.value}. ${option.text}` : `${option[0]}. ${option[1]}`;
+  }
+
+  function renderQuizControls(group) {
+    return `
+      <div class="paper-controls">
+        <button class="practice-check-button" type="button" data-quiz-score="${escapeHtml(group)}">批改本部分</button>
+        <button class="practice-check-button ghost" type="button" data-quiz-reset="${escapeHtml(group)}">重做</button>
+        <p class="paper-score" data-quiz-score-result="${escapeHtml(group)}" aria-live="polite"></p>
+      </div>
+    `;
+  }
+
+  function renderDefinitionQuestion(question) {
+    const answerText = answerLabel(icc2023DefinitionOptions, question.answer);
+    return `
+      <article class="quiz-question definition-question" data-quiz-question data-quiz-group="icc2023-definitions" data-answer="${escapeHtml(question.answer)}" data-answer-label="${escapeHtml(answerText)}">
+        <div class="quiz-question-head">
+          <span>${String(question.no).padStart(2, "0")}</span>
+          <p>${escapeHtml(question.prompt)}</p>
+        </div>
+        <label class="quiz-select-label">
+          <span>选择概念</span>
+          <select data-quiz-select>
+            <option value="">请选择</option>
+            ${icc2023DefinitionOptions.map((option) => `<option value="${escapeHtml(option.value)}">${escapeHtml(option.value)}. ${escapeHtml(option.text)}</option>`).join("")}
+          </select>
+        </label>
+        <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+      </article>
+    `;
+  }
+
+  function renderMultipleChoiceQuestion(question, group = "icc2023-multiple", namePrefix = "icc2023-mc", renderOptions = {}) {
+    const answerText = answerLabel(question.options, question.answer);
+    const fixedOptions = renderOptions.fixedOptions ? ' data-quiz-fixed-options="true"' : "";
+    return `
+      <article class="quiz-question" data-quiz-question data-quiz-group="${escapeHtml(group)}" data-answer="${escapeHtml(question.answer)}" data-answer-label="${escapeHtml(answerText)}"${fixedOptions}>
+        <div class="quiz-question-head">
+          <span>${String(question.no).padStart(2, "0")}</span>
+          <p>${escapeHtml(question.prompt)}</p>
+        </div>
+        <div class="quiz-options" role="radiogroup" aria-label="Question ${question.no}" data-quiz-options>
+          ${question.options.map(([value, text]) => `
+            <label class="quiz-option">
+              <input type="radio" name="${escapeHtml(namePrefix)}-${question.no}" value="${escapeHtml(value)}" data-quiz-radio>
+              <span class="quiz-option-letter">${escapeHtml(value)}</span>
+              <span class="quiz-option-text">${escapeHtml(text)}</span>
+            </label>
+          `).join("")}
+        </div>
+        <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+      </article>
+    `;
+  }
+
+  function renderHofstedeChart() {
+    return `
+      <section class="paper-chart" aria-labelledby="hofstede-chart-title">
+        <div class="paper-chart-head">
+          <h3 id="hofstede-chart-title">Scores of Hofstede's Cultural Dimensions</h3>
+          <p>United States / Japan</p>
+        </div>
+        <div class="chart-legend" aria-label="图例">
+          <span><i class="us"></i>United States</span>
+          <span><i class="jp"></i>Japan</span>
+        </div>
+        <div class="bar-chart">
+          ${hofstedeChart.map((item) => `
+            <div class="bar-group">
+              <div class="bars" aria-label="${escapeHtml(item.code)} ${escapeHtml(item.label)}: United States ${item.us}, Japan ${item.jp}">
+                <span class="bar us" style="height:${item.us}%"><b>${item.us}</b></span>
+                <span class="bar jp" style="height:${item.jp}%"><b>${item.jp}</b></span>
+              </div>
+              <strong>${escapeHtml(item.code)}</strong>
+              <small>${escapeHtml(item.label)}</small>
+            </div>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderWritingPractice() {
+    return `
+      <section class="paper-section writing-practice">
+        <div class="paper-section-head">
+          <div>
+            <h2>III. Writing <small>40 points</small></h2>
+            <p>Write an essay on <strong>Cultural Dimensions and Intercultural Communication</strong> based on the following chart.</p>
+          </div>
+          <span>about 200 words</span>
+        </div>
+        <div class="grid grid-2 writing-grid">
+          <div>
+            <ol class="writing-requirements">
+              <li>Interpret the different cultural values between the United States and Japan according to Hofstede's cultural dimensions in the chart. <strong>10 points</strong></li>
+              <li>Illustrate from two dimensions with two appropriate cases in different contexts to highlight how the differences influence their communicative styles. <strong>20 points</strong></li>
+              <li>Draw a conclusion by providing suggestions on developing intercultural communication competence. <strong>10 points</strong></li>
+            </ol>
+            ${renderHofstedeChart()}
+          </div>
+          <div class="practice-item writing-box">
+            <div class="practice-head">
+              <span class="practice-no">Essay</span>
+              <span class="practice-source">自写后对照评分要点</span>
+            </div>
+            <textarea data-writing-input="icc-2023-writing" rows="16" placeholder="在这里写约 200 词英文作文。"></textarea>
+            <div class="practice-controls">
+              <span class="word-counter" data-writing-words="icc-2023-writing">0 words</span>
+            </div>
+          </div>
+        </div>
+        <details>
+          <summary>查看参考答案页评分要点</summary>
+          <div class="score-rubric">
+            <h3>结构与分值</h3>
+            <ul>
+              <li><strong>Introduction / chart interpretation, 10 points:</strong> 简明解释图中 Hofstede 五个文化维度数据。</li>
+              <li><strong>Main body / two dimensions with cases, 20 points:</strong> 从五个文化维度中选择两个维度，结合具体案例分析，每个视角 10 分。</li>
+              <li><strong>Conclusion / comments, 10 points:</strong> 总结全文，并提出提升跨文化交际能力的建议。</li>
+            </ul>
+            <h3>评分档次</h3>
+            <ol>
+              <li><strong>33-40:</strong> 内容非常丰富，分析和案例与图中信息关联性强，语言地道，句型灵活。</li>
+              <li><strong>25-31:</strong> 内容十分丰富，分析和案例较好联系图中信息，语言准确，句型有变化。</li>
+              <li><strong>17-24:</strong> 内容比较丰富，基本涵盖相关信息，关联性尚可，语言和句型表现一般。</li>
+              <li><strong>9-16:</strong> 内容较为空洞，不能充分覆盖图中信息，关联性不强，语言错误较多。</li>
+              <li><strong>1-8:</strong> 内容贫乏，抓不住图表关联信息，语言支离破碎，句型不完整。</li>
+            </ol>
+          </div>
+        </details>
+      </section>
+    `;
+  }
+
+  const icc2025TrueFalseOptions = [
+    ["A", "TRUE"],
+    ["B", "FALSE"],
+  ];
+
+  const icc2025TrueFalseQuestions = [
+    { no: 1, prompt: "Communication is not a panacea for all intercultural difficulties.", answer: "A" },
+    { no: 2, prompt: "The message you send is the message received.", answer: "B" },
+    { no: 3, prompt: "The elements that compose culture are worldview, religion, history, values, social organization, and language.", answer: "A" },
+    { no: 4, prompt: "Even though you view the world through a subjective lens, your perception is accurate.", answer: "B" },
+    { no: 5, prompt: "Culture and communication are so separate that we cannot think that culture is communication or communication is culture.", answer: "B" },
+    { no: 6, prompt: "In conflict situations, collectivistic cultures focus on other-face and mutual face, while individualistic cultures focus on self-face.", answer: "A" },
+    { no: 7, prompt: "Cyberidentity and fantasy identity belong to our social identity.", answer: "A" },
+    { no: 8, prompt: "Nonverbal messages are always unintentional.", answer: "B" },
+    { no: 9, prompt: "Nonverbal messages cannot work alone.", answer: "B" },
+    { no: 10, prompt: "Cultures differ in their perception and use of personal space, seating, and furniture arrangement.", answer: "A" },
+  ].map((question) => ({ ...question, options: icc2025TrueFalseOptions }));
+
+  const icc2025MultipleChoiceQuestions = [
+    {
+      no: 11,
+      prompt: "Only two generations of the parents and their unmarried children is the characteristic of ____.",
+      answer: "D",
+      options: [
+        ["A", "the family of orientation"],
+        ["B", "the family of marriage"],
+        ["C", "the extended family"],
+        ["D", "the nuclear family"],
+      ],
+    },
+    {
+      no: 12,
+      prompt: "____ are the outward manifestations of our internalized beliefs and values.",
+      answer: "A",
+      options: [
+        ["A", "Behaviours"],
+        ["B", "Languages"],
+        ["C", "Perceptions"],
+        ["D", "Identities"],
+      ],
+    },
+    {
+      no: 13,
+      prompt: "____ includes all oral cues in the stream of spoken utterances except the words themselves.",
+      answer: "A",
+      options: [
+        ["A", "Paralanguage"],
+        ["B", "Gesture"],
+        ["C", "Scent"],
+        ["D", "Morphology"],
+      ],
+    },
+    {
+      no: 14,
+      prompt: "____ are represented by the many groups you belong to, such as racial, ethnic, occupational, age, hometown and numerous others.",
+      answer: "B",
+      options: [
+        ["A", "Personal identities"],
+        ["B", "Social identities"],
+        ["C", "Human identities"],
+        ["D", "Cultural identities"],
+      ],
+    },
+    {
+      no: 15,
+      prompt: "____ involves all those nonverbal stimuli in a communication setting that are generated by both the source and his or her use of the environment and that have potential message value for the source and receiver.",
+      answer: "C",
+      options: [
+        ["A", "Verbal Communication"],
+        ["B", "Gesture"],
+        ["C", "Nonverbal Communication"],
+        ["D", "Facework"],
+      ],
+    },
+    {
+      no: 16,
+      prompt: "Intercultural cooperation faces the following ecological concerns EXCEPT ____.",
+      answer: "C",
+      options: [
+        ["A", "raw materials"],
+        ["B", "water shortage"],
+        ["C", "aging population"],
+        ["D", "climate change"],
+      ],
+    },
+    {
+      no: 17,
+      prompt: "Which of the following statements is NOT true about the features of Communication?",
+      answer: "C",
+      options: [
+        ["A", "Communication is a dynamic process."],
+        ["B", "Communication is symbolic."],
+        ["C", "Communication has nothing to do with contexts."],
+        ["D", "Communication cannot be reversed."],
+      ],
+    },
+    {
+      no: 18,
+      prompt: "Which of the following statements is NOT true about the features of Culture?",
+      answer: "D",
+      options: [
+        ["A", "Culture is shared."],
+        ["B", "Culture is based on symbols."],
+        ["C", "Culture is transmitted from generation to generation."],
+        ["D", "Culture is innate."],
+      ],
+    },
+    {
+      no: 19,
+      prompt: "The three most influential social organizations are ____.",
+      answer: "A",
+      options: [
+        ["A", "family, state, religion"],
+        ["B", "family, school, state"],
+        ["C", "school, state, religion"],
+        ["D", "state, religion, UN"],
+      ],
+    },
+    {
+      no: 20,
+      prompt: "Which of the following is NOT the function of the family?",
+      answer: "B",
+      options: [
+        ["A", "reproductive function"],
+        ["B", "disciplinary function"],
+        ["C", "identity function"],
+        ["D", "language acquisition function"],
+      ],
+    },
+    {
+      no: 21,
+      prompt: "Which of the following is NOT a characteristic of language?",
+      answer: "C",
+      options: [
+        ["A", "Language is symbolic."],
+        ["B", "Language is arbitrary."],
+        ["C", "Language is static and unchanging."],
+        ["D", "Language can evoke both denotative and connotative meanings."],
+      ],
+    },
+    {
+      no: 22,
+      prompt: "Which of the following best describes monumentalism in the context of cultural identity?",
+      answer: "D",
+      options: [
+        ["A", "A cultural orientation that values flexibility and humility."],
+        ["B", "A cultural orientation that focuses on individual achievements."],
+        ["C", "A cultural orientation that promotes universal treatment of all individuals."],
+        ["D", "A cultural orientation that emphasizes unchangeable identities and strong values."],
+      ],
+    },
+    {
+      no: 23,
+      prompt: "In the context of individualism, what does the term privacy refer to?",
+      answer: "A",
+      options: [
+        ["A", "The right to be free from unwanted attention or intrusion."],
+        ["B", "The need for constant social interaction."],
+        ["C", "The importance of sharing personal information."],
+        ["D", "The preference for group decision-making."],
+      ],
+    },
+    {
+      no: 24,
+      prompt: "Which of the following scenarios is an example of an avowed identity?",
+      answer: "A",
+      options: [
+        ["A", "A person identifies themselves as a feminist due to their personal beliefs."],
+        ["B", "A person is recognized as a member of a particular race due to their physical appearance."],
+        ["C", "A person is considered part of a social class based on their family's wealth."],
+        ["D", "A person is identified by their nationality due to their place of birth."],
+      ],
+    },
+    {
+      no: 25,
+      prompt: "Which of the following best describes the concept of denotative meaning in language?",
+      answer: "B",
+      options: [
+        ["A", "The emotional or personal meaning of a word."],
+        ["B", "The literal or agreed-upon meaning of a word."],
+        ["C", "The historical origin of a word."],
+        ["D", "The cultural significance of a word."],
+      ],
+    },
+    {
+      no: 26,
+      prompt: "In the context of cultural identity, what does the term identity achievement refer to?",
+      answer: "C",
+      options: [
+        ["A", "The initial stage of identity development"],
+        ["B", "The stage where individuals reject their cultural heritage"],
+        ["C", "The stage where individuals have a clear understanding of their cultural identity"],
+        ["D", "The stage where individuals conform to the dominant culture"],
+      ],
+    },
+    {
+      no: 27,
+      prompt: "Which of the following is NOT a category of identity discussed in the course?",
+      answer: "D",
+      options: [
+        ["A", "Human identity"],
+        ["B", "Social identity"],
+        ["C", "Cyberidentity"],
+        ["D", "Biological identity"],
+      ],
+    },
+    {
+      no: 28,
+      prompt: "According to Kohls' list of American values, which of the following is NOT considered a dominant American cultural value?",
+      answer: "A",
+      options: [
+        ["A", "Implicitness and indirectness"],
+        ["B", "Self-Help"],
+        ["C", "Materialism/Acquisitiveness"],
+        ["D", "Individualism/Privacy"],
+      ],
+    },
+    {
+      no: 29,
+      prompt: "Which of the following best describes the concept of \"cultural rules\" in nonverbal communication?",
+      answer: "D",
+      options: [
+        ["A", "Rules for using technology in communication"],
+        ["B", "Laws that govern the use of language"],
+        ["C", "Guidelines for verbal communication"],
+        ["D", "Unwritten rules that dictate how to use nonverbal behaviors"],
+      ],
+    },
+    {
+      no: 30,
+      prompt: "Which of the following is NOT a recommendation for improving intercultural communication competence?",
+      answer: "C",
+      options: [
+        ["A", "Learning a second language"],
+        ["B", "Being mindful of cultural differences"],
+        ["C", "Avoiding nonverbal communication"],
+        ["D", "Being aware of conversational taboos"],
+      ],
+    },
+    {
+      no: 31,
+      prompt: "We can describe identity as the following EXCEPT ____.",
+      answer: "B",
+      options: [
+        ["A", "abstract"],
+        ["B", "static"],
+        ["C", "complex"],
+        ["D", "multiple"],
+      ],
+    },
+    {
+      no: 32,
+      prompt: "What does the term \"tight cultures\" refer to in Gelfand's research?",
+      answer: "A",
+      options: [
+        ["A", "Cultures with strong social norms and little tolerance for deviation"],
+        ["B", "Cultures with weak social norms and high tolerance for deviation"],
+        ["C", "Cultures with high levels of individualism"],
+        ["D", "Cultures with low levels of uncertainty avoidance"],
+      ],
+    },
+    {
+      no: 33,
+      prompt: "Which of the following is NOT an example of the function of nonverbal communication of conveying internal states?",
+      answer: "A",
+      options: [
+        ["A", "You share your deep secret with your friend."],
+        ["B", "A mother sings a lullaby to her baby to sleep in a gentle tone."],
+        ["C", "The lovers frequently exchange intimate glances at each other."],
+        ["D", "You keep a distance of one meter from someone you just get to know"],
+      ],
+    },
+    {
+      no: 34,
+      prompt: "Which of the following is NOT an example of how your actions, unintentionally, can send messages to others?",
+      answer: "D",
+      options: [
+        ["A", "Frowning when the sun is in your eyes may make someone mistakenly believe that you are angry"],
+        ["B", "Looking upset after receiving a phone call could make a person approaching you think that you are unhappy to see him or her"],
+        ["C", "Touching someone's hand for an extended time could cause that person to think that you are flirting when that was not your intent"],
+        ["D", "Observing a friend approaching, you offer a broad smile as part of your greeting."],
+      ],
+    },
+    {
+      no: 35,
+      prompt: "Which of the following is NOT an obstacle to effective intercultural communication?",
+      answer: "B",
+      options: [
+        ["A", "Stereotyping"],
+        ["B", "Social protocols"],
+        ["C", "Prejudice"],
+        ["D", "Power"],
+      ],
+    },
+  ];
+
+  const icc2025CaseScenario = [
+    {
+      title: "Meeting Opening",
+      items: [
+        "The representative of Company A pushes a printed contract across the table. \"Here's our proposed agreement, including deliverables, timelines, and penalties for delays. Let's go through it point by point.\" The lead representative of Company B nods politely, takes the document, but does not open it immediately. \"Thank you for your thorough preparation. We will review this carefully.\"",
+        "A manager of Company A asks the Japanese colleagues directly, \"Can you confirm acceptance by next Friday? We need to move quickly.\" Other members remain quiet, occasionally exchanging brief comments in Japanese. When pressed on specifics, they respond, \"This may require further discussion.\""
+      ],
+    },
+    {
+      title: "Discussion Phase",
+      items: [
+        "An engineer of Company A points to a clause, \"If testing is delayed beyond the deadline, Section 5.2 states a penalty. Do you agree?\" The Japanese side keeps silent. After a pause, the engineer rephrases, \"Is there a problem with this? We need a clear answer.\"",
+        "The manager of Company B smiles and shifts focus, \"Your technical expertise is impressive. We value a strong, lasting partnership.\" After the meeting, the Japanese team leader quietly tells his assistant, \"We must consult with executive before proceeding.\""
+      ],
+    },
+    {
+      title: "Follow-Up Reactions",
+      items: [
+        "Company A's internal email: \"The Japanese side won't commit to anything. Are they avoiding the issues?\"",
+        "Company B's internal memo: \"The Americans demand instant decisions, but unilateral commitments could disrupt harmony. Suggest informal discussions first.\""
+      ],
+    },
+  ];
+
+  const icc2025CaseQuestions = [
+    {
+      no: 36,
+      score: "15 points",
+      prompt: "How does Hall's theory explain the communication clash between the two teams? Provide two specific examples from the scenario that illustrate each culture's communication style.",
+    },
+    {
+      no: 37,
+      score: "25 points",
+      prompt: "Using Hofstede's cultural dimensions, analyze why the Japanese team prioritizes group harmony and consensus over immediate decisions, while the American team expects clear, direct answers. (at least two relevant dimensions)",
+    },
+  ];
+
+  function renderPastPaper2025CaseStudy() {
+    return `
+      <section class="paper-section writing-practice">
+        <div class="paper-section-head">
+          <div>
+            <h2>III. Case Study Analysis <small>40 points</small></h2>
+            <p>Read the scenario and write your answers. The reference page gives scoring points rather than a full model essay.</p>
+          </div>
+          <span>Q36 15 + Q37 25</span>
+        </div>
+        <div class="grid grid-2">
+          <div>
+            <article class="practice-item">
+              <div class="practice-head">
+                <span class="practice-no">Scenario</span>
+                <span class="practice-source">Company A / Company B</span>
+              </div>
+              <h3>Negotiation Between an American Software Company (Company A) and a Japanese Firm (Company B)</h3>
+              ${icc2025CaseScenario.map((section) => `
+                <h3>${escapeHtml(section.title)}</h3>
+                ${paragraphs(section.items)}
+              `).join("")}
+              <p><small>注：扫描件 Meeting Opening 中一处公司称谓/语法明显排印不通，页面按案例上下文校正为 Company A 直接向日方确认。</small></p>
+            </article>
+          </div>
+          <div>
+            ${icc2025CaseQuestions.map((question) => `
+              <article class="practice-item writing-box">
+                <div class="practice-head">
+                  <span class="practice-no">Q${question.no}</span>
+                  <span class="practice-source">${escapeHtml(question.score)}</span>
+                </div>
+                <p>${escapeHtml(question.prompt)}</p>
+                <textarea data-writing-input="icc-2025-case-${question.no}" rows="9" placeholder="在这里整理英文答题要点。"></textarea>
+                <div class="practice-controls">
+                  <span class="word-counter" data-writing-words="icc-2025-case-${question.no}">0 words</span>
+                </div>
+              </article>
+            `).join("")}
+          </div>
+        </div>
+        <details>
+          <summary>查看参考答案页评分要点</summary>
+          <div class="score-rubric">
+            <h3>36. High context vs. low context communication</h3>
+            <ul>
+              <li><strong>对高/低语境的阐释 10 分：</strong>American team 偏 low-context，依靠明确文本、合同条款、直接提问和清楚期限；Japanese team 偏 high-context，依靠关系、语境、沉默、委婉表达和会后内部协商。</li>
+              <li><strong>举例 5 分：</strong>可写 Company A 逐条审合同、要求 next Friday 确认、追问 clear answer；Company B 点头、暂不打开合同、说 further discussion、保持沉默、建议 informal discussions。</li>
+            </ul>
+            <h3>37. Hofstede cultural dimensions</h3>
+            <ul>
+              <li><strong>High Uncertainty Avoidance vs. Low Uncertainty Avoidance：</strong>日方避免仓促承诺和不确定风险，需要进一步审查、咨询高层；美方更能接受快速推进和明确时间表。</li>
+              <li><strong>Individualism vs. Collectivism：</strong>日方重视集体和谐、共识和长期关系，避免单方面承诺破坏 harmony；美方更强调任务、个人/团队责任和直接决策。</li>
+              <li><strong>High Power Distance vs. Low Power Distance：</strong>日方倾向尊重等级和正式授权，需要 consult with executive；美方期待会议代表能当场给出清晰回应。</li>
+              <li><strong>分值：</strong>每个知识点阐释 10 分，至少回答两个知识点，共 20 分；语言组织和语法 5 分。</li>
+            </ul>
+          </div>
+        </details>
+      </section>
+    `;
+  }
+
+  function renderPastPaper2025() {
+    return `
+      <div class="reply past-paper">
+        <section class="tldr">
+          <h2>2025 年《跨文化交流》期末试卷自测</h2>
+          <p>根据 /root/final-review-site/reference/跨文化交际/b12abb40f2b8be5b341e665c8306e1e4_2858693535548410278_m_25年跨文化交流期末考试卷.pdf 整理。扫描版无文字层，题目逐页核对；判断题、选择题可直接点选自测，案例分析保留评分要点。</p>
+        </section>
+        <div class="source-meta">
+          <span>南京邮电大学 2024-2025 学年第二学期</span>
+          <span>研究生英语《跨文化交流》期末试卷</span>
+          <span>2025.5</span>
+        </div>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>I. True or False Questions <small>10 points</small></h2>
+              <p>Mark A for TRUE and B for FALSE according to the textbook.</p>
+            </div>
+            <span>1 point each</span>
+          </div>
+          <div class="quiz-list">
+            ${icc2025TrueFalseQuestions.map((question) => renderMultipleChoiceQuestion(question, "icc2025-true-false", "icc2025-tf", { fixedOptions: true })).join("")}
+          </div>
+          ${renderQuizControls("icc2025-true-false")}
+          <details>
+            <summary>当前参考答案</summary>
+            <p data-quiz-answer-list="icc2025-true-false"></p>
+          </details>
+        </section>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>II. Multiple Choice <small>50 points</small></h2>
+              <p>Choose the best answer from the four choices to each question according to what you have learned in the course.</p>
+            </div>
+            <span>2 points each</span>
+          </div>
+          <div class="quiz-list">
+            ${icc2025MultipleChoiceQuestions.map((question) => renderMultipleChoiceQuestion(question, "icc2025-multiple", "icc2025-mc")).join("")}
+          </div>
+          ${renderQuizControls("icc2025-multiple")}
+          <details>
+            <summary>当前参考答案</summary>
+            <p data-quiz-answer-list="icc2025-multiple"></p>
+          </details>
+        </section>
+
+        ${renderPastPaper2025CaseStudy()}
+      </div>
+    `;
+  }
+
+  function renderPastPaper2023() {
+    const definitionAnswers = icc2023DefinitionQuestions.map((question) => `${question.no}-${question.answer}`).join(" ");
+
+    return `
+      <div class="reply past-paper">
+        <section class="tldr">
+          <h2>2023 年《跨文化交际》期末试卷自测</h2>
+          <p>根据 /root/final-review-site/reference/跨文化交际/2023试卷.pdf 整理。题目保留英文原题，答案按最后一页参考答案校准；定义匹配和选择题可直接点选自测。</p>
+        </section>
+        <div class="source-meta">
+          <span>南京邮电大学 2022-2023 学年第二学期</span>
+          <span>研究生英语《跨文化交际》期末试卷</span>
+          <span>2023.5</span>
+        </div>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>I. Definition <small>20 points</small></h2>
+              <p>Choose the concepts from the box and match them with their definitions.</p>
+            </div>
+            <span>2 points each</span>
+          </div>
+          <div class="concept-bank">
+            ${icc2023DefinitionOptions.map((option) => `<span><strong>${escapeHtml(option.value)}</strong>${escapeHtml(option.text)}</span>`).join("")}
+          </div>
+          <div class="quiz-list definition-list">
+            ${icc2023DefinitionQuestions.map(renderDefinitionQuestion).join("")}
+          </div>
+          ${renderQuizControls("icc2023-definitions")}
+          <details>
+            <summary>当前参考答案</summary>
+            <p data-quiz-answer-list="icc2023-definitions">${escapeHtml(definitionAnswers)}</p>
+          </details>
+        </section>
+
+        <section class="paper-section">
+          <div class="paper-section-head">
+            <div>
+              <h2>II. Multiple Choice <small>40 points</small></h2>
+              <p>Choose the single best answer from the four choices for each question.</p>
+            </div>
+            <span>2 points each</span>
+          </div>
+          <div class="quiz-list">
+            ${icc2023MultipleChoiceQuestions.map(renderMultipleChoiceQuestion).join("")}
+          </div>
+          ${renderQuizControls("icc2023-multiple")}
+          <details>
+            <summary>当前参考答案</summary>
+            <p data-quiz-answer-list="icc2023-multiple"></p>
+          </details>
+        </section>
+
+        ${renderWritingPractice()}
+      </div>
+    `;
+  }
+
+  const caseAnalysisEntries = [
+    {
+      slug: "case-age-status",
+      title: "Case Study 1 Age and Status",
+      lead: "一家数据处理公司中，年轻法裔加拿大员工和年长中国女同事因汇报安排、资料共享和地位理解发生冲突。",
+      concepts: ["power distance", "age and status", "face", "high-context / low-context"],
+      sections: [
+        {
+          title: "案例情境",
+          items: [
+            "年轻法裔加拿大男员工与一位持特殊签证、来自中国的年长女同事原本合作良好。",
+            "新产品需要去首都向议员介绍，但中国女同事拒绝与年轻同事同行，也不愿共享关键数据。",
+            "经理直接询问原因无果，后来先说明自己作为经理和公司发言人的困境，她才解释：自己年龄更长、资历更深，却要让年轻同事展示她辛苦完成的材料，这会降低自己的地位。"
+          ]
+        },
+        {
+          title: "讨论问题",
+          items: [
+            "What caused the conflict?",
+            "If you were the general manager, what would you do to resolve it?"
+          ]
+        },
+        {
+          title: "矛盾冲突",
+          items: [
+            "年轻加拿大员工把双方看作平等合作伙伴，认为谁做报告主要取决于工作效率和个人能力。",
+            "年长中国女同事把年龄、资历和实际贡献视为地位的重要来源，担心由年轻同事汇报会使自己丢面子、降低威信。",
+            "直接追问原因没有得到清楚答复，双方误解进一步加深。"
+          ]
+        },
+        {
+          title: "原因分析",
+          items: [
+            "权力距离差异：加拿大更偏低权力距离，强调平等、能力和个人信用；中国文化更重年龄、经验、资历和等级差异。",
+            "语境差异：加拿大偏低语境，期待明确说出原因；中国偏高语境，更倾向委婉回避、通过关系和处境表达不满。",
+            "面子因素：在公开场合由年轻同事展示自己主要劳动成果，会被理解为地位和贡献没有得到承认。"
+          ]
+        },
+        {
+          title: "文化沟通 / 解决建议",
+          items: [
+            "经理应正式认可中国女同事的工作成果，让团队和外部听众知道关键数据和材料由她完成。",
+            "可重新设计汇报角色，例如由她负责关键数据部分，年轻同事负责其他展示，避免贡献被遮蔽。",
+            "跨文化合作中，涉及年龄、地位和资历时，应先用合适方式协商角色与署名，避免把本文化的平等观或等级观当作唯一标准。"
+          ]
+        }
+      ],
+      memory: "本案用权力距离、高低语境和面子解释：同一汇报安排，在一种文化中是效率分工，在另一种文化中可能是地位受损。"
+    },
+    {
+      slug: "case-public-praise-japan",
+      title: "Case Study 2 Praising Japanese in Public Workplaces",
+      lead: "美国经理当众高度表扬日本员工，本意是肯定个人表现，却使员工尴尬沉默并离开。",
+      concepts: ["individualism / collectivism", "facework", "high-context / low-context", "public praise"],
+      sections: [
+        {
+          title: "案例情境",
+          items: [
+            "美国经理 Jones 在装配线前当众称赞日本员工 Sugimoto 工作出色，并希望其他员工以他为榜样。",
+            "Sugimoto 表现得不安，只说自己只是做本职工作，随后沉默、脸红、点头并继续工作。",
+            "Jones 期待对方说 thank you；Sugimoto 请求离开五分钟，Jones 因此认为日本员工对表扬反应奇怪且不礼貌。"
+          ]
+        },
+        {
+          title: "讨论问题",
+          items: [
+            "Why was the conversation not pleasant?",
+            "Why did they react differently toward public praise?",
+            "If you were Sugimoto, would you accept public praise?",
+            "If you were Jones, how would you handle the situation more appropriately?"
+          ]
+        },
+        {
+          title: "矛盾冲突",
+          items: [
+            "美国经理把公开表扬理解为对个人能力和工作成果的认可。",
+            "日本员工把当众突出个人看作把自己从集体中分离出来，可能破坏群体和谐并使自己失去面子。",
+            "Sugimoto 用沉默和离开表达不适，Jones 却按低语境标准期待直接回应。"
+          ]
+        },
+        {
+          title: "原因分析",
+          items: [
+            "美国文化高度强调个人主义、个人成绩、竞争和自我价值实现；被上司公开赞扬通常会感到自豪，并以 thank you 回应。",
+            "日本文化更强调集体主义、团队协作和群体和谐；当众单独表扬个人可能让被表扬者在同事面前尴尬。",
+            "日本偏高语境，倾向用沉默、低头、离开等非语言方式表达不安；美国偏低语境，更期待直接语言反馈。"
+          ]
+        },
+        {
+          title: "文化沟通 / 解决建议",
+          items: [
+            "Jones 更合适的做法是私下表扬 Sugimoto，或在公开场合表扬整个团队。",
+            "如果必须公开表扬，应强调其贡献如何帮助团队，而不是把他塑造成唯一优秀个体。",
+            "Sugimoto 也可以理解美国式公开表扬的积极意图，并用简短礼貌话语降低误解。"
+          ]
+        }
+      ],
+      memory: "本案核心不是“表扬好不好”，而是个人成就与集体和谐在不同文化中的优先级不同。"
+    },
+    {
+      slug: "case-british-manager-thailand",
+      title: "Case Study 3 A British General Manager in Thailand",
+      lead: "英国总经理到泰国上任后坚持要小型车，却被泰国团队安排奔驰，因为领导用车牵动整个组织等级秩序。",
+      concepts: ["power distance", "hierarchy", "status symbol", "organizational culture"],
+      sections: [
+        {
+          title: "案例情境",
+          items: [
+            "英国总经理到泰国后拒绝使用前任的车，要求 Suzuki 或 Mini，理由是曼谷交通拥堵，小车更方便。",
+            "泰国财务经理多次表示奔驰很快能到，小车却要等很久；采购部门最后仍决定订奔驰。",
+            "总经理在管理会议上追问原因，泰国管理团队解释：如果总经理都用小车，其他人几乎只能骑自行车上班。"
+          ]
+        },
+        {
+          title: "讨论问题",
+          items: [
+            "Why did the GM have difficulties in getting a Suzuki or Mini?",
+            "Why did the management team say they could hardly come to work on bicycle?"
+          ]
+        },
+        {
+          title: "矛盾冲突",
+          items: [
+            "英国经理把车看作提升工作效率的工具，认为自己有自由选择适合交通状况的车。",
+            "泰国团队把总经理用车看作组织等级和身份的象征；最高层用车降低，会迫使下级整体降级。",
+            "同一选择在英国经理眼中是务实，在泰国员工眼中却可能破坏稳定等级秩序。"
+          ]
+        },
+        {
+          title: "原因分析",
+          items: [
+            "泰国文化等级观念较强，传统价值中包含家长制、权威崇拜和稳定等级关系。",
+            "高权力距离文化中，领导者的身份象征维持组织秩序，也影响下级的地位安排。",
+            "英国文化相对低权力距离，具体工作之外更强调平等、个人选择和工作效率。"
+          ]
+        },
+        {
+          title: "文化沟通 / 解决建议",
+          items: [
+            "跨国组织中的决策要同时考虑地理环境、当地文化习俗和主导成员的文化背景。",
+            "如果英国经理坚持个人偏好，可能引发员工集体反感，甚至削弱其领导合法性。",
+            "更稳妥的做法是先了解当地等级符号的含义，再通过解释、协商或折中方案处理效率与身份之间的冲突。"
+          ]
+        }
+      ],
+      memory: "本案说明，在高权力距离组织里，领导者的物品选择可能不只是个人选择，而是组织等级信号。"
+    },
+    {
+      slug: "case-smile-apology",
+      title: "Case Study 4 Understanding a Smile",
+      lead: "中国经理 Jun Chen 道歉时保持微笑，美国经理 Peter 却认为这说明他毫无歉意。",
+      concepts: ["nonverbal communication", "smile", "context", "emotion display rules"],
+      sections: [
+        {
+          title: "案例情境",
+          items: [
+            "Jun Chen 工作失误给公司造成麻烦，于是到美国总经理 Peter 办公室正式道歉。",
+            "Jun Chen 进门后一直微笑，反复表示非常抱歉并保证不会再犯。",
+            "Peter 看到笑容后难以接受道歉，认为对方看起来一点也不抱歉；Jun Chen 则完全没想到微笑会被负面理解。"
+          ]
+        },
+        {
+          title: "讨论问题",
+          items: [
+            "Why did Jun Chen wear a smile when he made the apology?",
+            "Was it reasonable that Peter became angry? Why?",
+            "What different interpretations did they give to a smile in this situation?"
+          ]
+        },
+        {
+          title: "矛盾冲突",
+          items: [
+            "Jun Chen 用微笑显示礼貌、缓和气氛，并掩饰不安和歉疚。",
+            "Peter 把道歉语境中的微笑理解为不尊重、不严肃和缺乏真诚。",
+            "冲突来自同一非语言符号在不同文化和情境中的意义差异。"
+          ]
+        },
+        {
+          title: "原因分析",
+          items: [
+            "肢体语言包括手势、身势、服饰、音调、微笑、沉默、副语言、时间观和空间使用等，跨文化理解差异很常见。",
+            "在中国语境中，微笑不仅表示快乐友好，也可能传达歉意、礼貌、求谅解，或用于遮掩尴尬不安。",
+            "美国文化更强调真实、直接地表达情感，并期待内心情绪与外在表情一致；道歉时微笑会削弱诚意。"
+          ]
+        },
+        {
+          title: "文化沟通 / 解决建议",
+          items: [
+            "跨文化交际中不能想当然套用本文化对肢体语言的解释。",
+            "涉及道歉、批评、拒绝等敏感语境时，应提前了解对方文化的礼仪禁忌和情绪表达规则。",
+            "如果出现误解，双方应先澄清符号意图，而不是立即把对方行为判断为无礼或虚伪。"
+          ]
+        }
+      ],
+      memory: "微笑不是全球通用的“愉快”符号；在道歉语境中，它可能是礼貌，也可能被看成不真诚。"
+    },
+    {
+      slug: "case-indirect-answer",
+      title: "Case Study 5 Why Was His Answer Not Related to the Question?",
+      lead: "美国人力资源经理询问中国员工五年职业规划，中国员工却绕开直接答案，引发双方抱怨。",
+      concepts: ["high-context / low-context", "modesty", "face", "individualism / collectivism", "stereotype"],
+      sections: [
+        {
+          title: "案例情境",
+          items: [
+            "Philips 照明公司美国人力资源经理看好一位中国员工，想了解他未来五年工作计划以及希望获得的职位。",
+            "中国员工没有直接回答，而是长时间谈公司未来方向、晋升制度和自己目前的位置。",
+            "美国经理感到困惑和恼火；中国员工则向贾经理抱怨美国人过于 aggressive。"
+          ]
+        },
+        {
+          title: "讨论问题",
+          items: [
+            "Why did the Chinese employee not give a clear and definite answer?",
+            "What stereotype did the Chinese employee form toward Americans?",
+            "How can Mr. Jia effectively solve the awkward situation?"
+          ]
+        },
+        {
+          title: "矛盾冲突",
+          items: [
+            "美国经理期待清晰、直接、自信地表达个人目标。",
+            "中国员工认为直接说出职位目标会显得野心太强、高傲或唐突，也可能给自己留下丢面子的风险。",
+            "双方都用本文化标准解释对方：美国经理觉得中国员工虚伪，中国员工觉得美国人直接、咄咄逼人。"
+          ]
+        },
+        {
+          title: "原因分析",
+          items: [
+            "中国文化重视谦逊、委婉、克制情绪和维护组织和谐，常把个人未来与公司未来联系起来表达。",
+            "美国文化重视个人主义、独立、自我表达和职业发展目标；直接表达期望常被看作真诚和自信。",
+            "中国人评价一个人往往更看他实际做了什么；美国经理则希望通过语言了解个人规划和发展意愿。"
+          ]
+        },
+        {
+          title: "文化沟通 / 解决建议",
+          items: [
+            "企业应提供东道国文化和跨文化交际培训，帮助外籍员工和本地员工理解彼此沟通方式。",
+            "管理者应以宽容态度处理文化冲突，耐心沟通，而不是急于抱怨或否定。",
+            "了解双方文化的中间人可以进行解释和调解；同时企业应建设包容性的共同企业文化，使员工找到共识。",
+            "实际谈话中，可把问题设计得更具体、更给台阶，例如允许员工先谈团队目标，再逐步说明个人期待。"
+          ]
+        }
+      ],
+      memory: "本案体现高低语境、谦逊与直接表达的冲突：答非所问未必是不真诚，直接追问也未必是冒犯。"
+    }
+  ];
+
+  const caseOriginalSources = {
+    "case-age-status": {
+      note: "按《跨文化交际案例分析(1).doc》原文分块排版，保留英文 Case description、Questions 以及文件中的中英文分析内容。",
+      sections: [
+        {
+          title: "原始标题与导入",
+          blocks: [`
+            Case Study 1    Age and Status
+
+            两位同事的矛盾使一家数据处理公司的总经理遇到了麻烦。一方是一位踌躇满志的法裔
+            加拿大小伙子，另一方是一位有特许签证的年长的中国女性，而此前两人确实很好的合
+            作伙伴
+          `]
+        },
+        {
+          title: "Case description",
+          blocks: [`
+            Case description:
+               A manager in a data-processing company  was  having  difficulty  dealing
+            with a conflict between a young, ambitious French Canadian male and his  co-
+            worker, an older Chinese woman who was on a special  visa  from  China.  She
+            had recently become uncooperative and had made it clear to the manager  that
+            she would not be willing to travel to the  capital  with  her  co-worker  to
+            hold discussion with legislators about a new product with great enthusiasm.
+               When the manager asked her what the problem was, he  received  no  clear
+            explanation. When he asked her co-worker, the young man had no  insights  to
+            offer. The young French Canadian was  clearly  annoyed,  however,  that  the
+            Chinese woman was refusing to  share  her  data  with  him.  That  meant  he
+            couldn’t make the presentation to the legislators because she  had  all  the
+            key data on her computer disks.
+               The manager repeated questions to her but her “problem” got nowhere.  So
+            he changed his approach. He began explaining his concerns, as manger and  as
+            spokesperson for the company, about the upcoming meeting  with  legislators.
+            His explanation about his position was  unemotional.  In  that  climate  she
+            then felt she could explain her position. She revealed she  felt  that  that
+            as an older, and to her mind, more senior person, she should not be sent  to
+            the capitol with a  younger  employee  who  would  do  the  presentation  of
+            material she had worked hard to develop. That  would  diminish  her  status,
+            she felt. The general manger knew the root of his headache.
+          `]
+        },
+        {
+          title: "Questions",
+          blocks: [`
+            Questions:
+            1.What do you think caused the conflict?
+            2.What would you do to resolve the conflict if you were the general
+            manager?
+          `]
+        },
+        {
+          title: "矛盾冲突",
+          blocks: [`
+            矛盾冲突
+            这位年长的中国女士投入极大的热情和精力开发产品．却在最后的关键时刻拒绝与年轻
+            的同事一同去向议员做推介：当经理和同事问其原因．她并未做任何明确的回答：而当
+            经理改变策略，不再直接询问原因，而是迂回地讲起自己的困境时，她才道出自己的顾
+            虑。在这位资深年长的中国女士看来，同一位比她年轻的同事一同去国会，并且由对方
+            来做推介会影响到她的地位和威信，因此她无法同意：
+          `]
+        },
+        {
+          title: "原因分析",
+          blocks: [`
+            原因分析
+            造成这一矛盾的文化因素有两方面．对地位、年龄的不同态度以及这种不同的表达方式
+            。人对权力的认识因文化背景的不同而不同。根据霍夫斯特的调查研究，“低权力距离”
+            国家的人强调个人的能力和信用，人与人之间权利和关系的平等，而．”高权力距离”国
+            家，如中国、日本、纬国，强调地位、经验、年龄、资历等，人与人之间存在级别差距
+            ；因此在这位年轻的加拿大人看来，在工作上他与这位女士是平等的合作伙伴，并没有
+            地位的差别，自己也有能力参与项目并做最后报告。而在这位中国女士看来，以自己的
+            年龄、资历、以及工作中的付出，与一个年轻人一同去国会，并且由对方来做报告对她
+            来说是一件丢面子的事：
+            另外．双方表达方式的不同也导致了矛盾的加深。根据霍尔的理论，加拿大是“低语境”
+            国家，中国属于“高语境”文化国家，因此，当她的加拿大同事没有充分考虑到她所处的
+            位置．而是直接问她原因时，这位中国女士采用了婉转回进的策略，没有直接说出自己
+            的想法。而当经理改变方法迂回地说到自己的难处时，在这种语境下她才说出自己的顾
+            虑。
+          `, `
+            Low  power  distance  "country  on  individual  ability  and   credit,   the
+            relationship  between  rights  and  equality,  and."  high  power   distance
+            "countries, such as China, Japan,  weft  kingdom,  emphasizing  the  status,
+            experience, age, qualifications, existing gap between people level  。So  in
+            the young Canadian  opinion,  in  the  work  he  and  the  woman  are  equal
+            partners, and the difference  in  no  position,  also  has  the  ability  to
+            participate in project and do the last report.  And  in  the  Chinese  women
+            seem to, in their own age, qualifications, and work in pay, and a young  man
+            together to congress, and by each other to do the report for her is  a  lose
+            face:
+            Outside. Both sides  expressing  way  different  led  to  the  deepening  of
+            contradictions. According to the theory of hall,  Canada  is  "low  context"
+            countries; China belongs to "high context" culture countries,
+          `]
+        },
+        {
+          title: "文化沟通",
+          blocks: [`
+            文化沟通
+            当与不同文化背景、年龄、地位的人进行跨文化交流合作时，我们应当充分了解对方价
+            值观中对这些个人因素的看法，决策前应采用合适的方式进行有效的协商，以便避免和
+            化解因文化背景、价值观不同引起的矛盾。本案例中的经理在理解她的难处之后，可以
+            在全公司内正式的公布这位女士的工作成果，给予高度的认可．同时在议会的报告中也
+            应体现出其工作的重要意义，使之得，得到应有的重视。
+          `, `
+            This case of manager in understanding her difficulty after can  in  all  the
+            company  released  within  the  formal  the  lady's  work,  to   give   high
+            recognition. At the same time, in the parliamentary  report  should  reflect
+            its importance, make, and get the attention it deserves.
+          `]
+        }
+      ]
+    },
+    "case-public-praise-japan": {
+      note: "按《跨文化交际案例分析(1).doc》原文分块排版，保留英文 Case description、Questions 以及文件中的中英文分析内容。",
+      sections: [
+        {
+          title: "原始标题与导入",
+          blocks: [`
+            Case Study 2  Praising Japanese in Public Workplaces
+            （在工作场所当众表扬日本人）
+            琼斯先生（美国经理）
+            当众表扬苏琦木拓（日本员工）工作做得很棒，本以为苏琦木拓会高兴的接受，却不料
+            …..
+          `]
+        },
+        {
+          title: "Case description",
+          blocks: [`
+            Case description:
+            American: Mr. Sugimoto, I have noticed that you are doing an  excellent  job
+                    on the assembly line. I hope that the other workers notice  how  it
+                    should be done.
+            Japanese: (He is uneasy). Praise is not necessary. I am only doing  my  job.
+                    (He hopes other Japanese workers do not hear.)
+            American: You are the finesse, most  excellent,  dedicated  worker  we  have
+                    ever had at the Jones Corporation.
+            Japanese: (He blushed and nods his head several times, and keeps working.)
+            American: Well, are you going to say “thank  you,”  Mr.  Sugimoto,  or  just
+                    remain silent?
+            Japanese: Excuse me, Mr. Jones … May I take leave for five minutes?
+            American: Sure. (He is annoyed and watched Sugimoto exit). I  can’t  believe
+                    how rude some Japanese workers are. They seem to  be  disturbed  by
+                    praise and don’t answer you … just silent.
+          `]
+        },
+        {
+          title: "Questions",
+          blocks: [`
+            Questions:
+                   Why was the conversation between Mr. Jones and Mr.  Sugimoto  not  so
+               pleasant?
+                   Why did they  have  such  different  reactions  towards  praising  in
+               public workplaces?
+                   If you were Mr. Sugimoto, would you accept praise from Mr.  Jones  in
+               public workplaces?
+                   If were Mr. Jones,  how  would  you  deal  with  the  situation  more
+               appropriately?
+            分析
+          `]
+        },
+        {
+          title: "矛盾冲突",
+          blocks: [`
+            矛盾冲突
+            从对话中可以看出，琼斯先生认为在其他工人面前表扬苏奇木拓先生是对他工作的肯定
+            ．也是对他个人的认可，苏奇木拓先生应该高兴地接受，不必遮遮掩掩不好意思，更不
+            应该一句话不说就走了。但琼斯先生只是从美国强调个人的概念出发，却不熟悉日本人
+            是如何看待个人和集体的关系，不知道如何向日本同事表示欣赏和赞扬．结果适得其反
+            。琼斯先生和苏奇木拓交流失败的原因主要在于都对双方的文化了解不深，特别是双方
+            对个人与集体关系的看法不同。
+          `]
+        },
+        {
+          title: "原因分析",
+          blocks: [`
+            原因分析
+            在霍夫斯特的“个体取向与集体取向”53个国家和地区的列表中美国排在第一位．而日本
+            排在22位，这意味着美国是非常强调个人主义的国家，而日本更注重的是集体。在美国
+            鼓励个人创断，提倡竞争。个人会因业绩优异而受到上司表扬，这是一种典型的美国式
+            做法。特别是如果在同事面前受到表扬，个人会觉得很自豪，因为成绩得到了上级的认
+            可，同时也在同事中间表现了自己，实现了自我价值。在美国，受到表扬的人往往会说
+            “谢谢”以作回答。The United States is very stressed individualism country,
+            and Japan are more focused on their collective. In the United States
+            encourages individual creative, advocating competition. Individual will and
+            excellent performance by boss for praise, this is a kind of typical
+            American practices. Especially if in front of my colleagues have been
+            praised, people will feel very proud, because the results obtained superior
+            approbate, and also in among colleagues showed, realize the ego value. In
+            the United States, who praised will often say "thank you" to answer
+            ".所以案例中的琼斯先生认为苏奇木拓先生也应该以这样的方式接受表扬。出乎他意抖
+            的是，那位受到表扬的日本工人对他的表扬感到不安，没把表扬当回事：美国经理接着
+            用更肯定的语气维续表扬他，如用英语中的最高级形容词“最优秀的”、“最杰出”、‘最勤
+            奋”等等。使他更吃惊的是：他的这番赞扬之词使那位日本工人更1
+            危脸，脸一下红了起来，只是理头干活．不再言语，仅仅点了两下头。对于这样的回答
+            或拒绝表扬．美国经理实在是无法理解，也无法忍受这种沉默不语，于是直截了当地向
+            他发问道：“你打算说声谢谢呢，还是要选择继续保待沉默呢？”责备他表现“没礼貌”。
+          `, `
+            The manager was unable to understand, also can't stand for the silent, then
+            to straight out he hair asked: "are you going to say? Thank you, or to
+            choose to continue the stay silent?" Blame him to show
+            "rude".他所不知的是，日本是典型的集体主义国度，在日本个人要忠实于集体，集体内
+            部的成员要团结一致不倾向于突出个人业绩．而是强调集体协作。所以当苏奇木拓先生
+            在同事面前受到表扬时，非常地局促不安．只是低头干自己的事情，甚至要求要离开五
+            分钟，没有正面给琼斯先生任何答复．因为他觉得这样把他和所属的集体分离开了．使
+            他在同事面前失去了面子。另一方面．美国经理由于对日本文化特点的无知，公开表扬
+            不仅把那位日本工人弄得无言以答，而且会失去在其他日本工人对他的尊敬。Japan
+            is typical of collective socialist country, in Japanese individual should
+            be faithful to the collective, the members of the collective to internal
+            unity don't tend to outstanding individual performance. But emphasize the
+            collective cooperation. So when SuJiMu Mr Extension in front of my
+            colleagues when praised very ill at ease. Just do their own things down,
+            even want to leave five minutes, no positive for Mr Jones any reply.
+            Because he felt that he and the subordinate to the collective isolates. To
+            his in front of my colleagues lost face. On the other hand. The manager
+            because of Japanese culture characteristics of ignorance, public praise not
+            only the Japanese workers make could answer, and will lose in the other
+            Japanese workers to his respect.
+          `, `
+            从对话中也可以看出苏奇木拓先生不接受当众表扬，却只是保持沉默，甚至要走开，没
+            有把他的不满当众表达出来。这样的行为使得琼斯先生认为日本员工不礼貌。这一交际
+            失致和日美两国交流方式不同有很大关系。根据霍尔（Hail
+            ）的“高语境”和”低语境”理论，日本是典型的高语境国家，交流方式含蓄委婉，不会轻
+            易在众人面前表达不满，会更多的依赖于非言语交流．"High context" and "low
+            context" theory, Japan is typical high context countries, communication
+            implicative tactful, not easily in the presence of all express discontent,
+            will be more dependent on non-verbal
+            communication.如苏奇木拓先生不作回答保持沉庆，只是干自己的工作，以此表示对当
+            众表扬的不满。而美国属于”低语境”国家，习惯直接的语言交流方式，. And the
+            United States belongs to "low context" countries, used to direct language
+            communication当苏奇木拓先生显得不安时，球斯先生却说“你打算说谢谢呢，还是要选
+            择沉默？”。当苏奇木拓先生要求离开时，琼斯先生就认为没有任何回答就离开是不礼貌
+            的。
+          `]
+        },
+        {
+          title: "文化沟通",
+          blocks: [`
+            文化沟通
+            双方应该对彼此的文化有所了解，应该清楚两种文化对个人的不同看法和不同的交流方
+            式．不要总是从自己的出发点看问题。琼斯先生应该知道最好不要当众表扬某个日本人
+            ，而是应该私下单独表扬，或者会开表扬某个集体或团队；要清楚日本人的交流方式比
+            较委婉间接，为了集体的和谐他们通常不会在公开场合表示不满。而苏奇木拓先生也应
+            该了解美国时个人的重视，公开表扬个人是对他能力的认可；美国人更喜欢直接的语言
+            交流，有什么想法要说出来，而不是要保持沉默或是回避
+          `, `
+            Both sides should understand the culture for each  other,  should  be  clear
+            that two kinds of culture on personal different views and different  way  of
+            communication. Don't always look at problems from their starting  point.  Mr
+            Jones should know better not praise in public a Japanese, but should  praise
+            alone, or will open praise a collective or team; Want to be clear about  the
+            Japanese way of communication more tactful indirectly,  to  the  harmony  of
+            collective  they  usually  don't  publicly  expressed  dissatisfaction.  And
+            SuJiMu Mr Should know  the  extension  of  the  individual  attention  when,
+            public praise for his personal ability is  the  approval;  Americans  prefer
+            direct language exchange, have what idea to say, but not  to  remain  silent
+            or avoid
+          `]
+        }
+      ]
+    },
+    "case-british-manager-thailand": {
+      note: "按《跨文化交际案例分析(1).doc》原文分块排版，保留英文 Case description、Questions 以及文件中的中英文分析内容。",
+      sections: [
+        {
+          title: "原始标题与导入",
+          blocks: [`
+            Case 3  A British General Manager in Thailand 英国总经理在泰国
+            一位英国总经理来到泰国上任，到任之初，没想到使用什么样的车上班这个小问题给他
+            带来了不小的烦恼…….
+          `]
+        },
+        {
+          title: "Case description",
+          blocks: [`
+            Case description:
+               A British general manager upon arrival in Thailand refused to take his
+            predecessor’s car. The Thai finance manager asked the new GM what type of
+            Mercedes he would like, then, The GM asked for a Suzuki or a Mini, anything
+            that could be handled easily in the congested traffic in Bangkok.
+               Three weeks later the GM called the finance manger and asked about
+            prospects for the delivery of his car. The Thai lost his reserve for a
+            moment and exclaimed: “we can get you a new Mercedes by tomorrow, but
+            Suzuki take much, much longer.” The GM asked him to see what he could do to
+            speed up the process. After four weeks the GM asked to see the purchase
+            order for the car. The purchasing department replied that, because it would
+            take so long to get a small car, they had decided to order a Mercedes.
+               The GM’s patience had run out. At the first management meeting he
+            brought the issue up and asked for an explanation. Somewhat shyly, the
+            predominantly Thai management team explained that they could hardly come to
+            work on bicycle.
+          `]
+        },
+        {
+          title: "Questions",
+          blocks: [`
+            Questions:
+                   Why did the GM have difficulties in getting a Suzuki or Mini?
+                   Why did the management team say they could hardly come to work on
+               bicycle?
+          `]
+        },
+        {
+          title: "原因分析",
+          blocks: [`
+            原因分析
+            泰国是等级观念很强的国家．泰国传统文化价值观的核心，如家长制、权威索拜，等级
+            观念等是人们日常行为所公认的准则，甚至是一种“生活方式”人们认为社会等级制度时
+            人有好处．所以不会向社会等级制度挑战。泰国的社会生活强调等级观念，依赖于等级
+            关系。而在公司等社会机构中，强调正式的组织结构，各个等级保持一定的稳定性。Th
+            ailand is hierarchy strong country. Thailand traditional cultural values of
+            the core, such as the patriarchal system, and the authority and worship,
+            level is the concept of the people daily behavior of accepted standards, or
+            even a "lifestyle" people think social hierarchy system people have good.
+            So will not give in to the social hierarchy challenge. Thailand's emphasis
+            on social life hierarchy, rely on hierarchy relationship. And in the
+            company and other social organizations, emphasizes formal organization
+            structure, each level maintain certain
+            stability.因此，在本案例中，最后泰国职员的解释是，如果总经理的用车降低水准，
+            公司所有职员的用车要整体降级，The general manager of the lower level fruit
+            transport, the company all staff transport to the whole
+            downgraded,最终有些职员必须要骑自行车上班，而这是他们不愿也无法做到的。在英国
+            文化的价位观中，权力之间的距离很小．具体工作之外，人们之间是平等的，公司中的
+            领导者用车是为了工作，为了提高的业绩，因此英国经理看来．交通工具的选用是为了
+            提高工作效率．每个人都有选择的自由，自己选用什么样的车与公司其他人无关。In
+            British culture on the price, the distance between the power is small. The
+            specific work outside, between people is equal, the leader is in order to
+            transport the work, in order to improve the performance, so Britain the
+            manager looked. Traffic tools in order to improve the work efficiency is
+            choose. Everyone has the freedom of choice, oneself choose what kind of car
+            company has nothing to do with others.
+          `]
+        },
+        {
+          title: "文化沟通",
+          blocks: [`
+            文化沟通
+            本案例中，如果英国经理坚持一意孤行，很容易引起泰国员工的集体反感，会有被架空
+            的危险。在跨国组织中，遇到这种情况应从实际环境，即地理环境及当地文化习俗，占
+            主导成员的文化背境出发，考虑大多数人的习惯和意见，做出不影响团队成员工作积极
+            性和工作业绩的决策
+          `]
+        }
+      ]
+    },
+    "case-smile-apology": {
+      note: "按《跨文化交际案例分析(1).doc》原文分块排版，保留英文 Case description、Questions 以及文件中的中英文分析内容。",
+      sections: [
+        {
+          title: "原始标题与导入",
+          blocks: [`
+            case 4
+            怎样理解微笑？
+               微笑是友好的表示，理应得到友好的回应。但是，向别人道歉时微笑是否显得适当？
+            不同国家的人有不同的理解。处理不当，很可能带来意想不到的结果……
+          `]
+        },
+        {
+          title: "Case description",
+          blocks: [`
+            Case description:
+              Peter is the general manager of an American company  in  China.  Recently,
+            Jun Chen, one of the Chinese managers made a mistake  at  work  that  caused
+            some difficulties that required a lot of effort to fix. Jun  Chen  was  very
+            upset about what had happened, and came to Peter’s office to make  a  formal
+            apology. Jun Chen went into Peter’s office  after  being  told  to,  smiling
+            before he spoke. “Peter, I’ve been feeling  very  upset  about  the  trouble
+            I’ve caused for the company. I’m here  to  apologize  for  my  mistake.  I’m
+            terribly sorry about it and I want you to know that  it  will  never  happen
+            again.” Jun Chen said, looking at Peter with the smile he had  been  wearing
+            since he walked into the office. Peter found it hard to accept the  apology.
+            He looked at Jun Chen, and asked, “are you sure?”
+              “Yes, I’m very sorry and I promise this  won’t  happen  again,”  Jun  Chen
+            said, with a smile even broader than before.
+              “I’m sorry I just can’t take your apology. You don’t look sorry  at  all!”
+            Peter said angrily.
+              Jun Chen’s face turned very red. He did not in the least expect  Peter  to
+            take it negatively. He was desperate to make  himself  understood.  “Peter,”
+            he managed to smile again, “trust me, no one can feel any more sorry than  I
+            do about it.”
+              Peter was almost furious by now, “If you’re that sorry, how can you  still
+            smile?”
+          `]
+        },
+        {
+          title: "Questions",
+          blocks: [`
+            Questions for discussion”
+                  Why did Jun Chen wear a smile when he made the apology?
+                  Do you think it is reasonable that Peter became so angry with Jun
+               Chen? Why?
+                  What are the different interpretations for a smile by the two in this
+               situation?
+          `]
+        },
+        {
+          title: "矛盾冲突",
+          blocks: [`
+            矛盾冲突
+            本案例所体现的矛盾非常明显，是由于胶体语言使用的文化差异而导致的误解。不同文
+            化对于微笑的理解是不同的。尤其是在道歉这种特殊的语境下。陈军向彼得道谦时，尽
+            力微笑着说话以显示礼貌和诚意，而对于彼得来说，这种情况下微笑是不尊重的表砚，
+            也是缺乏诚意的表现。This case that embodies the very obvious  contradiction,
+            is because the colloid use of language  cultural  differences  and  lead  to
+            misunderstandings.  Different  culture  for  smile   of   understanding   is
+            different. Especially in the context of this special and  apologize.  Howell
+            way to Peter Williams, trying  to  smile  to  speak  to  show  courtesy  and
+            sincerity, and for Peter speaking,  this  situation  is  not  respect  watch
+            smile yanping, also is the lack of sincerity of the performance.
+          `]
+        },
+        {
+          title: "原因分析",
+          blocks: [`
+            原因分析
+            当陈军表达完自己的歉意时，脸上的笑容使彼得怀提他是否真心感到抱歉，以至于看着
+            他追问了一句：”你确定吗？”。此时陈军并未意识到他们之间的交流已经由于自己错误
+            使用胶体语言而产生了问题，笑容更加明显地答到自己确实感到很抱歉并保证不会再犯
+            同样的错误。彼得非常气愤的表示不能接受他的道歇，这是令陈军万万没有想到的．彼
+            得的反应也让他颇为不解，只能急忙为自己辩解．但仍不忘保持脸上的微笑，可想而知
+            ．陈军的行为非但不能消除误解．取得彼得的访解，反而进一步火上浇油，激怒了彼得
+            。
+            在跨文化交流中，对肢体语言使用和理解的差异往往会导致许多问翅。肢体语言包括手
+            势，身势．服饰．音调高低，微笑，沉默，副语言，对时间的不同观念及空间的使用等
+            。笑容一般传达的是愉悦和友好的感情，可以表示欢迎、原谅、赞同、没有敌意等等。
+            在此案例中，对于中国人陈军来说，微笑不仅仅只是快乐和友好的表示，也传递道歉与
+            谅解的信息。同时由于中国人习惯用面部来遮掩感情，陈军也有借微笑掩饰自己的不安
+            和歉疚的习惯。而对于美国人，这种做法并不能被接受。微笑削弱了道歉的诚意．美国
+            人强调真实直接的表达情感，内心感情与外在表砚的统一。所以他们认为当一个人内心
+            感到愧疚而致歉时，是不可能面带笑容的．否则只能说明道歉的真诚性值得怀疑。In
+            cross-cultural communication, of body language use and understand the
+            differences often led to many asked wings. Body language including
+            gestures, body movements. Dress. Tone height, smiling, silent, vice
+            language, about the time of conception and the use of space, etc. General
+            communicate is cheerful smile and friendly affection, can say welcome,
+            forgive, agree with, no hostile, and so on. In this case, to the Chinese
+            for howell, smile not just happy and friendly, and said the information
+            transfer apologize and understanding. At the same time because the Chinese
+            used to face to cover feelings, howell also have borrow smile hide his
+            agitation and the habit of guilt. For an American, this kind of practice
+            and cannot be accepted. Smile weaken the apology of sincerity. American
+            emphasis on real direct express feelings, emotions and external table
+            inkstone unity. So they think that when a person feel guilty when excuse,
+            is impossible to smiling. Otherwise can explain the sincere apology sexual
+            suspect.
+            There's an old Chinese saying "stretched out his hand and not dozen smiling
+            face,
+          `]
+        },
+        {
+          title: "文化沟通",
+          blocks: [`
+            文化沟通
+            要避免跨文化交际中产生由胶体语言使用不当而造成交流上的障碍和误解，解决本案例
+            中出现的类似问题，必须提前了解对方国家的文化，了解同样的肢体语言在对方国家中
+            是否有着同样的意义．尤其是对方文化中涉及礼节礼仪的方面有何禁忌和特别之处。切
+            不能想当然的套用自己文化中肢体语言的含义，否则就可能出现本案例中得尴尬情况。
+          `]
+        }
+      ]
+    },
+    "case-indirect-answer": {
+      note: "按《跨文化交际案例分析(1).doc》原文分块排版，保留英文 Case description、Questions 以及文件中的中英文分析内容。",
+      sections: [
+        {
+          title: "原始标题与导入",
+          blocks: [`
+            Case 5 Why Was His Answer Not Related to the Question?
+            为何他答非所问？
+               飞利浦照明公司的一位美国经理和一位颇具发展潜力的中国员工谈话，但这位中国员
+            工总是答非所问，美国经理甚是疑惑……
+          `]
+        },
+        {
+          title: "Case description",
+          blocks: [`
+            Case description:
+              An American manager  of  human  resource  in  Philips  lightening  company
+            talked with a Chinese employee with great potential.  The  American  manager
+            wanted to know the development design and the position  the  employee  wants
+            to get in the company. But the Chinese employee did not answer the  question
+            directly; instead he only  talked  about  the  company’s  future  direction,
+            promotion system and his current position. He talked for a  long  time,  but
+            did not give a definite and direct  answer.  The  manager  was  puzzled  and
+            annoyed, because the same situation has occurred several times,  Later,  the
+            manager complained to another human  resource  manager,  Mr.  Jia,  “I  only
+            wanted to know the employee’s working plan in  the  next  5  years  and  the
+            position he wants to get in the company,  but  why  I  cannot  get  a  clear
+            answer?”. The Chinese  employee  also  complained  to  Mr.  Jia.,  “Why  are
+            Americans so aggressive?” As the human resource manager in  a  multinational
+            company, Mr. Jia knows that  a  different  manner  in  communication  brings
+            about misunderstandings. So he did best to explain to the two sides, but  it
+            is not easy to reduce the obstacle between them.
+          `]
+        },
+        {
+          title: "Question for discussion",
+          blocks: [`
+            Question for discussion:
+                  Why did the Chinese employee not give a clear and definite answer?
+          `]
+        },
+        {
+          title: "原文答题段落",
+          blocks: [`
+            按照中国人的传统心理，这样的回答违反了中国人一向谦逊的心理习惯，太直接反而暴
+            露出自己很有野心并高傲自大的缺陷，而谦虚可以给自己留有后路。尽管这位中国员工
+            可能心里对未来有着宏伟的蓝图．但是他所处的文化背景主张克制情绪和情感。因此他
+            在回答美国上司的问题时，没有直接说出自己的想法，而是谈了很多与公司未来发展有
+            关的事，在他看来自己的做法是完全符合社会规范的，是谦虚的表现。According   to
+            the traditional psychology of the  Chinese,  such  an  answer  violates  the
+            Chinese people's habit of being humble. Being too  direct  will  reveal  the
+            flaws of being very ambitious and arrogant, and being  humble  can  leave  a
+            way out for  oneself.  Although  the  Chinese  employee  may  have  a  grand
+            blueprint for the future. But his cultural  background  advocates  restraint
+            of emotions and emotions. Therefore, when he answered the  question  of  the
+            American boss, he did not directly express his thoughts. Instead, he  talked
+            about a lot of things related to the future development of the  company.  In
+            his opinion, his approach is completely in line with social norms and  is  a
+            manifestation of humility.
+          `, `
+                  What stereotype did the Chinese employee from towards American?
+            Chinese employees think Americans are too direct, outspoken and aggressive.
+                  How can Mr. Jia effectively solve the awkward situation?
+          `]
+        },
+        {
+          title: "矛盾冲突",
+          blocks: [`
+            矛盾冲突
+
+            这是一个体现东西方人际交流方式差异的案例。在这个案例中，文化冲突体现在：来自
+            美国的人力资源经理看好一个中国雇员，因此和该雇员谈话，想知道他对自己的职业发
+            展规划以及期望得到什么职位。而令他不解和恼怒的是，该雇员避而不谈该回答的问题
+            却大谈公司的未来发展、晋升和他目前的职位。结果是两人都在背后互相抱怨，美国人
+            认为中国雇员太虚伪，而中国雇员也认为美国人太直接、坦率、咄咄通人。Americans
+            believe that Chinese employees too hypocritical, and Chinese employees  also
+            think Americans too direct, frankly, our very aggressive.
+          `]
+        },
+        {
+          title: "原因分析",
+          blocks: [`
+            原因分析
+            该案例中的一方是美国人，而那位员工是中国人。产生这样糟糕结果的一个主要原因是
+            中美两国在人际交流方式上，具体来说是在回答问题的方式上，存在巨大差异，而当事
+            双方却并没意识到这一点。这种文化差异体现在中国文化注重维护群体和谐的人际交流
+            环境，而美国丈化则注重创造一个强调坚持个性的人际交流环境。
+            如果这位中国员工从正面直接回答了人力资源经理的问题。比如．中国员工回答：”…
+            …
+            想在五年之内做到营销部经理的职位。”按照中国人的传统心理，这样的回答违反了中国
+            人一向谦应、委婉的心理习惯，太直接反而暴露出自己很有野心并高傲自大的缺陷，而
+            谦虚可以给自己留有后路，万一做不到那个理想的位子，也不至于丢面子．被人笑话。
+            尽于这位中国员工可能心里对未来有着宏伟的蓝图．但是他所处的文化背景主张克制情
+            绪和情感。因此他在回答美国上司的问题时，没有直接说出自己的想法．而是谈了很多
+            与公司未来发展有关的事，在他看来自己的做法是完全符合社会规范的，是谦虚的表砚
+            ，并且认为将自己的未来与公司的未来紧密相连有利于保持组织的和谐。这在中国人看
+            来是再正常不过的了，直截了当地说出自己的薪水目标或是职位目标反而会被认为是具
+            有野心的表砚。此外，中国人评价一个人，往往是清他究竟做了什么，而不是看他说了
+            什么。The case of the party is American, and the staff is Chinese. Have
+            this bad results of one of the main reasons is that China and the United
+            States on the way in interpersonal communications, specifically is the way
+            to answer questions, there are large differences, and both parties but
+            didn't realize this. These cultural differences reflected in Chinese
+            culture pays attention to maintenance group harmonious interpersonal
+            communication environment, and the United States the cultural focuses on
+            creating a it puts emphasis on the individual character of interpersonal
+            communication environment.
+          `, `
+            If the Chinese employees directly from the  front  of  the  human  resources
+            manager answered  the  question.  For  example.  Chinese  employees  answer:
+            "...... think in five years do the Marketing Department  manager  position."
+            According to Chinese traditional psychological,  such  answer  violation  of
+            the Chinese people have always modest, the psychological  habits  should  be
+            euphemism, too  direct  exposed  himself  instead  was  very  ambitious  and
+            arrogance of the defect,  and  modest  can  give  his  left  posterior,  one
+            thousand can't do the ideal seat, will not lose face. Be laughed at. Try  to
+            the Chinese employees may be the in the mind  to  the  future  has  a  grand
+            blueprint. But he is part of  the  culture  background  advocates  restraint
+            moods and emotions. So he answered  in  the  boss's  problem,  not  directly
+            speak his mind. But talked a lot  about  the  company's  future  development
+            and, in his view it is fully comply with the social norms, is  modest  table
+            ink stones, and that will be their future and the future of the  company  is
+            closely connected to  keep  organizational  harmony.  This  in  the  Chinese
+            people is normal but again, straight from the shoulder  to  say  his  salary
+            objects or position goal but will is considered to be a ambitions watch  ink
+            stones. In addition, the Chinese evaluation a person,  often  is  the  clear
+            what    was    he    doing,    exactly,    and     not     at     what     he
+            said.不论他把自己的理想、抱负描绘得何等宏伟；也不论他把自己的能力，素质说得如
+            何天花乱坠．如果最后他做不到，这一切都只能成为别人的笑柄；美国人一向很直接明
+            了，这也是他们一贯的思维方式。Americans have always very direct  and  clear,
+            this           is           their           usual           way           of
+            thinking.从美籍经理询问这位员工时于自己未来五年发展的打算，即想要在飞利浦做到
+            什么样的职位可以看出，美国人注重个人在企业的发展状况。通过个人才华的施展和势
+            力来取得企业的辉辉煌和达到理想目标。这也许与美国一贯提倡的个人主义有着莫大关
+            系。他们重独立、多坦率，等级和身份观念淡薄，认为追求个人的利益是天经地义、无
+            可厚非的，他们对中国式的重礼仪、身份和多委婉，却视为假装和缺乏真诚。美国文化
+            提倡大胆直接表露自己想法。Americans  pay  attention  to  individual  in  the
+            development of the enterprise. Through the  individual  talent  and  to  get
+            their power of the enterprise is splendid and to achieve  the  ideal  target
+            Fraser. This may and American advocates  for  the  individualism  has  great
+            relationship. They heavy independent, outspoken, level and identity  concept
+            light, argued that  the  pursuit  of  the  interest  of  the  individual  is
+            perfectly justified,  understandable,  their  Chinese  heavy  to  etiquette,
+            identity and more tactful,  but  as  pretend  and  lack  of  sincerity.  The
+            American    culture    advocate    direct     to     reveal     his     bold
+            ideas.在该案例中，美国的人力资源经理认为直截了当地说出自己的期望和要求并无不
+            妥．反而是真诚和自信的表现，有利于中国员工实现人生的成功。相反，中国人习惯委
+            婉的表达方式，直接说出自己的要求会显得不礼貌和唐突，他对于美国人的直白也很是
+            不满。In this case, the human resources manager in the  United  States  felt
+            that it was  okay  to  state  his  expectations  and  requirements  bluntly.
+            Instead, it is the performance of sincerity and  self-confidence,  which  is
+            conducive to the success of Chinese employees  in  life.  On  the  contrary,
+            Chinese people are accustomed to  implicit  expressions,  and  it  would  be
+            impolite and  abrupt  to  say  their  demands  directly.  He  is  also  very
+            dissatisfied with the straightforwardness of Americans.
+          `]
+        },
+        {
+          title: "文化沟通",
+          blocks: [`
+            文化沟通
+            由于谈话的不愉快使得美国经理和中国雇员都对彼此颇有微词，虽然美国经理的本意是
+            想通过谈话了解这位中国雇员对于自己事业发展的规划，今后适时可能提拔他。值得一
+            提的是，案例中的另一名人力资源主管贾先生已意识到两人相互误解的原因，并试图向
+            两人解释，但是收效甚微，问题的关键是在于这两位当事人。但是如果有一个了解双方
+            文化的中间人适当做出解释．应当是可以化解甚至是化解文化冲突的。The key to
+            the problem is the two parties. But if there is a culture of appropriate to
+            the middlemen to explain. Shall be eased even resolve cultural conflict.
+            既然身处于一个国际化的大公司里，必然会面对有若不同文化背景的员工，如果想当然
+            地认为所有人都与自己有若相同的价值观念和社会准则，那肯定是大错特错。因此首先
+            必须培养文化教感性，意识到文化的差异性．这对于美国人和中国人都同样重要：
+            只有了解了不同文化的基本状况，人们才能在与有着不同文化背景的人交往时保持宽容
+            ，而不是一概否定、批评。本案例中的中美双方当事人由于对对方的文化缺乏必要了解
+            ，因此在发生冲突时就缺乏宽容和耐心。
+          `, `
+            "You have to understand the basic situation of different cultures, people
+            can have different cultural background and those whom they be tolerant, not
+            deny, criticism. In this case the both parties because of the lack of
+            necessary to know each other's culture, so in conflict is lack of tolerance
+            and patience.
+          `]
+        },
+        {
+          title: "方案",
+          blocks: [`
+            方案
+            The proper solution. First,  the  enterprise  staff  can  accept  the  local
+            culture  in  host  countries  the  baptism  and   related   all   kinds   of
+            intercultural communication training. Or the host country  company  directly
+            for foreign staff wake a period of time  training;  Second,  the  enterprise
+            should strive to build their own  culture,  calendar  year,  to  make  every
+            staff fusion to enterprise culture inside.  Because,  usually  the  kind  of
+            culture has a strong inclusiveness and fusion  power.  From  the  cases  can
+            see, American vice President  and  Chinese  employees  in  the  enterprise's
+            culture can't find consensus;
+            适当的解决方案。一是企业员工可以在东道国接受当地文化的洗礼和相关的各类跨文化
+            交际培训。或东道国公司直接为外籍员工唤醒一段时间的培训；其次，企业要努力建设
+            自己的文化，历年，让每一位员工都融入到企业文化里面。因为，通常那种文化具有很
+            强的包容性和融合力。从案例可以看出，美国副总裁和中国员工在企业文化上找不到共
+            识；
+            第三，作为经理，应该以宽容的态度来处理文化冲突，慢慢地和员工沟通，而不是“不耐
+            烦”或抱怨；Third, as a manager, you  should  deal  with  cultural  conflicts
+            with a tolerant attitude and communicate with employees slowly, rather  than
+            "impatient" or complaining.
+            四是通过第三方的调整和解释，弄清楚问题所在，解开副总裁与中国员工之间的疑惑和
+            矛盾。Fourth,  through  the  third  party  of   the   adjustment   and   the
+            explanation, make clear the problem, Solve  the  doubts  and  contradictions
+            between vice presidents and Chinese employees.
+          `]
+        }
+      ]
+    }
+  };
+
+  const caseDescriptionSources = {
+    "case-age-status": {
+      title: "Case Study 1 Age and Status",
+      intro: "两位同事的矛盾使一家数据处理公司的总经理遇到了麻烦。一方是一位踌躇满志的法裔加拿大小伙子，另一方是一位有特许签证的年长中国女性；此前两人确实是很好的合作伙伴。",
+      paragraphs: [
+        "A manager in a data-processing company was having difficulty dealing with a conflict between a young, ambitious French Canadian male and his co-worker, an older Chinese woman who was on a special visa from China. She had recently become uncooperative and had made it clear to the manager that she would not be willing to travel to the capital with her co-worker to hold discussion with legislators about a new product with great enthusiasm.",
+        "When the manager asked her what the problem was, he received no clear explanation. When he asked her co-worker, the young man had no insights to offer. The young French Canadian was clearly annoyed, however, that the Chinese woman was refusing to share her data with him. That meant he couldn’t make the presentation to the legislators because she had all the key data on her computer disks.",
+        "The manager repeated questions to her but her “problem” got nowhere. So he changed his approach. He began explaining his concerns, as manger and as spokesperson for the company, about the upcoming meeting with legislators. His explanation about his position was unemotional. In that climate she then felt she could explain her position. She revealed she felt that that as an older, and to her mind, more senior person, she should not be sent to the capitol with a younger employee who would do the presentation of material she had worked hard to develop. That would diminish her status, she felt. The general manger knew the root of his headache."
+      ]
+    },
+    "case-public-praise-japan": {
+      title: "Case Study 2 Praising Japanese in Public Workplaces",
+      intro: "美国经理 Jones 当众表扬日本员工 Sugimoto，本以为对方会高兴接受，却引发尴尬和误解。",
+      paragraphs: [
+        "American: Mr. Sugimoto, I have noticed that you are doing an excellent job on the assembly line. I hope that the other workers notice how it should be done.",
+        "Japanese: (He is uneasy). Praise is not necessary. I am only doing my job. (He hopes other Japanese workers do not hear.)",
+        "American: You are the finesse, most excellent, dedicated worker we have ever had at the Jones Corporation.",
+        "Japanese: (He blushed and nods his head several times, and keeps working.)",
+        "American: Well, are you going to say “thank you,” Mr. Sugimoto, or just remain silent?",
+        "Japanese: Excuse me, Mr. Jones … May I take leave for five minutes?",
+        "American: Sure. (He is annoyed and watched Sugimoto exit). I can’t believe how rude some Japanese workers are. They seem to be disturbed by praise and don’t answer you … just silent."
+      ]
+    },
+    "case-british-manager-thailand": {
+      title: "Case 3 A British General Manager in Thailand",
+      intro: "一位英国总经理到泰国上任后，没想到上班用车这个小问题给他带来不小的烦恼。",
+      paragraphs: [
+        "A British general manager upon arrival in Thailand refused to take his predecessor’s car. The Thai finance manager asked the new GM what type of Mercedes he would like, then, The GM asked for a Suzuki or a Mini, anything that could be handled easily in the congested traffic in Bangkok.",
+        "Three weeks later the GM called the finance manger and asked about prospects for the delivery of his car. The Thai lost his reserve for a moment and exclaimed: “we can get you a new Mercedes by tomorrow, but Suzuki take much, much longer.” The GM asked him to see what he could do to speed up the process. After four weeks the GM asked to see the purchase order for the car. The purchasing department replied that, because it would take so long to get a small car, they had decided to order a Mercedes.",
+        "The GM’s patience had run out. At the first management meeting he brought the issue up and asked for an explanation. Somewhat shyly, the predominantly Thai management team explained that they could hardly come to work on bicycle."
+      ]
+    },
+    "case-smile-apology": {
+      title: "Case Study 4 Understanding a Smile",
+      intro: "微笑通常表示友好，但在道歉语境中，不同文化可能给出完全不同的解释。",
+      paragraphs: [
+        "Peter is the general manager of an American company in China. Recently, Jun Chen, one of the Chinese managers made a mistake at work that caused some difficulties that required a lot of effort to fix. Jun Chen was very upset about what had happened, and came to Peter’s office to make a formal apology. Jun Chen went into Peter’s office after being told to, smiling before he spoke. “Peter, I’ve been feeling very upset about the trouble I’ve caused for the company. I’m here to apologize for my mistake. I’m terribly sorry about it and I want you to know that it will never happen again.” Jun Chen said, looking at Peter with the smile he had been wearing since he walked into the office. Peter found it hard to accept the apology. He looked at Jun Chen, and asked, “are you sure?”",
+        "“Yes, I’m very sorry and I promise this won’t happen again,” Jun Chen said, with a smile even broader than before.",
+        "“I’m sorry I just can’t take your apology. You don’t look sorry at all!” Peter said angrily.",
+        "Jun Chen’s face turned very red. He did not in the least expect Peter to take it negatively. He was desperate to make himself understood. “Peter,” he managed to smile again, “trust me, no one can feel any more sorry than I do about it.”",
+        "Peter was almost furious by now, “If you’re that sorry, how can you still smile?”"
+      ]
+    },
+    "case-indirect-answer": {
+      title: "Case 5 Why Was His Answer Not Related to the Question?",
+      intro: "飞利浦照明公司的一位美国经理和一位颇具发展潜力的中国员工谈话，但这位中国员工总是答非所问，美国经理甚是疑惑。",
+      paragraphs: [
+        "An American manager of human resource in Philips lightening company talked with a Chinese employee with great potential. The American manager wanted to know the development design and the position the employee wants to get in the company. But the Chinese employee did not answer the question directly; instead he only talked about the company’s future direction, promotion system and his current position. He talked for a long time, but did not give a definite and direct answer. The manager was puzzled and annoyed, because the same situation has occurred several times, Later, the manager complained to another human resource manager, Mr. Jia, “I only wanted to know the employee’s working plan in the next 5 years and the position he wants to get in the company, but why I cannot get a clear answer?”. The Chinese employee also complained to Mr. Jia., “Why are Americans so aggressive?” As the human resource manager in a multinational company, Mr. Jia knows that a different manner in communication brings about misunderstandings. So he did best to explain to the two sides, but it is not easy to reduce the obstacle between them."
+      ]
+    }
+  };
+
+  function caseEntrySection(entry, titlePattern) {
+    return entry.sections.find((section) => titlePattern.test(section.title));
+  }
+
+  function caseEntryItems(entry, titlePattern) {
+    const section = caseEntrySection(entry, titlePattern);
+    return section ? section.items : [];
+  }
+
+  function structuredCaseSource(entry) {
+    const source = caseDescriptionSources[entry.slug];
+    return {
+      note: "备用结构化案例数据；当前页面优先使用《案例分析.md》。",
+      sourceLabel: "备用结构化案例数据",
+      sections: [
+        {
+          kind: "source",
+          title: "案例导入",
+          paragraphs: [`${source.title} / ${entry.subtitle || ""}`.replace(/\s+\/\s*$/, ""), source.intro]
+        },
+        {
+          kind: "source",
+          title: "Case description",
+          paragraphs: source.paragraphs
+        },
+        {
+          kind: "questions",
+          title: "Questions",
+          items: caseEntryItems(entry, /讨论问题/)
+        },
+        {
+          kind: "analysis",
+          title: "矛盾冲突",
+          items: caseEntryItems(entry, /矛盾冲突/)
+        },
+        {
+          kind: "analysis",
+          title: "原因分析",
+          items: caseEntryItems(entry, /原因分析/)
+        },
+        {
+          kind: "answer",
+          title: "回答与解决建议",
+          items: caseEntryItems(entry, /文化沟通|解决建议/)
+        },
+        {
+          kind: "answer",
+          title: "记忆提示",
+          items: [entry.memory]
+        }
+      ]
+    };
+  }
+
+  const caseStructuredSources = Object.fromEntries(
+    caseAnalysisEntries.map((entry) => [entry.slug, structuredCaseSource(entry)])
+  );
+
+  const caseAnalysisMarkdownSource = String.raw`# Case Study 1    Age and Status
+
+两位同事的矛盾使一家数据处理公司的总经理遇到了麻烦。一方是一位踌躇满志的法裔加拿大小伙子，另一方是一位有特许签证的年长的中国女性，而此前两人确实很好的合作伙伴
+
+## Case description:
+A manager in a data-processing company was having difficulty dealing with a conflict between a young, ambitious French Canadian male and his co-worker, an older Chinese woman who was on a special visa from China. She had recently become uncooperative and had made it clear to the manager that she would not be willing to travel to the capital with her co-worker to hold discussion with legislators about a new product with great enthusiasm.
+When the manager asked her what the problem was, he received no clear explanation. When he asked her co-worker, the young man had no insights to offer. The young French Canadian was clearly annoyed, however, that the Chinese woman was refusing to share her data with him. That meant he couldn’t make the presentation to the legislators because she had all the key data on her computer disks.
+The manager repeated questions to her but her “problem” got nowhere. So he changed his approach. He began explaining his concerns, as manger and as spokesperson for the company, about the upcoming meeting with legislators. His explanation about his position was unemotional. In that climate she then felt she could explain her position. She revealed she felt that that as an older, and to her mind, more senior person, she should not be sent to the capitol with a younger employee who would do the presentation of material she had worked hard to develop. That would diminish her status, she felt. The general manger knew the root of his headache.
+## Questions:
+1.What do you think caused the conflict?
+2.What would you do to resolve the conflict if you were the general manager?
+
+## 矛盾冲突
+这位年长的中国女士投入极大的热情和精力开发产品．却在最后的关键时刻拒绝与年轻的同事一同去向议员做推介：当经理和同事问其原因．她并未做任何明确的回答：而当经理改变策略，不再直接询问原因，而是迂回地讲起自己的困境时，她才道出自己的顾虑。在这位资深年长的中国女士看来，同一位比她年轻的同事一同去国会，并且由对方来做推介会影响到她的地位和威信，因此她无法同意：
+
+## 原因分析
+造成这一矛盾的文化因素有两方面．对地位、年龄的不同态度以及这种不同的表达方式。人对权力的认识因文化背景的不同而不同。根据霍夫斯特的调查研究，“低权力距离”国家的人强调个人的能力和信用，人与人之间权利和关系的平等，而．”高权力距离”国家，如中国、日本、纬国，强调地位、经验、年龄、资历等，人与人之间存在级别差距；因此在这位年轻的加拿大人看来，在工作上他与这位女士是平等的合作伙伴，并没有地位的差别，自己也有能力参与项目并做最后报告。而在这位中国女士看来，以自己的年龄、资历、以及工作中的付出，与一个年轻人一同去国会，并且由对方来做报告对她来说是一件丢面子的事：
+另外．双方表达方式的不同也导致了矛盾的加深。根据霍尔的理论，加拿大是“低语境”国家，中国属于“高语境”文化国家，因此，当她的加拿大同事没有充分考虑到她所处的位置．而是直接问她原因时，这位中国女士采用了婉转回进的策略，没有直接说出自己的想法。而当经理改变方法迂回地说到自己的难处时，在这种语境下她才说出自己的顾虑。
+Low power distance "country on individual ability and credit, the relationship between rights and equality, and." high power distance "countries, such as China, Japan, weft kingdom, emphasizing the status, experience, age, qualifications, existing gap between people level 。So in the young Canadian opinion, in the work he and the woman are equal partners, and the difference in no position, also has the ability to participate in project and do the last report. And in the Chinese women seem to, in their own age, qualifications, and work in pay, and a young man together to congress, and by each other to do the report for her is a lose face:
+Outside. Both sides expressing way different led to the deepening of contradictions. According to the theory of hall, Canada is "low context" countries; China belongs to "high context" culture countries,
+
+## 文化沟通
+当与不同文化背景、年龄、地位的人进行跨文化交流合作时，我们应当充分了解对方价值观中对这些个人因素的看法，决策前应采用合适的方式进行有效的协商，以便避免和化解因文化背景、价值观不同引起的矛盾。本案例中的经理在理解她的难处之后，可以在全公司内正式的公布这位女士的工作成果，给予高度的认可．同时在议会的报告中也应体现出其工作的重要意义，使之得，得到应有的重视。
+This case of manager in understanding her difficulty after can in all the company released within the formal the lady's work, to give high recognition. At the same time, in the parliamentary report should reflect its importance, make, and get the attention it deserves.
+ 
+# Case Study 2  Praising Japanese in Public Workplaces （在工作场所当众表扬日本人）
+琼斯先生（美国经理） 当众表扬苏琦木拓（日本员工）工作做得很棒，本以为苏琦木拓会高兴的接受，却不料…..
+## Case description:
+American: Mr. Sugimoto, I have noticed that you are doing an excellent job on the assembly line. I hope that the other workers notice how it should be done.
+Japanese: (He is uneasy). Praise is not necessary. I am only doing my job. (He hopes other Japanese workers do not hear.)
+American: You are the finesse, most excellent, dedicated worker we have ever had at the Jones Corporation.
+Japanese: (He blushed and nods his head several times, and keeps working.)
+American: Well, are you going to say “thank you,” Mr. Sugimoto, or just remain silent?
+Japanese: Excuse me, Mr. Jones … May I take leave for five minutes?
+American: Sure. (He is annoyed and watched Sugimoto exit). I can’t believe how rude some Japanese workers are. They seem to be disturbed by praise and don’t answer you … just silent.
+## Questions:
+       Why was the conversation between Mr. Jones and Mr. Sugimoto not so pleasant?
+       Why did they have such different reactions towards praising in public workplaces?
+       If you were Mr. Sugimoto, would you accept praise from Mr. Jones in public workplaces?
+       If were Mr. Jones, how would you deal with the situation more appropriately?
+
+
+## 矛盾冲突
+从对话中可以看出，琼斯先生认为在其他工人面前表扬苏奇木拓先生是对他工作的肯定．也是对他个人的认可，苏奇木拓先生应该高兴地接受，不必遮遮掩掩不好意思，更不应该一句话不说就走了。但琼斯先生只是从美国强调个人的概念出发，却不熟悉日本人是如何看待个人和集体的关系，不知道如何向日本同事表示欣赏和赞扬．结果适得其反。琼斯先生和苏奇木拓交流失败的原因主要在于都对双方的文化了解不深，特别是双方对个人与集体关系的看法不同。
+
+## 原因分析
+在霍夫斯特的“个体取向与集体取向”53个国家和地区的列表中美国排在第一位．而日本排在22位，这意味着美国是非常强调个人主义的国家，而日本更注重的是集体。在美国鼓励个人创断，提倡竞争。个人会因业绩优异而受到上司表扬，这是一种典型的美国式做法。特别是如果在同事面前受到表扬，个人会觉得很自豪，因为成绩得到了上级的认可，同时也在同事中间表现了自己，实现了自我价值。在美国，受到表扬的人往往会说“谢谢”以作回答。
+The United States is very stressed individualism country, and Japan are more focused on their collective. In the United States encourages individual creative, advocating competition. Individual will and excellent performance by boss for praise, this is a kind of typical American practices. Especially if in front of my colleagues have been praised, people will feel very proud, because the results obtained superior approbate, and also in among colleagues showed, realize the ego value. In the United States, who praised will often say "thank you" to answer ".
+所以案例中的琼斯先生认为苏奇木拓先生也应该以这样的方式接受表扬。出乎他意抖的是，那位受到表扬的日本工人对他的表扬感到不安，没把表扬当回事：美国经理接着用更肯定的语气维续表扬他，如用英语中的最高级形容词“最优秀的”、“最杰出”、‘最勤奋”等等。使他更吃惊的是：他的这番赞扬之词使那位日本工人更1 危脸，脸一下红了起来，只是理头干活．不再言语，仅仅点了两下头。对于这样的回答或拒绝表扬．美国经理实在是无法理解，也无法忍受这种沉默不语，于是直截了当地向他发问道：“你打算说声谢谢呢，还是要选择继续保待沉默呢？”责备他表现“没礼貌”。
+The manager was unable to understand, also can't stand for the silent, then to straight out he hair asked: "are you going to say? Thank you, or to choose to continue the stay silent?" Blame him to show "rude".
+他所不知的是，日本是典型的集体主义国度，在日本个人要忠实于集体，集体内部的成员要团结一致不倾向于突出个人业绩．而是强调集体协作。所以当苏奇木拓先生在同事面前受到表扬时，非常地局促不安．只是低头干自己的事情，甚至要求要离开五分钟，没有正面给琼斯先生任何答复．因为他觉得这样把他和所属的集体分离开了．使他在同事面前失去了面子。另一方面．美国经理由于对日本文化特点的无知，公开表扬不仅把那位日本工人弄得无言以答，而且会失去在其他日本工人对他的尊敬。
+Japan is typical of collective socialist country, in Japanese individual should be faithful to the collective, the members of the collective to internal unity don't tend to outstanding individual performance. But emphasize the collective cooperation. So when SuJiMu Mr Extension in front of my colleagues when praised very ill at ease. Just do their own things down, even want to leave five minutes, no positive for Mr Jones any reply. Because he felt that he and the subordinate to the collective isolates. To his in front of my colleagues lost face. On the other hand. The manager because of Japanese culture characteristics of ignorance, public praise not only the Japanese workers make could answer, and will lose in the other Japanese workers to his respect.
+从对话中也可以看出苏奇木拓先生不接受当众表扬，却只是保持沉默，甚至要走开，没有把他的不满当众表达出来。这样的行为使得琼斯先生认为日本员工不礼貌。这一交际失致和日美两国交流方式不同有很大关系。根据霍尔（Hail ）的“高语境”和”低语境”理论，日本是典型的高语境国家，交流方式含蓄委婉，不会轻易在众人面前表达不满，会更多的依赖于非言语交流．
+"High context" and "low context" theory, Japan is typical high context countries, communication implicative tactful, not easily in the presence of all express discontent, will be more dependent on non-verbal communication.
+如苏奇木拓先生不作回答保持沉庆，只是干自己的工作，以此表示对当众表扬的不满。而美国属于”低语境”国家，习惯直接的语言交流方式，. 
+And the United States belongs to "low context" countries, used to direct language communication
+当苏奇木拓先生显得不安时，球斯先生却说“你打算说谢谢呢，还是要选择沉默？”。当苏奇木拓先生要求离开时，琼斯先生就认为没有任何回答就离开是不礼貌的。
+## 文化沟通
+双方应该对彼此的文化有所了解，应该清楚两种文化对个人的不同看法和不同的交流方式．不要总是从自己的出发点看问题。琼斯先生应该知道最好不要当众表扬某个日本人，而是应该私下单独表扬，或者会开表扬某个集体或团队；要清楚日本人的交流方式比较委婉间接，为了集体的和谐他们通常不会在公开场合表示不满。而苏奇木拓先生也应该了解美国时个人的重视，公开表扬个人是对他能力的认可；美国人更喜欢直接的语言交流，有什么想法要说出来，而不是要保持沉默或是回避
+Both sides should understand the culture for each other, should be clear that two kinds of culture on personal different views and different way of communication. Don't always look at problems from their starting point. Mr Jones should know better not praise in public a Japanese, but should praise alone, or will open praise a collective or team; Want to be clear about the Japanese way of communication more tactful indirectly, to the harmony of collective they usually don't publicly expressed dissatisfaction. And SuJiMu Mr Should know the extension of the individual attention when, public praise for his personal ability is the approval; Americans prefer direct language exchange, have what idea to say, but not to remain silent or avoid
+ 
+# Case 3  A British General Manager in Thailand 英国总经理在泰国
+一位英国总经理来到泰国上任，到任之初，没想到使用什么样的车上班这个小问题给他带来了不小的烦恼…….
+## Case description:
+A British general manager upon arrival in Thailand refused to take his predecessor’s car. The Thai finance manager asked the new GM what type of Mercedes he would like, then, The GM asked for a Suzuki or a Mini, anything that could be handled easily in the congested traffic in Bangkok.
+Three weeks later the GM called the finance manger and asked about prospects for the delivery of his car. The Thai lost his reserve for a moment and exclaimed: “we can get you a new Mercedes by tomorrow, but Suzuki take much, much longer.” The GM asked him to see what he could do to speed up the process. After four weeks the GM asked to see the purchase order for the car. The purchasing department replied that, because it would take so long to get a small car, they had decided to order a Mercedes.
+The GM’s patience had run out. At the first management meeting he brought the issue up and asked for an explanation. Somewhat shyly, the predominantly Thai management team explained that they could hardly come to work on bicycle.
+## Questions:
+       Why did the GM have difficulties in getting a Suzuki or Mini?
+       Why did the management team say they could hardly come to work on bicycle?
+## 原因分析
+泰国是等级观念很强的国家．泰国传统文化价值观的核心，如家长制、权威索拜，等级观念等是人们日常行为所公认的准则，甚至是一种“生活方式”人们认为社会等级制度时人有好处．所以不会向社会等级制度挑战。泰国的社会生活强调等级观念，依赖于等级关系。而在公司等社会机构中，强调正式的组织结构，各个等级保持一定的稳定性。
+Thailand is hierarchy strong country. Thailand traditional cultural values of the core, such as the patriarchal system, and the authority and worship, level is the concept of the people daily behavior of accepted standards, or even a "lifestyle" people think social hierarchy system people have good. So will not give in to the social hierarchy challenge. Thailand's emphasis on social life hierarchy, rely on hierarchy relationship. And in the company and other social organizations, emphasizes formal organization structure, each level maintain certain stability.因此，在本案例中，最后泰国职员的解释是，如果总经理的用车降低水准，公司所有职员的用车要整体降级，The general manager of the lower level fruit transport, the company all staff transport to the whole downgraded,最终有些职员必须要骑自行车上班，而这是他们不愿也无法做到的。在英国文化的价位观中，权力之间的距离很小．具体工作之外，人们之间是平等的，公司中的领导者用车是为了工作，为了提高的业绩，因此英国经理看来．交通工具的选用是为了提高工作效率．每个人都有选择的自由，自己选用什么样的车与公司其他人无关。
+In British culture on the price, the distance between the power is small. The specific work outside, between people is equal, the leader is in order to transport the work, in order to improve the performance, so Britain the manager looked. Traffic tools in order to improve the work efficiency is choose. Everyone has the freedom of choice, oneself choose what kind of car company has nothing to do with others.
+## 文化沟通
+本案例中，如果英国经理坚持一意孤行，很容易引起泰国员工的集体反感，会有被架空的危险。在跨国组织中，遇到这种情况应从实际环境，即地理环境及当地文化习俗，占主导成员的文化背境出发，考虑大多数人的习惯和意见，做出不影响团队成员工作积极性和工作业绩的决策
+ 
+第  页
+ 
+# case 4 
+怎样理解微笑？
+微笑是友好的表示，理应得到友好的回应。但是，向别人道歉时微笑是否显得适当？不同国家的人有不同的理解。处理不当，很可能带来意想不到的结果……
+## Case description:
+  Peter is the general manager of an American company in China. Recently, Jun Chen, one of the Chinese managers made a mistake at work that caused some difficulties that required a lot of effort to fix. Jun Chen was very upset about what had happened, and came to Peter’s office to make a formal apology. Jun Chen went into Peter’s office after being told to, smiling before he spoke. “Peter, I’ve been feeling very upset about the trouble I’ve caused for the company. I’m here to apologize for my mistake. I’m terribly sorry about it and I want you to know that it will never happen again.” Jun Chen said, looking at Peter with the smile he had been wearing since he walked into the office. Peter found it hard to accept the apology. He looked at Jun Chen, and asked, “are you sure?”
+  “Yes, I’m very sorry and I promise this won’t happen again,” Jun Chen said, with a smile even broader than before.
+  “I’m sorry I just can’t take your apology. You don’t look sorry at all!” Peter said angrily.
+  Jun Chen’s face turned very red. He did not in the least expect Peter to take it negatively. He was desperate to make himself understood. “Peter,” he managed to smile again, “trust me, no one can feel any more sorry than I do about it.”
+  Peter was almost furious by now, “If you’re that sorry, how can you still smile?”
+## Questions for discussion”
+      Why did Jun Chen wear a smile when he made the apology?
+      Do you think it is reasonable that Peter became so angry with Jun Chen? Why?
+      What are the different interpretations for a smile by the two in this situation?
+## 矛盾冲突
+本案例所体现的矛盾非常明显，是由于胶体语言使用的文化差异而导致的误解。不同文化对于微笑的理解是不同的。尤其是在道歉这种特殊的语境下。陈军向彼得道谦时，尽力微笑着说话以显示礼貌和诚意，而对于彼得来说，这种情况下微笑是不尊重的表砚，也是缺乏诚意的表现。
+This case that embodies the very obvious contradiction, is because the colloid use of language cultural differences and lead to misunderstandings. Different culture for smile of understanding is different. Especially in the context of this special and apologize. Howell way to Peter Williams, trying to smile to speak to show courtesy and sincerity, and for Peter speaking, this situation is not respect watch smile yanping, also is the lack of sincerity of the performance.
+## 原因分析
+当陈军表达完自己的歉意时，脸上的笑容使彼得怀提他是否真心感到抱歉，以至于看着他追问了一句：”你确定吗？”。此时陈军并未意识到他们之间的交流已经由于自己错误使用胶体语言而产生了问题，笑容更加明显地答到自己确实感到很抱歉并保证不会再犯同样的错误。彼得非常气愤的表示不能接受他的道歇，这是令陈军万万没有想到的．彼得的反应也让他颇为不解，只能急忙为自己辩解．但仍不忘保持脸上的微笑，可想而知．陈军的行为非但不能消除误解．取得彼得的访解，反而进一步火上浇油，激怒了彼得。
+在跨文化交流中，对肢体语言使用和理解的差异往往会导致许多问翅。肢体语言包括手势，身势．服饰．音调高低，微笑，沉默，副语言，对时间的不同观念及空间的使用等。笑容一般传达的是愉悦和友好的感情，可以表示欢迎、原谅、赞同、没有敌意等等。在此案例中，对于中国人陈军来说，微笑不仅仅只是快乐和友好的表示，也传递道歉与谅解的信息。同时由于中国人习惯用面部来遮掩感情，陈军也有借微笑掩饰自己的不安和歉疚的习惯。而对于美国人，这种做法并不能被接受。微笑削弱了道歉的诚意．美国人强调真实直接的表达情感，内心感情与外在表砚的统一。所以他们认为当一个人内心感到愧疚而致歉时，是不可能面带笑容的．否则只能说明道歉的真诚性值得怀疑。
+In cross-cultural communication, of body language use and understand the differences often led to many asked wings. Body language including gestures, body movements. Dress. Tone height, smiling, silent, vice language, about the time of conception and the use of space, etc. General communicate is cheerful smile and friendly affection, can say welcome, forgive, agree with, no hostile, and so on. In this case, to the Chinese for howell, smile not just happy and friendly, and said the information transfer apologize and understanding. At the same time because the Chinese used to face to cover feelings, howell also have borrow smile hide his agitation and the habit of guilt. For an American, this kind of practice and cannot be accepted. Smile weaken the apology of sincerity. American emphasis on real direct express feelings, emotions and external table inkstone unity. So they think that when a person feel guilty when excuse, is impossible to smiling. Otherwise can explain the sincere apology sexual suspect.
+There's an old Chinese saying "stretched out his hand and not dozen smiling face,
+## 文化沟通
+要避免跨文化交际中产生由胶体语言使用不当而造成交流上的障碍和误解，解决本案例中出现的类似问题，必须提前了解对方国家的文化，了解同样的肢体语言在对方国家中是否有着同样的意义．尤其是对方文化中涉及礼节礼仪的方面有何禁忌和特别之处。切不能想当然的套用自己文化中肢体语言的含义，否则就可能出现本案例中得尴尬情况。
+ 
+# Case 5 Why Was His Answer Not Related to the Question?
+为何他答非所问？
+飞利浦照明公司的一位美国经理和一位颇具发展潜力的中国员工谈话，但这位中国员工总是答非所问，美国经理甚是疑惑……
+## Case description:
+  An American manager of human resource in Philips lightening company talked with a Chinese employee with great potential. The American manager wanted to know the development design and the position the employee wants to get in the company. But the Chinese employee did not answer the question directly; instead he only talked about the company’s future direction, promotion system and his current position. He talked for a long time, but did not give a definite and direct answer. The manager was puzzled and annoyed, because the same situation has occurred several times, Later, the manager complained to another human resource manager, Mr. Jia, “I only wanted to know the employee’s working plan in the next 5 years and the position he wants to get in the company, but why I cannot get a clear answer?”. The Chinese employee also complained to Mr. Jia., “Why are Americans so aggressive?” As the human resource manager in a multinational company, Mr. Jia knows that a different manner in communication brings about misunderstandings. So he did best to explain to the two sides, but it is not easy to reduce the obstacle between them.
+
+## Question for discussion:
+Why did the Chinese employee not give a clear and definite answer?
+
+按照中国人的传统心理，这样的回答违反了中国人一向谦逊的心理习惯，太直接反而暴露出自己很有野心并高傲自大的缺陷，而谦虚可以给自己留有后路。尽管这位中国员工可能心里对未来有着宏伟的蓝图．但是他所处的文化背景主张克制情绪和情感。因此他在回答美国上司的问题时，没有直接说出自己的想法，而是谈了很多与公司未来发展有关的事，在他看来自己的做法是完全符合社会规范的，是谦虚的表现。
+According to the traditional psychology of the Chinese, such an answer violates the Chinese people's habit of being humble. Being too direct will reveal the flaws of being very ambitious and arrogant, and being humble can leave a way out for oneself. Although the Chinese employee may have a grand blueprint for the future. But his cultural background advocates restraint of emotions and emotions. Therefore, when he answered the question of the American boss, he did not directly express his thoughts. Instead, he talked about a lot of things related to the future development of the company. In his opinion, his approach is completely in line with social norms and is a manifestation of humility.
+
+What stereotype did the Chinese employee from towards American?
+Chinese employees think Americans are too direct, outspoken and aggressive.
+
+How can Mr. Jia effectively solve the awkward situation?
+
+## 矛盾冲突
+这是一个体现东西方人际交流方式差异的案例。在这个案例中，文化冲突体现在：来自美国的人力资源经理看好一个中国雇员，因此和该雇员谈话，想知道他对自己的职业发展规划以及期望得到什么职位。而令他不解和恼怒的是，该雇员避而不谈该回答的问题却大谈公司的未来发展、晋升和他目前的职位。结果是两人都在背后互相抱怨，美国人认为中国雇员太虚伪，而中国雇员也认为美国人太直接、坦率、咄咄通人。
+Americans believe that Chinese employees too hypocritical, and Chinese employees also think Americans too direct, frankly, our very aggressive.
+## 原因分析
+该案例中的一方是美国人，而那位员工是中国人。产生这样糟糕结果的一个主要原因是中美两国在人际交流方式上，具体来说是在回答问题的方式上，存在巨大差异，而当事双方却并没意识到这一点。这种文化差异体现在中国文化注重维护群体和谐的人际交流环境，而美国丈化则注重创造一个强调坚持个性的人际交流环境。
+如果这位中国员工从正面直接回答了人力资源经理的问题。比如．中国员工回答：”… … 想在五年之内做到营销部经理的职位。”按照中国人的传统心理，这样的回答违反了中国人一向谦应、委婉的心理习惯，太直接反而暴露出自己很有野心并高傲自大的缺陷，而谦虚可以给自己留有后路，万一做不到那个理想的位子，也不至于丢面子．被人笑话。尽于这位中国员工可能心里对未来有着宏伟的蓝图．但是他所处的文化背景主张克制情绪和情感。因此他在回答美国上司的问题时，没有直接说出自己的想法．而是谈了很多与公司未来发展有关的事，在他看来自己的做法是完全符合社会规范的，是谦虚的表砚，并且认为将自己的未来与公司的未来紧密相连有利于保持组织的和谐。这在中国人看来是再正常不过的了，直截了当地说出自己的薪水目标或是职位目标反而会被认为是具有野心的表砚。此外，中国人评价一个人，往往是清他究竟做了什么，而不是看他说了什么。
+The case of the party is American, and the staff is Chinese. Have this bad results of one of the main reasons is that China and the United States on the way in interpersonal communications, specifically is the way to answer questions, there are large differences, and both parties but didn't realize this. These cultural differences reflected in Chinese culture pays attention to maintenance group harmonious interpersonal communication environment, and the United States the cultural focuses on creating a it puts emphasis on the individual character of interpersonal communication environment.
+If the Chinese employees directly from the front of the human resources manager answered the question. For example. Chinese employees answer: "...... think in five years do the Marketing Department manager position." According to Chinese traditional psychological, such answer violation of the Chinese people have always modest, the psychological habits should be euphemism, too direct exposed himself instead was very ambitious and arrogance of the defect, and modest can give his left posterior, one thousand can't do the ideal seat, will not lose face. Be laughed at. Try to the Chinese employees may be the in the mind to the future has a grand blueprint. But he is part of the culture background advocates restraint moods and emotions. So he answered in the boss's problem, not directly speak his mind. But talked a lot about the company's future development and, in his view it is fully comply with the social norms, is modest table ink stones, and that will be their future and the future of the company is closely connected to keep organizational harmony. This in the Chinese people is normal but again, straight from the shoulder to say his salary objects or position goal but will is considered to be a ambitions watch ink stones. In addition, the Chinese evaluation a person, often is the clear what was he doing, exactly, and not at what he said.
+不论他把自己的理想、抱负描绘得何等宏伟；也不论他把自己的能力，素质说得如何天花乱坠．如果最后他做不到，这一切都只能成为别人的笑柄；美国人一向很直接明了，这也是他们一贯的思维方式。
+Americans have always very direct and clear, this is their usual way of thinking.
+从美籍经理询问这位员工时于自己未来五年发展的打算，即想要在飞利浦做到什么样的职位可以看出，美国人注重个人在企业的发展状况。通过个人才华的施展和势力来取得企业的辉辉煌和达到理想目标。这也许与美国一贯提倡的个人主义有着莫大关系。他们重独立、多坦率，等级和身份观念淡薄，认为追求个人的利益是天经地义、无可厚非的，他们对中国式的重礼仪、身份和多委婉，却视为假装和缺乏真诚。美国文化提倡大胆直接表露自己想法。
+Americans pay attention to individual in the development of the enterprise. Through the individual talent and to get their power of the enterprise is splendid and to achieve the ideal target Fraser. This may and American advocates for the individualism has great relationship. They heavy independent, outspoken, level and identity concept light, argued that the pursuit of the interest of the individual is perfectly justified, understandable, their Chinese heavy to etiquette, identity and more tactful, but as pretend and lack of sincerity. The American culture advocate direct to reveal his bold ideas.
+在该案例中，美国的人力资源经理认为直截了当地说出自己的期望和要求并无不妥．反而是真诚和自信的表现，有利于中国员工实现人生的成功。相反，中国人习惯委婉的表达方式，直接说出自己的要求会显得不礼貌和唐突，他对于美国人的直白也很是不满。
+In this case, the human resources manager in the United States felt that it was okay to state his expectations and requirements bluntly. Instead, it is the performance of sincerity and self-confidence, which is conducive to the success of Chinese employees in life. On the contrary, Chinese people are accustomed to implicit expressions, and it would be impolite and abrupt to say their demands directly. He is also very dissatisfied with the straightforwardness of Americans.
+## 文化沟通
+由于谈话的不愉快使得美国经理和中国雇员都对彼此颇有微词，虽然美国经理的本意是想通过谈话了解这位中国雇员对于自己事业发展的规划，今后适时可能提拔他。值得一提的是，案例中的另一名人力资源主管贾先生已意识到两人相互误解的原因，并试图向两人解释，但是收效甚微，问题的关键是在于这两位当事人。但是如果有一个了解双方文化的中间人适当做出解释．应当是可以化解甚至是化解文化冲突的。
+The key to the problem is the two parties. But if there is a culture of appropriate to the middlemen to explain. Shall be eased even resolve cultural conflict.
+既然身处于一个国际化的大公司里，必然会面对有若不同文化背景的员工，如果想当然地认为所有人都与自己有若相同的价值观念和社会准则，那肯定是大错特错。因此首先必须培养文化教感性，意识到文化的差异性．这对于美国人和中国人都同样重要：
+只有了解了不同文化的基本状况，人们才能在与有着不同文化背景的人交往时保持宽容，而不是一概否定、批评。本案例中的中美双方当事人由于对对方的文化缺乏必要了解，因此在发生冲突时就缺乏宽容和耐心。
+"You have to understand the basic situation of different cultures, people can have different cultural background and those whom they be tolerant, not deny, criticism. In this case the both parties because of the lack of necessary to know each other's culture, so in conflict is lack of tolerance and patience.
+## 方案
+适当的解决方案。一是企业员工可以在东道国接受当地文化的洗礼和相关的各类跨文化交际培训。或东道国公司直接为外籍员工唤醒一段时间的培训；其次，企业要努力建设自己的文化，历年，让每一位员工都融入到企业文化里面。因为，通常那种文化具有很强的包容性和融合力。从案例可以看出，美国副总裁和中国员工在企业文化上找不到共识；
+The proper solution. First, the enterprise staff can accept the local culture in host countries the baptism and related all kinds of intercultural communication training. Or the host country company directly for foreign staff wake a period of time training; Second, the enterprise should strive to build their own culture, calendar year, to make every staff fusion to enterprise culture inside. Because, usually the kind of culture has a strong inclusiveness and fusion power. From the cases can see, American vice President and Chinese employees in the enterprise's culture can't find consensus; 
+第三，作为经理，应该以宽容的态度来处理文化冲突，慢慢地和员工沟通，而不是“不耐烦”或抱怨；
+Third, as a manager, you should deal with cultural conflicts with a tolerant attitude and communicate with employees slowly, rather than "impatient" or complaining.
+四是通过第三方的调整和解释，弄清楚问题所在，解开副总裁与中国员工之间的疑惑和矛盾。
+Fourth, through the third party of the adjustment and the explanation, make clear the problem, Solve the doubts and contradictions between vice presidents and Chinese employees.`;
+
+  const caseMarkdownSlugs = [
+    "case-age-status",
+    "case-public-praise-japan",
+    "case-british-manager-thailand",
+    "case-smile-apology",
+    "case-indirect-answer",
+  ];
+
+  function markdownCaseSectionKind(title) {
+    if (/case description/i.test(title)) return "source";
+    if (/questions?|question for discussion/i.test(title)) return "questions";
+    if (/矛盾冲突|原因分析/.test(title)) return "analysis";
+    return "answer";
+  }
+
+  function normalizeMarkdownParagraphs(lines) {
+    return lines
+      .map((line) => line.trim())
+      .filter((line) => line && !/^第\s*页$/.test(line));
+  }
+
+  function parseCaseAnalysisMarkdown(source) {
+    const cases = [];
+    let currentCase = null;
+    let currentSection = null;
+
+    source.replace(/\r/g, "").split("\n").forEach((line) => {
+      const caseMatch = line.match(/^#\s+(.+)$/);
+      if (caseMatch) {
+        currentCase = { title: caseMatch[1].trim(), intro: [], sections: [] };
+        cases.push(currentCase);
+        currentSection = null;
+        return;
+      }
+
+      if (!currentCase) return;
+
+      const sectionMatch = line.match(/^##\s+(.+)$/);
+      if (sectionMatch) {
+        currentSection = { title: sectionMatch[1].replace(/[：:]$/, "").trim(), lines: [] };
+        currentCase.sections.push(currentSection);
+        return;
+      }
+
+      if (currentSection) {
+        currentSection.lines.push(line);
+      } else {
+        currentCase.intro.push(line);
+      }
+    });
+
+    return Object.fromEntries(
+      cases.map((item, index) => {
+        const slug = caseMarkdownSlugs[index];
+        const sections = [
+          {
+            kind: "source",
+            markdown: true,
+            title: "案例导入",
+            paragraphs: normalizeMarkdownParagraphs([item.title, ...item.intro]),
+          },
+          ...item.sections.map((section) => ({
+            kind: markdownCaseSectionKind(section.title),
+            markdown: true,
+            title: section.title,
+            paragraphs: normalizeMarkdownParagraphs(section.lines),
+          })),
+        ];
+
+        return [slug, {
+          note: "按《案例分析.md》完整整理，文档中已有的中文和英文段落均保留并分块排版。",
+          sourceLabel: "案例分析.md",
+          sections,
+        }];
+      })
+    );
+  }
+
+  const caseMarkdownSources = parseCaseAnalysisMarkdown(caseAnalysisMarkdownSource);
+
+  function normalizeCaseLines(text) {
+    const lines = text.replace(/^\n+|\n+$/g, "").split("\n");
+    const indents = lines
+      .filter((line) => line.trim())
+      .map((line) => line.match(/^\s*/)[0].length);
+    const minIndent = indents.length ? Math.min(...indents) : 0;
+    return lines.map((line) => line.slice(minIndent).replace(/\u00a0/g, " ").trimEnd());
+  }
+
+  function stripCaseSectionHeading(lines, sectionTitle) {
+    const result = [...lines];
+    const heading = String(sectionTitle || "").toLowerCase();
+    while (result.length && !result[0].trim()) result.shift();
+    if (!result.length) return result;
+
+    const first = result[0].trim().replace(/：$/, ":").toLowerCase();
+    const knownHeading = /^(case description|questions?|question for discussion|矛盾冲突|原因分析|文化沟通|方案|原文答题段落):?$/.test(first);
+    if (first === heading || first === `${heading}:` || knownHeading) result.shift();
+    return result;
+  }
+
+  function caseJoiner(previous, next) {
+    if (!previous || previous.endsWith("-")) return "";
+    const last = previous.slice(-1);
+    const first = next.charAt(0);
+    if (/[\u4e00-\u9fff，。！？；：、“”‘’）]/.test(last)) return "";
+    if (/[\u4e00-\u9fff（“‘]/.test(first)) return "";
+    return " ";
+  }
+
+  function caseParagraphs(block, sectionTitle) {
+    const lines = stripCaseSectionHeading(normalizeCaseLines(block), sectionTitle);
+    const paragraphs = [];
+    let current = "";
+
+    lines.forEach((line) => {
+      const startsIndentedParagraph = /^\s{2,}\S/.test(line) && current;
+      const trimmed = line.trim().replace(/\s+/g, " ");
+      if (!trimmed) {
+        if (current) {
+          paragraphs.push(current);
+          current = "";
+        }
+        return;
+      }
+      if (startsIndentedParagraph) {
+        paragraphs.push(current);
+        current = "";
+      }
+      current = current ? `${current}${caseJoiner(current, trimmed)}${trimmed}` : trimmed;
+    });
+
+    if (current) paragraphs.push(current);
+    return paragraphs;
+  }
+
+  function renderCaseTextBlocks(section) {
+    if (section.paragraphs && section.paragraphs.length) {
+      return `<div class="case-text-block">${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</div>`;
+    }
+    return section.blocks.map((block) => {
+      const paragraphs = caseParagraphs(block, section.title);
+      return `<div class="case-text-block">${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</div>`;
+    }).join("");
+  }
+
+  function renderCaseItems(section) {
+    return `
+      <ul class="case-point-list">
+        ${section.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+      </ul>
+    `;
+  }
+
+  function caseParagraphLanguage(paragraph) {
+    const hasZh = /[\u4e00-\u9fff]/.test(paragraph);
+    const hasEn = /[A-Za-z]/.test(paragraph);
+    if (hasZh && hasEn) return "mixed";
+    if (hasZh) return "zh";
+    return "en";
+  }
+
+  function renderCaseLanguageBlocks(section) {
+    return `
+      <div class="case-lang-list">
+        ${section.paragraphs.map((paragraph) => {
+          const language = caseParagraphLanguage(paragraph);
+          return `
+            <article class="case-lang-block case-lang-${language}">
+              <p>${escapeHtml(paragraph)}</p>
+            </article>
+          `;
+        }).join("")}
+      </div>
+    `;
+  }
+
+  function isQuestionParagraph(paragraph) {
+    return /^\d+[.)]/.test(paragraph) || /\?$/.test(paragraph) || /？$/.test(paragraph);
+  }
+
+  function renderMarkdownQuestions(section) {
+    const paragraphs = section.paragraphs || [];
+    if (paragraphs.length && paragraphs.every(isQuestionParagraph)) {
+      return `
+        <ol class="case-question-list">
+          ${paragraphs.map((question) => `<li>${escapeHtml(question.replace(/^\d+[.)]\s*/, ""))}</li>`).join("")}
+        </ol>
+      `;
+    }
+    return renderCaseLanguageBlocks(section);
+  }
+
+  function caseQuestionItems(section) {
+    if (section.items && section.items.length) return section.items;
+    const items = [];
+    let current = "";
+    const lines = section.blocks.flatMap((block) => stripCaseSectionHeading(normalizeCaseLines(block), section.title));
+
+    lines.forEach((line) => {
+      const trimmed = line.trim().replace(/\s+/g, " ");
+      if (!trimmed) return;
+      const numbered = trimmed.match(/^(\d+)[.)]\s*(.+)$/);
+      if (numbered) {
+        if (current) items.push(current);
+        current = numbered[2];
+        return;
+      }
+      current = current ? `${current}${caseJoiner(current, trimmed)}${trimmed}` : trimmed;
+    });
+
+    if (current) items.push(current);
+    return items;
+  }
+
+  function renderCaseQuestions(section) {
+    const questions = caseQuestionItems(section);
+    return `
+      <ol class="case-question-list">
+        ${questions.map((question) => `<li>${escapeHtml(question)}</li>`).join("")}
+      </ol>
+    `;
+  }
+
+  function caseSectionKind(section) {
+    if (section.kind) return section.kind;
+    const title = section.title;
+    if (/原始标题与导入|case description/i.test(title)) return "source";
+    if (/questions?|question for discussion/i.test(title)) return "questions";
+    if (/矛盾冲突|原因分析/.test(title)) return "analysis";
+    return "answer";
+  }
+
+  function renderCaseSection(section, kind) {
+    return `
+      <section class="case-doc-section case-doc-section-${kind}">
+        <h4>${escapeHtml(section.title)}</h4>
+        ${section.markdown && kind === "questions" ? renderMarkdownQuestions(section) : ""}
+        ${!section.markdown && kind === "questions" ? renderCaseQuestions(section) : ""}
+        ${section.markdown && kind !== "questions" && kind !== "source" ? renderCaseLanguageBlocks(section) : ""}
+        ${section.markdown && kind === "source" ? renderCaseTextBlocks(section) : ""}
+        ${!section.markdown && kind !== "questions" ? section.items ? renderCaseItems(section) : renderCaseTextBlocks(section) : ""}
+      </section>
+    `;
+  }
+
+  function renderCaseOriginalSource(source) {
+    const groups = [
+      { kind: "source", title: "英文原文 / Case Text", note: "保留案例标题、中文导入和英文 Case description。" },
+      { kind: "questions", title: "Questions / 问题", note: "先单独列出源文件中的讨论问题。" },
+      { kind: "analysis", title: "Analysis / 分析", note: "把矛盾冲突和文化原因从答案中分离出来。" },
+      { kind: "answer", title: "Answers / 回答与处理方案", note: "保留原文中的问题回答、文化沟通和方案内容。" },
+    ];
+
+    return `
+      <div class="case-doc-body">
+        ${groups.map((group) => {
+          const sections = source.sections.filter((section) => caseSectionKind(section) === group.kind);
+          if (!sections.length) return "";
+          return `
+            <section class="case-doc-group case-doc-group-${group.kind}">
+              <div class="case-doc-group-head">
+                <h3>${escapeHtml(group.title)}</h3>
+                <p>${escapeHtml(group.note)}</p>
+              </div>
+              <div class="case-doc-sections">
+                ${sections.map((section) => renderCaseSection(section, group.kind)).join("")}
+              </div>
+            </section>
+          `;
+        }).join("")}
+      </div>
+    `;
+  }
+
+  function renderCaseEntry(entry) {
+    const originalSource = caseMarkdownSources[entry.slug] || caseStructuredSources[entry.slug] || caseOriginalSources[entry.slug];
+
+    if (originalSource) {
+      return `
+        <div class="reply case-analysis">
+          <section class="tldr">
+            <h2>${escapeHtml(entry.title)}</h2>
+            <p>${escapeHtml(originalSource.note)}</p>
+          </section>
+          <div class="source-meta">
+            <span>来源：${escapeHtml(originalSource.sourceLabel || "跨文化交际案例分析(1).doc")}</span>
+            <span>原文、问题、分析、回答分区</span>
+          </div>
+          <div class="tags">
+            ${entry.concepts.map((concept) => `<span class="tag tag-p">${escapeHtml(concept)}</span>`).join("")}
+          </div>
+          ${renderCaseOriginalSource(originalSource)}
+        </div>
+      `;
+    }
+
+    return `
+      <div class="reply case-analysis">
+        <section class="tldr">
+          <h2>${escapeHtml(entry.title)}</h2>
+          <p>${escapeHtml(entry.lead)}</p>
+        </section>
+        <div class="source-meta">
+          <span>来源：跨文化交际案例分析(1).doc</span>
+          <span>案例分析独立复习区</span>
+        </div>
+        <div class="tags">
+          ${entry.concepts.map((concept) => `<span class="tag tag-p">${escapeHtml(concept)}</span>`).join("")}
+        </div>
+        <div class="grid grid-2">
+          ${reviewCards(entry.sections)}
+        </div>
+        <blockquote>
+          <p>${escapeHtml(entry.memory)}</p>
+        </blockquote>
+      </div>
+    `;
+  }
+
   function render(slug, entry) {
     return `
       <div class="reply">
@@ -1956,6 +5057,7 @@
           <p>${escapeHtml(entry.definition)}</p>
         </section>
         ${sourceBlock(sourceDefinitions[slug])}
+        ${memorizationBlock(memorizationNotes[slug])}
         <div class="grid grid-2">
           ${card("card-p", "提出人 / 代表学者", entry.scholar)}
           ${card("card-b", "主要特征", entry.features)}
@@ -1977,14 +5079,30 @@
     examReviewEntries.map((entry) => [entry.slug, renderReviewEntry(entry)])
   );
 
+  const unitSummaryReviewContent = Object.fromEntries(
+    unitSummaryReviewEntries.map((entry) => [entry.slug, renderReviewEntry(entry)])
+  );
+
   const summaryReviewContent = Object.fromEntries(
     summaryReviewEntries.map((entry) => [entry.slug, renderReviewEntry(entry)])
+  );
+
+  const pastPaperContent = {
+    "icc-2025-final-exam": renderPastPaper2025(),
+    "icc-2023-final-exam": renderPastPaper2023(),
+  };
+
+  const caseAnalysisContent = Object.fromEntries(
+    caseAnalysisEntries.map((entry) => [entry.slug, renderCaseEntry(entry)])
   );
 
   const content = {
     ...conceptContent,
     ...examReviewContent,
+    ...unitSummaryReviewContent,
     ...summaryReviewContent,
+    ...pastPaperContent,
+    ...caseAnalysisContent,
   };
 
   if (typeof module !== "undefined" && module.exports) {

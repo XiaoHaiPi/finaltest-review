@@ -526,6 +526,8 @@
     });
 
     setupPracticeChecks();
+    setupQuizChecks();
+    setupWritingCounters();
   }
 
   function statusButton(value, current) {
@@ -650,6 +652,235 @@
           <span>分数按关键词和字符覆盖度估算，表达允许不同处理；展开参考答案后重点核对术语、逻辑关系和信息完整度。</span>
         `;
       });
+    });
+  }
+
+  function selectedQuizValue(block) {
+    const select = $("[data-quiz-select]", block);
+    if (select) return select.value;
+
+    const checked = block.querySelector("[data-quiz-radio]:checked");
+    return checked ? checked.value : "";
+  }
+
+  function visibleQuizAnswerLabel(block, answer) {
+    const radio = Array.from(block.querySelectorAll("[data-quiz-radio]")).find((input) => input.value === answer);
+    const option = radio ? radio.closest(".quiz-option") : null;
+    if (!option) return block.dataset.answerLabel || answer;
+
+    const letter = $(".quiz-option-letter", option);
+    const text = $(".quiz-option-text", option) || option.querySelector("span:last-child");
+    const letterText = letter ? letter.textContent.trim() : answer;
+    const answerText = text ? text.textContent.trim() : "";
+    return answerText ? `${letterText}. ${answerText}` : letterText;
+  }
+
+  function markQuizQuestion(block, revealMissing) {
+    const result = $("[data-quiz-result]", block);
+    const answer = block.dataset.answer || "";
+    const value = selectedQuizValue(block);
+
+    block.classList.remove("is-correct", "is-wrong", "is-missing");
+    if (!result) return false;
+
+    if (!value) {
+      if (revealMissing) {
+        block.classList.add("is-missing");
+        result.className = "quiz-result is-visible is-low";
+        result.textContent = "还没有选择答案。";
+      } else {
+        result.className = "quiz-result";
+        result.textContent = "";
+      }
+      return false;
+    }
+
+    const correct = value === answer;
+    const answerLabel = visibleQuizAnswerLabel(block, answer);
+    block.classList.add(correct ? "is-correct" : "is-wrong");
+    result.className = `quiz-result is-visible ${correct ? "is-good" : "is-low"}`;
+    result.textContent = correct ? `正确：${answerLabel}` : `不正确，参考答案：${answerLabel}`;
+    return correct;
+  }
+
+  function setupQuizChecks() {
+    const questions = Array.from(document.querySelectorAll("[data-quiz-question]"));
+    if (!questions.length) return;
+
+    function visibleQuizAnswerLetter(block) {
+      const select = $("[data-quiz-select]", block);
+      if (select) return block.dataset.answer || "";
+
+      const radio = Array.from(block.querySelectorAll("[data-quiz-radio]")).find((input) => input.value === block.dataset.answer);
+      const option = radio ? radio.closest(".quiz-option") : null;
+      const letter = option ? $(".quiz-option-letter", option) : null;
+      return letter ? letter.textContent.trim() : block.dataset.answer || "";
+    }
+
+    function quizQuestionNumber(block) {
+      return $("[data-quiz-number]", block)?.dataset.quizNumber
+        || $(".quiz-question-head span", block)?.textContent.trim()
+        || "";
+    }
+
+    function updateQuizAnswerLists(group) {
+      const selector = group ? `[data-quiz-answer-list="${group}"]` : "[data-quiz-answer-list]";
+      document.querySelectorAll(selector).forEach((list) => {
+        const target = list.dataset.quizAnswerList;
+        const scopedQuestions = questions.filter((block) => !target || block.dataset.quizGroup === target);
+        const answers = scopedQuestions.map((block) => `${quizQuestionNumber(block)}-${visibleQuizAnswerLetter(block)}`).join(" ");
+        list.textContent = answers;
+      });
+    }
+
+    function optionIdentity(item) {
+      if (item && typeof item === "object" && "value" in item) return item.value;
+      const input = item.querySelector ? item.querySelector("input[value]") : null;
+      return input ? input.value : item.value || item.textContent || "";
+    }
+
+    function shuffleItems(items) {
+      const shuffled = [...items];
+      const originalOrder = items.map(optionIdentity).join("\u0001");
+
+      for (let attempt = 0; attempt < 8; attempt += 1) {
+        for (let index = shuffled.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+        }
+        if (shuffled.map(optionIdentity).join("\u0001") !== originalOrder) return shuffled;
+      }
+
+      shuffled.push(shuffled.shift());
+      return shuffled;
+    }
+
+    function radioOptionPayload(option) {
+      const input = $("[data-quiz-radio]", option);
+      const text = $(".quiz-option-text", option) || option.querySelector("span:last-child");
+      return {
+        value: input ? input.value : "",
+        text: text ? text.textContent : "",
+      };
+    }
+
+    function applyRadioOptionPayload(option, payload) {
+      const input = $("[data-quiz-radio]", option);
+      const text = $(".quiz-option-text", option) || option.querySelector("span:last-child");
+      if (input) input.value = payload.value;
+      if (text) text.textContent = payload.text;
+    }
+
+    function shuffleRadioOptionContents(container) {
+      if (!container) return;
+      const options = Array.from(container.querySelectorAll(".quiz-option"));
+      if (options.length < 2) return;
+
+      const payloads = options.map(radioOptionPayload);
+      shuffleItems(payloads).forEach((payload, index) => applyRadioOptionPayload(options[index], payload));
+    }
+
+    function shuffleQuestionOptions(block) {
+      if (block.dataset.quizFixedOptions === "true") return;
+      shuffleRadioOptionContents($("[data-quiz-options]", block));
+      const select = $("[data-quiz-select]", block);
+      if (!select) return;
+
+      const placeholder = select.querySelector("option[value='']");
+      const options = Array.from(select.querySelectorAll("option:not([value=''])"));
+      if (options.length < 2) return;
+
+      if (placeholder) select.appendChild(placeholder);
+      shuffleItems(options).forEach((option) => select.appendChild(option));
+      if (placeholder) select.insertBefore(placeholder, select.firstChild);
+    }
+
+    updateQuizAnswerLists();
+
+    questions.forEach((block) => {
+      block.querySelectorAll("[data-quiz-radio], [data-quiz-select]").forEach((input) => {
+        input.addEventListener("change", () => markQuizQuestion(block, true));
+      });
+    });
+
+    document.querySelectorAll("[data-quiz-score]").forEach((button) => {
+      const target = button.dataset.quizScore;
+      const result = target ? document.querySelector(`[data-quiz-score-result="${target}"]`) : null;
+      const scopedQuestions = target
+        ? questions.filter((block) => block.dataset.quizGroup === target)
+        : questions;
+
+      button.addEventListener("click", () => {
+        let correctCount = 0;
+        let answeredCount = 0;
+        scopedQuestions.forEach((block) => {
+          if (selectedQuizValue(block)) answeredCount += 1;
+          if (markQuizQuestion(block, true)) correctCount += 1;
+        });
+
+        if (!result) return;
+        const total = scopedQuestions.length;
+        const percent = total ? Math.round((correctCount / total) * 100) : 0;
+        const missing = total - answeredCount;
+        result.className = `paper-score is-visible ${percent >= 80 ? "is-good" : percent >= 60 ? "is-mid" : "is-low"}`;
+        result.innerHTML = `
+          <strong>${correctCount}/${total}，正确率 ${percent}%</strong>
+          <span>${missing ? `还有 ${missing} 题未作答。` : "已完成本组全部题目。"}</span>
+        `;
+      });
+    });
+
+    document.querySelectorAll("[data-quiz-reset]").forEach((button) => {
+      const target = button.dataset.quizReset;
+      const scopedQuestions = target
+        ? questions.filter((block) => block.dataset.quizGroup === target)
+        : questions;
+
+      button.addEventListener("click", () => {
+        scopedQuestions.forEach((block) => {
+          const select = $("[data-quiz-select]", block);
+          if (select) select.value = "";
+          block.querySelectorAll("[data-quiz-radio]").forEach((radio) => {
+            radio.checked = false;
+          });
+          shuffleQuestionOptions(block);
+          block.classList.remove("is-correct", "is-wrong", "is-missing");
+          const result = $("[data-quiz-result]", block);
+          if (result) {
+            result.className = "quiz-result";
+            result.textContent = "";
+          }
+        });
+        updateQuizAnswerLists(target);
+
+        const result = target ? document.querySelector(`[data-quiz-score-result="${target}"]`) : null;
+        if (result) {
+          result.className = "paper-score";
+          result.textContent = "";
+        }
+      });
+    });
+  }
+
+  function countEnglishWords(value) {
+    return (String(value || "").match(/[A-Za-z]+(?:[-'][A-Za-z]+)?/g) || []).length;
+  }
+
+  function setupWritingCounters() {
+    document.querySelectorAll("[data-writing-input]").forEach((input) => {
+      const target = input.dataset.writingInput;
+      const counter = target ? document.querySelector(`[data-writing-words="${target}"]`) : null;
+      if (!counter) return;
+
+      const update = () => {
+        const count = countEnglishWords(input.value);
+        counter.textContent = `${count} words`;
+        counter.classList.toggle("is-good", count >= 180 && count <= 240);
+        counter.classList.toggle("is-low", count > 0 && count < 120);
+      };
+
+      input.addEventListener("input", update);
+      update();
     });
   }
 

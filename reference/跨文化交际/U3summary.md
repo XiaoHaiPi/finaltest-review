@@ -1,0 +1,6 @@
+- The deep structures of a culture, which include such elements as family (clans), state (community), and religion (worldview), are important because they perpetuate a culture’s most significant beliefs and values. Their messages endure, are deeply felt, and help supply much of a culture’s identity.
+- Families can take a variety of forms. The two most common are nuclear and extended.
+- Traditional definitions of “family” are undergoing major changes in the United States.
+- Globalization and shifting migration patterns in recent years have had major impacts on traditional family structures throughout the world.
+- Families perform a series of key functions in all cultures. These functions include reproduction, economics, socialization, language acquisition, values and religion, identity, and communication.
+- Cultures, by using the family as a transmitter of the key elements of culture, teach gender roles, inculcate views on individualism and collectivism, perpetuate perceptions of aging and the elderly, and develop social skills.
