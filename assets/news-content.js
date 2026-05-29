@@ -1435,6 +1435,143 @@
     `;
   }
 
+  const pressLeadPrinciples = [
+    "硬新闻导语通常把最重要的 who, what, when, where, why/how 放到第一句，但不一定六个都写满，优先写最有新闻价值的信息。",
+    "英文导语一般控制在 25-35 个词左右，句子要直接。不要从背景慢慢铺开，而是把新闻事件本身放在第一句。",
+    "中文导语可以稍长一点，但也要先交代核心事件。",
+  ];
+
+  const pressLeadSteps = [
+    "找出最重要的事件：谁做了什么，或发生了什么。",
+    "加入最有新闻价值的细节：人数、金额、影响范围、原因、结果。",
+    "删除背景、评价和次要细节。",
+    "英文导语尽量写成一个清楚的主句，少用从句堆叠。",
+    "中文导语保持信息完整，但不要写成材料复述。",
+  ];
+
+  const pressLeadPattern = {
+    en: "Who + did/will do what + when/where + why/how/with what effect.",
+    example: "The city government will open 12 new shelters this winter to provide emergency housing for homeless residents as temperatures continue to fall.",
+    zh: "随着气温持续下降，市政府将在今年冬季开放 12 处新庇护所，为无家可归者提供临时住所。",
+  };
+
+  const pressLeadExampleEntries = [
+    {
+      slug: "press-lead-campus-news",
+      title: "例 1：校园新闻",
+      sourceType: "Campus News",
+      newsParagraph: "The University of Manchester announced on Monday that it will open a new AI research centre next year. The centre will focus on healthcare technology, climate modelling and ethical AI. The project will receive £40 million in funding from the British government and several private companies. University officials said the centre is expected to create more than 200 research jobs.",
+      leadEn: "The University of Manchester will open a £40 million AI research centre next year to advance healthcare technology, climate modelling and ethical AI, the university announced Monday.",
+      leadZh: "曼彻斯特大学周一宣布，将于明年设立一座耗资 4000 万英镑的人工智能研究中心，重点研究医疗技术、气候建模和人工智能伦理。",
+      analysis: "这段新闻最重要的信息是大学将开设 AI research centre，其次是金额、时间和研究方向。导语没有写预计创造 200 个岗位，因为这是次要信息，可以放在第二段。英文导语的主干是 The University of Manchester will open...，后面再加 funding amount 和 purpose。",
+    },
+    {
+      slug: "press-lead-breaking-news",
+      title: "例 2：突发事件",
+      sourceType: "Breaking News",
+      newsParagraph: "A power outage affected more than 80,000 homes in northern London on Tuesday evening after an underground cable failed, according to local energy officials. The outage disrupted subway services and forced several hospitals to switch to backup generators. Power was restored to most areas by midnight. No injuries were reported.",
+      leadEn: "More than 80,000 homes in northern London lost power Tuesday evening after an underground cable failure disrupted subway services and forced hospitals onto backup generators.",
+      leadZh: "周二晚间，伦敦北部一处地下电缆故障导致 8 万多户家庭停电，地铁服务受影响，多家医院被迫启用备用发电机。",
+      analysis: "这类突发新闻要突出影响范围和直接后果。who 不是某个人，而是 more than 80,000 homes。what 是 lost power。why 是 underground cable failure。how serious 体现在 disrupted subway services 和 hospitals onto backup generators。No injuries reported 可以放后文，因为它是补充信息。",
+    },
+    {
+      slug: "press-lead-policy-news",
+      title: "例 3：政策新闻",
+      sourceType: "Policy News",
+      newsParagraph: "The U.S. Department of Education said Wednesday that it will expand federal grants for low-income college students beginning in the next academic year. Under the plan, the maximum annual grant will rise from $7,395 to $8,200. Officials said the change is intended to help students cover rising tuition and housing costs. Congress approved the funding increase last month.",
+      leadEn: "The U.S. Department of Education will raise the maximum federal grant for low-income college students to $8,200 next academic year to help offset rising tuition and housing costs.",
+      leadZh: "美国教育部将从下一学年起把低收入大学生的最高联邦助学金提高至 8200 美元，以缓解学费和住房成本上涨带来的压力。",
+      analysis: "政策新闻的导语要写清楚 change 和 effect。这里最关键的是 raise the maximum federal grant to $8,200。Wednesday 和 Congress approved last month 都不是最核心内容，所以没有放进导语。to help offset... 说明政策目的，使导语更完整。",
+    },
+    {
+      slug: "press-lead-social-news",
+      title: "例 4：社会民生新闻",
+      sourceType: "Social News",
+      newsParagraph: "A new survey released by the National Housing Federation found that nearly one-third of renters in England have delayed medical treatment because of housing costs. The survey included 5,000 adults and was conducted in March. Housing groups said the findings show that rising rents are affecting public health. The government said it is reviewing rental support policies.",
+      leadEn: "Nearly one-third of renters in England have delayed medical treatment because of housing costs, according to a new National Housing Federation survey released Monday.",
+      leadZh: "英格兰近三分之一租房者因住房成本推迟就医，这是全国住房联合会周一发布的一项新调查显示的结果。",
+      analysis: "调查类新闻通常把 finding 放在导语最前面，而不是把 survey 本身放在前面。Nearly one-third of renters... delayed medical treatment 是新闻点。according to... 用来交代消息来源。样本数量 5,000 adults 可以放在下一段，增强可信度。",
+    },
+    {
+      slug: "press-lead-business-news",
+      title: "例 5：企业新闻",
+      sourceType: "Business News",
+      newsParagraph: "Apple said on Thursday that it will invest $2 billion in expanding its data centres across Europe over the next five years. The company said the investment will support cloud services, artificial intelligence tools and renewable energy projects. New facilities will be built in Ireland and Denmark. Apple said the expansion will create about 1,500 jobs.",
+      leadEn: "Apple will invest $2 billion to expand its European data centres over the next five years, supporting cloud services, AI tools and renewable energy projects, the company said Thursday.",
+      leadZh: "苹果周四表示，将在未来五年投资 20 亿美元扩建其欧洲数据中心，以支持云服务、人工智能工具和可再生能源项目。",
+      analysis: "企业新闻导语通常保留公司名、金额、行动、地点和时间跨度。create about 1,500 jobs 是重要信息，但不是第一层核心，可以放第二段。英文写作中 supporting... 是现在分词结构，用来压缩信息，让导语更像报刊语言。",
+    },
+  ];
+
+  function renderPressLeadExample(entry, index) {
+    return `
+      <div class="reply press-lead-example">
+        <section class="tldr">
+          <h2>${escapeHtml(entry.title)}</h2>
+          <p>根据虚构新闻材料练习 summary lead writing，重点看哪些信息进入第一句，哪些信息留到正文第二段。</p>
+        </section>
+        <div class="source-meta">
+          <span>来源：新闻导语例子.md</span>
+          <span>${escapeHtml(entry.sourceType)}</span>
+          <span>例子 ${String(index + 1).padStart(2, "0")} / ${pressLeadExampleEntries.length}</span>
+        </div>
+        <section class="press-lead-rule-card">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Lead Writing Rules / 写法原则</p>
+            <h2>先写最有新闻价值的信息</h2>
+          </div>
+          <ul>
+            ${pressLeadPrinciples.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+          </ul>
+        </section>
+        <section class="press-lead-source">
+          <div class="case-example-section-head">
+            <p class="section-kicker">News Paragraph / 新闻材料</p>
+            <h2>原始新闻事实</h2>
+          </div>
+          <p>${escapeHtml(entry.newsParagraph)}</p>
+        </section>
+        <section class="press-lead-output">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Lead / 导语</p>
+            <h2>英文导语与中文导语</h2>
+          </div>
+          <div class="press-lead-pair">
+            <article>
+              <span>English Lead</span>
+              <p>${escapeHtml(entry.leadEn)}</p>
+            </article>
+            <article>
+              <span>中文导语</span>
+              <p>${escapeHtml(entry.leadZh)}</p>
+            </article>
+          </div>
+        </section>
+        <section class="press-lead-analysis">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Analysis / 分析</p>
+            <h2>为什么这样写</h2>
+          </div>
+          <p>${escapeHtml(entry.analysis)}</p>
+        </section>
+        <section class="press-lead-steps">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Reusable Pattern / 可套用结构</p>
+            <h2>写作步骤</h2>
+          </div>
+          <ol>
+            ${pressLeadSteps.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+          </ol>
+          <div class="press-lead-formula">
+            <strong>${escapeHtml(pressLeadPattern.en)}</strong>
+            <p>${escapeHtml(pressLeadPattern.example)}</p>
+            <p>${escapeHtml(pressLeadPattern.zh)}</p>
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
   function isDocumentHeading(paragraph) {
     const text = compact(paragraph);
     if (!text || /^\d+[.)]/.test(text)) return false;
@@ -1988,6 +2125,9 @@
     content[group.slug] = renderHeadlineGroupPage(group);
   });
   content["press-headline-rewriting-practice"] = renderHeadlinePractice();
+  pressLeadExampleEntries.forEach((entry, index) => {
+    content[entry.slug] = renderPressLeadExample(entry, index);
+  });
   pressData.readings.forEach((reading) => {
     content[reading.slug] = renderReading(reading);
   });

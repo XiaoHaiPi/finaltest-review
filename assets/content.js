@@ -5049,6 +5049,535 @@ Fourth, through the third party of the adjustment and the explanation, make clea
     `;
   }
 
+  const caseAnalysisExampleSteps = [
+    "点出理论：This case reflects...",
+    "对应行为：The American side..., while the Japanese side...",
+    "解释冲突：The misunderstanding occurs because...",
+    "给出建议：To improve communication...",
+  ];
+
+  const caseAnalysisExampleBlocks = [
+    {
+      no: "01",
+      title: "Hall：高语境 vs 低语境",
+      tags: ["high-context", "low-context", "directness", "silence"],
+      zh: "这个案例体现了高语境文化和低语境文化的差异。美国团队采用低语境沟通方式，他们希望对方直接回答是否接受合同条款，并要求明确的时间表和决定。日本团队则更接近高语境沟通方式，他们用沉默、委婉表达和进一步讨论来传递保留意见。双方冲突的原因在于，美国团队把日本团队的沉默理解为逃避问题，而日本团队可能认为美国团队过于直接，忽视了关系和场合。",
+      en: "This case reflects the difference between high-context and low-context communication. The American team uses a low-context style, expecting direct answers, clear deadlines, and explicit decisions about the contract. The Japanese team, however, follows a more high-context style, using silence, indirect expressions, and further discussion to show reservation. The clash occurs because the American side interprets silence as avoidance, while the Japanese side may see the American approach as too direct and insensitive to the relationship and context.",
+    },
+    {
+      no: "02",
+      title: "Hofstede：个体主义 vs 集体主义",
+      tags: ["individualism", "collectivism", "responsibility", "consensus"],
+      zh: "从 Hofstede 的个体主义和集体主义维度看，美国团队更强调个人责任和快速决策。他们希望代表能够直接表态，并对具体条款负责。日本团队更重视集体共识和群体和谐，所以他们不愿在会议中立刻做出单方面承诺。对日本团队来说，先和内部成员以及上级讨论，是维护团队一致性的必要步骤。",
+      en: "From Hofstede’s dimension of individualism versus collectivism, the American team shows a more individualistic orientation. They value personal responsibility and quick decision-making, so they expect the representatives to give clear answers and take responsibility for specific clauses. The Japanese team is more collectivistic, placing greater emphasis on group consensus and harmony. Therefore, they avoid making unilateral commitments during the meeting. For them, internal consultation is necessary to maintain group agreement.",
+    },
+    {
+      no: "03",
+      title: "Hofstede：不确定性规避",
+      tags: ["uncertainty avoidance", "rules", "risk", "consultation"],
+      zh: "这个案例也可以用不确定性规避来解释。日本团队表现出较高的不确定性规避，他们不愿在信息尚未完全确认时立即接受合同条款，而是希望进一步讨论并征求高层意见。美国团队则更愿意通过合同、时间表和责任条款来推进事务。双方都想降低风险，但方式不同：美国团队依靠书面规则，日本团队依靠内部确认和共识。",
+      en: "This case can also be explained through uncertainty avoidance. The Japanese team shows a relatively high level of uncertainty avoidance. They are unwilling to accept the contract immediately before all information is fully confirmed, and they prefer further discussion and consultation with senior executives. The American team tries to manage uncertainty through written contracts, timelines, and penalty clauses. Both sides want to reduce risk, but they do so in different ways: the Americans rely on explicit rules, while the Japanese rely on internal confirmation and consensus.",
+    },
+    {
+      no: "04",
+      title: "Hofstede：权力距离",
+      tags: ["power distance", "hierarchy", "authority", "decision-making"],
+      zh: "权力距离也有助于解释日本团队的反应。日本团队成员没有在会议中立即承诺，而是提到需要和高层进一步商议，这说明决策可能受到组织等级和权威结构的影响。在较高权力距离的文化中，下级通常不会轻易代表组织做出重大决定。相比之下，美国团队更期待会议代表拥有足够权限，并能当场给出明确答复。",
+      en: "Power distance can also help explain the Japanese team’s response. The Japanese members do not make an immediate commitment in the meeting, and they mention the need to consult executives. This suggests that decision-making may be influenced by hierarchy and authority. In cultures with higher power distance, lower-level members are less likely to make major decisions on behalf of the organization. By contrast, the American team expects the representatives to have enough authority to give a clear answer during the meeting.",
+    },
+    {
+      no: "05",
+      title: "Hall：时间观念",
+      tags: ["monochronic time", "relationship", "schedule", "patience"],
+      zh: "从 Hall 的时间观念看，美国团队更接近单一时间文化。他们强调截止日期、流程和逐项讨论，希望按照计划推进谈判。日本团队则更重视关系建立和内部协调，时间安排相对更灵活。因此，美国团队认为对方效率低，而日本团队可能认为美国团队过于急迫。",
+      en: "From Hall’s view of time, the American team is closer to a monochronic culture. They emphasize deadlines, procedures, and point-by-point discussion, expecting the negotiation to move according to schedule. The Japanese team pays more attention to relationship-building and internal coordination, so their approach to time is more flexible. As a result, the Americans may see the Japanese side as inefficient, while the Japanese side may see the Americans as too impatient.",
+    },
+    {
+      no: "06",
+      title: "Minkov：Monumentalism vs. Flexumility",
+      tags: ["identity", "face", "values", "adaptation"],
+      zh: "如果案例涉及身份、价值观或面子，也可以用 Minkov 的 monumentalism 和 flexumility。Monumentalism 强调稳定身份和坚定价值，因此人们可能更重视维护自我形象和群体尊严。Flexumility 更强调谦逊、适应和调整。在跨文化冲突中，如果一方过度坚持自身价值，另一方期待灵活协调，就可能产生误解。",
+      en: "If the case involves identity, values, or face, Minkov’s dimension of monumentalism versus flexumility can be applied. Monumentalism emphasizes stable identity and strong values, so people may pay more attention to maintaining self-image and group dignity. Flexumility emphasizes humility, adaptation, and self-adjustment. In intercultural conflict, misunderstanding may arise when one side strongly insists on its own values while the other expects flexibility and adjustment.",
+    },
+  ];
+
+  const caseAnalysisExampleCombo = {
+    zh: "这个案例可以同时用 Hall 和 Hofstede 来分析。首先，从 Hall 的高低语境理论看，美国团队采用低语境沟通方式，强调直接、明确和书面条款；日本团队采用高语境沟通方式，更依赖沉默、委婉表达和场合信息。其次，从 Hofstede 的个体主义与集体主义维度看，美国团队重视个人责任和快速决策，而日本团队更重视集体共识和关系和谐。因此，双方的冲突并不是单纯的语言问题，而是深层文化价值和沟通风格差异造成的。",
+    en: "This case can be analyzed through both Hall’s and Hofstede’s theories. First, according to Hall’s theory of high-context and low-context communication, the American team uses a low-context style, emphasizing directness, clarity, and written clauses. The Japanese team uses a high-context style, relying more on silence, indirect expressions, and contextual information. Second, from Hofstede’s dimension of individualism versus collectivism, the American team values personal responsibility and quick decision-making, while the Japanese team values group consensus and relational harmony. Therefore, the conflict is not merely a language problem, but a result of deeper cultural values and communication styles.",
+  };
+
+  function renderCaseExampleParagraphs(value) {
+    return normalizeItems(value).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("");
+  }
+
+  function renderCaseExamplePair(zh, en, labels = { zh: "中文", en: "English" }) {
+    return `
+      <div class="case-example-pair">
+        <article>
+          <span>${escapeHtml(labels.zh)}</span>
+          ${renderCaseExampleParagraphs(zh)}
+        </article>
+        <article>
+          <span>${escapeHtml(labels.en)}</span>
+          ${renderCaseExampleParagraphs(en)}
+        </article>
+      </div>
+    `;
+  }
+
+  function renderCaseExampleBlock(block) {
+    return `
+      <article class="case-example-block">
+        <div class="case-example-block-head">
+          <span>${escapeHtml(block.no)}</span>
+          <div>
+            <h3>${escapeHtml(block.title)}</h3>
+            <div class="tags">
+              ${block.tags.map((tag) => `<span class="tag tag-p">${escapeHtml(tag)}</span>`).join("")}
+            </div>
+          </div>
+        </div>
+        ${renderCaseExamplePair(block.zh, block.en)}
+      </article>
+    `;
+  }
+
+  function renderCaseAnalysisExample() {
+    return `
+      <div class="reply case-analysis case-example">
+        <section class="tldr">
+          <h2>案例分析写法例子</h2>
+          <p>把理论词、案例行为、冲突原因和改进建议连成一段，适合直接作为期末案例分析的答题骨架。</p>
+        </section>
+        <div class="source-meta">
+          <span>来源：案例分析例子.md</span>
+          <span>单页写法模板</span>
+        </div>
+        <section class="case-example-method" aria-labelledby="case-example-method-title">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Answer Pattern / 答题顺序</p>
+            <h2 id="case-example-method-title">先对理论，再扣行为</h2>
+          </div>
+          <ol class="case-example-steps">
+            ${caseAnalysisExampleSteps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
+          </ol>
+        </section>
+        <section class="case-example-theories" aria-labelledby="case-example-theories-title">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Theory Blocks / 理论套用段落</p>
+            <h2 id="case-example-theories-title">常用分析角度</h2>
+          </div>
+          <div class="case-example-list">
+            ${caseAnalysisExampleBlocks.map((block) => renderCaseExampleBlock(block)).join("")}
+          </div>
+        </section>
+        <section class="case-example-combo" aria-labelledby="case-example-combo-title">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Exam-ready Paragraph / 常用组合</p>
+            <h2 id="case-example-combo-title">考试里最常用的一段组合</h2>
+          </div>
+          ${renderCaseExamplePair(caseAnalysisExampleCombo.zh, caseAnalysisExampleCombo.en)}
+        </section>
+      </div>
+    `;
+  }
+
+  const splitCaseExampleSlugs = [
+    "case-example-us-japan-negotiation",
+    "case-example-chinese-student-us-classroom",
+    "case-example-german-brazilian-project",
+    "case-example-remote-email-tone",
+    "case-example-indian-engineer-try",
+    "case-example-swedish-manager-korea",
+    "case-example-chinese-supplier-gift",
+    "case-example-culture-shock",
+    "case-example-stereotype",
+    "case-example-face",
+    "case-example-eye-contact",
+  ];
+
+  const splitCaseExampleTags = {
+    "case-example-us-japan-negotiation": ["high-context", "low-context", "individualism", "collectivism"],
+    "case-example-chinese-student-us-classroom": ["power distance", "silence", "classroom culture", "high-context"],
+    "case-example-german-brazilian-project": ["monochronic time", "polychronic time", "task orientation", "relationship"],
+    "case-example-remote-email-tone": ["online communication", "low-context", "relational signals", "tone"],
+    "case-example-indian-engineer-try": ["high-context", "power distance", "indirect refusal", "follow-up questions"],
+    "case-example-swedish-manager-korea": ["power distance", "hierarchy", "decision rights", "participation"],
+    "case-example-chinese-supplier-gift": ["gift-giving", "business ethics", "relationship", "universalism"],
+    "case-example-culture-shock": ["culture shock", "adaptation", "cultural cues", "social support"],
+    "case-example-stereotype": ["stereotype", "generalization", "individual differences", "identity"],
+    "case-example-face": ["face", "public criticism", "feedback", "harmony"],
+    "case-example-eye-contact": ["nonverbal communication", "eye contact", "respect", "authority"],
+  };
+
+  const splitCaseExampleSource = String.raw`
+**例子 1：美日商务谈判**
+
+**English Case**  
+An American software company is negotiating with a Japanese firm. The American representative gives the Japanese side a printed contract and asks them to discuss deliverables, deadlines and penalties point by point. When the Americans ask whether the Japanese side agrees with a penalty clause, the Japanese representatives remain silent and say that the issue may require further discussion. Later, the Americans think the Japanese side is avoiding the issue, while the Japanese side feels that instant decisions may damage harmony.
+
+**中文案例**  
+一家美国软件公司和一家日本公司谈判。美国代表把打印好的合同交给日方，要求逐项讨论交付内容、截止日期和违约处罚。当美方询问日方是否同意某个处罚条款时，日方代表保持沉默，并表示这个问题可能需要进一步讨论。会后，美方认为日方在回避问题，而日方认为立即决定可能破坏团队和谐。
+
+**English Analysis**  
+This case reflects a clash between low-context and high-context communication. The American side uses a low-context style because they depend on explicit words, written contracts and direct questions. For example, they ask the Japanese side to discuss deadlines and penalties point by point. The Japanese side uses a high-context style because they respond through silence, polite behavior and indirect language.
+
+The reason for the conflict is that the two sides interpret the same behavior differently. The Americans see silence as avoidance, while the Japanese may use silence to show caution and respect. Hofstede’s dimensions also explain the problem. The Americans show individualism because they expect quick decisions and personal responsibility. The Japanese show collectivism because they value group consensus and harmony.
+
+To solve the problem, the American side should give the Japanese team more time for internal discussion. The Japanese side should also explain its decision-making process more clearly. For example, they can say that they need to consult executives and will give a formal reply by a specific date.
+
+**中文分析**  
+这个案例体现了低语境沟通和高语境沟通之间的冲突。美方使用低语境沟通方式，因为他们依赖明确语言、书面合同和直接问题。例如，他们要求日方逐项讨论截止日期和违约处罚。日方使用高语境沟通方式，因为他们通过沉默、礼貌行为和委婉表达来回应。
+
+冲突原因在于，双方对同一行为的理解不同。美国人把沉默理解为回避问题，而日本人可能用沉默表示谨慎和尊重。Hofstede 的文化维度也可以解释这个问题。美国人体现个体主义，因为他们期待快速决定和个人责任。日本人体现集体主义，因为他们重视群体共识和关系和谐。
+
+解决方法是，美方应该给日方更多内部讨论的时间。日方也应该更清楚地说明自己的决策流程。例如，他们可以说明需要咨询高层，并承诺在某个具体日期前给出正式答复。
+
+---
+
+**例子 2：中国学生在美国课堂上沉默**
+
+**English Case**  
+A Chinese student studies in an American university. In class, the American teacher often encourages students to ask questions and challenge ideas. However, the Chinese student seldom speaks. The teacher thinks the student is not interested or not well prepared. The student feels confused because, in his view, listening carefully and avoiding direct disagreement with the teacher are ways to show respect.
+
+**中文案例**  
+一名中国学生在美国大学学习。课堂上，美国老师经常鼓励学生提问和挑战观点。但这名中国学生很少发言。老师认为他对课程不感兴趣，或者准备不足。学生则感到困惑，因为在他看来，认真听讲、避免直接反驳老师，是表达尊重的方式。
+
+**English Analysis**  
+This case can be analyzed through power distance and communication style. The American classroom reflects lower power distance because students are expected to speak freely, ask questions and challenge the teacher. The Chinese student may come from a culture with relatively higher power distance, where students show respect by listening carefully and avoiding public disagreement.
+
+The misunderstanding occurs because silence has different meanings in different cultures. The American teacher may interpret silence as lack of interest. However, the Chinese student may see silence as politeness and self-control. Hall’s theory is also useful here. The American classroom is more low-context because students are expected to express ideas directly, while the Chinese student relies more on high-context behavior.
+
+To solve the problem, the teacher should not judge the student only by verbal participation. The student should also adapt to the new classroom culture. For example, he can prepare one question before class or express a different opinion in a polite way.
+
+**中文分析**  
+这个案例可以用权力距离和沟通风格来分析。美国课堂体现较低权力距离，因为学生被期待自由发言、提问和挑战老师。中国学生可能来自相对较高权力距离的文化，在这种文化中，学生通过认真听讲和避免公开反驳来表达尊重。
+
+误解产生的原因是，沉默在不同文化中含义不同。美国老师可能把沉默理解为缺乏兴趣。但中国学生可能把沉默看作礼貌和自我控制。Hall 的理论也能解释这个案例。美国课堂更偏低语境，因为学生需要直接表达观点，而中国学生更依赖高语境行为。
+
+解决方法是，老师不应只根据课堂发言多少评价学生。学生也应该适应新的课堂文化。例如，他可以课前准备一个问题，或者用礼貌方式表达不同意见。
+
+---
+
+**例子 3：德国员工和巴西员工合作项目**
+
+**English Case**  
+A German employee and a Brazilian employee work on the same international project. The German employee makes a detailed schedule and expects all meetings to start on time. The Brazilian employee sometimes arrives a few minutes late because he is talking with clients or maintaining relationships. The German employee thinks the Brazilian colleague is careless, while the Brazilian employee thinks the German colleague is too rigid.
+
+**中文案例**  
+一名德国员工和一名巴西员工共同负责一个国际项目。德国员工制定了详细时间表，并希望所有会议准时开始。巴西员工有时会因为和客户交流、维护关系而晚到几分钟。德国员工认为巴西同事不够认真，而巴西员工认为德国同事过于僵硬。
+
+**English Analysis**  
+This case reflects different cultural attitudes toward time. According to Hall’s theory, the German employee shows a monochronic time orientation. He values punctuality, schedules and completing tasks step by step. For example, he makes a detailed schedule and expects meetings to start exactly on time. The Brazilian employee shows a more polychronic orientation because he treats time more flexibly and gives more attention to relationships.
+
+The conflict happens because the two sides have different priorities. The German employee connects punctuality with professionalism and efficiency. The Brazilian employee may believe that maintaining client relationships is also important for the success of the project. Therefore, the disagreement is not only about time, but also about task orientation and relationship orientation.
+
+To solve the problem, they should discuss time expectations clearly at the beginning of the project. For example, final deadlines and client meetings should be fixed, while some internal discussions can be more flexible. This can help them respect both efficiency and relationships.
+
+**中文分析**  
+这个案例体现了不同文化对时间的不同态度。根据 Hall 的理论，德国员工体现单一时间取向。他重视准时、计划和按步骤完成任务。例如，他制定详细时间表，并期待会议准时开始。巴西员工则更偏多元时间取向，因为他对时间更灵活，也更重视关系。
+
+冲突发生的原因是，双方的优先事项不同。德国员工把准时和专业、效率联系在一起。巴西员工可能认为，维护客户关系对项目成功同样重要。因此，这个分歧不只是时间问题，也涉及任务导向和关系导向的差异。
+
+解决方法是，双方应该在项目开始时明确讨论时间期待。例如，最终截止日期和客户会议应该固定，而部分内部讨论可以更灵活。这样既能尊重效率，也能尊重关系。
+
+
+**例子 4：跨国远程团队里的邮件语气**
+
+**English Case**  
+An American project manager sends a message to a Chinese designer in an online team: Please revise the layout by Friday. The designer feels the message is cold and demanding because there is no greeting or explanation. The manager thinks the message is efficient and clear. Later, the designer delays replying, and the manager thinks she is not cooperative.
+
+**中文案例**  
+一名美国项目经理在远程团队中给中国设计师发消息：请在周五前修改版面。设计师觉得这条消息很冷淡、带有命令感，因为没有问候，也没有解释原因。经理则认为这条消息高效、清楚。后来，设计师迟迟没有回复，经理认为她不配合。
+
+**English Analysis**  
+This case shows how communication style can cause misunderstanding in online intercultural communication. The American manager uses a low-context style. He gives a direct task, a clear deadline and no extra relational language. For him, this is efficient and professional. However, the Chinese designer may expect more relational signals, such as a greeting, a reason or a softer tone.
+
+The reason for the conflict is that online communication removes many nonverbal cues. In face-to-face communication, tone, facial expression and context can soften a message. In written messages, direct language may sound harsher than intended. The designer may interpret the message as disrespectful, while the manager may interpret her delayed reply as resistance.
+
+To solve the problem, the team should build shared communication rules. For example, managers can add brief context and polite expressions when assigning tasks. Team members should also ask for clarification instead of assuming negative intentions.
+
+**中文分析**  
+这个案例体现了线上跨文化沟通中的风格差异。美国经理使用低语境沟通方式。他直接给出任务和截止日期，没有额外的关系性语言。对他来说，这样高效、专业。但中国设计师可能期待更多关系信号，比如问候、原因说明或更缓和的语气。
+
+冲突原因在于，线上沟通减少了非言语线索。面对面交流中，语气、表情和场景可以缓和信息。但在文字消息里，直接语言可能显得比原意更生硬。设计师可能把消息理解为不尊重，而经理可能把迟迟不回复理解为抵触。
+
+解决方法是，团队需要建立共同的沟通规则。例如，管理者分配任务时可以增加简短背景和礼貌表达。团队成员也应该主动确认意思，而不是直接假设对方有负面态度。
+
+---
+
+**例子 5：印度工程师对英国经理说 I will try**
+
+**English Case**  
+A British manager asks an Indian engineer whether a difficult task can be finished by Monday. The engineer answers, I will try. The manager understands this as a likely yes and reports the deadline to the client. However, the engineer actually means that the deadline is difficult and may not be possible. When the task is not finished, the manager feels misled.
+
+**中文案例**  
+一名英国经理问印度工程师，一个困难任务能否在周一前完成。工程师回答：我会尽力。经理把这理解为基本可以完成，并把截止日期告诉了客户。但工程师真正想表达的是，这个期限很困难，可能无法完成。任务没有按时完成后，经理觉得自己被误导了。
+
+**English Analysis**  
+This case can be analyzed through high-context communication and power distance. The British manager expects a clear yes or no answer. This reflects a more low-context style. The Indian engineer gives an indirect answer because he does not want to openly reject the manager’s request. His phrase I will try may carry a hidden warning.
+
+The misunderstanding happens because the manager focuses on the literal meaning, while the engineer depends on contextual meaning. Power distance may also be involved. If the engineer sees the manager as an authority figure, he may avoid saying no directly. He may believe that indirectness is more polite and respectful.
+
+To solve the problem, the manager should ask follow-up questions, such as what risks may prevent completion. The engineer should also state constraints more clearly. For example, he can say that he will try, but the task probably needs three more days.
+
+**中文分析**  
+这个案例可以用高语境沟通和权力距离来分析。英国经理期待明确的是或否，这体现了较低语境的沟通方式。印度工程师给出委婉回答，因为他不想直接拒绝经理的要求。他说我会尽力，可能其实是在暗示任务有风险。
+
+误解发生的原因是，经理关注字面意思，而工程师依赖语境含义。权力距离也可能参与其中。如果工程师把经理看作权威人物，他可能会避免直接说不。他可能认为委婉表达更礼貌，也更尊重对方。
+
+解决方法是，经理应该追问具体风险，比如有哪些因素会影响完成。工程师也应该更清楚地说明限制。例如，他可以说自己会尽力，但这个任务大概率还需要三天。
+
+---
+
+**例子 6：瑞典经理在韩国分公司推行平等管理**
+
+**English Case**  
+A Swedish manager works in a Korean branch office. She asks employees to call her by her first name and encourages them to make decisions independently. However, many Korean employees still wait for her instructions and avoid disagreeing with her in meetings. The manager thinks they lack initiative, while the employees feel uncertain because they do not know how much authority they really have.
+
+**中文案例**  
+一名瑞典经理在韩国分公司工作。她要求员工直接叫她名字，并鼓励他们独立做决定。但很多韩国员工仍然等待她的指示，也避免在会议上反对她。经理认为他们缺乏主动性，而员工感到不确定，因为他们不知道自己到底有多大权限。
+
+**English Analysis**  
+This case reflects a difference in power distance. Swedish workplace culture is often associated with lower power distance. The manager wants equality, open discussion and independent decision-making. For example, she asks employees to use her first name and speak freely. Korean employees may be more familiar with a clearer hierarchy, where managers give directions and employees avoid public disagreement.
+
+The conflict happens because the manager assumes that equality will automatically make employees more active. However, the employees may interpret her lack of detailed instruction as ambiguity. They may also worry that disagreement in public could damage respect and group harmony.
+
+To solve the problem, the manager should not only encourage openness but also define decision rights clearly. For example, she can explain which decisions employees can make alone and which require approval. Employees can gradually practice giving opinions in smaller meetings before speaking in large meetings.
+
+**中文分析**  
+这个案例体现了权力距离差异。瑞典职场文化通常更偏低权力距离。经理希望平等、开放讨论和独立决策。例如，她要求员工直接叫她名字，并自由表达意见。韩国员工可能更习惯清晰等级结构，在这种结构中，经理下达指示，员工避免公开反对。
+
+冲突发生的原因是，经理以为平等管理会自然让员工更主动。但员工可能把缺少详细指示理解为不明确。他们也可能担心公开表达不同意见会影响尊重和群体和谐。
+
+解决方法是，经理不只要鼓励开放，还要清楚说明决策权限。例如，她可以说明哪些决定员工可以独立完成，哪些需要审批。员工也可以先在小型会议中练习表达意见，再逐渐适应大型会议发言。
+
+---
+
+**例子 7：中国供应商给美国客户送贵重礼物**
+
+**English Case**  
+A Chinese supplier visits an American company before signing a contract. To show sincerity and respect, the supplier gives the American client an expensive gift. The Chinese supplier sees the gift as a way to build trust and a long-term relationship. However, the American client feels uncomfortable and worries that accepting the gift may violate company ethics rules.
+
+**中文案例**  
+一名中国供应商在签合同前拜访一家美国公司。为了表达诚意和尊重，供应商送给美国客户一份贵重礼物。中国供应商认为礼物是建立信任和长期关系的方式。但美国客户感到不舒服，并担心接受礼物可能违反公司的伦理规定。
+
+**English Analysis**  
+This case shows different cultural expectations about gift-giving and business relationships. The Chinese supplier may come from a relationship-oriented business culture, where gifts can express respect, goodwill and commitment to long-term cooperation. The American client may come from a rule-oriented business culture, where expensive gifts before a contract may be seen as inappropriate.
+
+The conflict happens because the same gift carries different meanings. For the supplier, the gift is a social gesture. For the client, it may look like pressure or a conflict of interest. This can also be connected with universalism: the American company may expect the same ethical rule to apply to everyone, regardless of personal relationship.
+
+To solve the problem, both sides should clarify gift policies before meetings. The supplier can choose a small symbolic gift instead of an expensive one. The American client can politely explain company rules without rejecting the relationship itself.
+
+**中文分析**  
+这个案例体现了商务关系和礼物文化的差异。中国供应商可能来自更重关系的商务文化，礼物可以表达尊重、善意和长期合作意愿。美国客户可能来自更重规则的商务文化，在合同签订前收贵重礼物可能被认为不合适。
+
+冲突发生的原因是，同一份礼物承载了不同含义。对供应商来说，礼物是社交礼节。对客户来说，它可能像压力，也可能涉及利益冲突。这也可以联系 universalism：美国公司可能期待同一套伦理规则适用于所有人，而不因私人关系改变。
+
+解决方法是，双方应该在会议前明确礼物政策。供应商可以选择小型象征性礼物，而不是贵重礼物。美国客户也可以礼貌解释公司规定，同时表明自己并不是拒绝合作关系。
+
+
+**例子 8：文化冲击 Culture Shock**
+
+**English Case**  
+A Chinese student goes to the United States for graduate study. At first, she feels excited. After a few weeks, she becomes anxious because she cannot understand local jokes, classroom discussions and social invitations. She misses Chinese food and friends, and she begins to avoid social activities.
+
+**中文案例**  
+一名中国学生去美国读研究生。刚开始，她感到很兴奋。几周后，她开始焦虑，因为她听不懂当地笑话、课堂讨论和社交邀请。她想念中国食物和朋友，也开始避免参加社交活动。
+
+**English Analysis**  
+This case reflects culture shock. Culture shock refers to the anxiety and stress people experience when they enter an unfamiliar cultural environment. For example, the student cannot understand local humor, classroom interaction or social rules. These problems make daily communication difficult.
+
+The reason is that she has lost many familiar cultural cues. In her own culture, she knows how to speak, behave and interpret others’ meanings. In the new culture, the same rules no longer work. Language barriers, different food, different teaching styles and weak social support all increase her stress.
+
+To solve the problem, she should learn more about the host culture and stay connected with her own culture. For example, she can join campus activities, ask classmates about local customs, and keep regular contact with family and friends. Gradual adjustment can help her become more comfortable.
+
+**中文分析**  
+这个案例体现了文化冲击。文化冲击指人进入陌生文化环境后产生的焦虑和压力。例如，这名学生听不懂当地幽默、课堂互动和社交规则，这些问题让日常交流变得困难。
+
+原因在于，她失去了很多熟悉的文化线索。在自己的文化中，她知道如何说话、如何行动、如何理解别人。但在新文化中，原来的规则不一定适用。语言障碍、饮食差异、教学方式差异和社会支持不足都会增加压力。
+
+解决方法是，她应该了解东道国文化，同时保持与本国文化的联系。例如，她可以参加校园活动，向同学询问当地习俗，也可以定期和家人朋友联系。逐渐适应可以帮助她变得更自在。
+
+---
+
+**例子 9：刻板印象 Stereotype**
+
+**English Case**  
+An American student works on a group project with two Chinese classmates. Before the project begins, he assumes that the Chinese students must be quiet, hardworking and good at mathematics. During meetings, he assigns all data analysis work to them without asking about their interests or strengths.
+
+**中文案例**  
+一名美国学生和两名中国同学一起做小组项目。项目开始前，他认为中国学生一定安静、勤奋、擅长数学。开会时，他没有询问他们的兴趣和优势，就把所有数据分析工作都分配给他们。
+
+**English Analysis**  
+This case shows the problem of stereotype. A stereotype is a fixed and oversimplified idea about a group of people. The American student assumes that the Chinese classmates are naturally good at mathematics and data analysis. This assumption ignores their individual differences.
+
+The reason for the misunderstanding is that he treats group identity as personal identity. Cultural generalizations can sometimes help people understand broad patterns, but they become harmful when they are applied to every individual. The Chinese students may feel limited or disrespected because their real abilities and preferences are not considered.
+
+To solve the problem, the group should communicate openly before assigning tasks. For example, each member can explain what he or she is good at and what role he or she prefers. Intercultural communication requires people to avoid judging individuals only by national or ethnic identity.
+
+**中文分析**  
+这个案例体现了刻板印象问题。刻板印象是对某个群体固定、简化的看法。美国学生认为中国同学天然擅长数学和数据分析，这种判断忽视了他们的个体差异。
+
+误解原因在于，他把群体身份当成了个人身份。文化概括有时可以帮助人理解大致模式，但如果把它套到每个人身上，就会产生问题。中国学生可能会感到被限制或不被尊重，因为他们真实的能力和偏好没有被考虑。
+
+解决方法是，小组在分配任务前应该公开沟通。例如，每个成员可以说明自己擅长什么、希望承担什么角色。跨文化交际要求人们不能只根据国籍或族群身份评价个体。
+
+---
+
+**例子 10：面子 Face**
+
+**English Case**  
+During a meeting, an American manager directly tells a Chinese employee that his report is poorly organized and must be rewritten. The manager believes that direct feedback can improve work efficiency. However, the employee feels embarrassed because the criticism is made in front of other colleagues.
+
+**中文案例**  
+在一次会议上，一名美国经理直接告诉中国员工，他的报告结构很差，必须重写。经理认为直接反馈可以提高工作效率。但这名员工感到尴尬，因为批评是在其他同事面前提出的。
+
+**English Analysis**  
+This case can be analyzed through the concept of face. Face refers to the self-image a person wants to present to others. The American manager focuses on the task and gives direct feedback in public. For him, the criticism is about the report, not about the employee as a person.
+
+The Chinese employee may interpret the public criticism differently. In a collectivistic culture, public image and relational harmony are often important. Being criticized in front of colleagues may threaten his face and make him feel ashamed. The conflict is caused by different expectations about feedback and respect.
+
+To solve the problem, the manager can give negative feedback privately and use a softer tone. For example, he can first discuss what needs improvement and then offer specific suggestions. The employee can also ask for clearer standards so that the revision becomes task-focused rather than personal.
+
+**中文分析**  
+这个案例可以用面子概念来分析。面子指一个人希望在他人面前呈现的自我形象。美国经理关注任务，并在公开场合直接反馈。对他来说，批评针对的是报告，不是员工本人。
+
+中国员工可能会用不同方式理解公开批评。在集体主义文化中，公众形象和关系和谐通常很重要。在同事面前被批评可能威胁他的面子，让他感到难堪。冲突来自双方对反馈和尊重的期待不同。
+
+解决方法是，经理可以私下给出负面反馈，并使用更缓和的语气。例如，他可以讨论哪些地方需要改进，再提出具体建议。员工也可以询问更清楚的标准，让修改集中在任务本身，而不是个人评价上。
+
+---
+
+**例子 11：非言语沟通 Eye Contact**
+
+**English Case**  
+An American teacher talks with a Japanese student after class. The teacher notices that the student often looks down instead of making direct eye contact. The teacher thinks the student may be dishonest or not confident. The student, however, believes that avoiding long eye contact shows respect.
+
+**中文案例**  
+一名美国老师课后和一名日本学生谈话。老师发现学生经常低头，而不是直接看着老师。老师认为学生可能不诚实，或者缺乏自信。但学生认为，避免长时间直视对方是一种尊重。
+
+**English Analysis**  
+This case reflects cultural differences in nonverbal communication. Eye contact does not have the same meaning in every culture. In American culture, direct eye contact is often connected with confidence, honesty and attention. Therefore, the teacher may expect the student to look at him while speaking.
+
+The Japanese student may follow a different nonverbal rule. In his cultural background, long direct eye contact with a teacher or authority figure may seem rude or aggressive. Looking down may be a way to show respect. The misunderstanding occurs because both sides interpret eye contact according to their own cultural rules.
+
+To solve the problem, the teacher should avoid judging the student’s character only by eye contact. The student can also learn that moderate eye contact may be expected in American classrooms. Both sides need to understand that nonverbal messages are culturally learned.
+
+**中文分析**  
+这个案例体现了非言语沟通的文化差异。眼神接触在不同文化中含义不同。在美国文化中，直接眼神接触常和自信、诚实、专注联系在一起。因此，老师可能期待学生说话时看着自己。
+
+日本学生可能遵循另一套非言语规则。在他的文化背景中，和老师或权威人物长时间对视可能显得不礼貌，甚至有攻击性。低头可能是表示尊重。误解发生的原因是，双方都按照自己的文化规则解释眼神接触。
+
+解决方法是，老师不应只根据眼神接触判断学生性格。学生也可以了解，在美国课堂中适度眼神接触可能是被期待的。双方都需要明白，非言语信息也是由文化学习而来的。
+`;
+
+  function splitCaseExampleParagraphs(lines) {
+    const paragraphs = [];
+    let current = [];
+
+    lines.forEach((line) => {
+      const trimmed = line.trim();
+      if (!trimmed || /^-{3,}$/.test(trimmed)) {
+        if (current.length) {
+          paragraphs.push(current.join(" "));
+          current = [];
+        }
+        return;
+      }
+      current.push(trimmed);
+    });
+
+    if (current.length) paragraphs.push(current.join(" "));
+    return paragraphs;
+  }
+
+  function parseSplitCaseExamples(source) {
+    const cases = [];
+    let current = null;
+    let sectionKey = "";
+    const sectionMap = {
+      "English Case": "englishCase",
+      "中文案例": "chineseCase",
+      "English Analysis": "englishAnalysis",
+      "中文分析": "chineseAnalysis",
+    };
+
+    source.replace(/\r/g, "").split("\n").forEach((line) => {
+      const caseMatch = line.match(/^\*\*例子\s*(\d+)：(.+?)\*\*\s*$/);
+      if (caseMatch) {
+        current = {
+          no: Number(caseMatch[1]),
+          shortTitle: caseMatch[2].trim(),
+          sections: { englishCase: [], chineseCase: [], englishAnalysis: [], chineseAnalysis: [] },
+        };
+        cases.push(current);
+        sectionKey = "";
+        return;
+      }
+
+      if (!current) return;
+
+      const sectionMatch = line.match(/^\*\*(English Case|中文案例|English Analysis|中文分析)\*\*\s*$/);
+      if (sectionMatch) {
+        sectionKey = sectionMap[sectionMatch[1]];
+        return;
+      }
+
+      if (sectionKey) current.sections[sectionKey].push(line);
+    });
+
+    return cases.map((item, index) => {
+      const slug = splitCaseExampleSlugs[index] || `case-example-${item.no}`;
+      return {
+        slug,
+        no: item.no,
+        title: `例子 ${item.no}：${item.shortTitle}`,
+        shortTitle: item.shortTitle,
+        tags: splitCaseExampleTags[slug] || [],
+        englishCase: splitCaseExampleParagraphs(item.sections.englishCase),
+        chineseCase: splitCaseExampleParagraphs(item.sections.chineseCase),
+        englishAnalysis: splitCaseExampleParagraphs(item.sections.englishAnalysis),
+        chineseAnalysis: splitCaseExampleParagraphs(item.sections.chineseAnalysis),
+      };
+    });
+  }
+
+  const splitCaseExampleEntries = parseSplitCaseExamples(splitCaseExampleSource);
+
+  function renderSplitCaseExample(entry) {
+    const paddedNo = String(entry.no).padStart(2, "0");
+    return `
+      <div class="reply case-analysis case-example split-case-example">
+        <section class="tldr">
+          <h2>${escapeHtml(entry.title)}</h2>
+          <p>拆自《案例分析例子.md》，本页保留英文案例、中文案例、英文分析和中文分析，便于逐题背诵和对照。</p>
+        </section>
+        <div class="source-meta">
+          <span>来源：案例分析例子.md</span>
+          <span>拆分例子 ${paddedNo} / ${splitCaseExampleEntries.length}</span>
+        </div>
+        <div class="tags">
+          ${entry.tags.map((tag) => `<span class="tag tag-p">${escapeHtml(tag)}</span>`).join("")}
+        </div>
+        <section class="case-example-detail case-example-case">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Case Text / 案例材料</p>
+            <h2>${escapeHtml(entry.shortTitle)}</h2>
+          </div>
+          ${renderCaseExamplePair(entry.chineseCase, entry.englishCase, { zh: "中文案例", en: "English Case" })}
+        </section>
+        <section class="case-example-detail case-example-analysis">
+          <div class="case-example-section-head">
+            <p class="section-kicker">Analysis / 分析</p>
+            <h2>理论对应、冲突原因与解决方法</h2>
+          </div>
+          ${renderCaseExamplePair(entry.chineseAnalysis, entry.englishAnalysis, { zh: "中文分析", en: "English Analysis" })}
+        </section>
+      </div>
+    `;
+  }
+
   function render(slug, entry) {
     return `
       <div class="reply">
@@ -5096,12 +5625,18 @@ Fourth, through the third party of the adjustment and the explanation, make clea
     caseAnalysisEntries.map((entry) => [entry.slug, renderCaseEntry(entry)])
   );
 
+  const splitCaseExampleContent = Object.fromEntries(
+    splitCaseExampleEntries.map((entry) => [entry.slug, renderSplitCaseExample(entry)])
+  );
+
   const content = {
     ...conceptContent,
     ...examReviewContent,
     ...unitSummaryReviewContent,
     ...summaryReviewContent,
     ...pastPaperContent,
+    "case-analysis-example": renderCaseAnalysisExample(),
+    ...splitCaseExampleContent,
     ...caseAnalysisContent,
   };
 

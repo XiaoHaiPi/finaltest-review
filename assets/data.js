@@ -100,6 +100,18 @@
   ];
 
   const interculturalCaseTopics = [
+    { slug: "case-analysis-example", title: "案例分析写法例子", subtitle: "Hall、Hofstede、Minkov 理论套用" },
+    { slug: "case-example-us-japan-negotiation", title: "例子 1：美日商务谈判", subtitle: "高低语境、个体主义与集体主义" },
+    { slug: "case-example-chinese-student-us-classroom", title: "例子 2：中国学生在美国课堂上沉默", subtitle: "权力距离、沉默与课堂参与" },
+    { slug: "case-example-german-brazilian-project", title: "例子 3：德国员工和巴西员工合作项目", subtitle: "单一时间与多元时间" },
+    { slug: "case-example-remote-email-tone", title: "例子 4：跨国远程团队里的邮件语气", subtitle: "线上低语境沟通与关系信号" },
+    { slug: "case-example-indian-engineer-try", title: "例子 5：印度工程师对英国经理说 I will try", subtitle: "高语境沟通、权力距离与委婉拒绝" },
+    { slug: "case-example-swedish-manager-korea", title: "例子 6：瑞典经理在韩国分公司推行平等管理", subtitle: "权力距离与授权边界" },
+    { slug: "case-example-chinese-supplier-gift", title: "例子 7：中国供应商给美国客户送贵重礼物", subtitle: "礼物文化、商务关系与伦理规则" },
+    { slug: "case-example-culture-shock", title: "例子 8：文化冲击 Culture Shock", subtitle: "文化线索缺失与适应压力" },
+    { slug: "case-example-stereotype", title: "例子 9：刻板印象 Stereotype", subtitle: "群体身份与个体差异" },
+    { slug: "case-example-face", title: "例子 10：面子 Face", subtitle: "公开批评、面子与关系和谐" },
+    { slug: "case-example-eye-contact", title: "例子 11：非言语沟通 Eye Contact", subtitle: "眼神接触与文化规则" },
     { slug: "case-age-status", title: "Case Study 1 Age and Status", subtitle: "年龄、资历与地位" },
     { slug: "case-public-praise-japan", title: "Case Study 2 Praising Japanese in Public Workplaces", subtitle: "在工作场所当众表扬日本人" },
     { slug: "case-british-manager-thailand", title: "Case Study 3 A British General Manager in Thailand", subtitle: "英国总经理在泰国" },
@@ -120,6 +132,14 @@
     { slug: "press-headline-restoration", title: "B. Headline to Full Sentence", subtitle: "标题还原完整句" },
     { slug: "press-headline-translation", title: "C. Headline Translation", subtitle: "标题中文翻译" },
     { slug: "press-headline-rewriting-practice", title: "Comprehensive Practice", subtitle: "新闻标题改写综合自测" },
+  ];
+
+  const pressLeadTopics = [
+    { slug: "press-lead-campus-news", title: "例 1：校园新闻", subtitle: "AI research centre" },
+    { slug: "press-lead-breaking-news", title: "例 2：突发事件", subtitle: "Power outage" },
+    { slug: "press-lead-policy-news", title: "例 3：政策新闻", subtitle: "Federal grants" },
+    { slug: "press-lead-social-news", title: "例 4：社会民生新闻", subtitle: "Housing costs and medical treatment" },
+    { slug: "press-lead-business-news", title: "例 5：企业新闻", subtitle: "Apple data centres" },
   ];
 
   const pressReadingTopics = [
@@ -266,7 +286,7 @@
       title: "期末复习站",
       subtitle: "面向期末考试的精炼复习知识集合",
       owner: "Final Review",
-      assetVersion: "20260529-icc-2025-paper",
+      assetVersion: "20260529-case-lead-examples",
     },
     courses: [
       {
@@ -274,7 +294,7 @@
         title: "跨文化交际",
         subtitle: "Intercultural Communication",
         code: "ICC",
-        summary: "为期末考试复习整理跨文化交际核心概念、选择与简答章节要点、单元 Summary、课程总结和案例分析，重点覆盖身份、语言、非语言、文化维度与适应过程。",
+        summary: "为期末考试复习整理跨文化交际核心概念、选择与简答章节要点、单元 Summary、课程总结、真题和案例分析写法，重点覆盖身份、语言、非语言、文化维度与适应过程。",
         examFocus: ["术语解释", "选择题", "简答题", "案例分析"],
         examBlueprint: {
           title: "跨文化交际题型",
@@ -336,7 +356,7 @@
             title: "案例分析",
             subtitle: "Case Analysis",
             code: "Cases",
-            summary: "从《跨文化交际案例分析(1).doc》整理的 5 个跨文化交际案例，保留源文件英文 Case description、Questions 和原有中英文分析段落，仅按页面阅读需要分块排版。",
+            summary: "整合 5 个跨文化交际案例、《案例分析例子.md》写法模板，以及拆分后的 11 个中英文案例分析例子；案例页保留源文件英文 Case description、Questions 和中英文分析段落。",
             topics: withTopicSubtitles(interculturalCaseTopics),
           },
         ],
@@ -385,6 +405,14 @@
             code: "Headline",
             summary: "根据《英语新闻标题的改写练习.pdf》整理标题压缩、标题还原和中文翻译自测，答案默认隐藏。",
             topics: withTopicSubtitles(pressHeadlineTopics),
+          },
+          {
+            slug: "news-leads",
+            title: "新闻导语",
+            subtitle: "News Lead Writing",
+            code: "Lead",
+            summary: "根据《新闻导语例子.md》整理的 5 个 summary lead 写作例子，每页保留新闻材料、英文导语、中文导语和分析说明。",
+            topics: withTopicSubtitles(pressLeadTopics),
           },
           {
             slug: "reading-materials",
