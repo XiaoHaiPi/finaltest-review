@@ -27,6 +27,7 @@
   --tag-ink: #6f4b12;
   --terminal-bg: #18211f;
   --terminal-text: #fffaf0;
+  --soft-shadow: 0 16px 34px rgba(24, 33, 31, 0.1);
   --display: "Noto Serif CJK SC", "Songti SC", Georgia, serif;
   --body: "LXGW WenKai", "Noto Sans CJK SC", "Microsoft YaHei", "Segoe UI", sans-serif;
 }
@@ -60,6 +61,7 @@
   --tag-ink: #f1cc7a;
   --terminal-bg: #050807;
   --terminal-text: #f2efe5;
+  --soft-shadow: 0 16px 34px rgba(0, 0, 0, 0.34);
 }
 
 * {
@@ -249,16 +251,19 @@ textarea {
 }
 
 .home-hero {
+  position: relative;
   grid-template-columns: minmax(0, 1fr);
   align-items: end;
-  min-height: auto;
-  max-width: 860px;
-  padding: clamp(1.1rem, 3vw, 2.6rem) 0 clamp(0.8rem, 2vw, 1.4rem);
+  min-height: clamp(250px, 34vh, 360px);
+  max-width: none;
+  padding: clamp(1.25rem, 4vw, 3.6rem) 0 clamp(1rem, 2vw, 1.7rem);
+  border-bottom: 2px solid var(--ink);
 }
 
 .home-hero .hero-copy {
   display: grid;
   gap: 0.65rem;
+  max-width: 980px;
 }
 
 .hero-copy h1,
@@ -281,6 +286,33 @@ textarea {
   max-width: 48rem;
   color: var(--muted);
   font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.review-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.45rem;
+}
+
+.review-stats span {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  min-height: 40px;
+  padding: 0.28rem 0.62rem;
+  background: var(--paper-strong);
+  border: 2px solid var(--line);
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 rgba(24, 33, 31, 0.08);
+  color: var(--muted);
+}
+
+.review-stats strong {
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.35rem;
+  line-height: 1;
 }
 
 .title-subtitle,
@@ -493,8 +525,8 @@ textarea {
 
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
-  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: clamp(0.75rem, 1.3vw, 1rem);
 }
 
 .course-card {
@@ -502,13 +534,14 @@ textarea {
   display: flex;
   flex-direction: column;
   min-height: 240px;
-  padding: 0.95rem;
+  padding: 1rem;
   background:
     linear-gradient(180deg, transparent 0 27px, var(--rule-soft) 28px, transparent 29px) 0 0 / 100% 29px,
     var(--paper-strong);
   border: 2px solid var(--ink);
   border-radius: 6px;
   box-shadow: var(--shadow);
+  will-change: transform;
 }
 
 .course-card-top,
@@ -568,7 +601,7 @@ textarea {
 
 .course-card-sections {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 0.5rem;
   margin: 0 0 0.75rem;
 }
@@ -664,6 +697,70 @@ textarea {
     var(--paper-strong);
   border-color: var(--ink);
   box-shadow: var(--shadow);
+}
+
+.course-roadmap,
+.next-stack,
+.topic-jump-list {
+  display: grid;
+  gap: 0.42rem;
+  margin-top: 0.85rem;
+}
+
+.course-roadmap a,
+.next-stack a,
+.next-stack span,
+.topic-jump-list a {
+  display: grid;
+  gap: 0.28rem;
+  padding: 0.48rem 0.55rem;
+  background: var(--paper-soft);
+  border: 1px dashed var(--dash-border);
+  border-radius: 6px;
+}
+
+.course-roadmap a {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+}
+
+.course-roadmap span,
+.next-stack a,
+.next-stack span,
+.topic-jump-list b {
+  color: var(--ink);
+  font-weight: 850;
+  line-height: 1.28;
+}
+
+.course-roadmap strong {
+  color: var(--teal-dark);
+  font-family: var(--body);
+  font-size: 0.85rem;
+}
+
+.course-roadmap i {
+  grid-column: 1 / -1;
+  display: block;
+  height: 5px;
+  overflow: hidden;
+  background: var(--progress-bg);
+  border-radius: 999px;
+}
+
+.course-roadmap b {
+  display: block;
+  height: 100%;
+  background: var(--teal);
+  border-radius: inherit;
+}
+
+.next-stack em {
+  color: var(--carmine);
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 0.78rem;
 }
 
 .course-panel span,
@@ -818,7 +915,7 @@ textarea {
 
 .topic-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
   gap: 0.58rem;
 }
 
@@ -836,6 +933,7 @@ textarea {
   border: 2px solid var(--line);
   border-radius: 6px;
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+  will-change: transform;
 }
 
 .topic-card:hover {
@@ -883,7 +981,7 @@ textarea {
 
 .topic-layout {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: clamp(0.65rem, 1.3vw, 1rem);
   align-items: start;
 }
@@ -893,6 +991,9 @@ textarea {
   top: 100px;
   display: grid;
   gap: 0.75rem;
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+  padding-right: 0.15rem;
 }
 
 .back-link {
@@ -946,14 +1047,50 @@ textarea {
   font-weight: 900;
 }
 
+.topic-jump-list {
+  margin-top: 0;
+}
+
+.topic-jump-list a {
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.topic-jump-list a:hover,
+.topic-jump-list a.active {
+  background: rgba(29, 111, 103, 0.1);
+  border-color: var(--teal);
+  transform: translateX(2px);
+}
+
+.topic-jump-list span {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 24px;
+  color: var(--paper-strong);
+  background: var(--ink);
+  border-radius: 4px;
+  font-size: 0.74rem;
+  font-weight: 900;
+}
+
+.topic-jump-list b {
+  overflow-wrap: anywhere;
+  font-size: 0.86rem;
+}
+
 .topic-main {
   min-width: 0;
-  padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  padding: clamp(0.95rem, 1.7vw, 1.45rem);
   background:
     linear-gradient(180deg, transparent 0 27px, var(--rule-soft) 28px, transparent 29px) 0 0 / 100% 29px,
     var(--paper-faint);
   border: 2px solid var(--line);
   border-radius: 6px;
+  box-shadow: var(--soft-shadow);
 }
 
 .placeholder-grid {
@@ -1229,6 +1366,7 @@ textarea {
     var(--paper-strong);
   border: 2px solid var(--line);
   border-radius: 6px;
+  will-change: transform;
 }
 
 .reply .card-b,
@@ -1591,7 +1729,7 @@ textarea {
 .headline-category-link:hover {
   transform: translateY(-2px);
   border-color: var(--ink);
-  box-shadow: var(--shadow-soft);
+  box-shadow: var(--soft-shadow);
 }
 
 .headline-category-link strong {
@@ -2853,6 +2991,9 @@ textarea {
 
   .topic-sidebar {
     position: static;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
   }
 
   .placeholder-grid,
@@ -2894,6 +3035,10 @@ textarea {
 
   .exam-part em {
     white-space: normal;
+  }
+
+  .course-roadmap {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
 

@@ -286,7 +286,8 @@
       title: "期末复习站",
       subtitle: "面向期末考试的精炼复习知识集合",
       owner: "Final Review",
-      assetVersion: "20260529-case-lead-examples",
+      assetVersion: "20260531-gsap-layout",
+      gsapVersion: "3.15.0",
     },
     courses: [
       {

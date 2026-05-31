@@ -41,6 +41,15 @@
     return sectionsFor(course).flatMap((section) => section.topics);
   }
 
+  function statusSummary(course) {
+    return sectionsFor(course)
+      .map((section) => {
+        const progress = progressForSection(course, section);
+        return { section, ...progress };
+      })
+      .sort((a, b) => b.total - a.total);
+  }
+
   function sectionPath(root, course, section) {
     return sitePath(root, `courses/${course.slug}/${section.slug}/index.html`);
   }
@@ -191,6 +200,17 @@
   function renderHome(page) {
     const root = page.root || "";
     const coursesMarkup = window.reviewData.courses.map((course) => courseCard(root, course)).join("");
+    const totals = window.reviewData.courses.reduce(
+      (sum, course) => {
+        const sections = sectionsFor(course);
+        return {
+          courses: sum.courses + 1,
+          sections: sum.sections + sections.length,
+          topics: sum.topics + courseTopics(course).length,
+        };
+      },
+      { courses: 0, sections: 0, topics: 0 }
+    );
 
     $("#app").innerHTML = `
       <section class="home-hero">
@@ -198,6 +218,11 @@
           <p class="eyebrow">Final Review Desk / 期末复习台</p>
           <h1>${escapeHtml(window.reviewData.site.title)}</h1>
           <p class="hero-lead">${escapeHtml(window.reviewData.site.subtitle)}</p>
+          <div class="review-stats" aria-label="复习资料规模">
+            <span><strong>${totals.courses}</strong> 门课程</span>
+            <span><strong>${totals.sections}</strong> 个子页面</span>
+            <span><strong>${totals.topics}</strong> 个知识点</span>
+          </div>
         </div>
       </section>
 
@@ -272,6 +297,15 @@
 
     const progress = progressFor(course);
     const sections = sectionsFor(course);
+    const roadmap = statusSummary(course)
+      .map(({ section, done, total, percent }) => `
+        <a href="${sectionPath(root, course, section)}">
+          <span>${escapeHtml(section.title)}</span>
+          <strong>${done}/${total}</strong>
+          <i aria-hidden="true"><b style="width:${percent}%"></b></i>
+        </a>
+      `)
+      .join("");
     $("#app").innerHTML = `
       ${breadcrumb(root, [
         { label: "首页", href: sitePath(root, "index.html") },
@@ -291,6 +325,7 @@
             <span style="width:${progress.percent}%"></span>
           </div>
           <small>已掌握 ${progress.done}，复习中 ${progress.doing}，共 ${progress.total}</small>
+          <div class="course-roadmap" aria-label="课程复习分区进度">${roadmap}</div>
         </aside>
       </section>
 
@@ -399,6 +434,10 @@
     }
 
     const progress = progressForSection(course, section);
+    const pending = section.topics.filter((topic) => getStatus(course.slug, topic.slug) !== "done").slice(0, 5);
+    const nextList = pending.length
+      ? pending.map((topic) => `<a href="${topicPath(root, course, section, topic)}">${escapeHtml(bilingualLabel(topic))}</a>`).join("")
+      : `<span>本分区已全部标记掌握</span>`;
     $("#app").innerHTML = `
       ${breadcrumb(root, [
         { label: "首页", href: sitePath(root, "index.html") },
@@ -419,6 +458,10 @@
             <span style="width:${progress.percent}%"></span>
           </div>
           <small>已掌握 ${progress.done}，复习中 ${progress.doing}，共 ${progress.total}</small>
+          <div class="next-stack" aria-label="建议继续复习">
+            <em>下一轮</em>
+            ${nextList}
+          </div>
         </aside>
       </section>
 
@@ -499,6 +542,14 @@
             <span>知识点序号</span>
             <strong>${String(index + 1).padStart(2, "0")} / ${section.topics.length}</strong>
           </div>
+          <nav class="topic-jump-list" aria-label="本分区知识点">
+            ${section.topics.map((item, itemIndex) => `
+              <a class="${item.slug === topic.slug ? "active" : ""}" href="${topicPath(root, course, section, item)}">
+                <span>${String(itemIndex + 1).padStart(2, "0")}</span>
+                <b>${escapeHtml(bilingualLabel(item))}</b>
+              </a>
+            `).join("")}
+          </nav>
         </aside>
 
         <section class="topic-main">
@@ -899,6 +950,12 @@
     $("#app").innerHTML = `<section class="missing"><h1>${escapeHtml(message)}</h1><a class="button primary" href="index.html">返回首页</a></section>`;
   }
 
+  function announcePageReady(page) {
+    if (window.StudyMotion && typeof window.StudyMotion.pageReady === "function") {
+      window.StudyMotion.pageReady(page);
+    }
+  }
+
   function init() {
     const page = window.PAGE || { type: "home", root: "" };
     applyTheme(preferredTheme());
@@ -907,20 +964,24 @@
 
     if (page.type === "course") {
       renderCourse(page);
+      announcePageReady(page);
       return;
     }
 
     if (page.type === "section") {
       renderSection(page);
+      announcePageReady(page);
       return;
     }
 
     if (page.type === "topic") {
       renderTopic(page);
+      announcePageReady(page);
       return;
     }
 
     renderHome(page);
+    announcePageReady(page);
   }
 
   window.StudyApp = { init };

@@ -4,6 +4,7 @@ const data = require("../assets/data.js");
 
 const projectRoot = path.resolve(__dirname, "..");
 const assetVersion = data.site.assetVersion || "dev";
+const gsapVersion = data.site.gsapVersion || "3.15.0";
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -15,12 +16,36 @@ function writeFile(relativePath, content) {
   fs.writeFileSync(target, content);
 }
 
+function contentPackFile(page) {
+  if (page.type !== "topic" || !page.course || !page.section) return "";
+  return path.join(projectRoot, "assets", "content", `${page.course}-${page.section}.js`);
+}
+
 function escapeHtml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function contentPackPath(page) {
+  if (!contentPackFile(page)) return "";
+  if (!fs.existsSync(contentPackFile(page))) {
+    throw new Error(`Missing content pack for ${page.course}/${page.section}: ${contentPackFile(page)}`);
+  }
+  return `assets/content/${page.course}-${page.section}.js`;
+}
+
+function scriptTags(root, page) {
+  const contentPack = contentPackPath(page);
+  return [
+    `<script src="${root}assets/data.js?v=${assetVersion}"></script>`,
+    contentPack ? `<script src="${root}${contentPack}?v=${assetVersion}"></script>` : "",
+    `<script src="https://cdn.jsdelivr.net/npm/gsap@${gsapVersion}/dist/gsap.min.js"></script>`,
+    `<script src="${root}assets/app.js?v=${assetVersion}"></script>`,
+    `<script src="${root}assets/motion.js?v=${assetVersion}"></script>`,
+  ].filter(Boolean).join("\n  ");
 }
 
 function pageHtml({ title, description, root, page }) {
@@ -52,11 +77,7 @@ function pageHtml({ title, description, root, page }) {
   <main id="app"></main>
   <footer id="site-footer"></footer>
   <script>window.PAGE = ${JSON.stringify(page)};</script>
-  <script src="${root}assets/data.js?v=${assetVersion}"></script>
-  <script src="${root}assets/content.js?v=${assetVersion}"></script>
-  <script src="${root}assets/news-content.js?v=${assetVersion}"></script>
-  <script src="${root}assets/reading-content.js?v=${assetVersion}"></script>
-  <script src="${root}assets/app.js?v=${assetVersion}"></script>
+  ${scriptTags(root, page)}
   <script>window.StudyApp.init();</script>
 </body>
 </html>
